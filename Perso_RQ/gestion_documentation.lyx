@@ -1,0 +1,1221 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Title
+Gestion de la Documentation
+\begin_inset Newline newline
+\end_inset
+
+
+\size larger
+Sous-titre
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Maitrise d'Oeuvre:
+\series default
+ H4312
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Maitrise d'Ouvrage:
+\series default
+ GSTP
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Auteurs:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+NOM
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features>
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="7cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Référence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Nom de référence du document
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Version du document
+\end_layout
+
+\end_inset
+
+ 1.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avancement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Terminé
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Validé
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dernière mise à jour
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+07/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features>
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Visa
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+07/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Nom du responsable
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Historique do document
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features>
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="7cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Auteur
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sujet de la modification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Pésentation du projet
+\end_layout
+
+\begin_layout Subsubsection
+Contexte
+\end_layout
+
+\begin_layout Subsubsection
+Objectifs
+\end_layout
+
+\begin_layout Subsection
+Présentation du documen
+\end_layout
+
+\begin_layout Subsection
+Document applicables/Documents de référence
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence
+\end_layout
+
+\begin_layout Subsection
+Terminologie et Abréviations
+\end_layout
+
+\begin_layout Section
+Règles générales
+\end_layout
+
+\begin_layout Subsection
+Les acteurs et leurs responsabilités
+\end_layout
+
+\begin_layout Subsection
+Les types de documents
+\end_layout
+
+\begin_layout Subsubsection
+type « Modèle » 
+\end_layout
+
+\begin_layout Subsubsection
+type « Communication »
+\end_layout
+
+\begin_layout Subsubsection
+type « Livrable » 
+\end_layout
+
+\begin_layout Subsubsection
+type « Annexe »
+\end_layout
+
+\begin_layout Subsubsection
+type « Draft »
+\end_layout
+
+\begin_layout Subsubsection
+type « Fiche » 
+\end_layout
+
+\begin_layout Subsubsection
+Les documents papiers
+\end_layout
+
+\begin_layout Subsection
+Identification des documents
+\end_layout
+
+\begin_layout Subsection
+Structuration
+\end_layout
+
+\begin_layout Subsection
+Etats d’un document
+\end_layout
+
+\begin_layout Subsection
+Cycle de vie d’un document
+\end_layout
+
+\begin_layout Subsubsection
+Production du document
+\end_layout
+
+\begin_layout Subsubsection
+Vérification/Validation du document
+\end_layout
+
+\begin_layout Subsubsection
+Archivage du document
+\end_layout
+
+\begin_layout Subsection
+Gestion des versions
+\end_layout
+
+\begin_layout Section
+Gestion de la documentation produite
+\end_layout
+
+\begin_layout Subsection
+Outils de production de la documentation
+\end_layout
+
+\begin_layout Subsection
+Classement de la documentation
+\end_layout
+
+\begin_layout Subsection
+Gestion physique des fichiers contenant les documents
+\end_layout
+
+\begin_layout Subsubsection
+Répertoires
+\end_layout
+
+\begin_layout Standard
+Racine:
+\end_layout
+
+\begin_layout Itemize
+Annexes 
+\end_layout
+
+\begin_layout Itemize
+Communication 
+\end_layout
+
+\begin_layout Itemize
+Drafts 
+\end_layout
+
+\begin_layout Itemize
+Livrables 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+RQ 
+\end_layout
+
+\begin_layout Itemize
+GEI
+\end_layout
+
+\begin_layout Itemize
+CdP
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Fiches 
+\end_layout
+
+\begin_layout Itemize
+Modèles 
+\end_layout
+
+\begin_layout Itemize
+Perso_RQ 
+\end_layout
+
+\begin_layout Itemize
+Perso_GEI 
+\end_layout
+
+\begin_layout Itemize
+Perso_CdP 
+\end_layout
+
+\begin_layout Subsubsection
+Noms des fichiers
+\end_layout
+
+\begin_layout Subsubsection
+Procédures de sauvegarde et archivage
+\end_layout
+
+\begin_layout Subsection
+Organisation de la documentation (?)
+\end_layout
+
+\begin_layout Subsubsection
+Documents de gestion de projet
+\end_layout
+
+\begin_layout Subsubsection
+Documents d’étude et développement
+\end_layout
+
+\begin_layout Subsubsection
+Documents relatifs à la mise en oeuvre
+\end_layout
+
+\begin_layout Subsubsection
+Documents relatifs à la qualité
+\end_layout
+
+\begin_layout Subsection
+Le glossier
+\end_layout
+
+\begin_layout Subsubsection
+Description
+\end_layout
+
+\begin_layout Standard
+Le « Glossaire » est un livrable contenant la définition des termes spécifiques
+ à ce projet ou à la solution fournie par l’hexanôme 4312.
+ Il contient aussi l’explication de différentes abréviations utilisées dans
+ les différents livrables et Annexes rendus.
+ Le « Glossaire » est commun à tous les livrables et Annexes rendus par
+ notre équipe.
+ Il contient la liste des mots par ordre alphabétique.
+ S’il s’agit des abréviations on va considérer le mot abrévié pour déterminer
+ l’ordre alphabétique et non sa version complète.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Exemple de définition du glossaire
+\end_layout
+
+\begin_layout Standard
+Dans le glossaire, le mot à définir doit ecrit avec le style 
+\begin_inset Quotes eld
+\end_inset
+
+Glossier
+\begin_inset Quotes erd
+\end_inset
+
+et la définition avec le style 
+\begin_inset Quotes eld
+\end_inset
+
+Standard
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Pour chaque mot il faut doner la deffinition et le domaine d'application.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+il faut creer le style Glossier - mot en bold et avec de l'espace avant
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+exemple:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Aide-mémoire
+\series default
+ ou "
+\series bold
+Mémo
+\series default
+" (Aide-mémoire)
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Définition
+\emph default
+ : Document présentant l'application informatique sur un support réduit
+ (en général cartonné et/ou plastifié) contenant les modes d'accès aux différent
+es fonctions et les commandes disponibles.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Domaine d'application
+\emph default
+ : Documentation de mise en oeuvre - manuel d'utilisation
+\end_layout
+
+\begin_layout Subsubsection
+Processus de remplissage
+\end_layout
+
+\begin_layout Standard
+Le glossaire est rempli au fur et à mesure par chaque membre de l’équipe.
+ Une attention spéciale sera portée à la complétude de ce glossaire.
+ Le RQ se charge de vérifier cet aspect et il peut demander que d’autres
+ définitions soient ajoutées s’il le considère nécessaire.
+ Si il y a un même terme utilisé par deux parties mais avec des sens différents,
+ les deux sens sont listés dans le glossaire.
+ 
+\end_layout
+
+\begin_layout Section
+Le type de documents (?)
+\end_layout
+
+\begin_layout Section
+Gestion de la documentation papier
+\end_layout
+
+\begin_layout Section
+Procedures (?)
+\end_layout
+
+\begin_layout Section
+Annexes
+\end_layout
+
+\begin_layout Subsection
+Annexe 1 : Exemple de page de garde
+\end_layout
+
+\begin_layout Subsection
+Annexe 2 : Exemple de sommaire
+\end_layout
+
+\begin_layout Subsection
+Annexe 3 : Plan-type d’un dossier de faisabilité 
+\end_layout
+
+\begin_layout Subsection
+Annexe 4 : Plan-type d’un dossier de spécification technique 
+\end_layout
+
+\begin_layout Subsection
+Annexe 5 : Plan-type d’un dossier de conception d’un système 
+\end_layout
+
+\begin_layout Subsection
+Annexe 6 : Plan-type d’un dossier de synthèse 
+\end_layout
+
+\end_body
+\end_document
