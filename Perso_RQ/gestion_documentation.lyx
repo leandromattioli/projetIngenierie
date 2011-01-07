@@ -1246,35 +1246,7 @@ Responsable de la validation
 \end_layout
 
 \begin_layout Subsection
-Les types de documents
-\end_layout
 
-\begin_layout Subsubsection
-type « Modèle » 
-\end_layout
-
-\begin_layout Subsubsection
-type « Communication »
-\end_layout
-
-\begin_layout Subsubsection
-type « Livrable » 
-\end_layout
-
-\begin_layout Subsubsection
-type « Annexe »
-\end_layout
-
-\begin_layout Subsubsection
-type « Draft »
-\end_layout
-
-\begin_layout Subsubsection
-type « Fiche » 
-\end_layout
-
-\begin_layout Subsubsection
-Les documents papiers
 \end_layout
 
 \begin_layout Subsection
@@ -1481,12 +1453,46 @@ validé après intégration
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+page vide??
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection*
 Table des matières 
 \end_layout
 
 \begin_layout Standard
 génerée automatiquement 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+si tu consederes necessaire le sommaire des tableaux tu peux l'ajouter,
+ moi je vois pas trop l'interet
+\end_layout
+
+\begin_layout Plain Layout
+il va falloir de toute facon ajouter de dessins pour faire ce doc.
+ plus beau et plus facile a comprendre ..
+ mais je sais pas dessiner comme en Word..
+ 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -2124,7 +2130,206 @@ Enfin, libre à chaque membre d'equipe une version papier d’un des documents
 \end_layout
 
 \begin_layout Section
-Procédures (?)
+Les types de documents
+\end_layout
+
+\begin_layout Subsection
+type « Modèle » 
+\end_layout
+
+\begin_layout Standard
+Un document de type « Modèle » (nommé par la suite aussi « modèle ») est
+ un document « Modèle Lyx » qui sert comme modèle pour la production d’autres
+ documents.
+\end_layout
+
+\begin_layout Standard
+Les documents de type « Modèle » ne doivent pas être modifiés, déplacés
+ ou effacés par quelqu’un d’autre de l’équipe sauf le RQ.
+ Il ne doit pas non plus être distribué ou utilisé dans un autre but que
+ la production de documents pour l’étude « System de monitoring à distance
+ de sites isolés ».
+ Si le modèle doit être changé, la demande est faite auprès du RQ et celui-ci
+ se charge de changer le Modèle.
+ Si le CdP le juge nécessaire, tous les documents basés sur le modèle qui
+ vient d’être changé doivent être modifiés en conséquence par la personne
+ responsable du document .
+ 
+\end_layout
+
+\begin_layout Standard
+Les documents de type « Modèle » se trouvent dans le dossier « Modeles ».
+ Le nom de fichier doit etre de la forme 
+\begin_inset Quotes eld
+\end_inset
+
+MOD_NomDuDoc
+\begin_inset Quotes erd
+\end_inset
+
+ - le nom doit être explicit.
+ Les « Modèles » sont crées au début du projet.
+ Ils ne possèdent ni une version, ni un état.
+ 
+\end_layout
+
+\begin_layout Subsection
+type « Communication »
+\end_layout
+
+\begin_layout Standard
+Les documents de type « Communication » sont des fichiers internes.
+ Ce sont des documents diffusés à l’intérieur de l’hexanôme uniquement,
+ afin d’assurer une bonne transmission des informations entre les membres
+ de l’équipe.
+ Un document de type communication peut être créé par n’importe quel membre
+ de l’équipe,à tout moment pendant le déroulement du projet.
+ Son état et sa version ne sont pas pris en compte.
+\end_layout
+
+\begin_layout Standard
+Les documents de type « Communication » se trouvent dans le dossier « Communicat
+ion ».
+ Le nom de fichier doit etre de la forme 
+\begin_inset Quotes eld
+\end_inset
+
+COM_NomDuDoc_Auteur
+\begin_inset Quotes erd
+\end_inset
+
+ et il doit être créé à partir du Modèle « MOD_Communication ».
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+à faire!!!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+type « Livrable » 
+\end_layout
+
+\begin_layout Standard
+Les documents de type « Livrable » (ou « les livrables ») font partie des
+ documents officiels de ce projet.
+ La liste des livrables est figée.
+ Exceptionnellement, un livrable peut être ajouté, l’accord préalable du
+ CdP et RQ étant nécessaire dans ce cas.
+ Le RQ se charge de proposer un plan type pour chaque livrable.
+ 
+\end_layout
+
+\begin_layout Standard
+Les documents de type « Livrables » se trouvent dans le dossier « Livrables
+ ».
+ Dans ce répertoire les différents livrables sont regroupés en fonction
+ de la ou les personnes responsables : le RQ (dossier « RQ »), les GEI (Dossier
+ « GEI ») ou le CdP (Dossier « CdP »).
+ La structure generale du document est decrite dans ce document et le modèle
+ est « MOD_Livrables ».
+ Le nom de fichier doit etre de la forme 
+\begin_inset Quotes eld
+\end_inset
+
+LIV_NomDuDoc_Auteur
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+type « Annexe »
+\end_layout
+
+\begin_layout Standard
+Les documents de type « Annexe » (ou « les annexes ») sont des documents
+ de synthèse sur des points particuliers qui peuvent être demandés par le
+ chef de projet.
+ Chaque membre de l’équipe peut décider réaliser une annexe mais elle doit
+ être validée par le chef de projet.
+ Les documents de type « Annexes » se trouvent dans le dossier « Annexes
+ ».
+ Le nom de fichier doit etre de la forme 
+\begin_inset Quotes eld
+\end_inset
+
+ANN_NomDuDoc_Auteur
+\begin_inset Quotes erd
+\end_inset
+
+ et il doit être créé à partir du Modèle « ANN_Communication ».
+ Une annexe doit être vérifiée et validée.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+à faire!!!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+type « Draft »
+\end_layout
+
+\begin_layout Standard
+Un « Draft » est un document qui doit être considéré comme un brouillon
+ et son but est de mettre sur papier des idées, des schémas etc.
+ Il se trouvt dans le dossier « Drafts ».
+ Le cycle de vie d’un « Draft » n’est pas tracé.
+ L’état ou la version sont aussi des éléments sans importance (et donc pas
+ pris en compte) pour ce type de document.
+\end_layout
+
+\begin_layout Subsection
+type « Fiche » 
+\end_layout
+
+\begin_layout Standard
+Un document de type « Fiche » (ou « fiche ») est un document administratif
+ qui sert à réaliser le suivi du projet.
+ Plusieurs modèles des fiches existantes peut être trouvée dans le fichier
+ dossier «Communication».
+ Les documents de type « Fiche » se trouvent dans le dossier « Fiches »,
+ Elles ne possèdent ni version, ni état.
+ 
+\end_layout
+
+\begin_layout Standard
+Deux fiches ont une importance primordiale :
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+La fiche de relecture 
+\emph default
+est à remplir à chaque relecture où des fautes sont découvertes.
+ Elle est destinée au relecteur, RQ et CdP.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+La fiche de suivi
+\emph default
+: seul le CdP peut créer un document de ce type.
+ Il doit créer un tel document après chaque séance afin de vérifier et d’enregis
+trer l’état d’avancement du projet.
+ 
 \end_layout
 
 \begin_layout Section
@@ -2135,24 +2340,558 @@ Annexes
 Annexe 1 : Exemple de page de garde
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+à mettre un print screen de la page de garde quand tu fini le model
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Annexe 2 : Exemple de sommaire
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+idem
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Annexe 3 : Plan-type d’un dossier de faisabilité 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+a modifier la numerotation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Historique do document
+\end_layout
+
+\begin_layout Enumerate
+Introduction 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Pésentation du projet
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Contexte
+\end_layout
+
+\begin_layout Enumerate
+Objectifs
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Présentation du documen
+\end_layout
+
+\begin_layout Enumerate
+Document applicables/Documents de référence
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Documents applicables
+\end_layout
+
+\begin_layout Enumerate
+Documents de référence
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Terminologie et Abréviations
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Analyse de l’existant 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Analyse du métier 
+\end_layout
+
+\begin_layout Enumerate
+Analyse des savoir-faire et des processus 
+\end_layout
+
+\begin_layout Enumerate
+Analyse du matériel utilisé 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Etude de faisabilité (synthèse principales solutions et caractéristiques)
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Synthèse sur Système embarqué
+\end_layout
+
+\begin_layout Enumerate
+Synthèse sur gestion de l’énergie 
+\end_layout
+
+\begin_layout Enumerate
+Synthèse sur capteurs 
+\end_layout
+
+\begin_layout Enumerate
+Synthèse systèmes de communication (en sites local ? entre sites locals
+ et sites centrals ?...) 
+\end_layout
+
+\begin_layout Enumerate
+Synthèse sur systèmes de localisation 
+\end_layout
+
+\begin_layout Enumerate
+f…….
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Conclusions 
+\end_layout
+
+\begin_layout Enumerate
+Annexes
+\end_layout
+
 \begin_layout Subsection
 Annexe 4 : Plan-type d’un dossier de spécification technique 
+\end_layout
+
+\begin_layout Enumerate
+Historique do document
+\end_layout
+
+\begin_layout Enumerate
+Introduction 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Pésentation du projet
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Contexte
+\end_layout
+
+\begin_layout Enumerate
+Objectifs
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Présentation du documen
+\end_layout
+
+\begin_layout Enumerate
+Document applicables/Documents de référence
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Documents applicables
+\end_layout
+
+\begin_layout Enumerate
+Documents de référence
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Terminologie et Abréviations
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Axes d’amélioration retenus 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Axes de progrès retenus 
+\end_layout
+
+\begin_layout Enumerate
+Axes de progrès marginaux 
+\end_layout
+
+\begin_layout Enumerate
+Faux axes de progres éventuels 
+\end_layout
+
+\begin_layout Enumerate
+…….
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Exigences non fonctionnelles
+\end_layout
+
+\begin_layout Enumerate
+Exigences fonctionnelles
+\end_layout
+
+\begin_layout Enumerate
+Esquisse du nouveau système et impacts sur l’existant
+\end_layout
+
+\begin_layout Enumerate
+Bilan des améliorations 
+\end_layout
+
+\begin_layout Enumerate
+Conclusion
+\end_layout
+
+\begin_layout Enumerate
+Annexe 
 \end_layout
 
 \begin_layout Subsection
 Annexe 5 : Plan-type d’un dossier de conception d’un système 
 \end_layout
 
+\begin_layout Enumerate
+Historique do document
+\end_layout
+
+\begin_layout Enumerate
+Introduction 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Pésentation du projet
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Contexte
+\end_layout
+
+\begin_layout Enumerate
+Objectifs
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Présentation du documen
+\end_layout
+
+\begin_layout Enumerate
+Document applicables/Documents de référence
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Documents applicables
+\end_layout
+
+\begin_layout Enumerate
+Documents de référence
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Terminologie et Abréviations
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Organisation générale du système 
+\end_layout
+
+\begin_layout Enumerate
+Régles de pilotage du système 
+\end_layout
+
+\begin_layout Enumerate
+Architecture applicative
+\end_layout
+
+\begin_layout Enumerate
+Architecture informatiques et matérielle
+\end_layout
+
+\begin_layout Enumerate
+Réflexions sur les données 
+\end_layout
+
+\begin_layout Enumerate
+Gestion des problèmes, anomalies et de la sécurité 
+\end_layout
+
+\begin_layout Enumerate
+Conclusion 
+\end_layout
+
+\begin_layout Enumerate
+Annexes
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Annexe 1 : Répresentation informatique des objets 
+\end_layout
+
+\begin_layout Enumerate
+Annexe 2 : Réflexion sur le réseau 
+\end_layout
+
+\begin_layout Enumerate
+Annexe 3 : Démarrage du système 
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 Annexe 6 : Plan-type d’un dossier de synthèse 
+\end_layout
+
+\begin_layout Enumerate
+Historique do document
+\end_layout
+
+\begin_layout Enumerate
+Introduction 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Pésentation du projet
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Contexte
+\end_layout
+
+\begin_layout Enumerate
+Objectifs
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Présentation du documen
+\end_layout
+
+\begin_layout Enumerate
+Document applicables/Documents de référence
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Documents applicables
+\end_layout
+
+\begin_layout Enumerate
+Documents de référence
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Terminologie et Abréviations
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Présentation de la solution proposée 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Architecture 
+\end_layout
+
+\begin_layout Enumerate
+Fonctionnement général 
+\end_layout
+
+\begin_layout Enumerate
+Apports de la solution proposée 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Thèmes de progrès 
+\end_layout
+
+\begin_layout Enumerate
+Coûts de la solution 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Mise en place du système 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Description de la mise en place du système 
+\end_layout
+
+\begin_layout Enumerate
+Plan de formation 
+\end_layout
+
+\begin_layout Enumerate
+ROI 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Annexes 
+\end_layout
+
+\begin_layout Subsection
+Annexe 7 : Plan-type d’un dossier d’interface de communication
+\end_layout
+
+\begin_layout Enumerate
+Historique do document
+\end_layout
+
+\begin_layout Enumerate
+Introduction 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Pésentation du projet
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Contexte
+\end_layout
+
+\begin_layout Enumerate
+Objectifs
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Présentation du documen
+\end_layout
+
+\begin_layout Enumerate
+Document applicables/Documents de référence
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Documents applicables
+\end_layout
+
+\begin_layout Enumerate
+Documents de référence
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Terminologie et Abréviations
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Decoupage du projet 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Vue d’ensemble du projet
+\end_layout
+
+\begin_layout Enumerate
+Division en sous-ensembles 
+\end_layout
+
+\begin_layout Enumerate
+Division en niveau inférieur 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Description de chacun des sous-ensembles 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Sous-ensemble Machines-Outils - 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+sous-sous-ensembles X 
+\end_layout
+
+\begin_layout Itemize
+sous-sous-ensembles Y 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+sous-ensemble MOCN 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Définiton des interfaces 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Relation entre les sous-ensembles 
+\end_layout
+
+\begin_layout Itemize
+Interfaces entre les sous-ensembles 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Description détaillée
 \end_layout
 
 \end_body
