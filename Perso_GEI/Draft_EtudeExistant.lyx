@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -96,12 +96,12 @@ height_special "totalheight"
 status open
 
 \begin_layout Title
-Dossier d'Initialisation
+Étude de l'existant
+\size larger
+
 \begin_inset Newline newline
 \end_inset
 
-
-\size larger
 Sous-titre
 \end_layout
 
@@ -861,11 +861,94 @@ Sujet de la modification
 \end_layout
 
 \begin_layout Section
-Introduction
+Analyse
+\end_layout
+
+\begin_layout Standard
+Le système actuel de monitoring à distance est mis en place pour le surveillance
+ de plusieurs sites de stockage.
+ Ces sites contiennent des récipients(réservoirs) qui peuvent contenir des
+ différentes types des substances dans toutes les états possibles.
+ Il y a environ 50 sites de ce type.
+ 
+\end_layout
+
+\begin_layout Standard
+La surveillance des différents sites est réalisée par le propriétaire du
+ lieu de travail.
+ Ce processus n'est pas automatisé.
+ Ainsi, à un intervalle de temps régulier, des personnes doivent se déplacer
+ sur site afin d'extraire des informations (niveau de remplissage des récipients
+, température, état de nettoyage).
+ Chaque personne a un appareil connectable sur site qui lit les données
+ émises pas les différents capteurs existants.
+ Il y a 50 sites, une personne doit vérifier 5 sites donc il y a 10 personnes
+ au minimum pour effectuer ce travail.
+ A la fin de la visite, un rapport sera rédigé pour chaque site.
+ En fonction de ces rapports le propriétaire du lieu de travail détermine
+ les sites qui ont besoin d'assistance et avertit la société chargée de
+ s'occuper du réservoir.
+ 
+\end_layout
+
+\begin_layout Standard
+Une vérification de l'état de chaque capteur et de toute appareil présent
+ sur chaque site est aussi nécessaire.
+ Elle est éffectuée deux fois par an par une équipe de 5 personnes.
+ Ces personnes sont capables de rémedier la plus part des dysfonctionnements
+ sur place.
+ A la fin de chaque phase de vérification un rapport est également rédigé
+ par chaque équipe.
+ Ce rapport sera consulté par le propriétaire.
+ Si une intervention plus compliquée est nécessaire, un rapport spécial
+ est rédigé et envoyé au propriétaire le plus rapidemment possible.
+ 
+\end_layout
+
+\begin_layout Standard
+Cette méthode est très couteuse, peu autonome et problématique du point
+ de vue de la sécurité.
+ En effet, la manque d'automatisation dans le processus implique l'intervention
+ humaine qui est couteuse, prend plus de temps et peut générer des erreurs.
+ Il n'y a pas des capteurs qui peuvent transmettre leur données à distance.
+ La vidéo-surveillance ou tout contact direct avec les sites sont absents.
+ Il n'y a aucun moyen de vérifier si les déplacements sur site ont été effectués
+, si les rapports contiennent les vraies valeurs, si les récipients sont
+ dans un bon état pendant l'absence des personnes qui les vérifient et surtout
+ si les capteurs renvoient les bonnes valeurs.
+\end_layout
+
+\begin_layout Standard
+La société chargée de s'occuper du réservoir (nettoyage/vidage/remplissage)
+ envoie un camion sur site.
+ Vu que cette société s'occupe de plusieurs sites au même temps et les déplaceme
+nts ne sont pas optimisés, la méthode est très couteuse et inefficace.
+ Il n'y a aucun moyen sur site qui permet de prévoir la date de remplissage/vida
+ge/nettoyage et ainsi planifier les déplacements des camions afin d'optimiser
+ le processus d'entretien et faire des économies logistiques.
+\end_layout
+
+\begin_layout Standard
+Un protocole à suivre en cas de problème/incident n'est pas mis en place.
+ Cette absence met en danger le site ainsi que l'environnement.
+ De plus, la manque de communication directe entraine un handicap dans la
+ détection des problèmes, la rapidité de réaction et la remédiation du problème.
 \end_layout
 
 \begin_layout Section
 Conclusion
+\end_layout
+
+\begin_layout Standard
+La conception actuelle du système doit être considérablement améliorée afin
+ d'assurer le bon fonctionnement et répondre aux besoins des clients.
+ Les méthodes sont très lentes (par exemple pour savoir si un récipient
+ est vide on doit attendre l'arrivée de la personne en charge et lire son
+ rapport).
+ Il faut se concentrer surtout sur l'automatisation du système.
+ Cela réduirait un nombre important des problèmes de sécurité, entretien
+ ainsi que les coûts et la rapidité des processus.
+ 
 \end_layout
 
 \end_body
