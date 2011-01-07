@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -547,7 +547,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+6/01/2011
 \end_layout
 
 \end_inset
@@ -556,7 +556,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Stefana GARTU
 \end_layout
 
 \end_inset
@@ -565,7 +565,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.0
 \end_layout
 
 \end_inset
@@ -574,7 +574,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Creation du document (sommaire)
 \end_layout
 
 \end_inset
@@ -585,7 +585,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+7/01/2011
 \end_layout
 
 \end_inset
@@ -594,7 +594,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Stefana GARTU
 \end_layout
 
 \end_inset
@@ -603,7 +603,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.0
 \end_layout
 
 \end_inset
@@ -612,7 +612,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Completer les chapitres
 \end_layout
 
 \end_inset
@@ -872,12 +872,90 @@ Pésentation du projet
 Contexte
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+a completer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Objectifs
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+a completer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Présentation du documen
+\end_layout
+
+\begin_layout Standard
+Ce document (« Dossier de gestion de la documentation ») présente les différente
+s règles applicables à la production de documents dans le cadre de ce projet.
+ Le but de ce document est de fournir une base pour assurer la cohérence
+ des différents documents de l’étude « Système de monitoring à distance
+ des sites isolés ».
+ 
+\end_layout
+
+\begin_layout Standard
+La gestion de la documentation doit auqqirer d’une part que les différents
+ documents qui sont générés tout au long du déroulement du projet et qui
+ traduisent le travail de l’équipe, sont être cohérents entre eux et d’autre
+ part, que l’équipe elle-même se retrouve autour d’un document commun.
+ Aussi , le document de gestion de la documentation constitue une référence
+ pour chaque document qui sera élaboré par l’équipe.
+ C’est donc un outil contenant un ensemble de règles qui doivent être suivies
+ par chaque membre.
+ Pour le client, le document de gestion de la documentation constitue un
+ repère.
+ En effet, dans les différentes parties qui le constituent, nous retrouvons
+ des informations qui sont au service d’une meilleure lisibilité des documents
+ (cf.
+ Le sommaire).
+ Le client pourra ainsi observer la façon avec laquelle les documents ont
+ été élaborés.
+ Grâce à l’indexation et à la description des documents applicables ou des
+ documents de référence qui ont été utilisés par l’équipe, à la description
+ de la terminologie et des abréviations, à l’identification des documents
+ établis, à la description des normes de présentation, à la gestion des
+ différentes versions et à la gestion de la documentation électronique (fichiers
+, sauvegardes, etc.) ainsi qu’à la documentation papier, le client sera aidé
+ dans son appropriation des divers livrables.
+ 
+\end_layout
+
+\begin_layout Standard
+Le non-respect de ce document par les membres de l'equipe devra être discuté
+ avec le RQ, et une dérogation sera alors fournie en cas d’acceptation.
+ Cependant si le « Dossier de gestion de la documentation » n’est pas suivi
+ alors qu’il n’y a pas eu de demande de dérogation, le livrable devra être
+ réécrit de telle sorte qu’il respecte le plan.
+ Le responsable qualité n’est pas chargé d’effectuer les modifications nécessair
+es.
+ En cas de besoin (jugé par le chef de projet et le responsable qualité),
+ le présent document pourra être modifié.
+ Suite aux modifications, le « Dossier de gestion de la documentation »
+ devra être revalidé par le chef de projet, puis toute l’équipe sera informée
+ par mail de la nouvelle version.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -888,12 +966,77 @@ Document applicables/Documents de référence
 Documents applicables
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Document de gestion de la documentation
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Documents de référence
 \end_layout
 
+\begin_layout Itemize
+Plan-type «dossier de gestion de la documentation » 
+\end_layout
+
+\begin_layout Itemize
+« Gestion de la documentation des projets informatiques » proposé par le
+ CNRS (cf.
+ siteweb du CNRS).
+ 
+\end_layout
+
+\begin_layout Itemize
+« Proposition de plants type dossier1-2-3 » disponible sur le serveur //servif-b
+aie.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le cours d'Assurance Qualité de 4IF
+\end_layout
+
 \begin_layout Subsection
 Terminologie et Abréviations
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Equipe
+\series default
+: l’hexanôme 4312, la maîtrise d’œuvre dans le cadre de l’appel d’offre
+ « Système de monotoring à distance de sites isolés ».
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Projet
+\series default
+: l’étude « Système de monitoring à distance de sites isolés » réalisé par
+ l’hexanôme 4312 pour l’entreprise COPEVUE.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Responsable
+\series default
+(s) : Le « Responsable » ou « les Responsables » d’un livrable ou d’une
+ annexe sont la/ou les personnes chargées de la rédaction du document.
+\end_layout
+
+\begin_layout Standard
+Pour une liste complète des termes et abréviations, consultez le document
+ « Glossaire ».
 \end_layout
 
 \begin_layout Section
@@ -902,6 +1045,204 @@ Règles générales
 
 \begin_layout Subsection
 Les acteurs et leurs responsabilités
+\end_layout
+
+\begin_layout Standard
+Les différents acteurs sont :
+\end_layout
+
+\begin_layout Itemize
+le chargé de la gestion documentaire (généralement le responsable qualité
+ du projet),
+\end_layout
+
+\begin_layout Itemize
+le(s) auteur(s) du document, 
+\end_layout
+
+\begin_layout Itemize
+les responsables de la vérification (membres de l’équipe projet ou intervenants
+ extérieurs), 
+\end_layout
+
+\begin_layout Itemize
+les responsables de la validation (une ou plusieurs personnes désignées).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Responsabilités
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features>
+<column alignment="center" valignment="top" width="2in">
+<column alignment="center" valignment="top" width="4in">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ACTEUR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RESPONSABILITES
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Chargé de la gestion de la documentation du projet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+diffusion homogène des outils de production de documents
+\end_layout
+
+\begin_layout Itemize
+supervision du fonctionnement courant
+\end_layout
+
+\begin_layout Itemize
+définition et respect des règles d’identification, de structuration et de
+ classement,
+\end_layout
+
+\begin_layout Itemize
+contrôle de la cohérence et de l’homogénéité dans la gestion et les extensions
+ de la documentation du projet,
+\end_layout
+
+\begin_layout Itemize
+décisions d’archivage ou de suppression de documents
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Auteur
+\end_layout
+
+\begin_layout Plain Layout
+(un document peut être produit par plusieurs auteurs )
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+objectifs et contenu du document 
+\end_layout
+
+\begin_layout Itemize
+diffusion vers les destinataires identifiés (cycle de vie prévu pour le
+ document) 
+\end_layout
+
+\begin_layout Itemize
+gestion des mises à jour et des versions-révisions successives du document
+ 
+\end_layout
+
+\begin_layout Itemize
+mise à jour du journal du Glossair
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable de la vérification
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+relecture pour commentaires et enrichissements éventuels contrôle de la
+ conformité par rapport aux standards méthodologiques (contenu attendu du
+ document) et aux règles de présentation et structuration des documents.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable de la validation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+évaluation de la pertinence, la correction et la complétude du contenu,
+ par rapport aux objectifs du document.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -940,32 +1281,585 @@ Les documents papiers
 Identification des documents
 \end_layout
 
+\begin_layout Standard
+Les documents produits doivent suivre un formalisme d’identification identique.
+ Cet identifiant constitue la référence du document.
+ Ceci permet un accès rapide à un document précis et donc une meilleure
+ gestion de la documentation.
+ 
+\end_layout
+
+\begin_layout Standard
+Le formalisme d’identification est le suivant :
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\emph on
+XXX_YYY_ZZZ.VVV   
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+XXX
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ le type de fichier 
+\end_layout
+
+\begin_layout Itemize
+MOD pour « Modèle » 
+\end_layout
+
+\begin_layout Itemize
+COM pour « Communication » 
+\end_layout
+
+\begin_layout Itemize
+LIV pour « Livrable » 
+\end_layout
+
+\begin_layout Itemize
+ANN pour « Annexe » 
+\end_layout
+
+\begin_layout Itemize
+DRA pour « Draft » 
+\end_layout
+
+\begin_layout Itemize
+FIC pour « Fiche »
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+YYY
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ le nom spécifique du fichier en suivant les règles suivantes:
+\end_layout
+
+\begin_layout Itemize
+On n’utilise pas d’accents ; 
+\end_layout
+
+\begin_layout Itemize
+Les mots sont séparés par le caractère « _ » 
+\end_layout
+
+\begin_layout Itemize
+Les mots (sauf le premier, les noms propres et les abréviations) commencent
+ par une majuscule
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+ZZZ
+\emph default
+ l’auteur du fichier 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+VVV
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ l’extension du fichier
+\end_layout
+
 \begin_layout Subsection
 Structuration
+\end_layout
+
+\begin_layout Standard
+Outre l’identification du document, celui-ci doit également être structuré
+ de façon homogène.
+ Cette structuration commune est essentielle à une bonne lisibilité.
+ Tous les documents doivent donc être structurés de la manière suivante
+ (les drafts n’obéissent pas à ces règles mais il est toutefois conseillé
+ de garder une structuration).
+\end_layout
+
+\begin_layout Subsubsection*
+
+\series bold
+Page de garde 
+\emph on
+(premier page)
+\emph default
+: 
+\end_layout
+
+\begin_layout Itemize
+Titre du document
+\end_layout
+
+\begin_layout Itemize
+Sous-titre ou courte description - objet du document pour décrire brièvement
+ le document (quelques lignes au maximum).
+ 
+\end_layout
+
+\begin_layout Itemize
+Auteurs (nom, prénom) 
+\end_layout
+
+\begin_layout Itemize
+Maitrise d'œuvre: H4312 
+\end_layout
+
+\begin_layout Itemize
+Maitrise d'Ouvrage: GSTP (dans ce cas là) 2 tableaux avec des informations
+ sur l'état du document: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Référence du document.
+ 
+\end_layout
+
+\begin_layout Itemize
+Numéro de version (partie entière) pour les évolutions majeures et indice
+ de révision (partie décimale)pour les évolutions mineures : 1.0, 1.1, etc.
+\end_layout
+
+\begin_layout Itemize
+Degré d’avancement du document: travail, terminé,vérifié.
+ Un document en perpétuelle modification (ex: glossaire) ne comporte pas
+ ce champ.
+ 
+\end_layout
+
+\begin_layout Itemize
+Date de dernière mise à jour dans le format: JJ/MM/AA.
+ 
+\end_layout
+
+\begin_layout Itemize
+Apres la phase de validation, le document va avoir une des mentions: 
+\series bold
+validé
+\series default
+, a 
+\series bold
+validé après intégration
+\series default
+ des modifications par l'auteur, document 
+\series bold
+à revalider
+\series default
+.
+ Une fois validé, on va mettre un visa accompagné de la date et du nom du
+ responsable de la validation.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+Table des matières 
+\end_layout
+
+\begin_layout Standard
+génerée automatiquement 
+\end_layout
+
+\begin_layout Subsubsection*
+Table des révisions 
+\end_layout
+
+\begin_layout Standard
+Elle reprend toutes les modifications du document.
+ C’est donc un outil de suivi (historique).
+ Toutes les entrées doivent contenir les informations suivantes: 
+\end_layout
+
+\begin_layout Itemize
+Date de révision toujours dans le format JJ/MM/AA.
+ 
+\end_layout
+
+\begin_layout Itemize
+Auteur(s).
+ 
+\end_layout
+
+\begin_layout Itemize
+Numéro de version (ex: 1.0).
+ 
+\end_layout
+
+\begin_layout Itemize
+Sujet de la modification (1 ou 2 lignes).
+\end_layout
+
+\begin_layout Subsubsection*
+Début du document
+\end_layout
+
+\begin_layout Standard
+Il s’agit d’une introduction qui est commune à la plupart des documents.
+ On présente le projet, le document en lui-même, les documents sur lesquels
+ s’appuyer et une partie terminologie.
+ La structure est la suivante: 
+\end_layout
+
+\begin_layout Itemize
+Présentation du projet avec les deux paragraphes contexte et objectifs.
+ Meme presentation pour tous les documents.
+\end_layout
+
+\begin_layout Itemize
+Présentation du document 
+\end_layout
+
+\begin_layout Itemize
+Liste des documents applicables et des documents de référence: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Un 
+\emph on
+document applicable
+\emph default
+ est un document devant être appliqué.
+ Dans le cadre du projet, le cahier des charges est un document applicable
+ pour l’élaboration du dossier de spécifications techniques, qui lui est
+ un document applicable pour le dossier de conception de la nouvelle architectur
+e.
+ Les plans-types ne font pas partie de cette catégorie de documents.
+ Un des documents toujours applicable est le 
+\begin_inset Quotes eld
+\end_inset
+
+Dossier de gestion de la documentation
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Un 
+\emph on
+document de référence
+\emph default
+ est un document qui sert de repère.
+ Ainsi, nous pourrons nous appuyer sur ce type de documents pour élaborer
+ les livrables.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Terminologie/Abréviations: définition de tous les termes nécessitant des
+ précisions.
+ Le contenu de cette sous-partie peut se trouver dans le document «Glossaire»,
+ si tel est le cas, un renvoi (pour le lecteur) doit obligatoirement être
+ indiqué.
+\end_layout
+
+\begin_layout Subsubsection*
+Le plan type 
+\end_layout
+
+\begin_layout Standard
+Pour chaque livrable un plan type est proposé.
+ Celui-ci n’est qu’une suggestion, il peut être modifié si cela est considéré
+ comme nécessaire par le responsable ou le CdP.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Pour chaque page
+\end_layout
+
+\begin_layout Standard
+Un en-tête est obligatoire: le nom de la Maitrise d'œuvre: H4312 et le titre
+ du document.
+ Un pied-de-page: le nombre de page sur le nombre total de pages (ex: p.
+ 3/15).
+ Le texte contenu dans le document est justifié et une vérification orthographiq
+ue est indispensable.
+ Le seuls style utilisés seront Standard, Section, SousSection et SousSousSectio
+n
+\end_layout
+
+\begin_layout Standard
+Exemple: voir Annexe 1
 \end_layout
 
 \begin_layout Subsection
 Etats d’un document
 \end_layout
 
+\begin_layout Standard
+Un document au cours de sa vie passe dans plusieurs états.
+ Voici le cycle de vie qui est typique de chaque document.
+ Il résume l’enchainement des états, chacun étant détaillé dans le point
+ suivant intitulé « Cycle de vie d’un document ».
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Etat
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Signification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+travail
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+le document est en cours d'élaboration par l'auteur
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+terminé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+le document satisfait l'auteur; il est prêt à être diffusé
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+vérifié 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+le document est approuvé par d'autres membres de l'équipe, des intervenants
+ extérieurs et/ou le contrôle qualité
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+validé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+le document est approuvé par les personnes habilitées et prend valeur de
+ référence au sein du projet
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Cycle de vie d’un document
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename collé1.emf
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
 Production du document
 \end_layout
 
+\begin_layout Itemize
+
+\emph on
+Création
+\emph default
+ : Répartition du travail au sein de l'équipe.
+ Chaque personne crée son propre fichier en suivant le formalisme détaillé
+ ci-dessus
+\end_layout
+
+\begin_layout Itemize
+Modification : Chaque personne modifie sa partie comme décrit dans la « procédur
+e de modification d'un document ».
+\end_layout
+
+\begin_layout Itemize
+Terminaison : Lorsque toutes les parties sont marquées comme étant finie,
+ on rentre dans la phase de validation
+\end_layout
+
 \begin_layout Subsubsection
 Vérification/Validation du document
+\end_layout
+
+\begin_layout Standard
+Une vérification est effectuée par le Responsable Qualité.
+ Il veille à ce que la forme soit bien respectée et cherche à détecter les
+ incohérences.
+ En cas de problème il prévient le responsable du fichier au plus vite et
+ règle le problème avec lui.
+ Il peut ajouter des notes sur le document.
+\end_layout
+
+\begin_layout Standard
+Une fois qu'il l'a validé, il envoi le document au chef de projet qui approuve
+ la validation interne et le soumet à la validation externe.
+ Un visa est alors apposé pour attester de cette validation et un document
+ de consignation est rédigé par les responsables de la validation.
+ Dans le cas où des incohérences sont constatées, la vérification reconduit
+ le document dans sa phase de production,
+\end_layout
+
+\begin_layout Standard
+La conclusion de la vérification ou validation doit être écrite dans le
+ tableau au debut du document: 
+\end_layout
+
+\begin_layout Itemize
+document 
+\series bold
+validé
+\series default
+, 
+\end_layout
+
+\begin_layout Itemize
+document 
+\series bold
+validé après intégration
+\series default
+ des modifications par l'auteur
+\end_layout
+
+\begin_layout Itemize
+document 
+\series bold
+à revalider
+\series default
+ (nécessite un nouveau passage en vérification/validation après intégration
+ des modifications par l'auteur)
 \end_layout
 
 \begin_layout Subsubsection
 Archivage du document
 \end_layout
 
+\begin_layout Standard
+Les fonctions d'archivage sont effectuées grâce au système de gestion de
+ version : GIT.
+ Il ne sera gardé aucune copie papier des différents livrables.
+\end_layout
+
 \begin_layout Subsection
-Gestion des versions
+Gestion des versions-révisions
+\end_layout
+
+\begin_layout Standard
+Nous utiliserons le système de gestion de versions GIT.
+ Tous les documents seront donc sauvegardés en ligne sur le site github.com.
+ Grâce à cela, nous pourrons partager facilement les documents, nous pourrons
+ gérer facilement les conflits en cas de modification d'un même document
+ par plusieurs personnes (GIT fusionne les deux documents tout seul si les
+ modifications sont sur des lignes différentes (il faut donc bien refaire
+ un contrôle cohérence lorsque l'on voit que GIT a fusionné automatiquement).
+ 
+\end_layout
+
+\begin_layout Standard
+De plus, GIT nous permet de gérer les versions-révisions de nos documents.
+ En effet, à chaque fois que l'on met à jour nos documents, GIT enregistre
+ les modifications effectuées : numéro des lignes supprimées, ajoutées,
+ modifiées et leur contenu.
+ Il peut ainsi facilement revenir à une version antérieure en cas de problème.
 \end_layout
 
 \begin_layout Section
@@ -976,8 +1870,32 @@ Gestion de la documentation produite
 Outils de production de la documentation
 \end_layout
 
+\begin_layout Standard
+Nous utiliserons Latec pour rédiger tous nos rapports.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+à completer
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Une fois finalisé, un document est exporté dans le format PDF.
+\end_layout
+
 \begin_layout Subsection
 Classement de la documentation
+\end_layout
+
+\begin_layout Standard
+Une trace de la documentation produite va être fournie par Git.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -986,6 +1904,15 @@ Gestion physique des fichiers contenant les documents
 
 \begin_layout Subsubsection
 Répertoires
+\end_layout
+
+\begin_layout Standard
+Les documents du projet sont accessibles en consultation à tous les membres
+ de l'équipe projet sur serveur, dans un répertoire clairement identifié
+ par le nom du projet.
+ Un sous-répertoire est créé par nature de document à gérer.
+ Les noms de ces répertoires reprennent les codes de la nature du document
+ : 
 \end_layout
 
 \begin_layout Standard
@@ -1021,6 +1948,10 @@ GEI
 CdP
 \end_layout
 
+\begin_layout Itemize
+General
+\end_layout
+
 \end_deeper
 \begin_layout Itemize
 Fiches 
@@ -1028,6 +1959,10 @@ Fiches
 
 \begin_layout Itemize
 Modèles 
+\end_layout
+
+\begin_layout Itemize
+Glossaire
 \end_layout
 
 \begin_layout Itemize
@@ -1046,32 +1981,15 @@ Perso_CdP
 Noms des fichiers
 \end_layout
 
-\begin_layout Subsubsection
-Procédures de sauvegarde et archivage
+\begin_layout Standard
+XXX_YYY_ZZZ.VVV   comme expliqué dans la partie 
+\series bold
+\emph on
+Identification des documents
 \end_layout
 
 \begin_layout Subsection
-Organisation de la documentation (?)
-\end_layout
-
-\begin_layout Subsubsection
-Documents de gestion de projet
-\end_layout
-
-\begin_layout Subsubsection
-Documents d’étude et développement
-\end_layout
-
-\begin_layout Subsubsection
-Documents relatifs à la mise en oeuvre
-\end_layout
-
-\begin_layout Subsubsection
-Documents relatifs à la qualité
-\end_layout
-
-\begin_layout Subsection
-Le glossier
+Le glossaire
 \end_layout
 
 \begin_layout Subsubsection
@@ -1096,11 +2014,11 @@ Exemple de définition du glossaire
 \end_layout
 
 \begin_layout Standard
-Dans le glossaire, le mot à définir doit ecrit avec le style 
+Dans le glossaire, le mot à définir doit écrit avec le style 
 \begin_inset Quotes eld
 \end_inset
 
-Glossier
+Glossaire
 \begin_inset Quotes erd
 \end_inset
 
@@ -1113,7 +2031,7 @@ Standard
 \end_inset
 
 .
- Pour chaque mot il faut doner la deffinition et le domaine d'application.
+ Pour chaque mot il faut donner la définition et le domaine d'application.
  
 \begin_inset Note Note
 status open
@@ -1178,15 +2096,35 @@ Le glossaire est rempli au fur et à mesure par chaque membre de l’équipe.
 \end_layout
 
 \begin_layout Section
-Le type de documents (?)
-\end_layout
-
-\begin_layout Section
 Gestion de la documentation papier
 \end_layout
 
+\begin_layout Standard
+Les documents étant en totalité informatisés, aucune gestion de la documentation
+ papier n’est véritablement nécessaire.
+ Seule, les versions finales des livrables seront éditées sur papier, la
+ version informatisée étant conservée sur les deux serveurs.
+ 
+\end_layout
+
+\begin_layout Standard
+Ces versions papiers étant remises au client, il n’est pas utile de les
+ gérer.
+ En revanche, lors de la recette par le client du dossier d’appel d’offres,
+ un bordereau accusant de la bonne réception devra être conservé par le
+ chef de projet dans un dossier accessible de tous sur simple demande.
+ Ce bordereau constitue un procès-verbal attestant de la bonne réception
+ du livrable.
+ 
+\end_layout
+
+\begin_layout Standard
+Enfin, libre à chaque membre d'equipe une version papier d’un des documents
+ informatisés par exemple pour une lecture plus aisée.
+\end_layout
+
 \begin_layout Section
-Procedures (?)
+Procédures (?)
 \end_layout
 
 \begin_layout Section
