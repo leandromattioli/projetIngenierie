@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -102,7 +102,7 @@ Gestion de la Documentation
 
 
 \size larger
-Sous-titre
+Système de monitoring à distance de sites isolés
 \end_layout
 
 \end_inset
@@ -132,7 +132,7 @@ Maitrise d'Oeuvre:
 
 Maitrise d'Ouvrage:
 \series default
- GSTP
+ H4312
 \end_layout
 
 \begin_layout Standard
@@ -146,7 +146,7 @@ Auteurs:
 \begin_inset Newline newline
 \end_inset
 
-NOM
+Stéfana GARTU
 \end_layout
 
 \begin_layout Standard
@@ -163,9 +163,9 @@ NOM
 <lyxtabular version="3" rows="3" columns="4">
 <features>
 <column alignment="center" valignment="top" width="5cm">
-<column alignment="center" valignment="top" width="7cm">
-<column alignment="center" valignment="top" width="2cm">
-<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="3cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -236,12 +236,12 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-☐ Terminé
+
 \end_layout
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -274,25 +274,25 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-07/01/2011
+10/01/2011
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+☐ Validé après modif.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+☐ Revalidé
 \end_layout
 
 \end_inset
@@ -323,7 +323,7 @@ Dernière mise à jour
 <column alignment="center" valignment="top" width="4cm">
 <column alignment="center" valignment="top" width="4cm">
 <row>
-<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none" width="4cm">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -374,7 +374,7 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
-07/01/2011
+10/01/2011
 \end_layout
 
 \end_inset
@@ -445,6 +445,25 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -454,23 +473,6 @@ thispagestyle{empty}
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FloatList table
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset nomencl_print
-LatexCommand printnomenclature
 
 \end_inset
 
@@ -1006,32 +1008,32 @@ Le cours d'Assurance Qualité de 4IF
 Terminologie et Abréviations
 \end_layout
 
-\begin_layout Standard
-
-\series bold
+\begin_layout Paragraph
 Equipe
-\series default
-: l’hexanôme 4312, la maîtrise d’œuvre dans le cadre de l’appel d’offre
- « Système de monotoring à distance de sites isolés ».
 \end_layout
 
 \begin_layout Standard
+l’hexanôme 4312, la maîtrise d’œuvre dans le cadre de l’appel d’offre «
+ Système de monotoring à distance de sites isolés ».
+\end_layout
 
-\series bold
+\begin_layout Paragraph
 Projet
-\series default
-: l’étude « Système de monitoring à distance de sites isolés » réalisé par
+\end_layout
+
+\begin_layout Standard
+l’étude « Système de monitoring à distance de sites isolés » réalisé par
  l’hexanôme 4312 pour l’entreprise COPEVUE.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Paragraph
+Responsable(s)
+\end_layout
 
-\series bold
-Responsable
-\series default
-(s) : Le « Responsable » ou « les Responsables » d’un livrable ou d’une
- annexe sont la/ou les personnes chargées de la rédaction du document.
+\begin_layout Standard
+Le « Responsable » ou « les Responsables » d’un livrable ou d’une annexe
+ sont la/ou les personnes chargées de la rédaction du document.
 \end_layout
 
 \begin_layout Standard
@@ -1246,10 +1248,6 @@ Responsable de la validation
 \end_layout
 
 \begin_layout Subsection
-
-\end_layout
-
-\begin_layout Subsection
 Identification des documents
 \end_layout
 
@@ -1453,19 +1451,6 @@ validé après intégration
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-page vide??
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Table des matières 
 \end_layout
@@ -1719,7 +1704,7 @@ le document est approuvé par d'autres membres de l'équipe, des intervenants
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1728,7 +1713,7 @@ validé
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1748,15 +1733,6 @@ le document est approuvé par les personnes habilitées et prend valeur de
 
 \begin_layout Subsection
 Cycle de vie d’un document
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename collé1.emf
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsubsection
@@ -1877,22 +1853,18 @@ Outils de production de la documentation
 \end_layout
 
 \begin_layout Standard
-Nous utiliserons Latec pour rédiger tous nos rapports.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-à completer
-\end_layout
-
+Nous utiliserons l'outil LyX pour rédiger tous nos rapports.
+ C'est un editeur WYSIWYM (
+\begin_inset Quotes eld
 \end_inset
 
+What Yo See Is What You Mean
+\begin_inset Quotes erd
+\end_inset
 
-\end_layout
-
-\begin_layout Standard
-Une fois finalisé, un document est exporté dans le format PDF.
+), une modalitée intermediaire entre l'approche WYSIWYG et l'approche de
+ langage de balises (comment LaTeX et DocBook).
+ Une fois finalisé, un document est exporté dans le format PDF.
 \end_layout
 
 \begin_layout Subsection
@@ -1988,7 +1960,7 @@ Noms des fichiers
 \end_layout
 
 \begin_layout Standard
-XXX_YYY_ZZZ.VVV   comme expliqué dans la partie 
+XXX_YYY_ZZZ.VVV,comme expliqué dans la partie 
 \series bold
 \emph on
 Identification des documents
@@ -2024,7 +1996,7 @@ Dans le glossaire, le mot à définir doit écrit avec le style
 \begin_inset Quotes eld
 \end_inset
 
-Glossaire
+Paragraph
 \begin_inset Quotes erd
 \end_inset
 
@@ -2039,25 +2011,13 @@ Standard
 .
  Pour chaque mot il faut donner la définition et le domaine d'application.
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang english
-il faut creer le style Glossier - mot en bold et avec de l'espace avant
 \end_layout
 
-\end_inset
-
-
+\begin_layout Subsubsection*
+Exemple:
 \end_layout
 
-\begin_layout Standard
-exemple:
-\end_layout
-
-\begin_layout Standard
+\begin_layout Paragraph
 
 \series bold
 Aide-mémoire
@@ -2070,19 +2030,12 @@ Mémo
 \end_layout
 
 \begin_layout Standard
+Document présentant l'application informatique sur un support réduit (en
+ général cartonné et/ou plastifié) contenant les modes d'accès aux différentes
+ fonctions et les commandes disponibles.
 
 \emph on
-Définition
-\emph default
- : Document présentant l'application informatique sur un support réduit
- (en général cartonné et/ou plastifié) contenant les modes d'accès aux différent
-es fonctions et les commandes disponibles.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Domaine d'application
+ Domaine d'application
 \emph default
  : Documentation de mise en oeuvre - manuel d'utilisation
 \end_layout
@@ -2337,7 +2290,7 @@ Annexes
 \end_layout
 
 \begin_layout Subsection
-Annexe 1 : Exemple de page de garde
+Annexe 1: Exemple de page de garde
 \end_layout
 
 \begin_layout Standard
@@ -2354,7 +2307,7 @@ status open
 \end_layout
 
 \begin_layout Subsection
-Annexe 2 : Exemple de sommaire
+Annexe 2: Exemple de sommaire
 \end_layout
 
 \begin_layout Standard
@@ -2371,7 +2324,7 @@ idem
 \end_layout
 
 \begin_layout Subsection
-Annexe 3 : Plan-type d’un dossier de faisabilité 
+Annexe 3: Plan-type d’un dossier de faisabilité 
 \end_layout
 
 \begin_layout Standard
@@ -2493,7 +2446,7 @@ Annexes
 \end_layout
 
 \begin_layout Subsection
-Annexe 4 : Plan-type d’un dossier de spécification technique 
+Annexe 4: Plan-type d’un dossier de spécification technique 
 \end_layout
 
 \begin_layout Enumerate
@@ -2589,7 +2542,7 @@ Annexe
 \end_layout
 
 \begin_layout Subsection
-Annexe 5 : Plan-type d’un dossier de conception d’un système 
+Annexe 5: Plan-type d’un dossier de conception d’un système 
 \end_layout
 
 \begin_layout Enumerate
@@ -2685,7 +2638,7 @@ Annexe 3 : Démarrage du système
 
 \end_deeper
 \begin_layout Subsection
-Annexe 6 : Plan-type d’un dossier de synthèse 
+Annexe 6: Plan-type d’un dossier de synthèse 
 \end_layout
 
 \begin_layout Enumerate
@@ -2785,7 +2738,7 @@ Annexes
 \end_layout
 
 \begin_layout Subsection
-Annexe 7 : Plan-type d’un dossier d’interface de communication
+Annexe 7: Plan-type d’un dossier d’interface de communication
 \end_layout
 
 \begin_layout Enumerate
