@@ -26,76 +26,87 @@
   <tasks>
     <task id="1" name="Gestion du Projet" note="" work="316800" start="20110107T000000Z" end="20110117T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <task id="2" name="Management G&#xE9;n&#xE9;ral" note="" work="237600" start="20110107T000000Z" end="20110117T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="3" name="R&#xE9;daction du Dossier d'Initialisation (partie 1)" note="" work="28800" start="20110107T000000Z" end="20110108T100000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="4" name="R&#xE9;daction de la proc&#xE9;dure" note="" work="28800" start="20110108T100000Z" end="20110109T120000Z" work-start="20110108T100000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="3" name="Dossier d'Initialisation (partie 1)" note="" work="28800" start="20110107T000000Z" end="20110108T100000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="4" name="Proc&#xE9;dure" note="" work="28800" start="20110108T100000Z" end="20110109T120000Z" work-start="20110108T100000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="3" type="FS"/>
         </predecessors>
       </task>
-      <task id="5" name="R&#xE9;daction de la fiche d'argumentation" note="" work="21600" start="20110109T120000Z" end="20110110T120000Z" work-start="20110109T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="5" name="Fiche d'argumentation" note="" work="21600" start="20110109T120000Z" end="20110110T120000Z" work-start="20110109T120000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <predecessors>
           <predecessor id="1" predecessor-id="4" type="FS"/>
         </predecessors>
       </task>
     </task>
-    <task id="6" name="Assurance Qualit&#xE9;" note="" work="294300" start="20110107T000000Z" end="20110117T194500Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <task id="7" name="R&#xE9;daction du PAQP" note="" work="28800" start="20110107T000000Z" end="20110108T100000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="8" name="R&#xE9;daction du PAQL" note="" work="28800" start="20110107T000000Z" end="20110108T100000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="9" name="Contr&#xF4;le de la qualit&#xE9;" note="" work="236700" start="20110107T000000Z" end="20110117T194500Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-    </task>
-    <task id="10" name="Projet Syst&#xE8;me" note="" work="1067400" start="20110107T000000Z" end="20110117T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-      <task id="11" name="&#xC9;tude de faisabilit&#xE9;" note="" work="540000" start="20110107T000000Z" end="20110110T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
-        <task id="12" name="Draft Syst&#xE8;me Embarqu&#xE9;" note="" work="21600" start="20110107T000000Z" end="20110107T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="13" name="Production d'&#xC9;nergie" note="" work="21600" start="20110107T000000Z" end="20110107T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="14" name="Dossier Existant" note="" work="21600" start="20110107T000000Z" end="20110107T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="15" name="Dossier Capteurs" note="" work="21600" start="20110107T000000Z" end="20110107T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="16" name="Syst&#xE8;me Communication" note="" work="21600" start="20110107T000000Z" end="20110107T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
-        <task id="17" name="R&#xE9;daction du Dossier de Faisabilit&#xE9;" note="" work="432000" start="20110107T000000Z" end="20110110T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="6" name="Assurance Qualit&#xE9;" note="" work="338400" start="20110107T000000Z" end="20110117T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="7" name="Gestion de la Documentation" note="" work="28800" start="20110107T000000Z" end="20110108T100000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      <task id="8" name="Glossaire Commun" note="" work="28800" start="20110108T000000Z" end="20110109T100000Z" work-start="20110108T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20110108T000000Z"/>
       </task>
-      <task id="18" name="Sp&#xE9;cification Techniques des B&#xE9;soins" note="" work="441000" start="20110110T000000Z" end="20110114T083000Z" work-start="20110110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="9" name="Draft PAQP" note="" work="43200" start="20110109T000000Z" end="20110110T200000Z" work-start="20110109T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20110109T000000Z"/>
+      </task>
+      <task id="10" name="Contr&#xF4;le de la qualit&#xE9;" note="" work="237600" start="20110107T000000Z" end="20110117T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    </task>
+    <task id="11" name="Projet Syst&#xE8;me" note="" work="1067400" start="20110107T000000Z" end="20110114T184640Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="12" name="&#xC9;tude de faisabilit&#xE9;" note="" work="540000" start="20110107T000000Z" end="20110110T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="13" name="Draft Syst&#xE8;me Embarqu&#xE9;" note="" work="21600" start="20110107T000000Z" end="20110107T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="14" name="Production d'&#xC9;nergie" note="" work="21600" start="20110107T000000Z" end="20110107T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="15" name="Dossier Existant" note="" work="21600" start="20110107T000000Z" end="20110107T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="16" name="Dossier Capteurs" note="" work="21600" start="20110107T000000Z" end="20110107T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="17" name="Syst&#xE8;me Communication" note="" work="21600" start="20110107T000000Z" end="20110107T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+        <task id="18" name="R&#xE9;daction du Dossier de Faisabilit&#xE9;" note="" work="432000" start="20110107T000000Z" end="20110110T200000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+      </task>
+      <task id="19" name="Sp&#xE9;cification Techniques des B&#xE9;soins" note="" work="441000" start="20110110T000000Z" end="20110114T083000Z" work-start="20110110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <constraint type="start-no-earlier-than" time="20110110T000000Z"/>
       </task>
-      <task id="19" name="&#xC9;bauche Architecture" note="" work="86400" start="20110114T000000Z" end="20110117T200000Z" work-start="20110114T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="20" name="&#xC9;bauche Architecture" note="" work="86400" start="20110114T000000Z" end="20110114T184640Z" work-start="20110114T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <constraint type="start-no-earlier-than" time="20110114T000000Z"/>
       </task>
     </task>
-    <task id="20" name="Revue" note="" work="1800" start="20110112T000000Z" end="20110112T083000Z" work-start="20110112T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+    <task id="21" name="Revue" note="" work="1800" start="20110112T000000Z" end="20110112T083000Z" work-start="20110112T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <constraint type="must-start-on" time="20110112T000000Z"/>
     </task>
   </tasks>
   <resource-groups/>
   <resources>
-    <resource id="1" name="Chef du Projet" short-name="CdP" type="1" units="0" email="leandro.mattioli@gmail.com" note="" std-rate="200"/>
-    <resource id="2" name="Responsable Qualit&#xE9;" short-name="RQ" type="1" units="0" email="stefana_gartu@yahoo.com" note="" std-rate="120"/>
-    <resource id="3" name="Ing&#xE9;nieur 1" short-name="GEI1" type="1" units="0" email="" note="" std-rate="100"/>
+    <resource id="1" name="Ing&#xE9;nieur 5" short-name="GEI5" type="1" units="0" email="" note="" std-rate="100"/>
+    <resource id="2" name="Ing&#xE9;nieur 4" short-name="GEI4" type="1" units="0" email="" note="" std-rate="100"/>
+    <resource id="3" name="Ing&#xE9;nieur 3" short-name="GEI3" type="1" units="0" email="" note="" std-rate="100"/>
     <resource id="4" name="Ing&#xE9;nieur 2" short-name="GEI2" type="1" units="0" email="" note="" std-rate="100"/>
-    <resource id="5" name="Ing&#xE9;nieur 3" short-name="GEI3" type="1" units="0" email="" note="" std-rate="100"/>
-    <resource id="6" name="Ing&#xE9;nieur 4" short-name="GEI4" type="1" units="0" email="" note="" std-rate="100"/>
-    <resource id="7" name="Ing&#xE9;nieur 5" short-name="GEI5" type="1" units="0" email="" note="" std-rate="100"/>
+    <resource id="5" name="Ing&#xE9;nieur 1" short-name="GEI1" type="1" units="0" email="" note="" std-rate="100"/>
+    <resource id="6" name="Responsable Qualit&#xE9;" short-name="RQ" type="1" units="0" email="stefana_gartu@yahoo.com" note="" std-rate="120"/>
+    <resource id="7" name="Chef du Projet" short-name="CdP" type="1" units="0" email="leandro.mattioli@gmail.com" note="" std-rate="200"/>
   </resources>
   <allocations>
-    <allocation task-id="5" resource-id="1" units="100"/>
-    <allocation task-id="4" resource-id="1" units="100"/>
-    <allocation task-id="3" resource-id="1" units="100"/>
-    <allocation task-id="2" resource-id="1" units="100"/>
-    <allocation task-id="1" resource-id="1" units="100"/>
-    <allocation task-id="8" resource-id="2" units="100"/>
-    <allocation task-id="7" resource-id="2" units="100"/>
-    <allocation task-id="6" resource-id="2" units="100"/>
+    <allocation task-id="20" resource-id="1" units="100"/>
+    <allocation task-id="19" resource-id="1" units="100"/>
+    <allocation task-id="18" resource-id="1" units="100"/>
+    <allocation task-id="17" resource-id="1" units="100"/>
+    <allocation task-id="20" resource-id="2" units="100"/>
+    <allocation task-id="19" resource-id="2" units="100"/>
+    <allocation task-id="18" resource-id="2" units="100"/>
+    <allocation task-id="16" resource-id="2" units="100"/>
+    <allocation task-id="20" resource-id="3" units="100"/>
+    <allocation task-id="19" resource-id="3" units="100"/>
     <allocation task-id="18" resource-id="3" units="100"/>
-    <allocation task-id="17" resource-id="3" units="100"/>
-    <allocation task-id="12" resource-id="3" units="100"/>
+    <allocation task-id="15" resource-id="3" units="100"/>
+    <allocation task-id="20" resource-id="4" units="100"/>
+    <allocation task-id="19" resource-id="4" units="100"/>
     <allocation task-id="18" resource-id="4" units="100"/>
-    <allocation task-id="17" resource-id="4" units="100"/>
-    <allocation task-id="13" resource-id="4" units="100"/>
+    <allocation task-id="14" resource-id="4" units="100"/>
+    <allocation task-id="20" resource-id="5" units="100"/>
+    <allocation task-id="19" resource-id="5" units="100"/>
     <allocation task-id="18" resource-id="5" units="100"/>
-    <allocation task-id="17" resource-id="5" units="100"/>
-    <allocation task-id="14" resource-id="5" units="100"/>
-    <allocation task-id="18" resource-id="6" units="100"/>
-    <allocation task-id="17" resource-id="6" units="100"/>
-    <allocation task-id="15" resource-id="6" units="100"/>
-    <allocation task-id="18" resource-id="7" units="100"/>
-    <allocation task-id="17" resource-id="7" units="100"/>
-    <allocation task-id="16" resource-id="7" units="100"/>
+    <allocation task-id="13" resource-id="5" units="100"/>
+    <allocation task-id="9" resource-id="6" units="100"/>
+    <allocation task-id="8" resource-id="6" units="100"/>
+    <allocation task-id="7" resource-id="6" units="100"/>
+    <allocation task-id="6" resource-id="6" units="100"/>
+    <allocation task-id="5" resource-id="7" units="100"/>
+    <allocation task-id="4" resource-id="7" units="100"/>
+    <allocation task-id="3" resource-id="7" units="100"/>
+    <allocation task-id="2" resource-id="7" units="100"/>
+    <allocation task-id="1" resource-id="7" units="100"/>
   </allocations>
 </project>

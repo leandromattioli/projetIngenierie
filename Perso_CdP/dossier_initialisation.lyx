@@ -236,7 +236,7 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-☐ Terminé
+
 \end_layout
 
 \end_inset
@@ -283,7 +283,7 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+☐ Validé après modif.
 \end_layout
 
 \end_inset
@@ -292,7 +292,7 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+☐ Revalidé
 \end_layout
 
 \end_inset
@@ -442,6 +442,19 @@ thispagestyle{empty}
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+(Cette page est laissé vide intentionnellement)
 \end_layout
 
 \begin_layout Standard
@@ -864,36 +877,48 @@ Sujet de la modification
 Introduction
 \end_layout
 
-\begin_layout Section
-Contexte du Document
+\begin_layout Subsection
+Rappel du problème
 \end_layout
 
-\begin_layout Section
-Documents de Référence
+\begin_layout Subsubsection
+Le contexte
+\end_layout
+
+\begin_layout Subsubsection
+Les objectifs
+\end_layout
+
+\begin_layout Subsection
+Présentation du document
+\end_layout
+
+\begin_layout Subsection
+Documents applicables / Documents de référence
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence
 \end_layout
 
 \begin_layout Standard
 Normes de qualité; appel d'offres; etc.
 \end_layout
 
-\begin_layout Section
-Rappel du problème
-\end_layout
-
-\begin_layout Subsection
-Le contexte
-\end_layout
-
 \begin_layout Standard
 Resume du système souhaité
 \end_layout
 
-\begin_layout Subsection
-Les objectifs
-\end_layout
-
 \begin_layout Standard
 Description simple des buts du projet
+\end_layout
+
+\begin_layout Section
+Documents de Référence
 \end_layout
 
 \begin_layout Section
@@ -925,6 +950,10 @@ Organisation du travail
 Chef de Projet et coordinateur
 \end_layout
 
+\begin_layout Standard
+Le chef de ce projet doit 
+\end_layout
+
 \begin_layout Subsection
 Responsable Qualité / Méthode / Documentation (RQ)
 \end_layout
@@ -935,6 +964,19 @@ Groupe d'Étude Informatique
 
 \begin_layout Section
 Liste des livrables attendus
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+description de chaque livrable
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -949,12 +991,31 @@ Dossier d'initialisation
 Plan de Management Projet
 \end_layout
 
+\begin_layout Itemize
+Dossier d'argumentation commerciale
+\end_layout
+
 \begin_layout Subsection
 Responsable Qualité
 \end_layout
 
 \begin_layout Itemize
-Plan d'assurance Qualité niveau Projet (PAQP)
+Dossier de Gestion de la Documentation: défine l'ensemble des régles communes
+ concernant la gestion de la documentation, c'est-à-dire la structuration,
+ page de garde, cycle de vie des documents, gestion de versions, structuration
+ du système documentaire, sauvegardes et diffusion
+\end_layout
+
+\begin_layout Itemize
+Draft du Plan d'Assurance Qualité Projet (PAQP)
+\end_layout
+
+\begin_layout Itemize
+Bonnes practiques
+\end_layout
+
+\begin_layout Itemize
+Procédure pour la rédaction pour CdC
 \end_layout
 
 \begin_layout Subsection
@@ -985,10 +1046,46 @@ Organigramme des Tâches
 Macro-Phasage
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/macro_phasage.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Macro-Phasage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Diagramme de Gantt 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 planning prévisionnelle
