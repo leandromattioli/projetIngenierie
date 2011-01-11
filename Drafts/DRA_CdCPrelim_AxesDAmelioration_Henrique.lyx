@@ -1,0 +1,144 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Axes d'Amélioration
+\end_layout
+
+\begin_layout Section
+Monitoring des stations
+\end_layout
+
+\begin_layout Standard
+Actuellement, la surveillance d'état des sites est faite par un entretien
+ qui si déplace vers une station et intervient manuellement quand il y a
+ un problème sur les mesures.
+ Alors, il y a deux problèmes avec cette situation:
+\end_layout
+
+\begin_layout Itemize
+le déplacement vers ces sites peut être dangereux et peut prendre beaucoup
+ de temps pour résoudre un problème existant; et
+\end_layout
+
+\begin_layout Itemize
+la transmission de l'état au poste central de service est faite oralement
+ (par téléphone, radio) quand possible, soit personellement quand il n'y
+ a pas le service de communication orale.
+\end_layout
+
+\begin_layout Standard
+La solution idéale serait l'installation des capteurs électroniques, un
+ micro-contrôleur et un système de communication internet (GPS, GPRS, radio,
+ satellite) pour qu'on puisse surveiller la station depuis le poste central.
+ Comme ça, on peut améliorer le temps de réponse à un problème d'energie
+ ou du niveau du réservoir, comme aussi la fiabilité des informations reçues.
+\end_layout
+
+\begin_layout Section
+Autonomie des stations
+\end_layout
+
+\begin_layout Standard
+Dans la situation actuelle, la maintenance du matériel d'une station est
+ faite par l'administrateur du site.
+\end_layout
+
+\begin_layout Standard
+Pour assurer le fonctionnement correct des stations autonomiques, elles
+ devront être équipées des panneaux solaires et batteries.
+ Les panneaux solaires seront en charge de la capture d'energie et les batteries
+ seront en charge du stockage d'énergie.
+\end_layout
+
+\begin_layout Standard
+L'énergie stockée sera destinée à l'alimentation des systèmes des capteurs,
+ du micro-contrôleur et de communication.
+\end_layout
+
+\begin_layout Standard
+Les niveaux des batteries et l'état des panneaux solaires seront transmis
+ au poste central aussi.
+ Comme ça, on permet que le système fonctionn
+\end_layout
+
+\begin_layout Standard
+Au cas où on a indisponibilité de réseau pour faire la communication avec
+ le poste central, les stations peuvent enregistrer les événements pour
+ qu'ils puissent être transmis au poste central plus tard.
+\end_layout
+
+\begin_layout Section
+Maintenance du système
+\end_layout
+
+\begin_layout Standard
+Les stations peut être capable d'accepter des commandes du poste central.
+ Par exemple, le redémarrage, la configuration des paramètres.
+ Comme ça, on permet au aux stations de fonctionner sans l'intervention
+ humaine directe.
+ 
+\end_layout
+
+\begin_layout Section
+Adaptabilité du système
+\end_layout
+
+\begin_layout Standard
+Le système sera centralisé, c'est-à-dire qu'on aura un poste central de
+ commandes.
+ Le système sera capable aussi d'instancier des nouvelles stations parce
+ qu'il est configurable dans le sense du nombre de stations.
+\end_layout
+
+\begin_layout Section
+Sécurité du système
+\end_layout
+
+\begin_layout Standard
+Si ...
+ //TODO
+\end_layout
+
+\end_body
+\end_document
