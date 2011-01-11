@@ -136,8 +136,12 @@ Sécurité du système
 \end_layout
 
 \begin_layout Standard
-Si ...
- //TODO
+Si le système est menacé par un coupage un coupure d'energie ou s'il y a
+ un problème technique que ne le permet pas de fonctionner correctement
+ et ne peut pas être résolu par le superviseur du système depuis le poste
+ central, alors la station envoie un signal d'emergence au poste central
+ pour que le supervisuer puisse envoyer un entretien à la station pour vérifier
+ le problème personnellement.
 \end_layout
 
 \end_body
