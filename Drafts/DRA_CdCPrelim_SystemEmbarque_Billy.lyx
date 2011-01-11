@@ -55,16 +55,7 @@ Nous utiliserons un processeur embarqué pour chaque site surveillé.
 \end_layout
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace{15pt}
-\end_layout
-
+\begin_inset VSpace bigskip
 \end_inset
 
 
@@ -86,17 +77,29 @@ GESTION DE RÉSEAU : le processeur doit pouvoir s'interfacer avec des composant
  réseau pour pouvoir envoyer les données à un serveur central.
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-vspace{10pt}
+\begin_layout Itemize
+PRÉ-TRAITEMENT : le processeur doit disposer d'une puissance suffisante
+ pour faire un pré-traitement des données des capteurs.
+ Par exemple, il doit pouvoir déterminer si des informations sont prioritaires
+ car très importantes ou si au contraire elles n'exigent pas une grande
+ vitesse de réaction.
 \end_layout
 
+\begin_layout Itemize
+CONFIGURATION À DISTANCE : le processeur doit être facilement configurable
+ à distance.
+ L'accès aux différents sites étant coûteux, tout l'administration doit
+ être faite à distance et il doit être possible de configurer le processeur
+ à distance.
+\end_layout
+
+\begin_layout Itemize
+FAIBLE CONSOMMATION D'ÉNERGIE : le processeur ne doit pas trop consommer
+ d'énergie car le système doit être autonome en énergie.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
 \end_inset
 
 
@@ -129,15 +132,23 @@ GÉNÉRICITÉ : le processeur doit être capable de s'adapter à de nombreuses
 \end_layout
 
 \begin_layout Itemize
-RÉUTILISABILITÉ : le processeur doit être réutilisable dans d'autres contextes.
+ÉVOLUTIVITÉ et MAINTENABILITÉ : le processeur doit être capable de s'adapter
+ à d'autres types de capteurs, d'autres envirronements.
+ Il doit être dimmensionné de façon telle que l'on puisse lui faire faire
+ plus de traitements plus tard.
+ Il doit par ailleurs être facilement cnfigurable.
+\end_layout
+
+\begin_layout Itemize
+RÉUTILISATION : le processeur doit être réutilisable dans d'autres contextes.
  Par exemple, si l'entreprise étant son champ d'actions dans d'autres types
  de système embarqués, il peut être intéressant de réutiliser les même processeu
 rs.
 \end_layout
 
 \begin_layout Itemize
-FAIBLE CONSOMMATION D'ÉNERGIE : le processeur ne doit pas trop consommer
- d'énergie car le système doit être autonome en énergie.
+LIMITATIONS TECHNOLOGIQUES : le processeur doit être capable d'utiliser
+ les technologies imposées (GPRS, GPS, ...)
 \end_layout
 
 \end_body
