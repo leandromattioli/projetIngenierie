@@ -54,5 +54,91 @@ Nous utiliserons un processeur embarqué pour chaque site surveillé.
  vers le serveur où les données seront traitées.
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{15pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Exigences Fonctionnelles
+\end_layout
+
+\begin_layout Itemize
+GESTION DE CAPTEURS : le processeur doit être capable de gérer les données
+ envoyées par des capteurs.
+\end_layout
+
+\begin_layout Itemize
+GESTION DE RÉSEAU : le processeur doit pouvoir s'interfacer avec des composant
+ réseau pour pouvoir envoyer les données à un serveur central.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{10pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Exigences non fonctionnelles
+\end_layout
+
+\begin_layout Itemize
+ROBUSTESSE : le processeur devra pouvoir résister à des conditions extrêmes.
+ Les sites peuvent se trouver dans des endroits très humide, très secs (forêts,
+ déserts, ...), avec des températures pouvant varier très fortement (volcan,
+ glacier, ...).
+\end_layout
+
+\begin_layout Itemize
+FIABILITÉ : le processeur devra être très fiable en fonctionnement normal
+ mais aussi en cas de problème.
+ Il doit être capable de reprendre tout seul un cour normal en cas de plantage
+ système, doit savoir gérer les problèmes.
+\end_layout
+
+\begin_layout Itemize
+GÉNÉRICITÉ : le processeur doit être capable de s'adapter à de nombreuses
+ situations.
+ Il doit être capable de gérer un capteur ou des dizaines de capteur.
+\end_layout
+
+\begin_layout Itemize
+RÉUTILISABILITÉ : le processeur doit être réutilisable dans d'autres contextes.
+ Par exemple, si l'entreprise étant son champ d'actions dans d'autres types
+ de système embarqués, il peut être intéressant de réutiliser les même processeu
+rs.
+\end_layout
+
+\begin_layout Itemize
+FAIBLE CONSOMMATION D'ÉNERGIE : le processeur ne doit pas trop consommer
+ d'énergie car le système doit être autonome en énergie.
+\end_layout
+
 \end_body
 \end_document
