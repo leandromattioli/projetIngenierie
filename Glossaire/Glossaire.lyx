@@ -220,16 +220,10 @@ thispagestyle{empty}
 
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 
 \series bold
-Aide-mémoire
-\series default
- ou "
-\series bold
-Mémo
-\series default
-" (Aide-mémoire)
+Aide-mémoire ou "Mémo" (Aide-mémoire)
 \end_layout
 
 \begin_layout Standard
@@ -253,7 +247,9 @@ Domaine d'application
  : Documentation de mise en oeuvre - manuel d'utilisation
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
+
+\series bold
 Term en ordre alphabétique
 \end_layout
 
