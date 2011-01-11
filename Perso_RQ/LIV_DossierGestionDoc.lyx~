@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -2035,7 +2035,13 @@ Document présentant l'application informatique sur un support réduit (en
  fonctions et les commandes disponibles.
 
 \emph on
- Domaine d'application
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Domaine d'application
 \emph default
  : Documentation de mise en oeuvre - manuel d'utilisation
 \end_layout
@@ -2341,7 +2347,7 @@ a modifier la numerotation
 \end_layout
 
 \begin_layout Enumerate
-Historique do document
+Historique de document
 \end_layout
 
 \begin_layout Enumerate

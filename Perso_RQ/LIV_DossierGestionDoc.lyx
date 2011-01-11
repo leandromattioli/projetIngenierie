@@ -1459,27 +1459,6 @@ Table des matières
 génerée automatiquement 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-si tu consederes necessaire le sommaire des tableaux tu peux l'ajouter,
- moi je vois pas trop l'interet
-\end_layout
-
-\begin_layout Plain Layout
-il va falloir de toute facon ajouter de dessins pour faire ce doc.
- plus beau et plus facile a comprendre ..
- mais je sais pas dessiner comme en Word..
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsubsection*
 Table des révisions 
 \end_layout
@@ -2035,7 +2014,13 @@ Document présentant l'application informatique sur un support réduit (en
  fonctions et les commandes disponibles.
 
 \emph on
- Domaine d'application
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Domaine d'application
 \emph default
  : Documentation de mise en oeuvre - manuel d'utilisation
 \end_layout
