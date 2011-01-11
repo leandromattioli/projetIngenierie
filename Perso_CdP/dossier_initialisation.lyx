@@ -132,7 +132,7 @@ Maitrise d'œuvre:
 
 Maitrise d'Ouvrage:
 \series default
- H4312
+ CopeVue
 \end_layout
 
 \begin_layout Standard
@@ -881,7 +881,7 @@ Le COPEVUE souhaite étudier un système de monitoring à distance de sites
  Comme exemples de ces sites, on peut citer de nombreux lieux de travail
  (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
  etc).
- Ce système doit permettre à COPEVUE faire un suivi pour pouvoir intervenir
+ Ce système doit permettre à COPEVUE de faire un suivi pour pouvoir intervenir
  en cas de problèmes.
 \end_layout
 
@@ -892,14 +892,13 @@ Les objectifs
 \begin_layout Standard
 Le travail demandé consiste en une proposition d'une solution pour la mesure
  et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
- système.
+ système en réponse à un appel d'offre.
  
 \end_layout
 
 \begin_layout Standard
-Le but de ce travail consiste à faire un étude de faisabilité, bien comme
- la spécification technique de besoins et une proposition d'architecture
- générique.
+Le but de ce travail consiste à faire une étude de faisabilité, la spécification
+ technique de besoins et une proposition d'architecture générique.
 \end_layout
 
 \begin_layout Subsection
@@ -907,13 +906,13 @@ Présentation du document
 \end_layout
 
 \begin_layout Standard
-Le Dossier d'Initialisation a comme but définir l'organisation du travail
- en equipe, la liste des livrables attendus (et sugerés par le CdP), les
- méthodes pour suivi de projet et la description de la Gestion de Risques
- de projet.
- Ce document aurra 2 versions, dont la première ira traiter la une phase
- du travail que consiste de l'étude de faisabilité, de la specification
- technique de besoins et d'une ébauche d'architecture.
+Le Dossier d'Initialisation a comme but de définir l'organisation du travail
+ en équipe, la liste des livrables attendus (et suggerés par le CdP), les
+ méthodes pour suivi de projet et la description de la Gestion des Risques
+ du projet.
+ Ce document aura 2 versions, dont la première traitera la phase d'étude
+ de faisabilité, de spécification technique des besoins et d'ébauche d'architect
+ure.
  La 2ème version comprendra la conception et une proposition de division
  en sous-ensembles.
 \end_layout
@@ -964,11 +963,11 @@ Existant
 \end_layout
 
 \begin_layout Standard
-Le système proposé doit profiter de la structure courant de les societés
- concernés pour la maintenance des réservoirs et de le COPEVUE.
- En gros, le mecanisme actuel pour controler les stations-réservoirs consiste
- d'une demande manuel de remplissage / vidage, par le propriétaire du lieu,
- quand il constate un niveau mauvais.
+Le système proposé doit profiter de la structure existante des societés
+ concernées par la maintenance des réservoirs et de COPEVUE.
+ En gros, le mecanisme actuel pour contrôler les stations-réservoirs est
+ pour l'instant réalisé avec une demande manuelle de remplissage / vidange,
+ par le propriétaire du lieu, quand il constate un changement nécessaire.
 \end_layout
 
 \begin_layout Subsection
@@ -1016,8 +1015,8 @@ traçabilité
 \end_layout
 
 \begin_layout Standard
-Plus de détails ce qui concerne chaqu'un de ces items sont disponibles dans
- le document «Appel d'Offres» disponibilisé par le COPEVUE.
+Plus de détails en ce qui concerne chacun de ces items sont disponibles
+ dans le document «Appel d'Offres» mis à disponibilité par le COPEVUE.
 \end_layout
 
 \begin_layout Section
@@ -1031,22 +1030,22 @@ Chef de Projet et coordinateur
 \begin_layout Standard
 Le chef de ce projet doit organiser et suivre le travail de l'équipe, prévoir
  les risques du projet, découper le projet en sous-projets et bien maîtriser
- la division de tâthes pour assurer le succés du travail.
+ la division de tâches pour assurer le succès du travail.
  
 \end_layout
 
 \begin_layout Standard
-Le Chef du Projet doit vérifier la cohérence des études faites pour l'équipe
- et assurer que les membres du groupe ont une vision commun du système et
- ses besoins (en ayant pas de ambiguités sur ce qui doit être fait).
+Le Chef du Projet doit vérifier la cohérence des études faites par l'équipe
+ et s'assurer que les membres du groupe ont une vision commune du système
+ et de ses besoins (sans qu'il y ait d'ambiguités sur ce qui doit être fait).
 \end_layout
 
 \begin_layout Standard
-Pour son but, il a deux types distincts d'intervention:
+Pour réaliser son but, il a deux types d'interventions distinctes:
 \end_layout
 
 \begin_layout Itemize
-comme CdP cotê Maîtrise d'Ouvrage;
+comme CdP coté Maîtrise d'Ouvrage;
 \end_layout
 
 \begin_layout Itemize
@@ -1062,7 +1061,7 @@ Responsable Qualité / Méthode / Documentation (RQ)
 status open
 
 \begin_layout Plain Layout
-Demander a Stéfana pour vérifier la description du travail du RQ
+Demander a Stefana pour vérifier la description du travail du RQ
 \end_layout
 
 \end_inset
@@ -1071,9 +1070,9 @@ Demander a Stéfana pour vérifier la description du travail du RQ
 \end_layout
 
 \begin_layout Standard
-Le RQ doit définir les méthodes pour la démarche du projet et assurer que
- ceux sont respectés pour tous les membres du groupe.
- En plus, il doit faire une petit synthèse du projet.
+Le RQ doit définir les méthodes pour la démarche du projet et s'assurer
+ que ceux-ci sont respectés par tous les membres du groupe.
+ En plus, il doit faire une petite synthèse du projet.
 \end_layout
 
 \begin_layout Subsection
@@ -1223,13 +1222,14 @@ Macro-Phasage
 
 \begin_layout Standard
 \begin_inset Float figure
+placement h
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename img/macro_phasage
+	filename img/macro_phasage.svg
 	BoundingBox 0bp 400bp 744bp 800bp
 
 \end_inset
