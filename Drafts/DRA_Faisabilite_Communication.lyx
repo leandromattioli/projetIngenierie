@@ -1,0 +1,1151 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+
+
+
+\usepackage{enumerate}\title{Communication}
+\author{Jerome De Potter}
+\date{7 janvier 2010}
+\end_preamble
+\use_default_options false
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+ 
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Geolocalisation du site
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset space \qquad{}
+\end_inset
+
+Le site doit pouvoir être géolocalisé à tout instant.
+ Système de géolocolisation :
+\end_layout
+
+\begin_layout Description
+GPS : Système de géolocalisation développé par l'armée américaine dans les
+ années 70.
+ Accessible aux civils depuis les années 2000 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Système performant, massivement utilisé et éprouvé 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Propriété de l'armée Américaine -> Possibilité de disfonctionneme
+nt en cas de conflit 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+GLONASS : Système de géolocalisation développé par l'armée Russe dans les
+ années 90.
+ Accessible aux civils à la fin des années 2000 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Système utilisé essentiellement en Russie -> Fiabilité ?,
+ manquements de qualité, budget alloué de plus en plus faible 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Galileo : Système de géolocalisation civil Européen.
+ Mise en service prévue en 2014 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Système civil -> Aucun controle de la part des forces armées
+ 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Système actuellement non disponible, date de mise en service
+ floue 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Résumé
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features>
+<column alignment="none" valignment="top" width="2cm">
+<column alignment="none" valignment="top" width="3cm">
+<column alignment="none" valignment="top" width="3cm">
+<column alignment="none" valignment="top" width="3cm">
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Système
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+En service
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Civil/Militaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mise en service 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+oui
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+militaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Année 70 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GLONASS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+oui
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+militaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Année 90 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Galileo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+civil
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2014 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Communication avec le site
+\end_layout
+
+\begin_layout Subsection
+Réseau sans fil
+\end_layout
+
+\begin_layout Description
+Réseau satellitaire : Réseau de communication par satellite 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Communication avec n'importe quel site à n'importe quel moment,
+ débit élevé 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : côut d'exploitation (abonnement) élevé, 
+\end_layout
+
+\begin_layout Itemize
+Société proposant ce service : Globalstar, Iridium 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Réseau GSM/GPRS : Réseau de téléphonie mobile classique.
+ Le GSM est utilisé pour les communications de type "voie" et le GPRS pour
+ les communications de type "donnée" 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Coûts des communication relativement faible, transfert de données
+ rapide 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Zone de couverture limitée, communication impossible avec
+ la pluspart des sites à surveiller 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Réseau filaire
+\end_layout
+
+\begin_layout Description
+Réseau filaire : Réseau de communication par fibre optique soit directement
+ avec le central soit en se racordant au réseau internet mondial 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Coûts des communication très faible, transfert de donnée très
+ rapide, grande fiabilité 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Mise en place très couteuse, inutilisable pour un site mobile
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Résumé
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features>
+<column alignment="none" valignment="top" width="4cm">
+<column alignment="none" valignment="top" width="3cm">
+<column alignment="none" valignment="top" width="3cm">
+<column alignment="none" valignment="top" width="3cm">
+<column alignment="none" valignment="top" width="3cm">
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Système
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vitesse de transfert
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Coût (mise en place)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Coût (exploitation)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fiabilité 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Réseau satellitaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé (abonnement)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+bonne 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Réseau GSM/GPRS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moyenne
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moyenne (abonnement)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible (zones non couvertes) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Réseau filaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé (entretient)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+très bonne 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Communication entre les capteurs et le système
+\end_layout
+
+\begin_layout Subsection
+Système sans fil
+\end_layout
+
+\begin_layout Description
+InfraRouge -> Lisaison optique à large bande : Transmission par rayon lumineux
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Transfert de fichiers avec des performances comparable à celles
+ d'un réseau filaire 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Distance de communication faible (30 m), sensible aux interférenc
+es lumineuses, ligne de vue directe necessaire 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Radio à bande étroite (fréquence unique) : Transmission par radio en utilisant
+ une seule fréquence 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Portée importante (>1000 km) 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Vitesse de transmission faible (4,6 Mb/s), autorisation de
+ la part des autorités necessaire 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Radio à spectre étalé (fréquence multiple) : Transmission par radio en utilisant
+ plusieurs fréquence (Changement de fréquence en fonction d'un algorithme)
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Portée importante (>3000 km) 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Vitesse de transmission faible (25 Kb/s à 4 Mb/s) 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Bluetooth : Transmission sans ligne de vue directe 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Pas de ligne de vue directe necessaire 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Vitesse de transmission et portée faibles (1 Mb/s, 100 m)
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Wi-Fi : Ensemble de protocoles de communication sans fil par onde-radio
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Haut débit (6 Mb/s à 25 Mb/s), pas de vue directe nécessaire
+ 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Portée moyenne (400 m), sensible aux obstacles (murs, ...) 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Wimax : Mode de transfert de fichier en haut débit par voie Hertzienne 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Trés haut débit (30 Mb/s à 75 Mb/s), portée très élevée (3,5
+ km à 10 km), notion de qualité de service intégré nativement 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Sensible aux gros obstacles (collines, immeubles, ...) 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Système filaire
+\end_layout
+
+\begin_layout Description
+Cable coaxial : Transmission par cable à paire torsadée 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Très haut débit (10 Mb/s à 100 Mb/s), pas d'interférence 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Portée faible (100 m) 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Fibre optique : Transmission par cable à paire torsadée 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Très haut débit (10 Gb/s), pas d'interférence 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Très grande protée (10 km à 40 km) 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="5">
+<features>
+<column alignment="none" valignment="top" width="4cm">
+<column alignment="none" valignment="top" width="3cm">
+<column alignment="none" valignment="top" width="3cm">
+<column alignment="none" valignment="top" width="3cm">
+<column alignment="none" valignment="top" width="3cm">
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Système
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vitesse de transfert
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Distance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Transmission avec ligne de vue direct
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Autre 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+InfraRouge
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moyenne
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+oui
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sensible aux interférences 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Radio uni-bande
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Autorisation nécessaire 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Radio multi-bande
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bluetooth
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wi-Fi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moyenne
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sensible aux petits obstacles 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wimax
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sensible aux gros obstacles 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cable coaxial
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+très élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fibre optique
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+très élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+trés élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
