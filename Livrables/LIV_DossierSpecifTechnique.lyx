@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -1365,19 +1365,71 @@ Communication
 Esquisse du nouveau système et impacts sur l’existant
 \end_layout
 
+\begin_layout Standard
+A partir des besoins fonctionnels et non fonctionnels, une nouvelle architecture
+ sera mise en place.
+ Dans l'Annexe1 une ébauche du nouveau système est proposée.
+ 
+\end_layout
+
+\begin_layout Standard
+Le nouveau système aura un impact sur l'architecture actuelle sur plusieurs
+ plans.
+ 
+\end_layout
+
+\begin_layout Subsection
+Impacts techniques
+\end_layout
+
+\begin_layout Standard
+Sur le plan technique il y aura du nouveau matériel à ajouter dans le système.
+ Cela ne va pas intéragir beaucoup avec l'éxistant car actuellement il n'y
+ a pas beaucoup de matériel.
+ 
+\end_layout
+
+\begin_layout Standard
+Les capteurs qui existent actuellement sur certains sites devront être remplacés
+ avec des capteurs plus avancés qui sont capables de transmettre leur données
+ et recevoir des commandes.
+ Apart de nouveaux capteurs, on va mettre en place également dans chaque
+ site le système embarqué.
+ Ces installations ne nécessiteront pas des opérations supplémentaires apart
+ la procédure standard de mise en place.
+\end_layout
+
+\begin_layout Standard
+Au niveau du siège central, plusieurs machines et un serveur central seront
+ ajoutés.Cela ne va pas poser de problème car actuellement il y a suffisament
+ de place dans les locaux actuels.
+\end_layout
+
+\begin_layout Subsection
+Impact sur les employés
+\end_layout
+
+\begin_layout Standard
+En ce qui concerne les employés, vu que leurs qualifications actuelles n'assuren
+t pas tout à fait leur capacité d'utiliser le nouveau système, une formation
+ sera mise en place.
+ Cette formation sera realisée par un de nos spécialistes.
+ La configuration initiale du système sera assistée par nos experts après
+ l'installation du système.
+\end_layout
+
 \begin_layout Section
 Bilan des améliorations 
 \end_layout
 
 \begin_layout Standard
 En tenant compte de la situation actuelle du système, la nouvelle architecture
- rend le système plus centralisé et plus indépendent d'intervention humaine
+ rend le système plus centralisé et plus indépendant d'intervention humaine
  pour son fonctionnement.
- Chaque station aura son propre système de production et stockage d'energie
+ Chaque station aura son propre système de production et stockage d'énergie
  pour qu'elle soit autonome.
- La surveillance de chaque station se fera depuis les postes centrals où
- le superviseur peut vérifier les niveaux des réservatoires et recevoir
- signals d'emergence au cas où il y a un problème avec une station.
+ La surveillance de chaque station se fera depuis les postes centrales où
+ le superviseur pourra configurer le système et recevoir des signaux d'alarme.
 \end_layout
 
 \begin_layout Section
@@ -1386,6 +1438,15 @@ Conclusion
 
 \begin_layout Section
 Annexe 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename imagesSchemaGlobal/EbaucheArchiFinale.png
+
+\end_inset
+
+
 \end_layout
 
 \end_body
