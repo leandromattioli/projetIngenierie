@@ -36,6 +36,7 @@
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
@@ -79,6 +80,11 @@ Autonomie des stations
 \end_layout
 
 \begin_layout Standard
+Dans la situation actuelle, la maintenance du matériel d'une station est
+ faite par l'administrateur du site.
+\end_layout
+
+\begin_layout Standard
 Pour assurer le fonctionnement correct des stations autonomiques, elles
  devront être équipées des panneaux solaires et batteries.
  Les panneaux solaires seront en charge de la capture d'energie et les batteries
@@ -86,13 +92,56 @@ Pour assurer le fonctionnement correct des stations autonomiques, elles
 \end_layout
 
 \begin_layout Standard
-L'énergie stockée sera destinée à l'alimentation des systèmes de capteurs,
- micro-contrôleur et de communication.
+L'énergie stockée sera destinée à l'alimentation des systèmes des capteurs,
+ du micro-contrôleur et de communication.
 \end_layout
 
 \begin_layout Standard
-Pour les lieux où on a longues périodes de temps sans soleil, on propose
- d'avoir 
+Les niveaux des batteries et l'état des panneaux solaires seront transmis
+ au poste central aussi.
+ Comme ça, on permet que le système fonctionn
+\end_layout
+
+\begin_layout Standard
+Au cas où on a indisponibilité de réseau pour faire la communication avec
+ le poste central, les stations peuvent enregistrer les événements pour
+ qu'ils puissent être transmis au poste central plus tard.
+\end_layout
+
+\begin_layout Section
+Maintenance du système
+\end_layout
+
+\begin_layout Standard
+Les stations peut être capable d'accepter des commandes du poste central.
+ Par exemple, le redémarrage, la configuration des paramètres.
+ Comme ça, on permet au aux stations de fonctionner sans l'intervention
+ humaine directe.
+ 
+\end_layout
+
+\begin_layout Section
+Adaptabilité du système
+\end_layout
+
+\begin_layout Standard
+Le système sera centralisé, c'est-à-dire qu'on aura un poste central de
+ commandes.
+ Le système sera capable aussi d'instancier des nouvelles stations parce
+ qu'il est configurable dans le sense du nombre de stations.
+\end_layout
+
+\begin_layout Section
+Sécurité du système
+\end_layout
+
+\begin_layout Standard
+Si le système est menacé par un coupage un coupure d'energie ou s'il y a
+ un problème technique que ne le permet pas de fonctionner correctement
+ et ne peut pas être résolu par le superviseur du système depuis le poste
+ central, alors la station envoie un signal d'emergence au poste central
+ pour que le supervisuer puisse envoyer un entretien à la station pour vérifier
+ le problème personnellement.
 \end_layout
 
 \end_body
