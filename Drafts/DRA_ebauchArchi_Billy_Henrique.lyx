@@ -1,0 +1,87 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Architecture de l'application
+\end_layout
+
+\begin_layout Subsection
+Communication capteur - sytème embarqué
+\end_layout
+
+\begin_layout Standard
+Chaque capteur sera relié au système embarqué par une connection filiaire
+ que nous installerons dès la création du site.
+ Cette liaison comprendra une fibre permettant de transférer les données
+ et un câble permettant l'alimentation électrique.
+ Le capteur enverra périodiquement les données au système embarqué (période
+ définie en fonction de la criticité de l'application).
+ Le capteur enverra les données sans se préoccuper de la présence ou non
+ du système embarqué.
+ C'est ce dernier qui détectera une coupure s'il y en a une et qui en informera
+ le serveur central.
+ 
+\end_layout
+
+\begin_layout Subsection
+Communication système embarqué - Serveur Central
+\end_layout
+
+\begin_layout Standard
+Le serveur central communiquera avec le système embarqué grâce au système
+ satellite.
+ Un abonnement au Ko nous permettra d'envoyer et de recevoir des données
+ quel que soit la posisition du système embarqué sur le globe.
+ En effet, le gros problème rencontré avec le GSM et le filiaire est le
+ manque de couverture du territoire, or nous allons envoyer nos systèmes
+ embarqués dans des endroits reculés.
+\end_layout
+
+\begin_layout Standard
+La communication pourra se faire dans les deux sens.
+ C'est-à-dire que le capteur pourra envoyer les données et le serveur central
+ pourra envoyer des requêtes lui permettant de reconfigurer à distance les
+ capteurs.
+\end_layout
+
+\end_body
+\end_document
