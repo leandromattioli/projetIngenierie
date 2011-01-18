@@ -40,7 +40,7 @@
     <task id="7" name="Assurance Qualit&#xE9;" note="" work="395100" start="20110107T000000Z" end="20110117T120000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
       <task id="8" name="Contr&#xF4;le de la qualit&#xE9;" note="" work="230400" start="20110107T000000Z" end="20110117T120000Z" work-start="20110107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
       <task id="9" name="Gestion de la Documentation" note="" work="36000" start="20110107T000000Z" end="20110108T120000Z" work-start="20110107T080000Z" percent-complete="80" priority="0" type="normal" scheduling="fixed-work"/>
-      <task id="10" name="Proc&#xE9;dure" note="" work="36000" start="20110108T000000Z" end="20110109T120000Z" work-start="20110108T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="10" name="Best Pratiques pour la r&#xE9;daction de la proc&#xE9;dure" note="" work="36000" start="20110108T000000Z" end="20110109T120000Z" work-start="20110108T080000Z" percent-complete="78" priority="0" type="normal" scheduling="fixed-work">
         <constraint type="must-start-on" time="20110108T000000Z"/>
       </task>
       <task id="11" name="Draft PAQP" note="" work="53100" start="20110109T000000Z" end="20110111T104500Z" work-start="20110109T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
@@ -61,22 +61,22 @@
       </task>
       <task id="21" name="Sp&#xE9;cification Techniques des B&#xE9;soins" note="" work="853200" start="20110110T000000Z" end="20110114T200000Z" work-start="20110110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
         <constraint type="start-no-earlier-than" time="20110110T000000Z"/>
-        <task id="22" name="R&#xE9;daction du CdC Syst&#xE8;me Embarqu&#xE9;" note="" work="61200" start="20110110T000000Z" end="20110112T190000Z" work-start="20110110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="22" name="R&#xE9;daction du CdC Syst&#xE8;me Embarqu&#xE9;" note="" work="61200" start="20110110T000000Z" end="20110112T190000Z" work-start="20110110T080000Z" percent-complete="78" priority="0" type="normal" scheduling="fixed-work">
           <constraint type="start-no-earlier-than" time="20110110T000000Z"/>
         </task>
-        <task id="23" name="R&#xE9;daction du CdC Communication" note="" work="61200" start="20110110T000000Z" end="20110112T190000Z" work-start="20110110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="23" name="R&#xE9;daction du CdC Communication" note="" work="61200" start="20110110T000000Z" end="20110112T190000Z" work-start="20110110T080000Z" percent-complete="40" priority="0" type="normal" scheduling="fixed-work">
           <constraint type="start-no-earlier-than" time="20110110T000000Z"/>
         </task>
-        <task id="24" name="R&#xE9;daction du CdC Station Client" note="" work="61200" start="20110110T000000Z" end="20110112T190000Z" work-start="20110110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="24" name="R&#xE9;daction du CdC Station Client" note="" work="61200" start="20110110T000000Z" end="20110112T190000Z" work-start="20110110T080000Z" percent-complete="82" priority="0" type="normal" scheduling="fixed-work">
           <constraint type="start-no-earlier-than" time="20110110T000000Z"/>
         </task>
-        <task id="25" name="R&#xE9;daction du CdC Serveur" note="" work="64800" start="20110110T000000Z" end="20110112T200000Z" work-start="20110110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="25" name="R&#xE9;daction du CdC Serveur" note="" work="64800" start="20110110T000000Z" end="20110112T200000Z" work-start="20110110T080000Z" percent-complete="49" priority="0" type="normal" scheduling="fixed-work">
           <constraint type="start-no-earlier-than" time="20110110T000000Z"/>
         </task>
-        <task id="26" name="D&#xE9;finition des Axes d'Am&#xE9;lioration" note="" work="64800" start="20110110T000000Z" end="20110112T200000Z" work-start="20110110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="26" name="D&#xE9;finition des Axes d'Am&#xE9;lioration" note="" work="64800" start="20110110T000000Z" end="20110112T200000Z" work-start="20110110T080000Z" percent-complete="82" priority="0" type="normal" scheduling="fixed-work">
           <constraint type="start-no-earlier-than" time="20110110T000000Z"/>
         </task>
-        <task id="27" name="R&#xE9;daction du Dossier STB" note="" work="540000" start="20110110T000000Z" end="20110114T200000Z" work-start="20110110T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="27" name="R&#xE9;daction du Dossier STB" note="" work="540000" start="20110110T000000Z" end="20110114T200000Z" work-start="20110110T080000Z" percent-complete="38" priority="0" type="normal" scheduling="fixed-work">
           <constraint type="start-no-earlier-than" time="20110110T000000Z"/>
         </task>
       </task>
