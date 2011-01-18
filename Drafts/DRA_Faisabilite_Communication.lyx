@@ -45,6 +45,7 @@
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
@@ -62,8 +63,8 @@ LatexCommand tableofcontents
 
 \end_layout
 
-\begin_layout Section
-Geolocalisation du site
+\begin_layout Subsection
+Géolocalisation du site
 \end_layout
 
 \begin_layout Paragraph
@@ -125,7 +126,9 @@ Inconvénient : Système actuellement non disponible, date de mise en service
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
+\begin_layout Standard
+
+\series bold
 Résumé
 \end_layout
 
@@ -297,11 +300,13 @@ civil
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Communication avec le site
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+
+\series bold
 Réseau sans fil
 \end_layout
 
@@ -342,7 +347,9 @@ Inconvénient : Zone de couverture limitée, communication impossible avec
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
+\begin_layout Standard
+
+\series bold
 Réseau filaire
 \end_layout
 
@@ -363,7 +370,9 @@ Inconvénient : Mise en place très couteuse, inutilisable pour un site mobile
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
+\begin_layout Standard
+
+\series bold
 Résumé
 \end_layout
 
@@ -576,7 +585,7 @@ très bonne
 Communication entre les capteurs et le système
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Système sans fil
 \end_layout
 
@@ -675,7 +684,7 @@ Inconvénient : Sensible aux gros obstacles (collines, immeubles, ...)
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
+\begin_layout Paragraph
 Système filaire
 \end_layout
 

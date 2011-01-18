@@ -5,10 +5,10 @@
 \textclass article
 \begin_preamble
 \date{}
-\renewcommand{\labelenumi}{\Roman{enumi}.}
-\renewcommand{\labelenumii}{\Roman{enumii}.}
-\renewcommand{\labelenumiii}{\Roman{enumiii}.}
-\renewcommand{\labelenumiv}{\Roman{enumiv}.)}
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+\renewcommand{\labelenumii}{\arabic{enumii}.}
+\renewcommand{\labelenumiii}{\arabic{enumiii}.}
+\renewcommand{\labelenumiv}{\arabic{enumiv}.)}
 \end_preamble
 \use_default_options true
 \language french
@@ -149,7 +149,7 @@ Maitrise d'Oeuvre:
 
 Maitrise d'Ouvrage:
 \series default
- H4312
+ COPEVUE
 \end_layout
 
 \begin_layout Standard
@@ -233,7 +233,7 @@ Version du document
 
 \end_inset
 
- 1.0
+ 1.2
 \end_layout
 
 \end_inset
@@ -291,7 +291,7 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/01/2011
+11/01/2011
 \end_layout
 
 \end_inset
@@ -391,7 +391,7 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/01/2011
+11/01/2011
 \end_layout
 
 \end_inset
@@ -622,7 +622,7 @@ Stefana GARTU
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.0
+1.1
 \end_layout
 
 \end_inset
@@ -642,7 +642,7 @@ Completer les chapitres
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10/01/2011
 \end_layout
 
 \end_inset
@@ -651,7 +651,7 @@ Completer les chapitres
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Leandro RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -660,7 +660,7 @@ Completer les chapitres
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.2
 \end_layout
 
 \end_inset
@@ -669,7 +669,7 @@ Completer les chapitres
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Vérification 1.
 \end_layout
 
 \end_inset
@@ -1622,12 +1622,14 @@ Un document au cours de sa vie passe dans plusieurs états.
 <lyxtabular version="3" rows="5" columns="2">
 <features>
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="15cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Etat
 \end_layout
 
@@ -1637,6 +1639,8 @@ Etat
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 Signification
 \end_layout
 
@@ -1648,6 +1652,8 @@ Signification
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 travail
 \end_layout
 
@@ -1657,6 +1663,8 @@ travail
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 le document est en cours d'élaboration par l'auteur
 \end_layout
 
@@ -1668,6 +1676,8 @@ le document est en cours d'élaboration par l'auteur
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 terminé
 \end_layout
 
@@ -1677,6 +1687,8 @@ terminé
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 le document satisfait l'auteur; il est prêt à être diffusé
 \end_layout
 
@@ -1688,6 +1700,8 @@ le document satisfait l'auteur; il est prêt à être diffusé
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 vérifié 
 \end_layout
 
@@ -1697,6 +1711,8 @@ vérifié
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 le document est approuvé par d'autres membres de l'équipe, des intervenants
  extérieurs et/ou le contrôle qualité
 \end_layout
@@ -1709,6 +1725,8 @@ le document est approuvé par d'autres membres de l'équipe, des intervenants
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 validé
 \end_layout
 
@@ -1718,6 +1736,8 @@ validé
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size footnotesize
 le document est approuvé par les personnes habilitées et prend valeur de
  référence au sein du projet
 \end_layout
