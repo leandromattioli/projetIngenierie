@@ -867,7 +867,43 @@ Introduction
 \end_layout
 
 \begin_layout Subsection
-But de la procédure
+Rappel du problème
+\end_layout
+
+\begin_layout Subsubsection
+Le contexte
+\end_layout
+
+\begin_layout Standard
+Le COPEVUE souhaite étudier un système de monitoring à distance de sites
+ isolés, situés dans de nombreuses régions de l'UE, pour mieux contrôler
+ ses besoins d'autonomie (en terme d'énergie, de déchets, etc).
+ Comme exemples de ces sites, on peut citer de nombreux lieux de travail
+ (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
+ etc).
+ Ce système doit permettre à COPEVUE faire un suivi pour pouvoir intervenir
+ en cas de problèmes.
+\end_layout
+
+\begin_layout Subsubsection
+Les objectifs
+\end_layout
+
+\begin_layout Standard
+Le travail demandé consiste en une proposition d'une solution pour la mesure
+ et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
+ système.
+ 
+\end_layout
+
+\begin_layout Standard
+Le but de ce travail consiste à faire un étude de faisabilité, bien comme
+ la spécification technique de besoins et une proposition d'architecture
+ générique.
+\end_layout
+
+\begin_layout Subsection
+Présentation du document
 \end_layout
 
 \begin_layout Standard
@@ -881,23 +917,8 @@ Dossier de Divison en Sous-Ensembles
 \end_inset
 
  niveau Système.
-\end_layout
-
-\begin_layout Subsection
-Qui est concerné par la procédure?
-\end_layout
-
-\begin_layout Standard
-La procédure est indiquée à tous les chefs de projets informatique oú autres
+ La procédure est indiquée à tous les chefs de projets informatique oú autres
  responsables pour la division d'un système en sous-ensembles / sous-projets.
-\end_layout
-
-\begin_layout Section
-Le Dossier de Division en Sous-Ensembles
-\end_layout
-
-\begin_layout Subsection
-Définition
 \end_layout
 
 \begin_layout Standard
@@ -913,25 +934,50 @@ Dossier de Division en Sous-Ensembles
 \begin_inset Quotes fld
 \end_inset
 
-Dossier d'Initialisition
+Dossier d'Initialisation
 \begin_inset Quotes frd
 \end_inset
 
  pour aider la division d'un système en tâches et sous-projets avec un niveau
- de granularité variable et pour aider l'affectation des ressources humaines
+ de granularité suffisant et pour aider l'affectation des ressources humaines
  (et aussi pour donner une prévision des ressources humaines et matérielles
  nécessaires).
-\end_layout
-
-\begin_layout Subsection
-Contraintes de rédaction
 \end_layout
 
 \begin_layout Standard
 Ce document est redigé normalement pour le CdP.
  Il peut avoir des plusieurs versions, chaqu'une avec un certain niveau
  de granularité.
- Le CdP peut aussi demander la rédaction de ce dossier à un expert système.
+ Le CdP peut aussi demander à un expert système la rédaction de ce dossier
+ .
+\end_layout
+
+\begin_layout Subsection
+Documents applicables/documents de référence
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables
+\end_layout
+
+\begin_layout Itemize
+Best Practices pour la rédaction d'une procedure
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence
+\end_layout
+
+\begin_layout Itemize
+Appel d'offres
+\end_layout
+
+\begin_layout Itemize
+Spécification Technique de Besoins niveau système
+\end_layout
+
+\begin_layout Itemize
+Cahier de Charges préliminaire
 \end_layout
 
 \begin_layout Standard
@@ -942,11 +988,7 @@ Ce document est redigé normalement pour le CdP.
 \end_layout
 
 \begin_layout Section
-Le contenu du Dossier de Division en Sous-Ensembles
-\end_layout
-
-\begin_layout Subsection
-Organisation du dossier de division en sous-ensembles (logigramme)
+Logigramme
 \end_layout
 
 \begin_layout Standard
@@ -992,7 +1034,7 @@ Logigramme pour la division en sous-ensembles
 \end_layout
 
 \begin_layout Subsection
-Démarche de développement
+Détails du logigramme
 \end_layout
 
 \begin_layout Subsubsection
@@ -1087,17 +1129,7 @@ reference "sub:definition_criteres"
  de ce document.
 \end_layout
 
-\begin_layout Subsection
-Documentation
-\end_layout
-
-\begin_layout Standard
-Les principales documents nécessaires à la rédaction du Dossier de Division
- en Sous-Ensembles sont l'appel d'offres, la Spécification Technique de
- Besoins (niveau système) et le Cahier de Charges préliminaire (si disponible).
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Subsubsection
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:outils_méthodes"
