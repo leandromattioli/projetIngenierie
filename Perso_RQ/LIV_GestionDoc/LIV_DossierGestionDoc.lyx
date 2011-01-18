@@ -5,6 +5,10 @@
 \textclass article
 \begin_preamble
 \date{}
+\renewcommand{\labelenumi}{\Roman{enumi}.}
+\renewcommand{\labelenumii}{\Roman{enumii}.}
+\renewcommand{\labelenumiii}{\Roman{enumiii}.}
+\renewcommand{\labelenumiv}{\Roman{enumiv}.)}
 \end_preamble
 \use_default_options true
 \language french
@@ -47,7 +51,7 @@
 \tocdepth 3
 \paragraph_separation skip
 \defskip medskip
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -68,6 +72,19 @@ status open
 
 \backslash
 thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Verifier image.
 \end_layout
 
 \end_inset
@@ -146,7 +163,7 @@ Auteurs:
 \begin_inset Newline newline
 \end_inset
 
-Stéfana GARTU
+Stefana GARTU
 \end_layout
 
 \begin_layout Standard
@@ -232,7 +249,7 @@ Avancement
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -867,7 +884,7 @@ Introduction
 \end_layout
 
 \begin_layout Subsection
-Pésentation du projet
+Rappel du problème
 \end_layout
 
 \begin_layout Subsubsection
@@ -875,16 +892,14 @@ Contexte
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-a completer
-\end_layout
-
-\end_inset
-
-
+Le COPEVUE souhaite étudier un système de monitoring à distance de sites
+ isolés, situés dans de nombreuses régions de l'UE, pour mieux contrôler
+ ses besoins d'autonomie (en terme d'énergie, de déchets, etc).
+ Comme exemples de ces sites, on peut citer de nombreux lieux de travail
+ (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
+ etc).
+ Ce système doit permettre à COPEVUE faire un suivi pour pouvoir intervenir
+ en cas de problèmes.
 \end_layout
 
 \begin_layout Subsubsection
@@ -892,20 +907,20 @@ Objectifs
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-a completer
+Le travail demandé consiste en une proposition d'une solution pour la mesure
+ et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
+ système.
+ 
 \end_layout
 
-\end_inset
-
-
+\begin_layout Standard
+Le but de ce travail consiste à faire un étude de faisabilité, bien comme
+ la spécification technique de besoins et une proposition d'architecture
+ générique.
 \end_layout
 
 \begin_layout Subsection
-Présentation du documen
+Présentation du document
 \end_layout
 
 \begin_layout Standard
@@ -969,11 +984,11 @@ Documents applicables
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Quotes eld
+\begin_inset Quotes fld
 \end_inset
 
 Document de gestion de la documentation
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
 
@@ -989,14 +1004,21 @@ Plan-type «dossier de gestion de la documentation »
 
 \begin_layout Itemize
 « Gestion de la documentation des projets informatiques » proposé par le
- CNRS (cf.
+ 
+\noun on
+CNRS
+\noun default
+ (cf.
  siteweb du CNRS).
  
 \end_layout
 
 \begin_layout Itemize
-« Proposition de plants type dossier1-2-3 » disponible sur le serveur //servif-b
-aie.
+« Proposition de plants type dossier1-2-3 » disponible sur le serveur 
+\noun on
+servif-baie
+\noun default
+.
  
 \end_layout
 
@@ -1456,28 +1478,7 @@ Table des matières
 \end_layout
 
 \begin_layout Standard
-génerée automatiquement 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-si tu consederes necessaire le sommaire des tableaux tu peux l'ajouter,
- moi je vois pas trop l'interet
-\end_layout
-
-\begin_layout Plain Layout
-il va falloir de toute facon ajouter de dessins pour faire ce doc.
- plus beau et plus facile a comprendre ..
- mais je sais pas dessiner comme en Word..
- 
-\end_layout
-
-\end_inset
-
-
+Génerée automatiquement.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1817,7 +1818,7 @@ Archivage du document
 
 \begin_layout Standard
 Les fonctions d'archivage sont effectuées grâce au système de gestion de
- version : GIT.
+ version GIT.
  Il ne sera gardé aucune copie papier des différents livrables.
 \end_layout
 
@@ -1872,7 +1873,7 @@ Classement de la documentation
 \end_layout
 
 \begin_layout Standard
-Une trace de la documentation produite va être fournie par Git.
+Une trace de la documentation produite va être fournie par GIT.
  
 \end_layout
 
@@ -2153,16 +2154,6 @@ COM_NomDuDoc_Auteur
 
  et il doit être créé à partir du Modèle « MOD_Communication ».
  
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-à faire!!!
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -2220,17 +2211,6 @@ ANN_NomDuDoc_Auteur
 
  et il doit être créé à partir du Modèle « ANN_Communication ».
  Une annexe doit être vérifiée et validée.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-à faire!!!
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -2285,21 +2265,40 @@ trer l’état d’avancement du projet.
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Annexes
 \end_layout
 
 \begin_layout Subsection
-Annexe 1: Exemple de page de garde
+Annexe 1: Exemple de page de garde et sommaire
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/page_garde.svg
+	lyxscale 20
+	scale 30
 
-\begin_layout Plain Layout
-à mettre un print screen de la page de garde quand tu fini le model
-\end_layout
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename img/sommaire.svg
+	lyxscale 20
+	scale 30
 
 \end_inset
 
@@ -2307,37 +2306,7 @@ status open
 \end_layout
 
 \begin_layout Subsection
-Annexe 2: Exemple de sommaire
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-idem
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Annexe 3: Plan-type d’un dossier de faisabilité 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-a modifier la numerotation
-\end_layout
-
-\end_inset
-
-
+Annexe 2: Plan-type d’un dossier de faisabilité
 \end_layout
 
 \begin_layout Enumerate
@@ -2446,7 +2415,7 @@ Annexes
 \end_layout
 
 \begin_layout Subsection
-Annexe 4: Plan-type d’un dossier de spécification technique 
+Annexe 3: Plan-type d’un dossier de spécification technique 
 \end_layout
 
 \begin_layout Enumerate
@@ -2542,7 +2511,7 @@ Annexe
 \end_layout
 
 \begin_layout Subsection
-Annexe 5: Plan-type d’un dossier de conception d’un système 
+Annexe 4: Plan-type d’un dossier de conception d’un système 
 \end_layout
 
 \begin_layout Enumerate
@@ -2638,7 +2607,7 @@ Annexe 3 : Démarrage du système
 
 \end_deeper
 \begin_layout Subsection
-Annexe 6: Plan-type d’un dossier de synthèse 
+Annexe 5: Plan-type d’un dossier de synthèse 
 \end_layout
 
 \begin_layout Enumerate
@@ -2738,7 +2707,7 @@ Annexes
 \end_layout
 
 \begin_layout Subsection
-Annexe 7: Plan-type d’un dossier d’interface de communication
+Annexe 6: Plan-type d’un dossier d’interface de communication
 \end_layout
 
 \begin_layout Enumerate
