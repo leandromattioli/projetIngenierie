@@ -76,6 +76,19 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Confidentialité: pas de détails sur les lieux
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset VSpace 1in
 \end_inset
 
@@ -587,7 +600,7 @@ Création du document
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+11/01/2011
 \end_layout
 
 \end_inset
@@ -596,7 +609,7 @@ Création du document
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Leandro RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -605,7 +618,7 @@ Création du document
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.1
 \end_layout
 
 \end_inset
@@ -614,7 +627,7 @@ Création du document
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Planning prévisionnel de la première phase du projet ajouté.
 \end_layout
 
 \end_inset
@@ -930,12 +943,12 @@ Documents applicables
 le Dossier de Gestion de la Documentation;
 \end_layout
 
-\begin_layout Subsubsection
-Documents de référence
-\end_layout
-
 \begin_layout Itemize
 le Procédure de rédaction d'un dossier d'initialisation;
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence
 \end_layout
 
 \begin_layout Itemize
@@ -943,16 +956,7 @@ l'appel d'offre de COPEVUE;
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Manuel du chef de projet?
-\end_layout
-
-\end_inset
-
-;
+Manuel du chef de projet.
 \end_layout
 
 \begin_layout Section
@@ -1130,7 +1134,7 @@ Procédure de gestion de configuration / procédure d'aide à la décomposition
 \begin_layout Itemize
 Fiche d'argumentation commerciale 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 voir exemple de Mdm Rezza
@@ -1198,7 +1202,16 @@ Groupe d'Étude Informatique
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 À détailler...
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -1209,8 +1222,25 @@ Groupe d'Étude Informatique
 Spécification formel des besoins
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+CdC préliminaire
+\end_layout
+
+\begin_layout Itemize
+STB
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Proposition d'une architecture
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1222,37 +1252,23 @@ Macro-Phasage
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
-	filename img/macro_phasage
-	BoundingBox 0bp 400bp 744bp 800bp
+	filename img/macro_phasage.svg
+	lyxscale 50
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Macro-Phasage
-\end_layout
-
-\end_inset
-
+\begin_layout Standard
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -1267,6 +1283,25 @@ status collapsed
 planning prévisionnelle
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/planning_phase1_zero.svg
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -1312,6 +1347,10 @@ lors de la détection des délais ou découvert de nouvelles tâches: le plannin
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
 \begin_layout Section
 Gestion des risques
 \end_layout
@@ -1322,6 +1361,11 @@ Risques concernant l'application du projet
 
 \begin_layout Subsection
 Risques propres au projet
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
