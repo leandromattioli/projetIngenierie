@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -20,7 +20,7 @@
 
 \graphics default
 \float_placement h
-\paperfontsize 11
+\paperfontsize 12
 \spacing single
 \use_hyperref true
 \pdf_bookmarks true
@@ -76,19 +76,6 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Confidentialité: pas de détails sur les lieux
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset VSpace 1in
 \end_inset
 
@@ -109,7 +96,7 @@ height_special "totalheight"
 status open
 
 \begin_layout Title
-Dossier d'Initialisation
+Titre
 \begin_inset Newline newline
 \end_inset
 
@@ -135,7 +122,7 @@ Système de monitoring à distance de sites isolés
 \align center
 
 \series bold
-Maitrise d'œuvre:
+Maitrise d'Oeuvre:
 \series default
  H4312
 \series bold
@@ -145,7 +132,7 @@ Maitrise d'œuvre:
 
 Maitrise d'Ouvrage:
 \series default
- CopeVue
+ H4312
 \end_layout
 
 \begin_layout Standard
@@ -159,7 +146,7 @@ Auteurs:
 \begin_inset Newline newline
 \end_inset
 
-Leandro RESENDE MATTIOLI
+NOM
 \end_layout
 
 \begin_layout Standard
@@ -507,9 +494,9 @@ Historique do document
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="4">
 <features>
-<column alignment="center" valignment="top" width="2cm">
-<column alignment="center" valignment="top" width="5cm">
-<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
 <column alignment="center" valignment="top" width="7cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -562,7 +549,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-07/01/2011
+
 \end_layout
 
 \end_inset
@@ -571,7 +558,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-Leandro RESENDE MATTIOLI
+
 \end_layout
 
 \end_inset
@@ -580,7 +567,7 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.0
+
 \end_layout
 
 \end_inset
@@ -589,7 +576,7 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
-Création du document
+
 \end_layout
 
 \end_inset
@@ -600,7 +587,7 @@ Création du document
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/01/2011
+
 \end_layout
 
 \end_inset
@@ -609,7 +596,7 @@ Création du document
 \begin_inset Text
 
 \begin_layout Plain Layout
-Leandro RESENDE MATTIOLI
+
 \end_layout
 
 \end_inset
@@ -618,7 +605,7 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.1
+
 \end_layout
 
 \end_inset
@@ -627,7 +614,7 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
-Planning prévisionnel de la première phase du projet ajouté.
+
 \end_layout
 
 \end_inset
@@ -868,50 +855,46 @@ Planning prévisionnel de la première phase du projet ajouté.
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Introduction
 \end_layout
 
 \begin_layout Subsection
-Rappel du problème
+Pésentation du projet
 \end_layout
 
 \begin_layout Subsubsection
-Le contexte
+Contexte
 \end_layout
 
 \begin_layout Standard
-Le COPEVUE souhaite étudier un système de monitoring à distance de sites
- isolés, situés dans de nombreuses régions de l'UE, pour mieux contrôler
- ses besoins d'autonomie (en terme d'énergie, de déchets, etc).
- Comme exemples de ces sites, on peut citer de nombreux lieux de travail
- (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
- etc).
- Ce système doit permettre à COPEVUE de faire un suivi pour pouvoir intervenir
- en cas de problèmes.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+a completer
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
-Les objectifs
+Objectifs
 \end_layout
 
 \begin_layout Standard
-Le travail demandé consiste en une proposition d'une solution pour la mesure
- et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
- système en réponse à un appel d'offre.
- 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+a completer
 \end_layout
 
-\begin_layout Standard
-Le but de ce travail consiste à faire une étude de faisabilité, la spécification
- technique de besoins et une proposition d'architecture générique.
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -919,19 +902,17 @@ Présentation du document
 \end_layout
 
 \begin_layout Standard
-Le Dossier d'Initialisation a comme but de définir l'organisation du travail
- en équipe, la liste des livrables attendus (et suggerés par le CdP), les
- méthodes pour suivi de projet et la description de la Gestion des Risques
- du projet.
- Ce document aura 2 versions, dont la première traitera la phase d'étude
- de faisabilité, de spécification technique des besoins et d'ébauche d'architect
-ure.
- La 2ème version comprendra la conception et une proposition de division
- en sous-ensembles.
+Ce document présente une synthèse des différents choix que nous avons effectué
+ pour fournir une solution de qualité.
+ Dans le but d'améliorer le système actuel, nous avons élaboré une solution
+ que nous avons découpé en plusieurs sous-systèmes.
+ Le résultat de notre analyse est un système très différent de l'actuel,
+ innovateur sur le plan technologique et organisationnel ayant un impact
+ significatif sur les utilisateurs.
 \end_layout
 
 \begin_layout Subsection
-Documents applicables / Documents de référence
+Document applicables/Documents de référence
 \end_layout
 
 \begin_layout Subsubsection
@@ -939,11 +920,14 @@ Documents applicables
 \end_layout
 
 \begin_layout Itemize
-le Dossier de Gestion de la Documentation;
-\end_layout
+\begin_inset Quotes eld
+\end_inset
 
-\begin_layout Itemize
-le Procédure de rédaction d'un dossier d'initialisation;
+Document de gestion de la documentation
+\begin_inset Quotes erd
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -951,451 +935,88 @@ Documents de référence
 \end_layout
 
 \begin_layout Itemize
-l'appel d'offre de COPEVUE;
+Quelques outils et Documentation pour le Responsable Documentation/Méthodes/Qual
+ité
 \end_layout
 
 \begin_layout Itemize
-Manuel du chef de projet.
+Etude de faisabilité
+\end_layout
+
+\begin_layout Itemize
+Expression des besoins du nouveau système
+\end_layout
+
+\begin_layout Itemize
+Conception du nouveau système
+\end_layout
+
+\begin_layout Subsection
+Terminologie et Abréviations
+\end_layout
+
+\begin_layout Standard
+Voir le glossaire pour la terminologie et les abréviations.
 \end_layout
 
 \begin_layout Section
-Les contraintes générales
-\end_layout
-
-\begin_layout Subsection
-Existant
+Critique de l'existant
 \end_layout
 
 \begin_layout Standard
-Le système proposé doit profiter de la structure existante des societés
- concernées par la maintenance des réservoirs et de COPEVUE.
- En gros, le mecanisme actuel pour contrôler les stations-réservoirs est
- pour l'instant réalisé avec une demande manuelle de remplissage / vidange,
- par le propriétaire du lieu, quand il constate un changement nécessaire.
-\end_layout
-
-\begin_layout Subsection
-Exigences non fonctionnelles
+Le système actuel de monitoring à distance est mis en place pour la surveillance
+ de plusieurs sites de stockage.
 \end_layout
 
 \begin_layout Standard
-Les exigences non fonctionnelles du système en question sont listées ci-dessous:
-\end_layout
-
-\begin_layout Itemize
-integration de l'existant
-\end_layout
-
-\begin_layout Itemize
-robustesse
-\end_layout
-
-\begin_layout Itemize
-fiabilité
-\end_layout
-
-\begin_layout Itemize
-evolutivité et maintenabilité
-\end_layout
-
-\begin_layout Itemize
-limitations technologiques
-\end_layout
-
-\begin_layout Itemize
-genericité
-\end_layout
-
-\begin_layout Itemize
-reutilisation
-\end_layout
-
-\begin_layout Itemize
-ergonomie
-\end_layout
-
-\begin_layout Itemize
-traçabilité
-\end_layout
-
-\begin_layout Standard
-Plus de détails en ce qui concerne chacun de ces items sont disponibles
- dans le document «Appel d'Offres» mis à disponibilité par le COPEVUE.
+Le système actuel est composé de sites isolés qui sont vérifiés manuellement
+ par des personnes dépéchées sur place.
 \end_layout
 
 \begin_layout Section
-Organisation du travail
+Présentation de la solution proposée 
 \end_layout
 
 \begin_layout Subsection
-Chef de Projet et coordinateur
-\end_layout
-
-\begin_layout Standard
-Le chef de ce projet doit organiser et suivre le travail de l'équipe, prévoir
- les risques du projet, découper le projet en sous-projets et bien maîtriser
- la division de tâches pour assurer le succès du travail.
- 
-\end_layout
-
-\begin_layout Standard
-Le Chef du Projet doit vérifier la cohérence des études faites par l'équipe
- et s'assurer que les membres du groupe ont une vision commune du système
- et de ses besoins (sans qu'il y ait d'ambiguités sur ce qui doit être fait).
-\end_layout
-
-\begin_layout Standard
-Pour réaliser son but, il a deux types d'interventions distinctes:
-\end_layout
-
-\begin_layout Itemize
-comme CdP coté Maîtrise d'Ouvrage;
-\end_layout
-
-\begin_layout Itemize
-comme coordinateur du projet.
+Architecture 
 \end_layout
 
 \begin_layout Subsection
-Responsable Qualité / Méthode / Documentation (RQ)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Demander a Stefana pour vérifier la description du travail du RQ
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Le RQ doit définir les méthodes pour la démarche du projet et s'assurer
- que ceux-ci sont respectés par tous les membres du groupe.
- En plus, il doit faire une petite synthèse du projet.
+Fonctionnement général 
 \end_layout
 
 \begin_layout Subsection
-Groupe d'Étude Informatique
+Apports de la solution proposée 
 \end_layout
 
-\begin_layout Standard
-Le Groupe d'Étude Informatique est le groupe qui effectivement préparera
- la réponse à l'appel d'offres, à partir de les phases listées ci-dessous:
+\begin_layout Subsubsection
+Thèmes de progrès 
 \end_layout
 
-\begin_layout Itemize
-étude de faisabilité du système;
-\end_layout
-
-\begin_layout Itemize
-définition d'un CdC formel;
-\end_layout
-
-\begin_layout Itemize
-conception (à détailler pendant la 2ème phase du projet).
+\begin_layout Subsubsection
+Coûts de la solution 
 \end_layout
 
 \begin_layout Section
-Liste des livrables attendus
+Mise en place du système 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-description de chaque livrable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Chef de Projet
-\end_layout
-
-\begin_layout Itemize
-Dossier d'initialisation
-\end_layout
-
-\begin_layout Itemize
-Procédure de gestion de configuration / procédure d'aide à la décomposition
- d'un système en sous-systèmes
-\end_layout
-
-\begin_layout Itemize
-Fiche d'argumentation commerciale 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-voir exemple de Mdm Rezza
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Draft Approche produit au niveau système
-\end_layout
-
-\begin_layout Itemize
-Plan de Management Projet
-\end_layout
-
-\begin_layout Itemize
-Bilan
-\end_layout
-
-\begin_layout Subsection
-Responsable Qualité
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-à confirmer avec RQ
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Dossier de Gestion de la Documentation: défine l'ensemble des règles communes
- concernant la gestion de la documentation, c'est-à-dire la structuration,
- page de garde, cycle de vie des documents, gestion de versions, structuration
- du système documentaire, sauvegardes et diffusion
-\end_layout
-
-\begin_layout Itemize
-Dossier de Synthèse
-\end_layout
-
-\begin_layout Itemize
-Draft du Plan d'Assurance Qualité Projet (PAQP)
-\end_layout
-
-\begin_layout Itemize
-Bonnes pratiques
-\end_layout
-
-\begin_layout Itemize
-Procédure pour la rédaction pour CdC
-\end_layout
-
-\begin_layout Subsection
-Groupe d'Étude Informatique
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-À détailler...
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Étude de faisabilité
-\end_layout
-
-\begin_layout Itemize
-Spécification formel des besoins
+\begin_layout Enumerate
+Description de la mise en place du système 
 \end_layout
 
 \begin_deeper
-\begin_layout Itemize
-CdC préliminaire
+\begin_layout Enumerate
+Plan de formation 
 \end_layout
 
-\begin_layout Itemize
-STB
+\begin_layout Enumerate
+ROI 
 \end_layout
 
 \end_deeper
-\begin_layout Itemize
-Proposition d'une architecture
-\end_layout
-
-\begin_layout Standard
-<<<<<<< HEAD:Perso_CdP/draft/dossier_initialisation/dossier_initialisation.lyx
-\begin_inset Newpage pagebreak
-=======
-\begin_inset Float figure
-placement h
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename img/macro_phasage.svg
-	BoundingBox 0bp 400bp 744bp 800bp
-
->>>>>>> origin/HEAD:Perso_CdP/dossier_initialisation.lyx
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
-Organigramme des Tâches
-\end_layout
-
-\begin_layout Subsection
-Macro-Phasage
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Graphics
-	filename img/macro_phasage.svg
-	lyxscale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Diagramme de Gantt 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-planning prévisionnelle
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Graphics
-	filename img/planning_phase1_zero.svg
-	lyxscale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Modalités de suivi
-\end_layout
-
-\begin_layout Standard
-Quelques simples mecanismes de suivi sont utilisés lors de la réalisation
- du projet, à savoir:
-\end_layout
-
-\begin_layout Itemize
-au début d'une séance: pendant les premières 10 minutes de chaque séance
- le travail est proposé; dans le cas oú il y a l'absence d'un ou plusieurs
- membres du groupe, les tâches concernées sont reaffectées;
-\end_layout
-
-\begin_layout Itemize
-à la fin d'une séance: pendant les dernières 15 minutes de chaque séance
- une petit réunion est fait pour savoir les décisions et pour remplir une
- fiche de séance, ce qui permettra savoir l'état d'avancement du projet
- et completer le diagramm de Gantt avec le progrès de chaque tâche.
-\end_layout
-
-\begin_layout Itemize
-avant une révue externe: une fiche de révue est crée pour bien définir les
- objectifs de la réunion et distribuer les sujets dans le temps;
-\end_layout
-
-\begin_layout Itemize
-après une révue externe: la fiche de révue a aussi une région pour noter
- tous les commentaires du client, en prennant en consideration les points
- forts et faibles.
- 
-\end_layout
-
-\begin_layout Itemize
-lors de la détection des délais ou découvert de nouvelles tâches: le planning
- est mis à jour en essayant de rattraper le travail.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Section
-Gestion des risques
-\end_layout
-
-\begin_layout Subsection
-Risques concernant l'application du projet
-\end_layout
-
-\begin_layout Subsection
-Risques propres au projet
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Conclusion
-\end_layout
-
-\begin_layout Standard
-L'organisation du travail proposée pour ce projet utilise des mécanismes
- classiques mais aussi riche en gestion et suivi de projet.
- Cependant, il est susceptible à des changements, comme tout projet réel.
-\end_layout
-
-\begin_layout Standard
-Toutes les méthodes et techniques presentées dans ce document ne sont que
- pour optimizer la productivité, pour donner au client une façon dans lequelle
- il puisse savoir l'avancement du projet et pour prévoir le couts et risques
- du projet.
+Annexes 
 \end_layout
 
 \end_body

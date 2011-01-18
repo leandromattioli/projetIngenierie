@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -20,7 +20,7 @@
 
 \graphics default
 \float_placement h
-\paperfontsize 11
+\paperfontsize 12
 \spacing single
 \use_hyperref true
 \pdf_bookmarks true
@@ -76,19 +76,6 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Confidentialité: pas de détails sur les lieux
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset VSpace 1in
 \end_inset
 
@@ -109,12 +96,12 @@ height_special "totalheight"
 status open
 
 \begin_layout Title
-Dossier d'Initialisation
+Dossier de Spécification Téchnique des Besoins
+\size larger
+
 \begin_inset Newline newline
 \end_inset
 
-
-\size larger
 Système de monitoring à distance de sites isolés
 \end_layout
 
@@ -135,7 +122,7 @@ Système de monitoring à distance de sites isolés
 \align center
 
 \series bold
-Maitrise d'œuvre:
+Maitrise d'Oeuvre:
 \series default
  H4312
 \series bold
@@ -145,7 +132,7 @@ Maitrise d'œuvre:
 
 Maitrise d'Ouvrage:
 \series default
- CopeVue
+ COPEVUE
 \end_layout
 
 \begin_layout Standard
@@ -155,11 +142,7 @@ Maitrise d'Ouvrage:
 \series bold
 Auteurs:
 \series default
-
-\begin_inset Newline newline
-\end_inset
-
-Leandro RESENDE MATTIOLI
+ Monica, Henrique
 \end_layout
 
 \begin_layout Standard
@@ -287,7 +270,7 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/01/2011
+14/01/2011
 \end_layout
 
 \end_inset
@@ -387,7 +370,7 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/01/2011
+14/01/2011
 \end_layout
 
 \end_inset
@@ -405,6 +388,7 @@ Responsable
 \begin_inset Text
 
 \begin_layout Plain Layout
+Monica, Henrique
 \begin_inset Note Note
 status collapsed
 
@@ -507,9 +491,9 @@ Historique do document
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="4">
 <features>
-<column alignment="center" valignment="top" width="2cm">
-<column alignment="center" valignment="top" width="5cm">
-<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
 <column alignment="center" valignment="top" width="7cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -562,7 +546,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-07/01/2011
+14.01.2011
 \end_layout
 
 \end_inset
@@ -571,7 +555,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-Leandro RESENDE MATTIOLI
+Monica, Henrique
 \end_layout
 
 \end_inset
@@ -589,7 +573,7 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
-Création du document
+Création - début de rédaction
 \end_layout
 
 \end_inset
@@ -600,7 +584,7 @@ Création du document
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/01/2011
+14.01.2011
 \end_layout
 
 \end_inset
@@ -609,7 +593,7 @@ Création du document
 \begin_inset Text
 
 \begin_layout Plain Layout
-Leandro RESENDE MATTIOLI
+Henrique
 \end_layout
 
 \end_inset
@@ -627,7 +611,7 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
-Planning prévisionnel de la première phase du projet ajouté.
+Bilan des améliorations
 \end_layout
 
 \end_inset
@@ -880,7 +864,7 @@ Introduction
 \end_layout
 
 \begin_layout Subsection
-Rappel du problème
+Pésentation du projet
 \end_layout
 
 \begin_layout Subsubsection
@@ -931,7 +915,7 @@ ure.
 \end_layout
 
 \begin_layout Subsection
-Documents applicables / Documents de référence
+Document applicables/Documents de référence
 \end_layout
 
 \begin_layout Subsubsection
@@ -943,7 +927,11 @@ le Dossier de Gestion de la Documentation;
 \end_layout
 
 \begin_layout Itemize
-le Procédure de rédaction d'un dossier d'initialisation;
+best practices pour la rédaction d'un CdC
+\end_layout
+
+\begin_layout Itemize
+exemple de procédure pour la rédaction d'un CdC
 \end_layout
 
 \begin_layout Subsubsection
@@ -954,448 +942,511 @@ Documents de référence
 l'appel d'offre de COPEVUE;
 \end_layout
 
+\begin_layout Section
+Axes d'amélioration
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Monitoring des stations
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Actuellement, la surveillance d'état des sites est faite par un entretien
+ qui si déplace vers une station et intervient manuellement quand il y a
+ un problème sur les mesures.
+ Alors, il y a deux problèmes avec cette situation:
+\end_layout
+
 \begin_layout Itemize
-Manuel du chef de projet.
+
+\lang english
+le déplacement vers ces sites peut être dangereux et peut prendre beaucoup
+ de temps pour résoudre un problème existant; et
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+la transmission de l'état au poste central de service est faite oralement
+ (par téléphone, radio) quand possible, soit personellement quand il n'y
+ a pas le service de communication orale.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+La solution idéale serait l'installation des capteurs électroniques, un
+ micro-contrôleur et un système de communication internet (GPS, GPRS, radio,
+ satellite) pour qu'on puisse surveiller la station depuis le poste central.
+ Comme ça, on peut améliorer le temps de réponse à un problème d'energie
+ ou du niveau du réservoir, comme aussi la fiabilité des informations reçues.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Autonomie des stations
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Dans la situation actuelle, la maintenance du matériel d'une station est
+ faite par l'administrateur du site.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Pour assurer le fonctionnement correct des stations autonomiques, elles
+ devront être équipées des panneaux solaires et batteries.
+ Les panneaux solaires seront en charge de la capture d'energie et les batteries
+ seront en charge du stockage d'énergie.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+L'énergie stockée sera destinée à l'alimentation des systèmes des capteurs,
+ du micro-contrôleur et de communication.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Les niveaux des batteries et l'état des panneaux solaires seront transmis
+ au poste central aussi.
+ Comme ça, on permet que le système fonctionn
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Au cas où on a indisponibilité de réseau pour faire la communication avec
+ le poste central, les stations peuvent enregistrer les événements pour
+ qu'ils puissent être transmis au poste central plus tard.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Maintenance du système
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Les stations peut être capable d'accepter des commandes du poste central.
+ Par exemple, le redémarrage, la configuration des paramètres.
+ Comme ça, on permet au aux stations de fonctionner sans l'intervention
+ humaine directe.
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Adaptabilité du système
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Le système sera centralisé, c'est-à-dire qu'on aura un poste central de
+ commandes.
+ Le système sera capable aussi d'instancier des nouvelles stations parce
+ qu'il est configurable dans le sense du nombre de stations.
+\end_layout
+
+\begin_layout Subsection
+
+\lang english
+Sécurité du système
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Si le système est menacé par un coupage un coupure d'energie ou s'il y a
+ un problème technique que ne le permet pas de fonctionner correctement
+ et ne peut pas être résolu par le superviseur du système depuis le poste
+ central, alors la station envoie un signal d'emergence au poste central
+ pour que le supervisuer puisse envoyer un entretien à la station pour vérifier
+ le problème personnellement.
 \end_layout
 
 \begin_layout Section
-Les contraintes générales
+Exigences fonctionnelles
 \end_layout
 
 \begin_layout Subsection
-Existant
-\end_layout
-
-\begin_layout Standard
-Le système proposé doit profiter de la structure existante des societés
- concernées par la maintenance des réservoirs et de COPEVUE.
- En gros, le mecanisme actuel pour contrôler les stations-réservoirs est
- pour l'instant réalisé avec une demande manuelle de remplissage / vidange,
- par le propriétaire du lieu, quand il constate un changement nécessaire.
+Capteurs
 \end_layout
 
 \begin_layout Subsection
-Exigences non fonctionnelles
+Postes mobiles
 \end_layout
 
 \begin_layout Standard
-Les exigences non fonctionnelles du système en question sont listées ci-dessous:
-\end_layout
-
-\begin_layout Itemize
-integration de l'existant
-\end_layout
-
-\begin_layout Itemize
-robustesse
-\end_layout
-
-\begin_layout Itemize
-fiabilité
-\end_layout
-
-\begin_layout Itemize
-evolutivité et maintenabilité
-\end_layout
-
-\begin_layout Itemize
-limitations technologiques
-\end_layout
-
-\begin_layout Itemize
-genericité
-\end_layout
-
-\begin_layout Itemize
-reutilisation
-\end_layout
-
-\begin_layout Itemize
-ergonomie
-\end_layout
-
-\begin_layout Itemize
-traçabilité
-\end_layout
-
-\begin_layout Standard
-Plus de détails en ce qui concerne chacun de ces items sont disponibles
- dans le document «Appel d'Offres» mis à disponibilité par le COPEVUE.
-\end_layout
-
-\begin_layout Section
-Organisation du travail
-\end_layout
-
-\begin_layout Subsection
-Chef de Projet et coordinateur
-\end_layout
-
-\begin_layout Standard
-Le chef de ce projet doit organiser et suivre le travail de l'équipe, prévoir
- les risques du projet, découper le projet en sous-projets et bien maîtriser
- la division de tâches pour assurer le succès du travail.
+Les stations mobiles représentent les différents dispositifs comme le PDA,
+ Smartphone et tout dispositif capable d'utiliser une interface pour effectuer
+ des différentes opérations comme par exemple la configuration, la maintenance
+ et le monitoring.
  
 \end_layout
 
 \begin_layout Standard
-Le Chef du Projet doit vérifier la cohérence des études faites par l'équipe
- et s'assurer que les membres du groupe ont une vision commune du système
- et de ses besoins (sans qu'il y ait d'ambiguités sur ce qui doit être fait).
+Les besoins fonctionnels suivants devront être assurés:
 \end_layout
 
-\begin_layout Standard
-Pour réaliser son but, il a deux types d'interventions distinctes:
+\begin_layout Enumerate
+Communication à tout moment avec le serveur central via une interface graphique.
+ Le client mobile doit être capable de recevoir des alertes du serveur et
+ envoyer à son tour des commandes(arrêter un site isolé, redémarrer le système
+ présent sur un site, etc.) 
 \end_layout
 
-\begin_layout Itemize
-comme CdP coté Maîtrise d'Ouvrage;
-\end_layout
-
-\begin_layout Itemize
-comme coordinateur du projet.
-\end_layout
-
-\begin_layout Subsection
-Responsable Qualité / Méthode / Documentation (RQ)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Demander a Stefana pour vérifier la description du travail du RQ
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Le RQ doit définir les méthodes pour la démarche du projet et s'assurer
- que ceux-ci sont respectés par tous les membres du groupe.
- En plus, il doit faire une petite synthèse du projet.
-\end_layout
-
-\begin_layout Subsection
-Groupe d'Étude Informatique
-\end_layout
-
-\begin_layout Standard
-Le Groupe d'Étude Informatique est le groupe qui effectivement préparera
- la réponse à l'appel d'offres, à partir de les phases listées ci-dessous:
-\end_layout
-
-\begin_layout Itemize
-étude de faisabilité du système;
-\end_layout
-
-\begin_layout Itemize
-définition d'un CdC formel;
-\end_layout
-
-\begin_layout Itemize
-conception (à détailler pendant la 2ème phase du projet).
-\end_layout
-
-\begin_layout Section
-Liste des livrables attendus
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-description de chaque livrable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Chef de Projet
-\end_layout
-
-\begin_layout Itemize
-Dossier d'initialisation
-\end_layout
-
-\begin_layout Itemize
-Procédure de gestion de configuration / procédure d'aide à la décomposition
- d'un système en sous-systèmes
-\end_layout
-
-\begin_layout Itemize
-Fiche d'argumentation commerciale 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-voir exemple de Mdm Rezza
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Draft Approche produit au niveau système
-\end_layout
-
-\begin_layout Itemize
-Plan de Management Projet
-\end_layout
-
-\begin_layout Itemize
-Bilan
-\end_layout
-
-\begin_layout Subsection
-Responsable Qualité
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-à confirmer avec RQ
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Dossier de Gestion de la Documentation: défine l'ensemble des règles communes
- concernant la gestion de la documentation, c'est-à-dire la structuration,
- page de garde, cycle de vie des documents, gestion de versions, structuration
- du système documentaire, sauvegardes et diffusion
-\end_layout
-
-\begin_layout Itemize
-Dossier de Synthèse
-\end_layout
-
-\begin_layout Itemize
-Draft du Plan d'Assurance Qualité Projet (PAQP)
-\end_layout
-
-\begin_layout Itemize
-Bonnes pratiques
-\end_layout
-
-\begin_layout Itemize
-Procédure pour la rédaction pour CdC
-\end_layout
-
-\begin_layout Subsection
-Groupe d'Étude Informatique
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-À détailler...
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Étude de faisabilité
-\end_layout
-
-\begin_layout Itemize
-Spécification formel des besoins
+\begin_layout Enumerate
+Affichage des informations/monitoring
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-CdC préliminaire
+visualiser les données envoyés par les capteurs situés sur les sites isolés
+ (dans notre cas le niveau de remplissage des containers, température, etc.)
 \end_layout
 
 \begin_layout Itemize
-STB
+visualiser l'état des capteurs (chargement de la pile, état de fonctionnement)
+\end_layout
+
+\begin_layout Itemize
+visualiser l'historique des interventions pour un site isolé 
+\end_layout
+
+\begin_layout Itemize
+suivre les informations concernant le trajet d'un camion
 \end_layout
 
 \end_deeper
+\begin_layout Enumerate
+Configurer et maintenir à distance le matériel présent sur le site (système
+ embarqué, capteurs, caméras, détecteurs de feu, etc.
+ )
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
-Proposition d'une architecture
+configuration initiale d'un système embarqué
 \end_layout
 
-\begin_layout Standard
-<<<<<<< HEAD:Perso_CdP/draft/dossier_initialisation/dossier_initialisation.lyx
-\begin_inset Newpage pagebreak
-=======
-\begin_inset Float figure
-placement h
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename img/macro_phasage.svg
-	BoundingBox 0bp 400bp 744bp 800bp
-
->>>>>>> origin/HEAD:Perso_CdP/dossier_initialisation.lyx
-\end_inset
-
-
+\begin_deeper
+\begin_layout Itemize
+types de variables (niveau, température analogique/numérique
 \end_layout
 
-\begin_layout Section
-Organigramme des Tâches
+\begin_layout Itemize
+types d'actions (email, appel, demande de remplissage/vidage)
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Commandes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+arrêter un site isolé
+\end_layout
+
+\begin_layout Itemize
+redémarrer le système présent sur un site
+\end_layout
+
+\begin_layout Itemize
+demander une intervention sur le site
+\end_layout
+
+\begin_layout Itemize
+définition manuelle d'un trajet d'un camion
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Serveur central
 \end_layout
 
 \begin_layout Subsection
-Macro-Phasage
+Système embarqué
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Graphics
-	filename img/macro_phasage.svg
-	lyxscale 50
-
-\end_inset
-
-
+Nous utiliserons un processeur embarqué pour chaque site surveillé.
+ Il récupérera les informations de tous les capteurs et permettra leur transfert
+ vers le serveur où les données seront traitées.
 \end_layout
 
 \begin_layout Standard
 
+\series bold
+Exigences Fonctionnelles
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
+\begin_layout Itemize
+GESTION DE CAPTEURS : le processeur doit être capable de gérer les données
+ envoyées par des capteurs.
+\end_layout
 
+\begin_layout Itemize
+GESTION DE RÉSEAU : le processeur doit pouvoir s'interfacer avec des composant
+ réseau pour pouvoir envoyer les données à un serveur central.
+\end_layout
 
+\begin_layout Itemize
+PRÉ-TRAITEMENT : le processeur doit disposer d'une puissance suffisante
+ pour faire un pré-traitement des données des capteurs.
+ Par exemple, il doit pouvoir déterminer si des informations sont prioritaires
+ car très importantes ou si au contraire elles n'exigent pas une grande
+ vitesse de réaction.
+\end_layout
+
+\begin_layout Itemize
+CONFIGURATION À DISTANCE : le processeur doit être facilement configurable
+ à distance.
+ L'accès aux différents sites étant coûteux, tout l'administration doit
+ être faite à distance et il doit être possible de configurer le processeur
+ à distance.
+\end_layout
+
+\begin_layout Itemize
+FAIBLE CONSOMMATION D'ÉNERGIE : le processeur ne doit pas trop consommer
+ d'énergie car le système doit être autonome en énergie.
 \end_layout
 
 \begin_layout Subsection
-Diagramme de Gantt 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-planning prévisionnelle
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Graphics
-	filename img/planning_phase1_zero.svg
-	lyxscale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
+Communication
 \end_layout
 
 \begin_layout Section
-Modalités de suivi
+Exigences non fonctionnelles
+\end_layout
+
+\begin_layout Subsection
+Capteurs
+\end_layout
+
+\begin_layout Subsection
+Postes mobiles
 \end_layout
 
 \begin_layout Standard
-Quelques simples mecanismes de suivi sont utilisés lors de la réalisation
- du projet, à savoir:
+Les besoins non fonctionnels suivants seront particulièrement à prendre
+ en compte pour le système présent sur les stations mobiles:
 \end_layout
 
-\begin_layout Itemize
-au début d'une séance: pendant les premières 10 minutes de chaque séance
- le travail est proposé; dans le cas oú il y a l'absence d'un ou plusieurs
- membres du groupe, les tâches concernées sont reaffectées;
+\begin_layout Standard
+
+\series bold
+Fiabilité
+\series default
+ – pendant une configuration/mise à jour du matériel à partir d'une station
+ mobile le système ne doit pas se bloquer car on risque une mauvaise configurati
+on qui entrainera un dysfonctionnement du système présent sur le site isolé.
+ Pour cela on va prendre en compte l'état de chargement de la poste mobile
+ et on ne va pas autoriser des opérations importantes si le niveau de chargement
+ de la poste mobile est critique.
 \end_layout
 
-\begin_layout Itemize
-à la fin d'une séance: pendant les dernières 15 minutes de chaque séance
- une petit réunion est fait pour savoir les décisions et pour remplir une
- fiche de séance, ce qui permettra savoir l'état d'avancement du projet
- et completer le diagramm de Gantt avec le progrès de chaque tâche.
-\end_layout
+\begin_layout Standard
 
-\begin_layout Itemize
-avant une révue externe: une fiche de révue est crée pour bien définir les
- objectifs de la réunion et distribuer les sujets dans le temps;
-\end_layout
-
-\begin_layout Itemize
-après une révue externe: la fiche de révue a aussi une région pour noter
- tous les commentaires du client, en prennant en consideration les points
- forts et faibles.
+\series bold
+Évolutivité et maintenabilité
+\series default
+ – On a choisi de réaliser une interface Web pour les postes mobiles.
+ Cela prend en compte les évolutions dimensionnelles (une page web peut
+ être conçue pour s'adapter facilement aux nouvelles dimensions), matérielles
+ (les pages Web sont supportés par la plus part des systèmes), fonctionnelles
+ (une interface Web peut être modifiée sans difficulté) et technologiques(il
+ y aura toujours des pages et des librairies pour le Web).
  
 \end_layout
 
+\begin_layout Standard
+
+\series bold
+Généricité
+\series default
+ – l'interface présente sur le système mobile doit être générique, capable
+ de s'adapter pour servir aussi aux autres systèmes (pas seulement sur la
+ surveillance des containers).
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Réutilisation
+\series default
+ – l'interface présente sur les sites mobiles est similaire à l'interface
+ présente sur le serveur.
+ Ainsi on garde une cohérence et on facilite l'utilisation.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Ergonomie
+\series default
+ – une adaptation spéciale en fonction des dimensions est nécessaire (les
+ écrans des PDA sont plus petits).
+ Cela implique une structuration spéciale des informations et des contrôles
+ et un style pour l'écriture (boutons plus grands, écriture en gras, couleurs
+ percevables en tenant compte de la luminosité).
+ 
+\end_layout
+
+\begin_layout Subsection
+Serveur central
+\end_layout
+
+\begin_layout Subsection
+Système embarqué
+\end_layout
+
 \begin_layout Itemize
-lors de la détection des délais ou découvert de nouvelles tâches: le planning
- est mis à jour en essayant de rattraper le travail.
+ROBUSTESSE : le processeur devra pouvoir résister à des conditions extrêmes.
+ Les sites peuvent se trouver dans des endroits très humide, très secs (forêts,
+ déserts, ...), avec des températures pouvant varier très fortement (volcan,
+ glacier, ...).
+\end_layout
+
+\begin_layout Itemize
+FIABILITÉ : le processeur devra être très fiable en fonctionnement normal
+ mais aussi en cas de problème.
+ Il doit être capable de reprendre tout seul un cour normal en cas de plantage
+ système, doit savoir gérer les problèmes.
+\end_layout
+
+\begin_layout Itemize
+GÉNÉRICITÉ : le processeur doit être capable de s'adapter à de nombreuses
+ situations.
+ Il doit être capable de gérer un capteur ou des dizaines de capteur.
+\end_layout
+
+\begin_layout Itemize
+ÉVOLUTIVITÉ et MAINTENABILITÉ : le processeur doit être capable de s'adapter
+ à d'autres types de capteurs, d'autres envirronements.
+ Il doit être dimmensionné de façon telle que l'on puisse lui faire faire
+ plus de traitements plus tard.
+ Il doit par ailleurs être facilement cnfigurable.
+\end_layout
+
+\begin_layout Itemize
+RÉUTILISATION : le processeur doit être réutilisable dans d'autres contextes.
+ Par exemple, si l'entreprise étant son champ d'actions dans d'autres types
+ de système embarqués, il peut être intéressant de réutiliser les même processeu
+rs.
+\end_layout
+
+\begin_layout Itemize
+LIMITATIONS TECHNOLOGIQUES : le processeur doit être capable d'utiliser
+ les technologies imposées (GPRS, GPS, ...)
+\end_layout
+
+\begin_layout Subsection
+Communication
+\end_layout
+
+\begin_layout Section
+Esquisse du nouveau système et impacts sur l’existant
+\end_layout
+
+\begin_layout Standard
+A partir des besoins fonctionnels et non fonctionnels, une nouvelle architecture
+ sera mise en place.
+ Dans l'Annexe1 une ébauche du nouveau système est proposée.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status collapsed
+Le nouveau système aura un impact sur l'architecture actuelle sur plusieurs
+ plans.
+ 
+\end_layout
+
+\begin_layout Subsection
+Impacts techniques
+\end_layout
+
+\begin_layout Standard
+Sur le plan technique il y aura du nouveau matériel à ajouter dans le système.
+ Cela ne va pas intéragir beaucoup avec l'éxistant car actuellement il n'y
+ a pas beaucoup de matériel.
+ 
+\end_layout
+
+\begin_layout Standard
+Les capteurs qui existent actuellement sur certains sites devront être remplacés
+ avec des capteurs plus avancés qui sont capables de transmettre leur données
+ et recevoir des commandes.
+ Apart de nouveaux capteurs, on va mettre en place également dans chaque
+ site le système embarqué.
+ Ces installations ne nécessiteront pas des opérations supplémentaires apart
+ la procédure standard de mise en place.
+\end_layout
+
+\begin_layout Standard
+Au niveau du siège central, plusieurs machines et un serveur central seront
+ ajoutés.Cela ne va pas poser de problème car actuellement il y a suffisament
+ de place dans les locaux actuels.
+\end_layout
+
+\begin_layout Subsection
+Impact sur les employés
+\end_layout
+
+\begin_layout Standard
+En ce qui concerne les employés, vu que leurs qualifications actuelles n'assuren
+t pas tout à fait leur capacité d'utiliser le nouveau système, une formation
+ sera mise en place.
+ Cette formation sera realisée par un de nos spécialistes.
+ La configuration initiale du système sera assistée par nos experts après
+ l'installation du système.
+\end_layout
 
 \begin_layout Section
-Gestion des risques
+Bilan des améliorations 
 \end_layout
 
-\begin_layout Subsection
-Risques concernant l'application du projet
-\end_layout
-
-\begin_layout Subsection
-Risques propres au projet
-\end_layout
-
-\end_inset
-
-
+\begin_layout Standard
+En tenant compte de la situation actuelle du système, la nouvelle architecture
+ rend le système plus centralisé et plus indépendant d'intervention humaine
+ pour son fonctionnement.
+ Chaque station aura son propre système de production et stockage d'énergie
+ pour qu'elle soit autonome.
+ La surveillance de chaque station se fera depuis les postes centrales où
+ le superviseur pourra configurer le système et recevoir des signaux d'alarme.
 \end_layout
 
 \begin_layout Section
 Conclusion
 \end_layout
 
-\begin_layout Standard
-L'organisation du travail proposée pour ce projet utilise des mécanismes
- classiques mais aussi riche en gestion et suivi de projet.
- Cependant, il est susceptible à des changements, comme tout projet réel.
+\begin_layout Section
+Annexe 
 \end_layout
 
 \begin_layout Standard
-Toutes les méthodes et techniques presentées dans ce document ne sont que
- pour optimizer la productivité, pour donner au client une façon dans lequelle
- il puisse savoir l'avancement du projet et pour prévoir le couts et risques
- du projet.
+\begin_inset Graphics
+	filename imagesSchemaGlobal/EbaucheArchiFinale.png
+
+\end_inset
+
+
 \end_layout
 
 \end_body
