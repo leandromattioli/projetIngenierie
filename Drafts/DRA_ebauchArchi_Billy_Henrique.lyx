@@ -36,6 +36,7 @@
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
@@ -63,7 +64,7 @@ Chaque capteur sera relié au système embarqué par une connection filiaire
 \end_layout
 
 \begin_layout Subsection
-Communication système embarqué - Serveur Central
+Communication système embarqué - serveur Central
 \end_layout
 
 \begin_layout Standard
@@ -81,6 +82,50 @@ La communication pourra se faire dans les deux sens.
  C'est-à-dire que le capteur pourra envoyer les données et le serveur central
  pourra envoyer des requêtes lui permettant de reconfigurer à distance les
  capteurs.
+\end_layout
+
+\begin_layout Subsection
+Communication site central - agence
+\end_layout
+
+\begin_layout Standard
+La communication du site central avec l'agence se fera grâce à internet
+ par le protocole HTTP et s'il y a besoin d'une connection securisée, la
+ communication peut être faite par le protocole HTTPS.
+ Le site central envoie une rêquete de maintenance à l'agence avec des informati
+ons sur la station en question, de même la priorité de la requête.
+\end_layout
+
+\begin_layout Subsection
+Communication site central - poste mobile
+\end_layout
+
+\begin_layout Standard
+Les postes mobiles peuvent communiquer avec le site central grâce au GPRS
+ (General Packet Radio Service).
+ Ce service nous permet de faire une combinaison avec le service GSM et
+ comme ça, on peut trouver la position grâce à la triangulation.
+ Le conducteur peut aussi accéder aux informations de la station en question.
+ Le service GPRS permet au superviseur de communiquer avec le conducteur
+ du camion par radio au cas où il y a un problème plus urgent à traiter.
+ Le protocole utilisé pour réaliser cette communication entre le site central
+ et les postes mobiles sera le protocole IP (Internet Protocol).
+ 
+\end_layout
+
+\begin_layout Subsection
+Maintenance des stations
+\end_layout
+
+\begin_layout Standard
+En tenant compte du fait que le canal de communication entre le site central
+ et les stations est bidirectionel, les superviseurs peuvent envoyer des
+ commandes aux stations.
+ Ces commandes permettront aux superviseurs de réaliser la maintenance du
+ système et la configuration de chaque station.
+ Ils peuvent, par exemple, redémarrer le système, ou changer les paramètres
+ de configuration comme la fréquence de lecture, les niveaux de seuil des
+ reservoirs, etc.
 \end_layout
 
 \end_body
