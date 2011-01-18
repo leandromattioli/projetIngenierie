@@ -1,0 +1,3912 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Title
+Étude de faisabilité
+\size larger
+
+\begin_inset Newline newline
+\end_inset
+
+Système de monitoring à distance de sites isolés
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Maitrise d'Oeuvre:
+\series default
+ H4312
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Maitrise d'Ouvrage:
+\series default
+ GSTP
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Auteurs:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+BELHADJ AISSA Soraya, DE POTTER Jérôme, GOLUMBEANU Monica, NOGUEIRA Henrique,
+ PITIOT Billy
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features>
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="7cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Référence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Nom de référence du document
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Version du document
+\end_layout
+
+\end_inset
+
+ 1.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avancement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Terminé
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Validé
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dernière mise à jour
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+07/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features>
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Visa
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+07/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Nom du responsable
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Historique du document
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features>
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="7cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Auteur
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sujet de la modification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+14/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+H4312
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Création / Regroupement
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Présentation du projet
+\end_layout
+
+\begin_layout Subsubsection
+Contexte
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Le COPEVUE souhaite étudier un système de monitoring à distance de sites
+ isolés, situés dans de nombreuses régions de l'UE, pour mieux contrôler
+ ses besoins d'autonomie (en terme d'énergie, de déchets, etc).
+ Comme exemples de ces sites, on peut citer de nombreux lieux de travail
+ (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
+ etc).
+ Ce système doit permettre à COPEVUE de faire un suivi pour pouvoir intervenir
+ en cas de problèmes.
+\end_layout
+
+\begin_layout Subsubsection
+Objectifs
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Le travail demandé consiste en une proposition d'une solution pour la mesure
+ et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
+ système en réponse à un appel d'offre.
+ 
+\end_layout
+
+\begin_layout Standard
+Le but de ce travail consiste à faire une étude de faisabilité, la spécification
+ technique de besoins et une proposition d'architecture générique.
+\end_layout
+
+\begin_layout Subsection
+Présentation du document
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Ce dossier présente dans une première partie l'étude du système existant.
+ La seconde partie est une étude de faisabilité.
+ Cette étude porte sur l'identification des systèmes ou éléments existant
+ concernant : les processeurs pour systèmes embarqués, la gestion de l'énergie
+ (production et stockage de l'énergie) sur les sites à surveiller, les capteurs
+ de détection de niveau dans une cuve et le système de communication (géolocalis
+ation, communication avec le site, communication entre les capteurs et le
+ système embarqué).
+\end_layout
+
+\begin_layout Subsection
+Documents applicables / Documents de référence
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables
+\end_layout
+
+\begin_layout Itemize
+Le Dossier de Gestion de la Documentation;
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence
+\end_layout
+
+\begin_layout Itemize
+Plan-type d'un dossier de faisabilité
+\end_layout
+
+\begin_layout Itemize
+Appel d'offre de la COPEVUE
+\end_layout
+
+\begin_layout Subsection
+Terminologie et Abréviations
+\end_layout
+
+\begin_layout Section
+Analyse de l'existant
+\end_layout
+
+\begin_layout Subsection
+Analyse
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Le système actuel de monitoring à distance est mis en place pour la surveillance
+ de plusieurs sites de stockage.
+ Ces sites contiennent des récipients (réservoirs) qui peuvent contenir
+ différents types de substances liquides ou solides.
+ Il y a environ une centaine de sites de ce type.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+La surveillance des différents sites est réalisée par un agent.
+ Ce processus n'est pas automatisé.
+ Ainsi, à intervalles de temps régulier, des personnes doivent se déplacer
+ sur site afin d'extraire des informations (niveau de remplissage des récipients
+, température, état de propreté).
+ Chaque personne a un appareil connectable sur site qui lit les données
+ émises pas les différents capteurs existants.
+ Une personne doit vérifier 5 sites donc il y a au minimum 20 personnes
+ pour effectuer ce travail.
+ A la fin de la visite, un rapport est rédigé pour chaque site.
+ En fonction de ces rapports l'agent détermine les sites qui ont besoin
+ d'assistance et avertit la société chargée de la gestion du réservoir.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Une vérification de l'état de chaque capteur et de toute appareil présent
+ sur chaque site est aussi nécessaire.
+ Elle est effectuée deux fois par an par une équipe de 5 personnes.
+ Ces personnes sont capables de remédier la plupart des dysfonctionnements
+ sur place.
+ A la fin de chaque phase de vérification, un rapport est également rédigé
+ par chaque équipe.
+ Ce rapport sera ,par la suite, consulté par le propriétaire.
+ Si une intervention plus compliquée est nécessaire, un rapport spécifique
+ est rédigé et envoyé au système central dans les plus bref délais.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Cette méthode est très couteuse, peu autonome et problématique du point
+ de vue de la sécurité.
+ En effet, le manque d'automatisation dans le processus, impliquant une
+ intervention humaine couteuse, prend beaucoup de temps et peut générer
+ des erreurs.
+ Il n'y a pas de capteurs qui puissent transmettre ses données à distance.
+ La vidéo-surveillance ou tout contact direct avec les sites sont absents.
+ Il n'y a aucun moyen de vérifier si les déplacements sur site ont été effectués
+, si les rapports contiennent les vraies valeurs, si les récipients sont
+ dans un bon état pendant l'absence des personnes qui les vérifient et surtout
+ si les capteurs renvoient les bonnes valeurs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+La société chargée de s'occuper du réservoir (nettoyage/vidage/remplissage)
+ envoie un camion sur site.
+ Cette société s'occupant de plusieurs sites en même temps et les déplacements
+ n'étant pas optimisés, la méthode est très couteuse et inefficace.
+ Il n'y a aucun moyen sur site qui permet de prévoir la date de remplissage/vida
+ge/nettoyage et ainsi planifier les déplacements des camions afin d'optimiser
+ le processus d'entretien et de faire des économies logistiques.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Aucun protocole à suivre en cas de problème/incident n'est mis en place.
+ Cette absence met en danger le site ainsi que l'environnement.
+ De plus, le manque de communication directe entraine un handicap dans la
+ détection des problèmes, la rapidité de réaction et la remédiation au problème.
+\end_layout
+
+\begin_layout Subsection
+Conclusion
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+La conception actuelle du système doit être considérablement améliorée afin
+ d'assurer le bon fonctionnement et de répondre aux besoins des clients.
+ Les méthodes sont très lentes (par exemple pour savoir si un récipient
+ est vide on doit attendre l'arrivée de la personne en charge et lire son
+ rapport).
+ Il faut se concentrer surtout sur l'automatisation du système.
+ Cela réduirait un nombre important de problèmes de sécurité, d'entretien
+ ainsi que les coûts et la rapidité des processus.
+ 
+\end_layout
+
+\begin_layout Section
+Etude de faisabilité
+\end_layout
+
+\begin_layout Subsection
+Synthèse sur Système embarqué
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Il existe de nombreux processeurs embarqués existant sur le marché.
+ Certains beaucoup plus puissants que d'autres, accompagnés de nombreuses
+ fonctionnalités, fait pour aller sur des téléphones, des PDA, ...
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Le tableau suivant nous donne un aperçu sur certains d'entre eux avec leurs
+ caractéristiques principales.
+ Il essaie de ne pas privilégier un constructeur à un autre et fait apparaitre
+ une variété de processeurs embarqués de caractéristiques variées.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features>
+<column alignment="center" valignment="top" width="2.4cm">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Identification
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Bits
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Consommation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Puissance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Divers
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ARM Cortex-R4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32 bits
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+très faible consommation -- 0.17 mW/MHz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+jusqu'à 160MHz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Temps de réponse très faible - Maintenabilité - Reprise sur erreur - Sureté
+ - alternative au ARM9
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+TI DSP C5000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16 bits
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+très faible consommation standby 0.15mW + 0.15mW/MHz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+jusqu'à 300MHz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DSP (Digital Signal Processing) indique que le processeur est optimisé pour
+ le traitement de signaux
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MSP 430
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+16 bits
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Très faible consommation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+jusqu'à 25MHz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Températures acceptées : -40°C -> 85°C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intel EP80579
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+32 bits
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+basse consommation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+600 - 1000MHz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+envellope thermique : 11Watts maximum (600MHz) - résistant température
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ipExtreme M8051EW
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8 bits
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+basse consommation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100MHz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gestion consommation : chaque périphérique est en mode faible consommation
+ indépendamment
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FreeScale HCS08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8 bit
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+très faible consommation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20 - 40 MHz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:comparatif-proc"
+
+\end_inset
+
+Tableau comparatif des modèles de processeur embarqué
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Ce tableau nous montre que les processeurs embarqués peuvent être très différent
+s.
+ En effet, entre les processeurs 8 bits et les 32 bits, 20MHz ou 1GHz, il
+ y a des grandes différences.
+ Les constructeurs insistent tous sur la faible consommation mais peu donnent
+ des chiffres.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+La caractéristique importante dans notre cas est l'autonomie.
+ En effet, nous n'aurons à priori pas besoin d'une puissance de calcul très
+ important car ce processeur servira uniquement à transférer les données
+ au serveur qui disposera de la puissance de calcul nécessaire pour les
+ traiter.
+ Le prix n'est pas non plus un facteur très important car les prix varient
+ assez peu selon le modèle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+L'autonomie est donc le facteur clé du choix de notre processeur.
+ L'autonomie au niveau de la consommation (très basse consommation, mode
+ standby), mais aussi l'autonomie en cas d'erreur.
+ Si le processeur a un fonctionnement dans lequel on peut avoir confiance
+ et une reprise sur erreur efficace, c'est un plus dans notre cas car nous
+ ne pouvons pas toujours envoyer quelqu'un pour relancer l'application.
+\end_layout
+
+\begin_layout Subsection
+Synthèse sur gestion de l'énergie
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang english
+Analyse énergetique du système
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Etant donné que le système doit être autonome et qu'il peut se trouver dans
+ n'importe quel type d'environnement, nous devons trouver des moyens d'energie
+ qui soient indépendants de la localisation du système.
+ Pour que le système soit autonome et fiable on doit trouver aussi un moyen
+ de stocker l'energie en cas d'interuption de l'alimentation électrique.
+ On doit gérer aussi la consommation d'energie pour que le système utilise
+ le minimum d'énergie possible.
+\end_layout
+
+\begin_layout Subsubsection
+Stockage de l'énergie
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Si on a le moindre problème avec l'alimentation en énergie dans la station,
+ on aura des batteries qui pourront maintenir la station en activité jusqu'à
+ l'arrivée d'un agent d'entretien pour résoudre le problème.
+ Comme on aura des sources d'énergie de disponibilité limité (
+\shape italic
+p.
+ ex.
+ le soleil, le vent
+\shape default
+) , on doit assurer une quantité minimale que le système doit stocker en
+ cas d'indisponibilité de ces sources.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang english
+Batteries
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Modèle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Spécifications
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\lang english
+Prix
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sealed Lead Acid Battery
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+6 Volt, 1.3 Ah
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+6.95 €
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sealed Lead Acid Battery
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+6 Volt, 1.2 Ah
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+7.80 €
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+Sealed Lead Acid Battery 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+6 Volt, 6.5 Ah
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\lang english
+14.95 €
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+Tableau Comparatif des modèles de batteries
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang english
+Production d'énergie
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Le rechargement des batteries se fera en utilisant l'énergie solaire.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="4">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size small
+\lang english
+Modèle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size small
+\lang english
+Perfomance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size small
+\lang english
+Electrical Characteristics
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size small
+\lang english
+Prix
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Rated Power (Pmax): 4.5 watts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Maximum Power: 4.5 Watts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+53.00 
+\size default
+€
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+BP SX-305M, 5 watt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Power tolerance: ±10%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Voltage at Pmax: 16.5V
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Nominal Voltage: 12 volts 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Current at Pmax: 0.27A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Rated Power (Pmax): 4.5 watts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Peak Power (Pmax): 5 Watts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+39.80 
+\size default
+€
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+CDT Solar, CDT-5, 5 Watt
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Power tolerance: ±10%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Max.
+ Power Voltage: 17.5 Volts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Nominal Voltage: 12 volts 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Max.
+ Power Current: 0.29 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Rated Power (Pmax): 4.5 watts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Peak Power (Pmax): 5 Watts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+39.80 
+\size default
+€
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+CDT Solar, CDT-5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Power tolerance: ±10%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Max.
+ Power Voltage: 15.5 Volts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Nominal Voltage: 12 volts 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+\lang english
+Max.
+ Power Current: 0.29 A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+	
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{center}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:tableau_comparatif_panneau"
+
+\end_inset
+
+Tableau comparatif des modèles de panneaux solaires
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+
+\lang english
+Le tableau 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "tab:tableau_comparatif_panneau"
+
+\end_inset
+
+ nous montre les modèles de panneaux solaires qui ont une puissance nominale
+ de 5 watts maximum.
+ D'après les spécifications du microcontroleur et des capteurs, on ne devrait
+ pas avoir besoin de plus de puissance.
+ 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "tab:comparatif-proc"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Synthèse sur Capteur
+\end_layout
+
+\begin_layout Subsubsection
+Les technologies de capteurs de niveau existantes
+\end_layout
+
+\begin_layout Standard
+Il existe plusieurs methodes de detection de niveau dans des récipients.
+ Nous dégageons ci dessous les principales technologies utilisées :
+\end_layout
+
+\begin_layout Paragraph
+Méthodes hydrostatiques de mesure de niveau
+\end_layout
+
+\begin_layout Standard
+Les premières méthodes de mesure et contrôle de niveaux de liquides sont
+ fondées sur les propriétés hydrostatiques des liquides (pression hydrostatique,
+ poussée d'Archimède).
+ 
+\begin_inset Newline newline
+\end_inset
+
+La mesure transmise par les capteurs utilisés est une fonction continue
+ de la hauteur de liquide.
+ Elle est indépendante de ses propriétés électriques mais dépend, sauf dans
+ le cas du flotteur, de la masse volumique du liquide.
+ 
+\begin_inset Newline newline
+\end_inset
+
+On distingue quatre principes de mesure : 
+\end_layout
+
+\begin_layout Itemize
+Le flotteur 
+\end_layout
+
+\begin_layout Itemize
+Le plongeur 
+\end_layout
+
+\begin_layout Itemize
+Le palpeur électromagnétique 
+\end_layout
+
+\begin_layout Itemize
+Le capteur de pression 
+\end_layout
+
+\begin_layout Itemize
+Le capteur à bulle 
+\end_layout
+
+\begin_layout Paragraph
+Méthodes électriques de mesure de niveau
+\end_layout
+
+\begin_layout Standard
+Elles utilisent les propriétés électriques des liquides dont on veut mesurer
+ ou contrôler le niveau et sont les seules à utiliser des capteurs traduisant
+ directement le niveau en signal électrique.
+\end_layout
+
+\begin_layout Itemize
+Sondes conductives 
+\end_layout
+
+\begin_layout Itemize
+Sondes capacitives 
+\end_layout
+
+\begin_layout Paragraph
+Méthodes fondées sur l'utilisation de rayonnements
+\end_layout
+
+\begin_layout Standard
+Elles permettent notamment des mesures sans contact avec le produit ce qui
+ constitue un gros avantage.
+\end_layout
+
+\begin_layout Itemize
+Sondes à ultrasons 
+\end_layout
+
+\begin_layout Itemize
+Radars 
+\end_layout
+
+\begin_layout Itemize
+Sonde optique 
+\end_layout
+
+\begin_layout Subsubsection
+Les critéres de choix
+\end_layout
+
+\begin_layout Standard
+Nous avons dégagé plusieurs critères de choix pour déterminer quel type
+ capteur choisir.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Critères technologiques :
+\end_layout
+
+\begin_layout Itemize
+mesure pour liquides 
+\end_layout
+
+\begin_layout Itemize
+mesure pour solides 
+\end_layout
+
+\begin_layout Itemize
+hautes / basses pressions 
+\end_layout
+
+\begin_layout Itemize
+hautes / basses temperatures 
+\end_layout
+
+\begin_layout Itemize
+produits corrosifs 
+\end_layout
+
+\begin_layout Itemize
+prooduits colmatants 
+\end_layout
+
+\begin_layout Itemize
+produits moussants 
+\end_layout
+
+\begin_layout Itemize
+produits poussiéreux 
+\end_layout
+
+\begin_layout Itemize
+etendu des mesures
+\end_layout
+
+\begin_layout Paragraph
+Critères non technologiques :
+\end_layout
+
+\begin_layout Itemize
+Coût de l'installation 
+\end_layout
+
+\begin_layout Itemize
+Coût de l'equipement 
+\end_layout
+
+\begin_layout Itemize
+Coût de la maintenance 
+\end_layout
+
+\begin_layout Itemize
+Conditions d'installation indépendantes du contenu 
+\end_layout
+
+\begin_layout Itemize
+Pas de recalibrage si la forme ou si la nature du réservoir change 
+\end_layout
+
+\begin_layout Itemize
+Interface avec les systèmes 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Sortie analogique pour une mesure continu 
+\end_layout
+
+\begin_layout Itemize
+Réception d'informations de l'API, afin d'être configurés en fonction de
+ l'utilisation de l'appareil (évolutivité) 
+\end_layout
+
+\begin_layout Itemize
+Réalisation de télé-diagnostique 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Robustesse, durée de vie 
+\end_layout
+
+\begin_layout Itemize
+Fiabilité précision 
+\end_layout
+
+\begin_layout Subsubsection
+Tableau récapitulatif de réponse des solutions aux critéres 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename C:/Users/Titi/Documents/Projet4IFS2/appel d'offre/Sans titre 1.png
+	width 17cm
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tableau comparatif des différents types de capteurs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Les devis 
+\end_layout
+
+\begin_layout Subsubsection
+Les constructeurs de capteurs les plus reconnus sur le marché
+\end_layout
+
+\begin_layout Itemize
+Auxitrol (mesure de niveau par bullage) 
+\end_layout
+
+\begin_layout Itemize
+Bamo mesures (flotteur, câble et poulie) 
+\end_layout
+
+\begin_layout Itemize
+Bernstein GmbH (détecteur capacitif, flotteur) 
+\end_layout
+
+\begin_layout Itemize
+Bourdon Sedeme (mesure de pression par transmetteur immergeable) 
+\end_layout
+
+\begin_layout Itemize
+Danfoss (ultrasons) 
+\end_layout
+
+\begin_layout Itemize
+Endress Hauser (radar, lames vibrantes) 
+\end_layout
+
+\begin_layout Itemize
+Iris instruments (centrale piézo-métrique immergée) 
+\end_layout
+
+\begin_layout Itemize
+Keller (capteur piézo-résistif immergé, capteur de pression céramique capacitif)
+ 
+\end_layout
+
+\begin_layout Itemize
+Kobold instrumentation (flotteur, capteur de pression hydraulique) 
+\end_layout
+
+\begin_layout Itemize
+Krohne SA (sonde conductive, ultrasons, radar) 
+\end_layout
+
+\begin_layout Itemize
+Meggitt Mobrey (lames vibrantes, masse de déplacement, réflexion d'onde
+ ultrasonore) 
+\end_layout
+
+\begin_layout Itemize
+Milltronics (micro-ondes, radar, ultrasons, capacitif) 
+\end_layout
+
+\begin_layout Itemize
+Protais (hydrostatique par bullage) 
+\end_layout
+
+\begin_layout Itemize
+Scaime (cellule piézo-résistive, membrane céramique capacitive) 
+\end_layout
+
+\begin_layout Itemize
+Vega (ultrasons à temps de transit, radar, admittance) 
+\end_layout
+
+\begin_layout Subsection
+Synthèse sur Système de communication
+\end_layout
+
+\begin_layout Subsubsection
+Géolocalisation du site
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Le site doit être géolocalisé au moment de son installation.
+ Il existe plusieurs systèmes de géolocalisation :
+\end_layout
+
+\begin_layout Description
+GPS : Système de géolocalisation développé par l'armée américaine dans les
+ années 70.
+ Accessible aux civils depuis les années 2000 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Système performant, massivement utilisé et éprouvé 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Propriété de l'armée Américaine -> Possibilité de disfonctionneme
+nt en cas de conflit 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+GLONASS : Système de géolocalisation développé par l'armée Russe dans les
+ années 90.
+ Accessible aux civils à la fin des années 2000 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Système utilisé essentiellement en Russie -> Fiabilité ?,
+ manquements de qualité, budget alloué de plus en plus faible 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Galileo : Système de géolocalisation civil Européen.
+ Mise en service prévue en 2014 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Système civil -> Aucun controle de la part des forces armées
+ 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Système actuellement non disponible, date de mise en service
+ floue 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\series bold
+Résumé
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features>
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Système
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+En service
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Civil/Militaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Mise en service 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GPS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+oui
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+militaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Année 70 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GLONASS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+oui
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+militaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Année 90 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Galileo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+civil
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2014 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tableau comparatif des système de géolocalisation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Communication avec le site
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hspace{}
+\length 1cm
+\end_inset
+
+Il s'agit d'établir une communication permanente avec le site afin de récupérer
+ les relevés des capteurs ainsi que de relancer et reconfigurer le système
+ en cas de besoin.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Réseau sans fil
+\end_layout
+
+\begin_layout Description
+Réseau satellitaire : Réseau de communication par satellite 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Communication avec n'importe quel site à n'importe quel moment,
+ débit élevé 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Côut d'exploitation (abonnement) élevé, 
+\end_layout
+
+\begin_layout Itemize
+Société proposant ce service : Globalstar, Iridium 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Réseau GSM/GPRS : Réseau de téléphonie mobile classique.
+ Le GSM est utilisé pour les communications de type "voie" et le GPRS pour
+ les communications de type "donnée" 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Coûts des communication relativement faible, transfert de données
+ rapide 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Zone de couverture limitée, communication impossible avec
+ la plupart des sites à surveiller 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\series bold
+Réseau filaire
+\end_layout
+
+\begin_layout Description
+Réseau filaire : Réseau de communication par fibre optique soit directement
+ avec le central soit en se racordant au réseau internet mondial 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Coûts des communications très faible, transfert de donnée très
+ rapide, grande fiabilité 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Mise en place très couteuse, inutilisable pour un site mobile
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\series bold
+Résumé
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features>
+<column alignment="center" valignment="top" width="3.5cm">
+<column alignment="center" valignment="top" width="3.5cm">
+<column alignment="center" valignment="top" width="3.7cm">
+<column alignment="center" valignment="top" width="3.3cm">
+<column alignment="center" valignment="top" width="3cm">
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Système
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Vitesse de transfert
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Coût (mise en place)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Coût (exploitation)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Fiabilité 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Réseau satellitaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé (abonnement)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+bonne 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Réseau GSM/GPRS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moyenne
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moyenne (abonnement)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible (zones non couvertes) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Réseau filaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé (entretient)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+très bonne 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tableau comparatif des système de communication distant
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Communication entre les capteurs et le système embarqué
+\end_layout
+
+\begin_layout Paragraph
+Système sans fil
+\end_layout
+
+\begin_layout Description
+InfraRouge -> Lisaison optique à large bande : Transmission par rayon lumineux
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Transfert de fichiers avec des performances comparable à celles
+ d'un réseau filaire 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Distance de communication faible (30 m), sensible aux interférenc
+es lumineuses, ligne de vue directe necessaire 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Radio à bande étroite (fréquence unique) : Transmission par radio en utilisant
+ une seule fréquence 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Portée importante (>1000 km) 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Vitesse de transmission faible (4,6 Mb/s), autorisation de
+ la part des autorités necessaire 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Radio à spectre étalé (fréquence multiple) : Transmission par radio en utilisant
+ plusieurs fréquence (Changement de fréquence en fonction d'un algorithme)
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Portée importante (>3000 km) 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Vitesse de transmission faible (25 Kb/s à 4 Mb/s) 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Bluetooth : Transmission sans ligne de vue directe 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Pas de ligne de vue directe necessaire 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Vitesse de transmission et portée faibles (1 Mb/s, 100 m)
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Wi-Fi : Ensemble de protocoles de communication sans fil par onde-radio
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Haut débit (6 Mb/s à 25 Mb/s), pas de vue directe nécessaire
+ 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Portée moyenne (400 m), sensible aux obstacles (murs, ...) 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Wimax : Mode de transfert de fichier en haut débit par voie Hertzienne 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Trés haut débit (30 Mb/s à 75 Mb/s), portée très élevée (3,5
+ km à 10 km), notion de qualité de service intégré nativement 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Sensible aux gros obstacles (collines, immeubles, ...) 
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph
+Système filaire
+\end_layout
+
+\begin_layout Description
+Cable coaxial : Transmission par cable à paire torsadée 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Très haut débit (10 Mb/s à 100 Mb/s), pas d'interférence 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Portée faible (100 m) 
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Fibre optique : Transmission par cable à paire torsadée 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avantage : Très haut débit (10 Gb/s), pas d'interférence 
+\end_layout
+
+\begin_layout Itemize
+Inconvénient : Très grande protée (10 km à 40 km) 
+\end_layout
+
+\end_deeper
+\begin_layout Paragraph*
+Résumé
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="5">
+<features>
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3.5cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="3.5cm">
+<column alignment="center" valignment="top" width="3cm">
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Système
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Vitesse de transfert
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Distance
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Transmission avec ligne de vue direct
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Autre 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+InfraRouge
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moyenne
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+oui
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sensible aux interférences 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Radio uni-bande
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Autorisation nécessaire 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Radio multi-bande
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bluetooth
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wi-Fi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+moyenne
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sensible aux petits obstacles 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wimax
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+non
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sensible aux gros obstacles 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cable coaxial
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+très élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+faible
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fibre optique
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+très élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+trés élevé
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+/
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tableau comparatif des système de communication avec les capteurs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
