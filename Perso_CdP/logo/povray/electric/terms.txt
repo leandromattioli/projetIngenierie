@@ -1,0 +1,18 @@
+Terms of use
+
+My utilities, such as my include file packages for POV-Ray, are my property and I have copyright over them. My utilities are free; you can redistribute them and/or modify them under the terms of the GNU General Public License. 
+So you only need to respect my copyright and follow the General Public License. However, I would be very thankful if you would consider helping me and supporting my work as described below. 
+
+Give credit
+If you make any images or animations using my utilities, I would appreciate it if you would give me credit where due, including both my name (Rune S. Johansen) and a link to my web site. 
+If you use my utilities in the creation process of images or animations for the Internet Ray-Tracing Competition located at http://www.irtc.org, I would also appreciate such credit written in the text file accompanying the entry. 
+
+Donate
+I have made my utilities available for free, for everyone to use. However, if you find them to be valuable tools in your work, I hope you will consider making a small donation. This way you can help support the further development of free utilities, in which I invest so much of my time. You can read more about the donation options on this page: 
+http://runevision.com/welcome/donate/ 
+
+Contact me
+I also always appreciate to hear from people who use my utilities, so if you have any comments, questions, or problems, please contact me, because I'd like to hear about it!
+
+Rune S. Johansen, June 23 2001
+http://runevision.com

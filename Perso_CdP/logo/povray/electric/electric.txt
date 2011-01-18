@@ -1,0 +1,189 @@
+*********************************************************************
+*********************************************************************
+      ELECTRICITY INCLUDE FILE for POV-Ray 3.6 with MegaPov 1.0
+*********************************************************************
+*********************************************************************
+
+Copyright 2001-2005 Rune S. Johansen
+
+1.0  INSTALLATION
+2.0  QUICK START
+3.0  PARAMETERS
+      3.1  The ElectricPath() macro
+      3.2  The ElectricColor() macro
+      3.3  The Electric() macro
+            3.3.1  Brightness
+            3.3.1  Thickness
+            3.3.1  Fuzzyness
+            3.3.1  RollSpeed
+            3.3.1  FlickerSpeed
+            3.3.1  MinDist
+6.0  CONTACTING THE AUTHOR
+
+*********************************************************************
+
+
+1.0  INSTALLATION
+*********************************************************************
+Copy the POV-Ray include file electric.inc to one of the directories
+(folders) in your POV-Ray library path.  Normally this is the INCLUDE
+sub-directory of the directory where you installed POVRay, so if you
+installed POV-Ray in C:\POVRAY you should copy the include files to
+C:\POVRAY\INCLUDE.  On a Windows 95 system, this is probably
+something like:
+
+   C:\Program Files\POV-Ray for Windows\Include
+
+
+2.0  QUICK START
+*********************************************************************
+The Electricity Include File lets you create impressive electric
+sparks between two points. The electric sparks can be anything from
+realistic to silly. You can make the sparks follow a certain path and
+you have complete control over the colors. The include file was
+designed for animation but looks great in stills too.
+
+I apologize for the lacking documentation. To see how to use the
+include file I suggest you have a look at the 4 sample scenes.
+
+
+3.0  PARAMETERS
+*********************************************************************
+Create an electric spark by first defining the macros ElectricPath()
+and ElectricColor() and then call the Electric() macro.
+
+Syntax:
+
+   #macro ElectricPath(V)  ... #end
+   #macro ElectricColor(V) ... #end
+   Electric( Brightness, Thickness, Fuzzyness, RollSpeed, FlickerSpeed, MinDist )
+
+
+3.1  The ElectricPath() macro
+*********************************************************************
+You must define the ElectricPath() macro to define the path that the
+electric spark must follow. The macro should be designed to work with
+one input parameter (a float) that goes from 0.0 to 1.0. The output
+should be a vector that is dependent on the input value. As the input
+value goes from 0.0 to 1.0, the output vector should move along the
+desired path.
+
+Example:
+
+ElectricPath(Value) ( PointA*(1-Value) + PointB*Value ) #end
+
+The above example creates a path that goes linearly from the vector
+PointA to the vector PointB.
+
+Because a linear path is very common to use, I have made a predefined
+macro LinearPath() for this purpose. You can call it like this:
+
+ElectricPath(Value) LinearPath(PointA,PointB,Value) #end
+
+You can also create your own function to create an interesting path
+for a spark.
+
+
+3.2  The ElectricColor() macro
+*********************************************************************
+You must define the ElectricColor() macro to define the colors that
+the electric spark must have. The macro should be designed to work
+with one input parameter (a float) that goes from 0.0 to 1.0. The
+output should be a color vector that may be dependent on the input
+value. As the input value goes from 0.0 to 1.0, the output vector
+should return the colors that the spark should have along the desired
+path.
+
+Example:
+
+ElectricColor(Value) <0,0,1> #end
+
+This will cause the spark to be blue along the entire path.
+
+Another example:
+
+ElectricColor(Value) ( ColorA*(1-Value) + ColorB*Value ) #end
+
+This will make the spark have the color ColorA at the start of the
+path and the color Color B at the end of the path. However, such a
+simple interpolation of colors does not always work very well. I have
+created a macro that will interpolate two colors more smoothly. You
+can call it like this:
+
+ElectricColor(Value) LinearColor(ColorA,ColorB,Value) #end
+
+You can also make up your own function to create interesting colors
+for a spark.
+
+
+3.3  The Electric() macro
+*********************************************************************
+When ElectricPath() and ElectricColor() has been defined, you can
+call the Electric() macro.
+
+Syntax:
+
+   Electric( Brightness, Thickness, Fuzzyness, RollSpeed, FlickerSpeed, MinDist )
+
+The parameters are explained in the subsections.
+
+
+3.3.1  Brightness
+*********************************************************************
+Brightness is a float that defines how bright the spark is.
+
+
+3.3.2  Thickness
+*********************************************************************
+Thickness is a float that defines how thick the glow of the spark is.
+The glow of the spark is removed outside of the radius defined by
+Thickness. When changing Thickness you may have to adjust Brightness
+to get the desired result. Specifying a Thickness value of 0 will
+turn off the removal of the glow completely, which means the glow of
+the spark extends unlimited, creating a more foggy appearance.
+
+
+3.3.3  Fuzzyness
+*********************************************************************
+Fuzzyness is a float that controls how fuzzy the electric spark is.
+The smaller the Fuzzyness value is, the more precisely the spark
+follows the path defined by the ElectricPath() macro.
+
+
+3.3.4  RollSpeed
+*********************************************************************
+RollSpeed is a float that controls how fast the spark "rolls".
+"Rolling" is the term I have chosen to use for the smooth, continous
+movement of the spark. RollSpeed is relevant for animations only.
+
+
+3.3.5  FlickerSpeed
+*********************************************************************
+FlickerSpeed is a float that controls how fast the spark flickers.
+Flickering is the jaggy, non-continous movement of the spark.
+FlickerSpeed is relevant for animations only.
+
+
+3.3.6  MinDist
+*********************************************************************
+MinDist is the minimum distance between two glows in the spark.
+Higher values will render faster while values closer to zero will
+create a more detailed spark. Note that this will affect the
+brightness of the glow too, so when changing MinDist, you may want to
+adjust the Brightness value to get the desired result.
+
+
+4.0  CONTACTING THE AUTHOR
+*********************************************************************
+If you wish to contact me with bug reports, bug fixes, criticisms, 
+comments, suggested improvements, questions, etc. you can reach me  
+though my website at:
+
+   http://runevision.com
+
+Remember that I really like to get feedback! :)
+
+*********************************************************************
+
+POV-Ray(tm) and Persistence of Vision(tm) are registered trademarks
+of the POV-Ray Team(tm)
