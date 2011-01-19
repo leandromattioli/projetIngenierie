@@ -16,7 +16,9 @@
 \font_tt_scale 100
 
 \graphics default
+\float_placement h
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -43,6 +45,47 @@
 
 \begin_layout Section
 Architecture de l'application
+\end_layout
+
+\begin_layout Subsection
+Schéma de l'architecture de l'application
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/henrique/projetIngenierie/Perso_GEI/specification_technique_besoins/imagesSchemaGlobal/EbaucheArchiFinale.png
+	lyxscale 30
+	scale 50
+	BoundingBox 0bp 0bp 979bp 724bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Schéma de l'architecture de l'application
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
