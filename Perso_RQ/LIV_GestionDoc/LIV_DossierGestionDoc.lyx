@@ -898,7 +898,7 @@ Le COPEVUE souhaite étudier un système de monitoring à distance de sites
  Comme exemples de ces sites, on peut citer de nombreux lieux de travail
  (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
  etc).
- Ce système doit permettre à COPEVUE faire un suivi pour pouvoir intervenir
+ Ce système doit permettre à COPEVUE de faire un suivi pour pouvoir intervenir
  en cas de problèmes.
 \end_layout
 
@@ -914,8 +914,8 @@ Le travail demandé consiste en une proposition d'une solution pour la mesure
 \end_layout
 
 \begin_layout Standard
-Le but de ce travail consiste à faire un étude de faisabilité, bien comme
- la spécification technique de besoins et une proposition d'architecture
+Le but de ce travail consiste à faire un étude de faisabilité, de même que
+ la spécification technique des besoins et une proposition d'architecture
  générique.
 \end_layout
 
@@ -933,11 +933,11 @@ s règles applicables à la production de documents dans le cadre de ce projet.
 \end_layout
 
 \begin_layout Standard
-La gestion de la documentation doit auqqirer d’une part que les différents
+La gestion de la documentation doit aussurer d’une part que les différents
  documents qui sont générés tout au long du déroulement du projet et qui
- traduisent le travail de l’équipe, sont être cohérents entre eux et d’autre
+ traduisent le travail de l’équipe, sont cohérents entre eux et d’autre
  part, que l’équipe elle-même se retrouve autour d’un document commun.
- Aussi , le document de gestion de la documentation constitue une référence
+ Aussi, le document de gestion de la documentation constitue une référence
  pour chaque document qui sera élaboré par l’équipe.
  C’est donc un outil contenant un ensemble de règles qui doivent être suivies
  par chaque membre.
@@ -969,14 +969,21 @@ Le non-respect de ce document par les membres de l'equipe devra être discuté
 es.
  En cas de besoin (jugé par le chef de projet et le responsable qualité),
  le présent document pourra être modifié.
- Suite aux modifications, le « Dossier de gestion de la documentation »
- devra être revalidé par le chef de projet, puis toute l’équipe sera informée
+ Suite aux modifications, le «
+\begin_inset space \space{}
+\end_inset
+
+Dossier de gestion de la documentation
+\begin_inset space \space{}
+\end_inset
+
+» devra être revalidé par le chef de projet, puis toute l’équipe sera informée
  par mail de la nouvelle version.
  
 \end_layout
 
 \begin_layout Subsection
-Document applicables/Documents de référence
+Documents applicables/Documents de référence
 \end_layout
 
 \begin_layout Subsubsection
@@ -1101,6 +1108,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\noindent
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1132,6 +1140,7 @@ ACTEUR
 \begin_inset Text
 
 \begin_layout Plain Layout
+\noindent
 RESPONSABILITES
 \end_layout
 
@@ -1185,7 +1194,7 @@ Auteur
 \end_layout
 
 \begin_layout Plain Layout
-(un document peut être produit par plusieurs auteurs )
+(un document peut être produit par plusieurs auteurs)
 \end_layout
 
 \end_inset
@@ -1208,7 +1217,7 @@ gestion des mises à jour et des versions-révisions successives du document
 \end_layout
 
 \begin_layout Itemize
-mise à jour du journal du Glossair
+mise à jour du journal du Glossaire
 \end_layout
 
 \end_inset
@@ -1427,8 +1436,11 @@ Maitrise d'œuvre: H4312
 \end_layout
 
 \begin_layout Itemize
-Maitrise d'Ouvrage: GSTP (dans ce cas là) 2 tableaux avec des informations
- sur l'état du document: 
+Maitrise d'Ouvrage: COPEVUE (dans ce cas là)
+\end_layout
+
+\begin_layout Itemize
+2 tableaux avec des informations sur l'état du document : 
 \end_layout
 
 \begin_deeper
@@ -1598,8 +1610,8 @@ Un en-tête est obligatoire: le nom de la Maitrise d'œuvre: H4312 et le titre
  3/15).
  Le texte contenu dans le document est justifié et une vérification orthographiq
 ue est indispensable.
- Le seuls style utilisés seront Standard, Section, SousSection et SousSousSectio
-n
+ Les seuls styles utilisés seront Standard, Section, SousSection et SousSousSect
+ion
 \end_layout
 
 \begin_layout Standard
@@ -1996,14 +2008,22 @@ Description
 \end_layout
 
 \begin_layout Standard
-Le « Glossaire » est un livrable contenant la définition des termes spécifiques
- à ce projet ou à la solution fournie par l’hexanôme 4312.
- Il contient aussi l’explication de différentes abréviations utilisées dans
- les différents livrables et Annexes rendus.
+Le «
+\begin_inset space \space{}
+\end_inset
+
+Glossaire
+\begin_inset space \space{}
+\end_inset
+
+» est un livrable contenant la définition des termes spécifiques à ce projet
+ ou à la solution fournie par l’hexanôme 4312.
+ Il contient aussi l’explication des différentes abréviations utilisées
+ dans les différents livrables et Annexes rendus.
  Le « Glossaire » est commun à tous les livrables et Annexes rendus par
  notre équipe.
  Il contient la liste des mots par ordre alphabétique.
- S’il s’agit des abréviations on va considérer le mot abrévié pour déterminer
+ S’il s’agit d'abréviations on va considérer le mot abrévié pour déterminer
  l’ordre alphabétique et non sa version complète.
  
 \end_layout
@@ -2013,11 +2033,11 @@ Exemple de définition du glossaire
 \end_layout
 
 \begin_layout Standard
-Dans le glossaire, le mot à définir doit écrit avec le style 
+Dans le glossaire, le mot à définir doit être écrit avec le style 
 \begin_inset Quotes eld
 \end_inset
 
-Paragraph
+Paragraphe
 \begin_inset Quotes erd
 \end_inset
 
@@ -2105,8 +2125,8 @@ Ces versions papiers étant remises au client, il n’est pas utile de les
 \end_layout
 
 \begin_layout Standard
-Enfin, libre à chaque membre d'equipe une version papier d’un des documents
- informatisés par exemple pour une lecture plus aisée.
+Enfin, libre à chaque membre d'équipe d'imprimer une version papier d’un
+ des documents informatisés par exemple pour une lecture plus aisée.
 \end_layout
 
 \begin_layout Section
@@ -2114,7 +2134,7 @@ Les types de documents
 \end_layout
 
 \begin_layout Subsection
-type « Modèle » 
+Type « Modèle » 
 \end_layout
 
 \begin_layout Standard
@@ -2147,14 +2167,14 @@ MOD_NomDuDoc
 \begin_inset Quotes erd
 \end_inset
 
- - le nom doit être explicit.
+ - le nom doit être explicite.
  Les « Modèles » sont crées au début du projet.
  Ils ne possèdent ni une version, ni un état.
  
 \end_layout
 
 \begin_layout Subsection
-type « Communication »
+Type « Communication »
 \end_layout
 
 \begin_layout Standard
@@ -2183,7 +2203,7 @@ COM_NomDuDoc_Auteur
 \end_layout
 
 \begin_layout Subsection
-type « Livrable » 
+Type « Livrable » 
 \end_layout
 
 \begin_layout Standard
@@ -2197,14 +2217,14 @@ Les documents de type « Livrable » (ou « les livrables ») font partie des
 \end_layout
 
 \begin_layout Standard
-Les documents de type « Livrables » se trouvent dans le dossier « Livrables
+Les documents de type « Livrable » se trouvent dans le dossier « Livrables
  ».
  Dans ce répertoire les différents livrables sont regroupés en fonction
- de la ou les personnes responsables : le RQ (dossier « RQ »), les GEI (Dossier
+ de la ou des personnes responsables : le RQ (dossier « RQ »), les GEI (Dossier
  « GEI ») ou le CdP (Dossier « CdP »).
- La structure generale du document est decrite dans ce document et le modèle
+ La structure générale du document est décrite dans ce document et le modèle
  est « MOD_Livrables ».
- Le nom de fichier doit etre de la forme 
+ Le nom de fichier doit être de la forme 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2216,16 +2236,16 @@ LIV_NomDuDoc_Auteur
 \end_layout
 
 \begin_layout Subsection
-type « Annexe »
+Type « Annexe »
 \end_layout
 
 \begin_layout Standard
 Les documents de type « Annexe » (ou « les annexes ») sont des documents
  de synthèse sur des points particuliers qui peuvent être demandés par le
  chef de projet.
- Chaque membre de l’équipe peut décider réaliser une annexe mais elle doit
- être validée par le chef de projet.
- Les documents de type « Annexes » se trouvent dans le dossier « Annexes
+ Chaque membre de l’équipe peut décider de réaliser une annexe mais elle
+ doit être validée par le chef de projet.
+ Les documents de type « Annexe » se trouvent dans le dossier « Annexes
  ».
  Le nom de fichier doit etre de la forme 
 \begin_inset Quotes eld
@@ -2235,31 +2255,49 @@ ANN_NomDuDoc_Auteur
 \begin_inset Quotes erd
 \end_inset
 
- et il doit être créé à partir du Modèle « ANN_Communication ».
+ et il doit être créé à partir du Modèle « ANN_Communication »
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+???? Est-ce que ce ne serait pas plutôt MOD_Annexe
+\end_layout
+
+\end_inset
+
+.
  Une annexe doit être vérifiée et validée.
 \end_layout
 
 \begin_layout Subsection
-type « Draft »
+Type « Draft »
 \end_layout
 
 \begin_layout Standard
 Un « Draft » est un document qui doit être considéré comme un brouillon
  et son but est de mettre sur papier des idées, des schémas etc.
- Il se trouvt dans le dossier « Drafts ».
+ Il se trouve dans le dossier «
+\begin_inset space \space{}
+\end_inset
+
+Drafts
+\begin_inset space \space{}
+\end_inset
+
+».
  Le cycle de vie d’un « Draft » n’est pas tracé.
  L’état ou la version sont aussi des éléments sans importance (et donc pas
  pris en compte) pour ce type de document.
 \end_layout
 
 \begin_layout Subsection
-type « Fiche » 
+Type « Fiche » 
 \end_layout
 
 \begin_layout Standard
 Un document de type « Fiche » (ou « fiche ») est un document administratif
  qui sert à réaliser le suivi du projet.
- Plusieurs modèles des fiches existantes peut être trouvée dans le fichier
+ Plusieurs modèles des fiches existantes peuvent être trouvé dans le fichier
  dossier «Communication».
  Les documents de type « Fiche » se trouvent dans le dossier « Fiches »,
  Elles ne possèdent ni version, ni état.
@@ -2345,7 +2383,7 @@ Introduction
 
 \begin_deeper
 \begin_layout Enumerate
-Pésentation du projet
+Présentation du projet
 \end_layout
 
 \begin_deeper
@@ -2359,11 +2397,11 @@ Objectifs
 
 \end_deeper
 \begin_layout Enumerate
-Présentation du documen
+Présentation du document
 \end_layout
 
 \begin_layout Enumerate
-Document applicables/Documents de référence
+Documents applicables/Documents de référence
 \end_layout
 
 \begin_deeper
@@ -2427,13 +2465,13 @@ Synthèse sur systèmes de localisation
 \end_layout
 
 \begin_layout Enumerate
-f…….
+…….
  
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
-Conclusions 
+Conclusion
 \end_layout
 
 \begin_layout Enumerate
@@ -2445,7 +2483,7 @@ Annexe 3: Plan-type d’un dossier de spécification technique
 \end_layout
 
 \begin_layout Enumerate
-Historique do document
+Historique de document
 \end_layout
 
 \begin_layout Enumerate
@@ -2454,7 +2492,7 @@ Introduction
 
 \begin_deeper
 \begin_layout Enumerate
-Pésentation du projet
+Présentation du projet
 \end_layout
 
 \begin_deeper
@@ -2468,11 +2506,11 @@ Objectifs
 
 \end_deeper
 \begin_layout Enumerate
-Présentation du documen
+Présentation du document
 \end_layout
 
 \begin_layout Enumerate
-Document applicables/Documents de référence
+Documents applicables/Documents de référence
 \end_layout
 
 \begin_deeper
@@ -2504,7 +2542,7 @@ Axes de progrès marginaux
 \end_layout
 
 \begin_layout Enumerate
-Faux axes de progres éventuels 
+Faux axes de progrès éventuels 
 \end_layout
 
 \begin_layout Enumerate
@@ -2533,7 +2571,7 @@ Conclusion
 \end_layout
 
 \begin_layout Enumerate
-Annexe 
+Annexes
 \end_layout
 
 \begin_layout Subsection
@@ -2541,7 +2579,7 @@ Annexe 4: Plan-type d’un dossier de conception d’un système
 \end_layout
 
 \begin_layout Enumerate
-Historique do document
+Historique de document
 \end_layout
 
 \begin_layout Enumerate
@@ -2550,7 +2588,7 @@ Introduction
 
 \begin_deeper
 \begin_layout Enumerate
-Pésentation du projet
+Présentation du projet
 \end_layout
 
 \begin_deeper
@@ -2564,11 +2602,11 @@ Objectifs
 
 \end_deeper
 \begin_layout Enumerate
-Présentation du documen
+Présentation du document
 \end_layout
 
 \begin_layout Enumerate
-Document applicables/Documents de référence
+Documents applicables/Documents de référence
 \end_layout
 
 \begin_deeper
@@ -2599,7 +2637,7 @@ Architecture applicative
 \end_layout
 
 \begin_layout Enumerate
-Architecture informatiques et matérielle
+Architecture informatique et matérielle
 \end_layout
 
 \begin_layout Enumerate
@@ -2620,7 +2658,7 @@ Annexes
 
 \begin_deeper
 \begin_layout Enumerate
-Annexe 1 : Répresentation informatique des objets 
+Annexe 1 : Représentation informatique des objets 
 \end_layout
 
 \begin_layout Enumerate
@@ -2637,7 +2675,7 @@ Annexe 5: Plan-type d’un dossier de synthèse
 \end_layout
 
 \begin_layout Enumerate
-Historique do document
+Historique de document
 \end_layout
 
 \begin_layout Enumerate
@@ -2646,7 +2684,7 @@ Introduction
 
 \begin_deeper
 \begin_layout Enumerate
-Pésentation du projet
+Présentation du projet
 \end_layout
 
 \begin_deeper
@@ -2660,11 +2698,11 @@ Objectifs
 
 \end_deeper
 \begin_layout Enumerate
-Présentation du documen
+Présentation du document
 \end_layout
 
 \begin_layout Enumerate
-Document applicables/Documents de référence
+Documents applicables/Documents de référence
 \end_layout
 
 \begin_deeper
@@ -2737,7 +2775,7 @@ Annexe 6: Plan-type d’un dossier d’interface de communication
 \end_layout
 
 \begin_layout Enumerate
-Historique do document
+Historique de document
 \end_layout
 
 \begin_layout Enumerate
@@ -2746,7 +2784,7 @@ Introduction
 
 \begin_deeper
 \begin_layout Enumerate
-Pésentation du projet
+Présentation du projet
 \end_layout
 
 \begin_deeper
@@ -2760,11 +2798,11 @@ Objectifs
 
 \end_deeper
 \begin_layout Enumerate
-Présentation du documen
+Présentation du document
 \end_layout
 
 \begin_layout Enumerate
-Document applicables/Documents de référence
+Documents applicables/Documents de référence
 \end_layout
 
 \begin_deeper
@@ -2783,7 +2821,7 @@ Terminologie et Abréviations
 
 \end_deeper
 \begin_layout Enumerate
-Decoupage du projet 
+Découpage du projet 
 \end_layout
 
 \begin_deeper
@@ -2796,7 +2834,7 @@ Division en sous-ensembles
 \end_layout
 
 \begin_layout Enumerate
-Division en niveau inférieur 
+Division en niveaux inférieurs
 \end_layout
 
 \end_deeper
@@ -2811,11 +2849,11 @@ Sous-ensemble Machines-Outils -
 
 \begin_deeper
 \begin_layout Itemize
-sous-sous-ensembles X 
+sous-sous-ensemble X 
 \end_layout
 
 \begin_layout Itemize
-sous-sous-ensembles Y 
+sous-sous-ensemble Y 
 \end_layout
 
 \end_deeper
