@@ -616,7 +616,7 @@ Bilan des améliorations
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+21.01.2011
 \end_layout
 
 \end_inset
@@ -625,7 +625,7 @@ Bilan des améliorations
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Jerome
 \end_layout
 
 \end_inset
@@ -634,7 +634,7 @@ Bilan des améliorations
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.2
 \end_layout
 
 \end_inset
@@ -643,7 +643,7 @@ Bilan des améliorations
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Version finale - mise en forme
 \end_layout
 
 \end_inset
@@ -1078,10 +1078,6 @@ Exigences fonctionnelles
 \end_layout
 
 \begin_layout Subsection
-Capteurs
-\end_layout
-
-\begin_layout Subsection
 Postes mobiles
 \end_layout
 
@@ -1097,14 +1093,14 @@ Les stations mobiles représentent les différents dispositifs comme le PDA,
 Les besoins fonctionnels suivants devront être assurés:
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Itemize
 Communication à tout moment avec le serveur central via une interface graphique.
  Le client mobile doit être capable de recevoir des alertes du serveur et
  envoyer à son tour des commandes(arrêter un site isolé, redémarrer le système
  présent sur un site, etc.) 
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Itemize
 Affichage des informations/monitoring
 \end_layout
 
@@ -1127,7 +1123,7 @@ suivre les informations concernant le trajet d'un camion
 \end_layout
 
 \end_deeper
-\begin_layout Enumerate
+\begin_layout Itemize
 Configurer et maintenir à distance le matériel présent sur le site (système
  embarqué, capteurs, caméras, détecteurs de feu, etc.
  )
@@ -1149,7 +1145,7 @@ types d'actions (email, appel, demande de remplissage/vidage)
 
 \end_deeper
 \end_deeper
-\begin_layout Enumerate
+\begin_layout Itemize
 Commandes
 \end_layout
 
@@ -1175,6 +1171,77 @@ définition manuelle d'un trajet d'un camion
 Serveur central
 \end_layout
 
+\begin_layout Standard
+La station centrale de monitoring reçoit toutes les données envoyées par
+ les capteurs ainsi que les images enregistrées par les caméras de vidéo-sourvei
+llance.
+ Cette station assure principalement la sourveillance des sites et permet
+ l'exploitation ultérieure des données envoyés par les capteurs.
+\end_layout
+
+\begin_layout Itemize
+Monitoring des sites à distance
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Obtenir à distance les données des différents capteurs
+\end_layout
+
+\begin_layout Itemize
+Vérifier à distance l'état des capteurs qui se trouvent sur le site surveillé
+\end_layout
+
+\begin_layout Itemize
+Visualiser en temps réel les images prises par les caméras de vidéo-surveillance
+ qui se trouvent sur le site surveillé
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Configurer et maintenir à distance le système embarqué des sites isolés
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Redemarrage 
+\end_layout
+
+\begin_layout Itemize
+Mise à jour 
+\end_layout
+
+\begin_layout Itemize
+Changement des paramètres
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Communiquer avec les stations mobiles (les PDA des conducteurs des camions,
+ les postes clients, etc.).
+ La communication doit être possible vers et à partir de tout endroit, fiable
+ et criptée par raison de securité.
+ 
+\end_layout
+
+\begin_layout Itemize
+Avertir immediatement les clients mobiles concernés en cas d'incident 
+\end_layout
+
+\begin_layout Itemize
+Stocker toutes les informations et les opérations (traces) dans une base
+ de données 
+\end_layout
+
+\begin_layout Itemize
+Recueillir les informations envoyées par les clients mobiles.
+ 
+\end_layout
+
+\begin_layout Itemize
+Une IHM doit permettre de configurer le système
+\end_layout
+
 \begin_layout Subsection
 Système embarqué
 \end_layout
@@ -1185,53 +1252,88 @@ Nous utiliserons un processeur embarqué pour chaque site surveillé.
  vers le serveur où les données seront traitées.
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Exigences Fonctionnelles
+\begin_layout Itemize
+Le processeur doit être capable de gérer les données envoyées par des capteurs.
 \end_layout
 
 \begin_layout Itemize
-GESTION DE CAPTEURS : le processeur doit être capable de gérer les données
- envoyées par des capteurs.
+Le processeur doit pouvoir s'interfacer avec des composant réseau pour pouvoir
+ envoyer les données à un serveur central.
 \end_layout
 
 \begin_layout Itemize
-GESTION DE RÉSEAU : le processeur doit pouvoir s'interfacer avec des composant
- réseau pour pouvoir envoyer les données à un serveur central.
-\end_layout
-
-\begin_layout Itemize
-PRÉ-TRAITEMENT : le processeur doit disposer d'une puissance suffisante
- pour faire un pré-traitement des données des capteurs.
+Le processeur doit disposer d'une puissance suffisante pour faire un pré-traitem
+ent des données des capteurs.
  Par exemple, il doit pouvoir déterminer si des informations sont prioritaires
  car très importantes ou si au contraire elles n'exigent pas une grande
  vitesse de réaction.
 \end_layout
 
 \begin_layout Itemize
-CONFIGURATION À DISTANCE : le processeur doit être facilement configurable
- à distance.
+Le processeur doit être facilement configurable à distance.
  L'accès aux différents sites étant coûteux, tout l'administration doit
  être faite à distance et il doit être possible de configurer le processeur
  à distance.
 \end_layout
 
 \begin_layout Itemize
-FAIBLE CONSOMMATION D'ÉNERGIE : le processeur ne doit pas trop consommer
- d'énergie car le système doit être autonome en énergie.
+Le processeur ne doit pas trop consommer d'énergie car le système doit être
+ autonome en énergie.
 \end_layout
 
 \begin_layout Subsection
 Communication
 \end_layout
 
-\begin_layout Section
-Exigences non fonctionnelles
+\begin_layout Subsubsection
+Accès au système embarqué à distance
 \end_layout
 
-\begin_layout Subsection
-Capteurs
+\begin_layout Itemize
+Le système embarqué doit pouvoir recevoir des commandes en provenance de
+ l'utilisateur par une interface simple et portable
+\end_layout
+
+\begin_layout Itemize
+Le système embarqué doit pouvoir communiquer avec le serveur central de
+ manière fiable et sans perte
+\end_layout
+
+\begin_layout Itemize
+La configuration des systèmes embarqués doit être modifiable à distance
+ sans nécessiter de déplacement vers ces systèmes
+\end_layout
+
+\begin_layout Itemize
+De manière générale, le système embarqué doit être conçu pour être maintenu
+ à distance
+\end_layout
+
+\begin_layout Itemize
+Le système embarqué doit pouvoir détecter les problèmes majeurs et pouvoir
+ avertir l'utilisateur rapidement le cas échéant
+\end_layout
+
+\begin_layout Subsubsection
+Localisation géographique
+\end_layout
+
+\begin_layout Itemize
+Le système embarqué doit être entièrement localisable sur la surface de
+ la planète
+\end_layout
+
+\begin_layout Subsubsection
+Communication entre le système embarqué et les capteurs
+\end_layout
+
+\begin_layout Itemize
+Le système embarqué doit être capable de récupérer les données en provenance
+ des différets capteurs
+\end_layout
+
+\begin_layout Section
+Exigences non fonctionnelles
 \end_layout
 
 \begin_layout Subsection
@@ -1243,12 +1345,12 @@ Les besoins non fonctionnels suivants seront particulièrement à prendre
  en compte pour le système présent sur les stations mobiles:
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \series bold
 Fiabilité
 \series default
- – pendant une configuration/mise à jour du matériel à partir d'une station
+ : pendant une configuration/mise à jour du matériel à partir d'une station
  mobile le système ne doit pas se bloquer car on risque une mauvaise configurati
 on qui entrainera un dysfonctionnement du système présent sur le site isolé.
  Pour cela on va prendre en compte l'état de chargement de la poste mobile
@@ -1256,12 +1358,12 @@ on qui entrainera un dysfonctionnement du système présent sur le site isolé.
  de la poste mobile est critique.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \series bold
 Évolutivité et maintenabilité
 \series default
- – On a choisi de réaliser une interface Web pour les postes mobiles.
+ : On a choisi de réaliser une interface Web pour les postes mobiles.
  Cela prend en compte les évolutions dimensionnelles (une page web peut
  être conçue pour s'adapter facilement aux nouvelles dimensions), matérielles
  (les pages Web sont supportés par la plus part des systèmes), fonctionnelles
@@ -1270,32 +1372,32 @@ on qui entrainera un dysfonctionnement du système présent sur le site isolé.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \series bold
 Généricité
 \series default
- – l'interface présente sur le système mobile doit être générique, capable
+ : l'interface présente sur le système mobile doit être générique, capable
  de s'adapter pour servir aussi aux autres systèmes (pas seulement sur la
  surveillance des containers).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \series bold
 Réutilisation
 \series default
- – l'interface présente sur les sites mobiles est similaire à l'interface
+ : l'interface présente sur les sites mobiles est similaire à l'interface
  présente sur le serveur.
  Ainsi on garde une cohérence et on facilite l'utilisation.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 
 \series bold
 Ergonomie
 \series default
- – une adaptation spéciale en fonction des dimensions est nécessaire (les
+ : une adaptation spéciale en fonction des dimensions est nécessaire (les
  écrans des PDA sont plus petits).
  Cela implique une structuration spéciale des informations et des contrôles
  et un style pour l'écriture (boutons plus grands, écriture en gras, couleurs
@@ -1307,52 +1409,143 @@ Ergonomie
 Serveur central
 \end_layout
 
+\begin_layout Subsubsection
+Configuration du serveur
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Robustesse
+\series default
+ : La charge doit être réparti pour assurer que les clients soient servis
+ meme en cas d'arret d'un des serveurs 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Fiabilité
+\series default
+ : Les donnée doivent être dupliquées pour éviter une perte irremediable
+ de données 
+\end_layout
+
+\begin_layout Subsubsection
+Configuration de l'IHM
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Simplicité
+\series default
+ : L'IHM doit être simple d'utilisation
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Ergonomie
+\series default
+ : L'iHM doit être ergonomique
+\end_layout
+
 \begin_layout Subsection
 Système embarqué
 \end_layout
 
 \begin_layout Itemize
-ROBUSTESSE : le processeur devra pouvoir résister à des conditions extrêmes.
+
+\series bold
+Robustesse
+\series default
+ : le processeur devra pouvoir résister à des conditions extrêmes.
  Les sites peuvent se trouver dans des endroits très humide, très secs (forêts,
  déserts, ...), avec des températures pouvant varier très fortement (volcan,
  glacier, ...).
 \end_layout
 
 \begin_layout Itemize
-FIABILITÉ : le processeur devra être très fiable en fonctionnement normal
- mais aussi en cas de problème.
+
+\series bold
+Fiabilité
+\series default
+ : le processeur devra être très fiable en fonctionnement normal mais aussi
+ en cas de problème.
  Il doit être capable de reprendre tout seul un cour normal en cas de plantage
  système, doit savoir gérer les problèmes.
 \end_layout
 
 \begin_layout Itemize
-GÉNÉRICITÉ : le processeur doit être capable de s'adapter à de nombreuses
- situations.
+
+\series bold
+Généricité
+\series default
+ : le processeur doit être capable de s'adapter à de nombreuses situations.
  Il doit être capable de gérer un capteur ou des dizaines de capteur.
 \end_layout
 
 \begin_layout Itemize
-ÉVOLUTIVITÉ et MAINTENABILITÉ : le processeur doit être capable de s'adapter
- à d'autres types de capteurs, d'autres envirronements.
+
+\series bold
+Évolutivité et maintenabilité
+\series default
+ : le processeur doit être capable de s'adapter à d'autres types de capteurs,
+ d'autres envirronements.
  Il doit être dimmensionné de façon telle que l'on puisse lui faire faire
  plus de traitements plus tard.
  Il doit par ailleurs être facilement cnfigurable.
 \end_layout
 
 \begin_layout Itemize
-RÉUTILISATION : le processeur doit être réutilisable dans d'autres contextes.
+
+\series bold
+Réutilisation
+\series default
+ : le processeur doit être réutilisable dans d'autres contextes.
  Par exemple, si l'entreprise étant son champ d'actions dans d'autres types
  de système embarqués, il peut être intéressant de réutiliser les même processeu
 rs.
 \end_layout
 
 \begin_layout Itemize
-LIMITATIONS TECHNOLOGIQUES : le processeur doit être capable d'utiliser
- les technologies imposées (GPRS, GPS, ...)
+
+\series bold
+Limitations technologiques
+\series default
+ : le processeur doit être capable d'utiliser les technologies imposées
+ (GPRS, GPS, ...)
 \end_layout
 
 \begin_layout Subsection
 Communication
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Evolutivité et maintenabilité
+\series default
+ : le système doit pouvoir évolué 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Généricité
+\series default
+ : le système doit pouvoir être décliner à moindre coût pour d'autre application
+s
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Réutilisation
+\series default
+ : les composants du système doivent pouvoi être réutilisables dans d'autres
+ applications
 \end_layout
 
 \begin_layout Section
