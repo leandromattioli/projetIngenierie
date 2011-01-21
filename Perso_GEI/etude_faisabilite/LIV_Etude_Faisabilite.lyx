@@ -2586,7 +2586,7 @@ Fiabilité précision
 \end_layout
 
 \begin_layout Subsubsection
-Tableau récapitulatif de réponse des solutions aux critéres 
+Tableau comparatif des types de capteurs
 \end_layout
 
 \begin_layout Standard
@@ -2599,7 +2599,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename C:/Users/Titi/Documents/Projet4IFS2/appel d'offre/Sans titre 1.png
+	filename img/tab1.png
 	width 17cm
 	height 4cm
 
@@ -2612,7 +2612,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Tableau comparatif des différents types de capteurs
+Tableau comparatif des types de capteurs en fonction des critères technologiques
 \end_layout
 
 \end_inset
@@ -2630,7 +2630,46 @@ Tableau comparatif des différents types de capteurs
 \end_layout
 
 \begin_layout Standard
-Les devis 
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/tab2.png
+	width 10cm
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tableau comparatif des types de capteurs en fonction des critères no technologiq
+ues
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Remarque : Le calibrage, l'interface avec le système et la capacité de reconfigu
+ration sont des critères dépendant des constructeurs et sont disponibles
+ en options sur la plupart des modèles.
 \end_layout
 
 \begin_layout Subsubsection
