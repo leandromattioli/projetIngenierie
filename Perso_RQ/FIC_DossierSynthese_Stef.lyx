@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -96,7 +96,7 @@ height_special "totalheight"
 status open
 
 \begin_layout Title
-Titre
+Dossier de synthèse
 \begin_inset Newline newline
 \end_inset
 
@@ -132,7 +132,7 @@ Maitrise d'Oeuvre:
 
 Maitrise d'Ouvrage:
 \series default
- H4312
+ COPEVUE
 \end_layout
 
 \begin_layout Standard
@@ -146,7 +146,13 @@ Auteurs:
 \begin_inset Newline newline
 \end_inset
 
-NOM
+Stefana Gartu
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+Billy Pitiot
 \end_layout
 
 \begin_layout Standard
@@ -216,7 +222,7 @@ Version du document
 
 \end_inset
 
- 1.0
+ 1.1
 \end_layout
 
 \end_inset
@@ -487,7 +493,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Historique do document
+Historique de document
 \end_layout
 
 \begin_layout Standard
@@ -549,7 +555,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+14/01/2011
 \end_layout
 
 \end_inset
@@ -558,7 +564,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Stefana Gartu & Billy Pitiot
 \end_layout
 
 \end_inset
@@ -567,7 +573,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.0
 \end_layout
 
 \end_inset
@@ -576,7 +582,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Création
 \end_layout
 
 \end_inset
@@ -587,7 +593,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+21/01/2011
 \end_layout
 
 \end_inset
@@ -596,7 +602,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Stefana Gartu & Billy Pitiot
 \end_layout
 
 \end_inset
@@ -605,7 +611,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.1
 \end_layout
 
 \end_inset
@@ -614,7 +620,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Ajout de contenu
 \end_layout
 
 \end_inset
@@ -860,7 +866,7 @@ Introduction
 \end_layout
 
 \begin_layout Subsection
-Pésentation du projet
+Présentation du projet
 \end_layout
 
 \begin_layout Subsubsection
@@ -868,16 +874,14 @@ Contexte
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-a completer
-\end_layout
-
-\end_inset
-
-
+Le COPEVUE souhaite étudier un système de monitoring à distance de sites
+ isolés, situés dans de nombreuses régions de l'UE, pour mieux contrôler
+ ses besoins d'autonomie (en terme d'énergie, de déchets, etc).
+ Comme exemples de ces sites, on peut citer de nombreux lieux de travail
+ (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
+ etc).
+ Ce système doit permettre à COPEVUE de faire un suivi pour pouvoir intervenir
+ en cas de problèmes.
 \end_layout
 
 \begin_layout Subsubsection
@@ -885,16 +889,16 @@ Objectifs
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-a completer
+Le travail demandé consiste en une proposition d'une solution pour la mesure
+ et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
+ système.
+ 
 \end_layout
 
-\end_inset
-
-
+\begin_layout Standard
+Le but de ce travail consiste à faire un étude de faisabilité, de même que
+ la spécification technique des besoins et une proposition d'architecture
+ générique.
 \end_layout
 
 \begin_layout Subsection
@@ -940,7 +944,7 @@ ité
 \end_layout
 
 \begin_layout Itemize
-Etude de faisabilité
+Étude de faisabilité
 \end_layout
 
 \begin_layout Itemize
@@ -966,11 +970,94 @@ Critique de l'existant
 \begin_layout Standard
 Le système actuel de monitoring à distance est mis en place pour la surveillance
  de plusieurs sites de stockage.
+ C'est un système très couteux en temps et en ressource.
+ En effet, une personne doit être dépéchée sur place régulièrement, aucun
+ de ces sites n'est autonome.
+ De plus, la surveillance ou la maintenance défectueuse et le manque de
+ communication directe avec les stations peut entrainer des risques écolgiques
+ et environnementaux.
 \end_layout
 
 \begin_layout Standard
-Le système actuel est composé de sites isolés qui sont vérifiés manuellement
- par des personnes dépéchées sur place.
+Il n'est pas possible de prévoir à quel moment il est nécessaire de faire
+ la maintenance du site donc il est difficile de planifier des trajets pour
+ les camions.
+\end_layout
+
+\begin_layout Standard
+Enfin, il y a un problème de sécurité : les sites peuvent ne pas être surveillés
+ assez fréquemment et en cas de problème, on s'en rend compte trop tard.
+ La vidéo-surveillance ou tout contact direct avec les sites sont absents.
+ Il n'y a aucun moyen de vérifier si les déplacements sur site ont été effectués
+, si les rapports contiennent les vraies valeurs, si les récipients sont
+ dans un bon état pendant l'absence des personnes qui les vérifient et surtout
+ si les capteurs renvoient les bonnes valeurs.
+ Aucun protocole à suivre en cas de problème/incident n'a été mis en place.
+\end_layout
+
+\begin_layout Section
+Axes de progrès
+\end_layout
+
+\begin_layout Standard
+Il y a de nombreux axes à améliorer.
+ C'est pour cette raison que le projet a été créé.
+ Voici une synthése des axes que nous nous proposons d'améliorer.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Monitoring des stations
+\series default
+ : l'amélioration la plus importante que nous apportons est bien entendu
+ le monitoring.
+ Il ne sera plus nécessaire de se déplacer sur place pour connaître l'état
+ du site.
+ Il sera connu en temps réel grâce à notre système.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Autonomie des stations
+\series default
+ : les stations seront entièrement autonomes.
+ Elles produiront et stockeront leur propre énergie.
+ En cas de coupure de liaison avec le serveur central, elles enregistreront
+ les données en attendant que la liaison soit rétablie par un opérateur.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Maintenance
+\series default
+ : les sites recevront les ordres directement du serveur central.
+ Il sera donc possible de les reconfigurer en temps réel sans intervention
+ physique.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Adaptabilité
+\series default
+ : le système acceptera un nombre et un type de capteur variable dans un
+ nombre de station illimité.
+ Il sera facilement configurable en fonction des besoins du site.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Sécurité
+\series default
+ : le système est capable de gérer les problèmes.
+ En cas de batterie faible ou de problème détecté, il transmet l'information
+ au serveur.
+ En cas de coupure de liaison, il garde en mémoire une trace de l'état du
+ système.
 \end_layout
 
 \begin_layout Section
@@ -979,6 +1066,17 @@ Présentation de la solution proposée
 
 \begin_layout Subsection
 Architecture 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /home/billy/programation/github/projetIngenierie/Perso_GEI/specification_technique_besoins/imagesSchemaGlobal/EbaucheArchiFinale.png
+	lyxscale 30
+	scale 70
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
