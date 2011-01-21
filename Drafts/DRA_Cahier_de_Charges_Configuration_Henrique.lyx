@@ -578,7 +578,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+21.01.2011
 \end_layout
 
 \end_inset
@@ -587,7 +587,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Henrique
 \end_layout
 
 \end_inset
@@ -596,7 +596,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.1
 \end_layout
 
 \end_inset
@@ -605,7 +605,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Structure du document
 \end_layout
 
 \end_inset
@@ -854,7 +854,190 @@ Création et début de rédaction
 \end_layout
 
 \begin_layout Section
-Conclusion
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Présentation du projet 
+\end_layout
+
+\begin_layout Subsubsection
+Contexte 
+\end_layout
+
+\begin_layout Standard
+Le COPEVUE souhaite étudier un système de monitoring à distance de sites
+ isolés, situés dans de nombreuses régions de l’UE, pour mieux contrôler
+ ses besoins d’autonomie (en terme d’énergie, de déchets, etc).
+ Comme exemples de ces sites, on peut citer de nombreux lieux de travail
+ (pour l’abattage de bois, à l’installation de réseaux, de stations de pompage,
+ etc).
+ Ce système doit permettre à COPEVUE de faire un suivi pour pouvoir intervenir
+ en cas de problèmes.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Objectifs 
+\end_layout
+
+\begin_layout Standard
+Le travail demandé consiste en une proposition d’une solution pour la mesure
+ et le monitoring des sites isolés, c’est-à-dire étudier et concevoir ce
+ système en réponse à un appel d’offre.
+ Le but de ce travail consiste à faire une étude de faisabilité, la spécificatio
+n technique de besoins et une proposition d’architecture générique.
+ 
+\end_layout
+
+\begin_layout Subsection
+Présentation du document 
+\end_layout
+
+\begin_layout Subsection
+Documents applicables / Documents de référence 
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables 
+\end_layout
+
+\begin_layout Standard
+– Le Dossier de Gestion de la Documentation ; 
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence 
+\end_layout
+
+\begin_layout Standard
+– Plan-type d’un dossier de faisabilité 
+\end_layout
+
+\begin_layout Standard
+– Appel d’offre de la COPEVUE;
+\end_layout
+
+\begin_layout Subsection
+Terminologie et Abréviations 
+\end_layout
+
+\begin_layout Section
+Présentation du problème
+\end_layout
+
+\begin_layout Subsection
+But 
+\end_layout
+
+\begin_layout Subsection
+Formulation des besoins (généraux), exploitation et ergonomie, expérience
+ 
+\end_layout
+
+\begin_layout Subsection
+Portée, développement, mise en œuvre, organisation de la maintenance 
+\end_layout
+
+\begin_layout Subsection
+Limites
+\end_layout
+
+\begin_layout Section
+Exigences fonctionnelles
+\end_layout
+
+\begin_layout Subsection
+Fonctions de base, performances et aptitudes 
+\end_layout
+
+\begin_layout Subsection
+Contraintes d'utilisation 
+\end_layout
+
+\begin_layout Subsection
+Critères d'appréciation de la réalisation effective de la fonction 
+\end_layout
+
+\begin_layout Subsection
+Flexibilité dans la façon de mettre en œuvre la fonction concernée et variation
+ de coûts associée en fonction de cette flexibilité
+\end_layout
+
+\begin_layout Section
+Contraintes imposées, faisabilité technologique et éventuellement moyens
+\end_layout
+
+\begin_layout Subsection
+Sûreté, planning, organisation, communication 
+\end_layout
+
+\begin_layout Subsection
+Complexité 
+\end_layout
+
+\begin_layout Subsection
+Compétences, moyens et règles 
+\end_layout
+
+\begin_layout Subsection
+Normes de documentation
+\end_layout
+
+\begin_layout Section
+Configuration cible
+\end_layout
+
+\begin_layout Subsection
+Matériel et logiciels 
+\end_layout
+
+\begin_layout Subsection
+Stabilité de la configuration si nécessaire 
+\end_layout
+
+\begin_layout Subsection
+Description des API avec reste du système 
+\end_layout
+
+\begin_layout Section
+Guide de résponse au Cahier des charges
+\end_layout
+
+\begin_layout Subsection
+Grille d'évaluation
+\end_layout
+
+\begin_layout Section
+Annexes
+\end_layout
+
+\begin_layout Subsection
+Observations de l'existant 
+\end_layout
+
+\begin_layout Subsection
+Propositions d'orientation 
+\end_layout
+
+\begin_layout Subsection
+Image(s) d’écran(s) principaux du logiciel 
+\end_layout
+
+\begin_layout Subsection
+Résultat de l’analyse de la valeur 
+\end_layout
+
+\begin_layout Subsection
+Description des API avec reste du système 
+\end_layout
+
+\begin_layout Subsection
+Choix d'une solution et justifications 
+\end_layout
+
+\begin_layout Subsection
+Appréciation de la solution retenue
 \end_layout
 
 \end_body
