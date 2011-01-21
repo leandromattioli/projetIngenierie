@@ -587,7 +587,7 @@ Début du dossier
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+21.01.2011
 \end_layout
 
 \end_inset
@@ -596,7 +596,7 @@ Début du dossier
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Monica Golumbeanu
 \end_layout
 
 \end_inset
@@ -605,7 +605,7 @@ Début du dossier
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.1
 \end_layout
 
 \end_inset
@@ -614,7 +614,7 @@ Début du dossier
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Continuation
 \end_layout
 
 \end_inset
@@ -956,7 +956,7 @@ Les sites isolés - la partie qui gère la communication au sein des différents
 \end_layout
 
 \begin_layout Itemize
-L'agence qui possède des camions - recoit les demandes d'intervention du
+L'agence qui possède des camions - reçoit les demandes d'intervention du
  serveur central et planifie les interventions de maintenance à l'aide d'un
  système basé sur l'aide à la décision.
  Gère les commandes de maintenance sur site.
@@ -1015,7 +1015,7 @@ Découpage en blocs de l'application
 \end_layout
 
 \begin_layout Section
-Description des modules dans les blocs
+Description des modules pour chaque bloc
 \end_layout
 
 \begin_layout Subsection
@@ -1031,6 +1031,7 @@ Ce module gère les opérations qui concernent la surveillance des sites,
  l'acquisition des données provenant des différentes sites distants, la
  maintenance de l'interface utilisateur, la configuration des systèmes présents
  sur les sites.
+ Les données recueilies seront sauvegardés dans une base de données.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1056,14 +1057,14 @@ Module Communication Mobile à distance
 \end_layout
 
 \begin_layout Standard
-Les opérations de configuration sont possibles aussi depuis des postes mobiles
- (PDA).
+Les opérations de configuration et maintenance sont possibles aussi depuis
+ des postes mobiles (PDA).
  Tous ces opérations ainsi que la gestion de l'interface utilisateur pour
  les postes mobiles sont gerés par ce module.
 \end_layout
 
 \begin_layout Subsection
-Bloc Site Isolé
+Bloc Logistique
 \end_layout
 
 \begin_layout Subsubsection
@@ -1080,27 +1081,164 @@ Module Demandes
 \end_layout
 
 \begin_layout Standard
-Toutes les demandes provenant du serveur central sont recueilies 
+Toutes les demandes provenant du serveur central sont recueilies et traitées
+ au sein de ce module.
 \end_layout
 
 \begin_layout Subsubsection
 Module Commandes sur site
 \end_layout
 
+\begin_layout Standard
+Le Module Commandes sur site gère l'ensemble d'opérations que les employés
+ de la société de logistique doit faire sur site au moment de son intervention.
+ Par exemple, la commande d'ouverture des vannes d'un reservoir, le remplissage
+ ou même le declenchement de l'alarme.
+\end_layout
+
+\begin_layout Subsection
+Bloc Site Isolé
+\end_layout
+
+\begin_layout Subsubsection
+Module Communication Serveur Central
+\end_layout
+
+\begin_layout Standard
+Ce module regroupe les opérations qui concernent la communication entre
+ le site isolé et le serveur central.
+ Il traite les commandes en provenance du serveur vers le site et aussi
+ en provenance du site vers le serveur.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Module Acquisition des Données
+\end_layout
+
+\begin_layout Standard
+Le module Acquisition des Données s'occupe avec le regroupement de toutes
+ les informations fournis par les capteurs.
+ Ces informations seront envoyés vers le serveur central en temps réel.
+\end_layout
+
+\begin_layout Subsubsection
+Module Communication Site
+\end_layout
+
+\begin_layout Standard
+La communication sur un site isolé implique toutes les opérations réalisés
+ par le site embarqué au niveau des différents dispositifs sur site.
+\end_layout
+
+\begin_layout Section
+Format des données manipulées
+\end_layout
+
+\begin_layout Standard
+Le format des données manipulées influence très fortement les intéractions
+ entre les différentes parties de l'application.
+ Chaque bloc a ses propres structures des données, par exemple dans le Bloc
+ correspondant au site isolé on manipule des données propres aux dispositifs
+ comme des capteurs, des réservoirs ou tout autre matériel.
+ On doit être capable de réaliser une correspondance entre ces structures
+ afin de faciliter les échanges des données et la complexité du traitement.
+ 
+\end_layout
+
+\begin_layout Standard
+Le tableau suivant présente brièvement les données manipulées par les différente
+s blocs ainsi que les différentes correspondances.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename donneesManipulees.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Structures des données manipulées entre les blocs de l'application
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Flux des requêtes et des données entre applications
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename fluxDonnees.png
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Flux des données et requêtes entre les différentes applications
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Deduction des API de chaque application
+\end_layout
+
+\begin_layout Subsection
+Bloc Serveur Central
+\end_layout
+
 \begin_layout Subsection
 Bloc Logistique
 \end_layout
 
-\begin_layout Subsubsection
-Communication Serveur Central
-\end_layout
-
-\begin_layout Subsubsection
-Acquisition des Données
-\end_layout
-
-\begin_layout Subsubsection
-Communication Site
+\begin_layout Subsection
+Bloc Site Isolé
 \end_layout
 
 \end_body
