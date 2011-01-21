@@ -920,14 +920,14 @@ Présentation du document
 \end_layout
 
 \begin_layout Standard
-Le Dossier d'Initialisation a comme but définir l'organisation du travail
- en equipe, la liste des livrables attendus (et sugerés par le CdP), les
- méthodes pour suivi de projet et la description de la Gestion de Risques
+Le Dossier d'Initialisation a comme but de définir l'organisation du travail
+ en équipes, la liste des livrables attendus (et suggerés par le CdP), les
+ méthodes pour le suivi du projet et la description de la Gestion de Risques
  de projet.
- Ce document aurra 2 versions, dont la première ira traiter la une phase
- du travail que consiste de l'étude de faisabilité, de la specification
- technique de besoins et d'une ébauche d'architecture.
- La 2ème version comprendra la conception et une proposition de division
+ Ce document aura 2 parties, dont la première traitera de la première phase
+ du travail qui consiste en l'étude de faisabilité, la spécification technique
+ des besoins et une ébauche d'architecture.
+ La deuxième partie comprendra la conception et une proposition de division
  en sous-ensembles.
 \end_layout
 
@@ -968,11 +968,11 @@ Existant
 \end_layout
 
 \begin_layout Standard
-Le système proposé doit profiter de la structure courant de les societés
- concernés pour la maintenance des réservoirs et de le COPEVUE.
- En gros, le mecanisme actuel pour controler les stations-réservoirs consiste
- d'une demande manuel de remplissage / vidage, par le propriétaire du lieu,
- quand il constate un niveau mauvais.
+Le système proposé doit profiter de la structure actuelle des societés concernée
+s pour la maintenance des réservoirs et de COPEVUE.
+ En gros, le mécanisme actuel pour controler les stations-réservoirs consiste
+ en une demande manuel de remplissage / vidange, par le propriétaire du
+ lieu, quand il constate un niveau trop élevé / faible.
 \end_layout
 
 \begin_layout Subsection
@@ -984,7 +984,7 @@ Les exigences non fonctionnelles du système en question sont listées ci-dessou
 \end_layout
 
 \begin_layout Itemize
-integration de l'existant
+intégration de l'existant
 \end_layout
 
 \begin_layout Itemize
@@ -996,7 +996,7 @@ fiabilité
 \end_layout
 
 \begin_layout Itemize
-evolutivité et maintenabilité
+évolutivité et maintenabilité
 \end_layout
 
 \begin_layout Itemize
@@ -1004,11 +1004,11 @@ limitations technologiques
 \end_layout
 
 \begin_layout Itemize
-genericité
+généricité
 \end_layout
 
 \begin_layout Itemize
-reutilisation
+réutilisation
 \end_layout
 
 \begin_layout Itemize
@@ -1021,7 +1021,7 @@ traçabilité
 
 \begin_layout Standard
 Plus de détails ce qui concerne chaqu'un de ces items sont disponibles dans
- le document «Appel d'Offres» disponibilisé par le COPEVUE.
+ le document «Appel d'Offres» mis à disponibilité par le COPEVUE.
 \end_layout
 
 \begin_layout Section
@@ -1035,22 +1035,22 @@ Chef de Projet et coordinateur
 \begin_layout Standard
 Le chef de ce projet doit organiser et suivre le travail de l'équipe, prévoir
  les risques du projet, découper le projet en sous-projets et bien maîtriser
- la division de tâthes pour assurer le succés du travail.
+ la division de tâches pour assurer le succès du travail.
  
 \end_layout
 
 \begin_layout Standard
 Le Chef du Projet doit vérifier la cohérence des études faites pour l'équipe
- et assurer que les membres du groupe ont une vision commun du système et
- ses besoins (en ayant pas de ambiguités sur ce qui doit être fait).
+ et assurer que les membres du groupe ont une vision commune du système
+ et de ses besoins (en n'ayant pas d'ambiguités sur ce qui doit être fait).
 \end_layout
 
 \begin_layout Standard
-Pour son but, il a deux types distincts d'intervention:
+Pour réaliser son but, il a deux types distincts d'interventions :
 \end_layout
 
 \begin_layout Itemize
-comme CdP cotê Maîtrise d'Ouvrage;
+comme CdP coté Maîtrise d'Ouvrage;
 \end_layout
 
 \begin_layout Itemize
@@ -1066,7 +1066,7 @@ Responsable Qualité / Méthode / Documentation (RQ)
 status open
 
 \begin_layout Plain Layout
-Demander a Stéfana pour vérifier la description du travail du RQ
+Demander a Stefana pour vérifier la description du travail du RQ
 \end_layout
 
 \end_inset
@@ -1076,7 +1076,7 @@ Demander a Stéfana pour vérifier la description du travail du RQ
 
 \begin_layout Standard
 Le RQ doit définir les méthodes pour la démarche du projet et assurer que
- ceux sont respectés pour tous les membres du groupe.
+ celles-ci sont respectées par tous les membres du groupe.
  En plus, il doit faire une petit synthèse du projet.
 \end_layout
 
@@ -1086,7 +1086,7 @@ Groupe d'Étude Informatique
 
 \begin_layout Standard
 Le Groupe d'Étude Informatique est le groupe qui effectivement préparera
- la réponse à l'appel d'offres, à partir de les phases listées ci-dessous:
+ la réponse à l'appel d'offres, à partir des phases listées ci-dessous:
 \end_layout
 
 \begin_layout Itemize
@@ -1175,7 +1175,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Dossier de Gestion de la Documentation: défine l'ensemble des règles communes
+Dossier de Gestion de la Documentation: défini l'ensemble des règles communes
  concernant la gestion de la documentation, c'est-à-dire la structuration,
  page de garde, cycle de vie des documents, gestion de versions, structuration
  du système documentaire, sauvegardes et diffusion
@@ -1219,7 +1219,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-Spécification formel des besoins
+Spécification formelle des besoins
 \end_layout
 
 \begin_deeper
@@ -1312,37 +1312,37 @@ Modalités de suivi
 \end_layout
 
 \begin_layout Standard
-Quelques simples mecanismes de suivi sont utilisés lors de la réalisation
+Quelques simples mécanismes de suivi sont utilisés lors de la réalisation
  du projet, à savoir:
 \end_layout
 
 \begin_layout Itemize
-au début d'une séance: pendant les premières 10 minutes de chaque séance
+au début d'une séance : pendant les premières 10 minutes de chaque séance
  le travail est proposé; dans le cas oú il y a l'absence d'un ou plusieurs
- membres du groupe, les tâches concernées sont reaffectées;
+ membres du groupe, les tâches concernées sont réaffectées;
 \end_layout
 
 \begin_layout Itemize
-à la fin d'une séance: pendant les dernières 15 minutes de chaque séance
- une petit réunion est fait pour savoir les décisions et pour remplir une
- fiche de séance, ce qui permettra savoir l'état d'avancement du projet
- et completer le diagramm de Gantt avec le progrès de chaque tâche.
+à la fin d'une séance : pendant les dernières 15 minutes de chaque séance
+ une petit réunion est faite pour savoir les décisions et pour remplir une
+ fiche de séance, ce qui permettra de connaître l'état d'avancement du projet
+ et de compléter le diagramme de Gantt avec le progrès de chaque tâche.
 \end_layout
 
 \begin_layout Itemize
-avant une révue externe: une fiche de révue est crée pour bien définir les
- objectifs de la réunion et distribuer les sujets dans le temps;
+avant une revue externe : une fiche de révue est crée pour bien définir
+ les objectifs de la réunion et distribuer les sujets dans le temps;
 \end_layout
 
 \begin_layout Itemize
-après une révue externe: la fiche de révue a aussi une région pour noter
- tous les commentaires du client, en prennant en consideration les points
+après une révue externe : la fiche de revue a aussi une zone pour noter
+ tous les commentaires du client, en prennant en considération les points
  forts et faibles.
  
 \end_layout
 
 \begin_layout Itemize
-lors de la détection des délais ou découvert de nouvelles tâches: le planning
+lors du dépassement des délais ou découverte de nouvelles tâches: le planning
  est mis à jour en essayant de rattraper le travail.
  
 \end_layout
@@ -1379,10 +1379,9 @@ L'organisation du travail proposée pour ce projet utilise des mécanismes
 \end_layout
 
 \begin_layout Standard
-Toutes les méthodes et techniques presentées dans ce document ne sont que
- pour optimizer la productivité, pour donner au client une façon dans lequelle
- il puisse savoir l'avancement du projet et pour prévoir le couts et risques
- du projet.
+Toutes les méthodes et techniques presentées dans ce document ne sont là
+ que pour optimiser la productivité, pour donner au client un moyen de connaître
+ l'avancement du projet et pour prévoir le coûts et les risques du projet.
 \end_layout
 
 \end_body
