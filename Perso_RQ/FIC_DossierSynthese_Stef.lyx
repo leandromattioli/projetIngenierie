@@ -1080,11 +1080,45 @@ Architecture
 \end_layout
 
 \begin_layout Subsection
-Fonctionnement général 
+Fonctionnement général
+\end_layout
+
+\begin_layout Standard
+Le système est composé de trois parties :
+\end_layout
+
+\begin_layout Itemize
+un serveur central
+\end_layout
+
+\begin_layout Itemize
+un systèmes embarqués (un sur chaque site)
+\end_layout
+
+\begin_layout Itemize
+systèmes mobiles.
+\end_layout
+
+\begin_layout Standard
+Le serveur central traite les informations en provenance des toutes les
+ stations.
+ Il reçoit ces informations grâce à une liaison sattelite car les stations
+ sont souvent situées dans des endroits isolés.
+ Il possède une interface graphique qui permet à un employé de monitorer
+ les différents sites facilement et de planifier la maintenance des sites.
+ Il contient une base de donnée retranscrivant l'activité de chaque
+\end_layout
+
+\begin_layout Standard
+Le système embarqué
+\end_layout
+
+\begin_layout Standard
+Les systèmes mobiles
 \end_layout
 
 \begin_layout Subsection
-Apports de la solution proposée 
+Apports de la solution proposée
 \end_layout
 
 \begin_layout Subsubsection
