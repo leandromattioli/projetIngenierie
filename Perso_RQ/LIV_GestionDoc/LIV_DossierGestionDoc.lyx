@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -233,7 +233,7 @@ Version du document
 
 \end_inset
 
- 1.2
+ 1.3
 \end_layout
 
 \end_inset
@@ -504,7 +504,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Historique do document
+Historique de document
 \end_layout
 
 \begin_layout Standard
@@ -680,7 +680,7 @@ Vérification 1.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+20/01/2011
 \end_layout
 
 \end_inset
@@ -689,7 +689,7 @@ Vérification 1.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Pitiot Billy
 \end_layout
 
 \end_inset
@@ -698,7 +698,7 @@ Vérification 1.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.3
 \end_layout
 
 \end_inset
@@ -707,7 +707,7 @@ Vérification 1.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Correction orthographique
 \end_layout
 
 \end_inset
@@ -2255,17 +2255,7 @@ ANN_NomDuDoc_Auteur
 \begin_inset Quotes erd
 \end_inset
 
- et il doit être créé à partir du Modèle « ANN_Communication »
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-???? Est-ce que ce ne serait pas plutôt MOD_Annexe
-\end_layout
-
-\end_inset
-
-.
+ et il doit être créé à partir du Modèle « MOD_Annexe ».
  Une annexe doit être vérifiée et validée.
 \end_layout
 
