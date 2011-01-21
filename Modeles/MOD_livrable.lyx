@@ -863,6 +863,90 @@ Sujet de la modification
 \end_layout
 
 \begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Rappel du problème
+\end_layout
+
+\begin_layout Subsubsection
+Le contexte
+\end_layout
+
+\begin_layout Standard
+Le COPEVUE souhaite étudier un système de monitoring à distance de sites
+ isolés, situés dans de nombreuses régions de l'UE, pour mieux contrôler
+ ses besoins d'autonomie (en terme d'énergie, de déchets, etc).
+ Comme exemples de ces sites, on peut citer de nombreux lieux de travail
+ (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
+ etc).
+ Ce système doit permettre à COPEVUE faire un suivi pour pouvoir intervenir
+ en cas de problèmes.
+\end_layout
+
+\begin_layout Subsubsection
+Les objectifs
+\end_layout
+
+\begin_layout Standard
+Le travail demandé consiste en une proposition d'une solution pour la mesure
+ et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
+ système.
+ 
+\end_layout
+
+\begin_layout Standard
+Le but de ce travail consiste à faire un étude de faisabilité, bien comme
+ la spécification technique de besoins et une proposition d'architecture
+ générique.
+\end_layout
+
+\begin_layout Subsection
+Présentation du document
+\end_layout
+
+\begin_layout Standard
+Le Dossier d'Initialisation a comme but de définir l'organisation du travail
+ en équipes, la liste des livrables attendus (et suggerés par le CdP), les
+ méthodes pour le suivi du projet et la description de la Gestion de Risques
+ de projet.
+ Ce document aura 2 parties, dont la première traitera de la première phase
+ du travail qui consiste en l'étude de faisabilité, la spécification technique
+ des besoins et une ébauche d'architecture.
+ La deuxième partie comprendra la conception et une proposition de division
+ en sous-ensembles.
+\end_layout
+
+\begin_layout Subsection
+Documents applicables / Documents de référence
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables
+\end_layout
+
+\begin_layout Itemize
+le Dossier de Gestion de la Documentation;
+\end_layout
+
+\begin_layout Itemize
+le Procédure de rédaction d'un dossier d'initialisation;
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence
+\end_layout
+
+\begin_layout Itemize
+l'appel d'offre de COPEVUE;
+\end_layout
+
+\begin_layout Itemize
+Manuel du chef de projet.
+\end_layout
+
+\begin_layout Section
 Conclusion
 \end_layout
 

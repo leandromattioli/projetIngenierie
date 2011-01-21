@@ -1,0 +1,1044 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Title
+Cahier de Charge - Configuration Remote
+\begin_inset Newline newline
+\end_inset
+
+
+\size larger
+Système de monitoring à distance de sites isolés
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Maitrise d'Oeuvre:
+\series default
+ H4312
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Maitrise d'Ouvrage:
+\series default
+ H4312
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Auteurs:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Henrique NOGUEIRA
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features>
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="3cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Référence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Nom de référence du document
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Version du document
+\end_layout
+
+\end_inset
+
+ 1.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avancement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Validé
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dernière mise à jour
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Validé après modif.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Revalidé
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features>
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none" width="4cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Visa
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Henrique Nogueira
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Historique do document
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features>
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="7cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Auteur
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sujet de la modification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.01.2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Henrique
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Création et début de rédaction
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.01.2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Henrique
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Structure du document
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Présentation du projet 
+\end_layout
+
+\begin_layout Subsubsection
+Contexte 
+\end_layout
+
+\begin_layout Standard
+Le COPEVUE souhaite étudier un système de monitoring à distance de sites
+ isolés, situés dans de nombreuses régions de l’UE, pour mieux contrôler
+ ses besoins d’autonomie (en terme d’énergie, de déchets, etc).
+ Comme exemples de ces sites, on peut citer de nombreux lieux de travail
+ (pour l’abattage de bois, à l’installation de réseaux, de stations de pompage,
+ etc).
+ Ce système doit permettre à COPEVUE de faire un suivi pour pouvoir intervenir
+ en cas de problèmes.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Objectifs 
+\end_layout
+
+\begin_layout Standard
+Le travail demandé consiste en une proposition d’une solution pour la mesure
+ et le monitoring des sites isolés, c’est-à-dire étudier et concevoir ce
+ système en réponse à un appel d’offre.
+ Le but de ce travail consiste à faire une étude de faisabilité, la spécificatio
+n technique de besoins et une proposition d’architecture générique.
+ 
+\end_layout
+
+\begin_layout Subsection
+Présentation du document 
+\end_layout
+
+\begin_layout Subsection
+Documents applicables / Documents de référence 
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables 
+\end_layout
+
+\begin_layout Standard
+– Le Dossier de Gestion de la Documentation ; 
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence 
+\end_layout
+
+\begin_layout Standard
+– Plan-type d’un dossier de faisabilité 
+\end_layout
+
+\begin_layout Standard
+– Appel d’offre de la COPEVUE;
+\end_layout
+
+\begin_layout Subsection
+Terminologie et Abréviations 
+\end_layout
+
+\begin_layout Section
+Présentation du problème
+\end_layout
+
+\begin_layout Subsection
+But 
+\end_layout
+
+\begin_layout Subsection
+Formulation des besoins (généraux), exploitation et ergonomie, expérience
+ 
+\end_layout
+
+\begin_layout Subsection
+Portée, développement, mise en œuvre, organisation de la maintenance 
+\end_layout
+
+\begin_layout Subsection
+Limites
+\end_layout
+
+\begin_layout Section
+Exigences fonctionnelles
+\end_layout
+
+\begin_layout Subsection
+Fonctions de base, performances et aptitudes 
+\end_layout
+
+\begin_layout Subsection
+Contraintes d'utilisation 
+\end_layout
+
+\begin_layout Subsection
+Critères d'appréciation de la réalisation effective de la fonction 
+\end_layout
+
+\begin_layout Subsection
+Flexibilité dans la façon de mettre en œuvre la fonction concernée et variation
+ de coûts associée en fonction de cette flexibilité
+\end_layout
+
+\begin_layout Section
+Contraintes imposées, faisabilité technologique et éventuellement moyens
+\end_layout
+
+\begin_layout Subsection
+Sûreté, planning, organisation, communication 
+\end_layout
+
+\begin_layout Subsection
+Complexité 
+\end_layout
+
+\begin_layout Subsection
+Compétences, moyens et règles 
+\end_layout
+
+\begin_layout Subsection
+Normes de documentation
+\end_layout
+
+\begin_layout Section
+Configuration cible
+\end_layout
+
+\begin_layout Subsection
+Matériel et logiciels 
+\end_layout
+
+\begin_layout Subsection
+Stabilité de la configuration si nécessaire 
+\end_layout
+
+\begin_layout Subsection
+Description des API avec reste du système 
+\end_layout
+
+\begin_layout Section
+Guide de résponse au Cahier des charges
+\end_layout
+
+\begin_layout Subsection
+Grille d'évaluation
+\end_layout
+
+\begin_layout Section
+Annexes
+\end_layout
+
+\begin_layout Subsection
+Observations de l'existant 
+\end_layout
+
+\begin_layout Subsection
+Propositions d'orientation 
+\end_layout
+
+\begin_layout Subsection
+Image(s) d’écran(s) principaux du logiciel 
+\end_layout
+
+\begin_layout Subsection
+Résultat de l’analyse de la valeur 
+\end_layout
+
+\begin_layout Subsection
+Description des API avec reste du système 
+\end_layout
+
+\begin_layout Subsection
+Choix d'une solution et justifications 
+\end_layout
+
+\begin_layout Subsection
+Appréciation de la solution retenue
+\end_layout
+
+\end_body
+\end_document
