@@ -45,7 +45,7 @@
 \bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation skip
+\paragraph_separation indent
 \defskip medskip
 \quotes_language english
 \papercolumns 1
@@ -478,7 +478,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Historique do document
+Historique du document
 \end_layout
 
 \begin_layout Standard
@@ -881,7 +881,7 @@ Les objectifs
 \end_layout
 
 \begin_layout Standard
-Le travail demandé consiste en une proposition d'une solution pour la mesure
+Le travail demandé consiste en la proposition d'une solution pour la mesure
  et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
  système en réponse à un appel d'offre.
  
@@ -897,15 +897,9 @@ Présentation du document
 \end_layout
 
 \begin_layout Standard
-Le Dossier d'Initialisation a comme but de définir l'organisation du travail
- en équipe, la liste des livrables attendus (et suggerés par le CdP), les
- méthodes pour suivi de projet et la description de la Gestion des Risques
- du projet.
- Ce document aura 2 versions, dont la première traitera la phase d'étude
- de faisabilité, de spécification technique des besoins et d'ébauche d'architect
-ure.
- La 2ème version comprendra la conception et une proposition de division
- en sous-ensembles.
+Ce document présente les axes d'améliorations, les exigences fonctionnelles
+ et non fonctionnelles ainsi qu'une esquisse du nouveau système et ses impacts
+ sur l'existant.
 \end_layout
 
 \begin_layout Subsection
@@ -917,7 +911,7 @@ Documents applicables
 \end_layout
 
 \begin_layout Itemize
-le Dossier de Gestion de la Documentation;
+le Dossier de Gestion de la Documentation
 \end_layout
 
 \begin_layout Itemize
@@ -941,136 +935,95 @@ Axes d'amélioration
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Monitoring des stations
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Actuellement, la surveillance d'état des sites est faite par un entretien
- qui si déplace vers une station et intervient manuellement quand il y a
- un problème sur les mesures.
- Alors, il y a deux problèmes avec cette situation:
+Actuellement, la surveillance de l'état des sites est faite par un agent
+ qui se déplace dans les stations et contact la société propriétaire du
+ site si nécesaire.
+ Ce système pose deux problèmes :
 \end_layout
 
 \begin_layout Itemize
-
-\lang english
-le déplacement vers ces sites peut être dangereux et peut prendre beaucoup
- de temps pour résoudre un problème existant; et
+le déplacement vers ces sites peut être dangereux et ne permet pas de résoudre
+ rapidement les problèmes
 \end_layout
 
 \begin_layout Itemize
-
-\lang english
-la transmission de l'état au poste central de service est faite oralement
- (par téléphone, radio) quand possible, soit personellement quand il n'y
- a pas le service de communication orale.
+l'agent communique le résultat de son inspection à l'agence centrale par
+ voie orale (telephone, ...)
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-La solution idéale serait l'installation des capteurs électroniques, un
- micro-contrôleur et un système de communication internet (GPS, GPRS, radio,
- satellite) pour qu'on puisse surveiller la station depuis le poste central.
- Comme ça, on peut améliorer le temps de réponse à un problème d'energie
- ou du niveau du réservoir, comme aussi la fiabilité des informations reçues.
+La solution idéale serait l'installation de capteurs électroniques, un micro-con
+trôleur et un système de communication distant (réseau satellitaire) pour
+ pouvoir surveiller la station depuis le poste central.
+ De cette manière, on pourrait communiquer un problème d'energie ou de niveau
+ de réservoir plus rapidement et avec plus de fiabilité.
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Autonomie des stations
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Dans la situation actuelle, la maintenance du matériel d'une station est
  faite par l'administrateur du site.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Pour assurer le fonctionnement correct des stations autonomiques, elles
- devront être équipées des panneaux solaires et batteries.
- Les panneaux solaires seront en charge de la capture d'energie et les batteries
- seront en charge du stockage d'énergie.
+Pour assurer l'autonomie des stations, elles devront être équipées de panneaux
+ solaires et de batteries.
+ Les panneaux solaires produiront l'électricité qui sera stockée dans les
+ batteries
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-L'énergie stockée sera destinée à l'alimentation des systèmes des capteurs,
- du micro-contrôleur et de communication.
+L'énergie stockée sera destinée à l'alimentation des capteurs, du micro-contrôle
+ur ainsi que du système de communication.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Les niveaux des batteries et l'état des panneaux solaires seront transmis
- au poste central aussi.
- Comme ça, on permet que le système fonctionn
+Le niveau des batteries et l'état des panneaux solaires seront également
+ transmis au poste centrale.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Au cas où on a indisponibilité de réseau pour faire la communication avec
- le poste central, les stations peuvent enregistrer les événements pour
- qu'ils puissent être transmis au poste central plus tard.
+En cas d'indisponibilité de la communication réseau avec le système central,
+ la station pourra enregistrer l'état du système et transmettre les données
+ après le rétablissement de la communciation
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Maintenance du système
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Les stations peut être capable d'accepter des commandes du poste central.
- Par exemple, le redémarrage, la configuration des paramètres.
- Comme ça, on permet au aux stations de fonctionner sans l'intervention
- humaine directe.
- 
+Les stations doivent être capable d'accepter des commandes du poste central.
+ Par exemple, le redémarrage, la (re)configuration des paramètres.
+ Ainsi, les stations pourront fonctionner sans intervention humaine.
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Adaptabilité du système
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Le système sera centralisé, c'est-à-dire qu'on aura un poste central de
- commandes.
- Le système sera capable aussi d'instancier des nouvelles stations parce
- qu'il est configurable dans le sense du nombre de stations.
+Il y aura un poste de commande central.
+ Il sera possible d'ajouter facilement des stations au réseau.
 \end_layout
 
 \begin_layout Subsection
-
-\lang english
 Sécurité du système
 \end_layout
 
 \begin_layout Standard
-
-\lang english
-Si le système est menacé par un coupage un coupure d'energie ou s'il y a
- un problème technique que ne le permet pas de fonctionner correctement
- et ne peut pas être résolu par le superviseur du système depuis le poste
- central, alors la station envoie un signal d'emergence au poste central
- pour que le supervisuer puisse envoyer un entretien à la station pour vérifier
- le problème personnellement.
+Si le système est menacé de coupure électrique ou s'il y a un problème technique
+ qui ne peut être résolu à distance (depuis le poste central) par le superviseur
+, la station effectue une demande d'assistance technique.
+ Le superviseur envoie alors un agent pour inspecter la station et effectuer
+ les réparations nécessaires.
 \end_layout
 
 \begin_layout Section
@@ -1082,9 +1035,9 @@ Postes mobiles
 \end_layout
 
 \begin_layout Standard
-Les stations mobiles représentent les différents dispositifs comme le PDA,
- Smartphone et tout dispositif capable d'utiliser une interface pour effectuer
- des différentes opérations comme par exemple la configuration, la maintenance
+Les stations mobiles sont les différents dispositifs comme le PDA, smartphone
+ et tout autre dispositif capable d'utiliser une interface pour effectuer
+ des opérations distantes comme par exemple la configuration, la maintenance
  et le monitoring.
  
 \end_layout
@@ -1096,8 +1049,8 @@ Les besoins fonctionnels suivants devront être assurés:
 \begin_layout Itemize
 Communication à tout moment avec le serveur central via une interface graphique.
  Le client mobile doit être capable de recevoir des alertes du serveur et
- envoyer à son tour des commandes(arrêter un site isolé, redémarrer le système
- présent sur un site, etc.) 
+ envoyer à son tour des commandes (arrêter un site isolé, redémarrer le
+ système présent sur un site, etc.) 
 \end_layout
 
 \begin_layout Itemize
@@ -1106,8 +1059,8 @@ Affichage des informations/monitoring
 
 \begin_deeper
 \begin_layout Itemize
-visualiser les données envoyés par les capteurs situés sur les sites isolés
- (dans notre cas le niveau de remplissage des containers, température, etc.)
+visualiser les données envoyées par les capteurs situés sur les sites isolés
+ (niveau de remplissage des containers, température, etc.)
 \end_layout
 
 \begin_layout Itemize
@@ -1124,8 +1077,8 @@ suivre les informations concernant le trajet d'un camion
 
 \end_deeper
 \begin_layout Itemize
-Configurer et maintenir à distance le matériel présent sur le site (système
- embarqué, capteurs, caméras, détecteurs de feu, etc.
+Configuration et maintenance à distance du matériel présent sur le site
+ (système embarqué, capteurs, caméras, détecteurs de feu, etc.
  )
 \end_layout
 
