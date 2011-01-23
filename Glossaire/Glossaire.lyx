@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -256,7 +256,7 @@ Term en ordre alphabétique
 \begin_layout Standard
 
 \emph on
-Definition :
+Définition : 
 \end_layout
 
 \begin_layout Standard
@@ -265,6 +265,170 @@ Definition :
 Domaine d'application
 \emph default
  : 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Agence
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Définition
+\shape default
+ : Société tierce s'occupant de la maintenance des sites isolés en envoyant
+ des camions
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Domaine d'application : 
+\shape default
+tout le dossier de réponse à l'appel d'offre
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capteur
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Définition
+\shape default
+ : Capteur utilisé pour la surveillance du site.
+ Peut être de nature très diversifiée selon la nature du site
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Domaine d'application : 
+\shape default
+tout le dossier de réponse à l'appel d'offre
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+GPRS
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Définition
+\shape default
+ : norme pour la téléphonie mobile dérivée du GSM permettant un débit de
+ données plus élevé.
+ C'est une technologie à mi-chemin entre le GSM (2e génération) et l'UMTS
+ (3e génération).
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Domaine d'application : 
+\shape default
+tout le dossier de réponse à l'appel d'offre
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+GSM
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Définition
+\shape default
+ : norme numérique de seconde génération pour la téléphonie mobile.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Domaine d'application : 
+\shape default
+tout le dossier de réponse à l'appel d'offre
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Serveur central
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Définition
+\shape default
+ : Serveur récoltant les données en provenance de tous les sites monitorés
+ et les traitant.
+ Effectue automatiquement la planification des opérations de maintenance
+ en vue d'optimiser les coûts.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Domaine d'application : 
+\shape default
+tout le dossier de réponse à l'appel d'offre
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Superviseur
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Définition
+\shape default
+ : Personne gérant le serveur central, sur place ou à distance
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Domaine d'application : 
+\shape default
+tout le dossier de réponse à l'appel d'offre
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Système embarqué
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Définition : 
+\shape default
+Système situé sur le lieu à surveiller permettant de récolter les données
+ en provenance des capteurs et de les envoyer au serveur central après un
+ éventuel pré-traitement.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Domaine d'application : 
+\shape default
+tout le dossier de réponse à l'appel d'offre
 \end_layout
 
 \end_body
