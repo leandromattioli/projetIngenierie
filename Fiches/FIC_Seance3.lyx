@@ -7,7 +7,7 @@
 
 \end_preamble
 \use_default_options true
-\language brazilian
+\language french
 \inputencoding auto
 \font_roman default
 \font_sans default
@@ -38,10 +38,10 @@
 \tocdepth 3
 \paragraph_separation skip
 \defskip medskip
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
-\paperpagestyle default
+\paperpagestyle empty
 \tracking_changes false
 \output_changes false
 \author "" 
@@ -51,22 +51,28 @@
 \begin_body
 
 \begin_layout Standard
+\noindent
+\align center
 
 \size large
 \noun on
-Séance 3: Projet ingénierie
+Séance 3: 
+\size larger
+Système de monitoring à distance de sites isolés
 \end_layout
 
 \begin_layout Standard
-07/01/2011
+\noindent
+\align center
+14/01/2011
 \end_layout
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="3">
+<lyxtabular version="3" rows="10" columns="3">
 <features>
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
 <column alignment="center" valignment="top" width="2in">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -111,37 +117,7 @@ CdP
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-width "40page%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Itemize
-présentation du planning (macro-phasage) (10 min)
-\end_layout
-
-\begin_layout Itemize
-rédaction du dossier d'initialisation (2h30min)
-\end_layout
-
-\begin_layout Itemize
-relevé de décision (15 min)
-\end_layout
-
-\begin_layout Itemize
-suivi de projet
-\end_layout
-
-\end_inset
-
-
+-- présentation des activités de la séance (10 min)
 \end_layout
 
 \end_inset
@@ -150,7 +126,94 @@ suivi de projet
 \begin_inset Text
 
 \begin_layout Plain Layout
-70%
+--
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-- rédaction de la procédure (2h30min)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+-- relevé de décision (15 min)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+--
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+-- suivi de projet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+--
 \end_layout
 
 \end_inset
@@ -170,33 +233,7 @@ RQ
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-width "40page%"
-special "none"
-height "1in"
-height_special "totalheight"
-status collapsed
-
-\begin_layout Itemize
-gestion de la documentation (1h30min)
-\end_layout
-
-\begin_layout Itemize
-réflexion et ébauche de la procédure d'élaboration d'un CdC (1h)
-\end_layout
-
-\begin_layout Itemize
-relevé de décision (15 min)
-\end_layout
-
-\end_inset
-
-
+-- réflexion pour le Draft PAQP (1h30)
 \end_layout
 
 \end_inset
@@ -212,7 +249,77 @@ relevé de décision (15 min)
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+-- rédaction du dossier 
+\begin_inset Quotes fld
+\end_inset
+
+
+\noun on
+Best Practices pour l'élaboration d'un Cd
+\noun default
+C
+\begin_inset Quotes frd
+\end_inset
+
+ (2h)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+-- relevé de décision (15 min)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+--
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -221,50 +328,61 @@ GEI
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-width "40page%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
+-- rédaction du dossier 
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Itemize
-définitions de principes du futur système (1h)
-\end_layout
 
-\begin_layout Itemize
-draft des dossiers de faisabilité (1h)
-\end_layout
+\noun on
+Spécifications Techniques des Besoins
+\noun default
 
-\begin_layout Itemize
-analyse de l'existant (1h)
-\end_layout
+\begin_inset Quotes frd
+\end_inset
 
-\begin_layout Itemize
-relevé de décision (15 min)
+ (3h)
 \end_layout
 
 \end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
 
+\begin_layout Plain Layout
+70%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+-- relevé de décision (15 min)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-85%
+--
 \end_layout
 
 \end_inset

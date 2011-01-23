@@ -41,7 +41,7 @@
 \quotes_language english
 \papercolumns 1
 \papersides 1
-\paperpagestyle default
+\paperpagestyle empty
 \tracking_changes false
 \output_changes false
 \author "" 
@@ -51,14 +51,18 @@
 \begin_body
 
 \begin_layout Standard
+\noindent
+\align center
 
 \size large
 \noun on
-Séance 1: Projet ingénierie
+Séance X: Projet ingénierie
 \end_layout
 
 \begin_layout Standard
-07/01/2011
+\noindent
+\align center
+DD/MM/YYYY
 \end_layout
 
 \begin_layout Standard
@@ -66,8 +70,8 @@ Séance 1: Projet ingénierie
 <lyxtabular version="3" rows="4" columns="3">
 <features>
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="2in">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="2in">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -78,7 +82,7 @@ Séance 1: Projet ingénierie
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -87,7 +91,7 @@ Travail prévu
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -111,37 +115,7 @@ CdP
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-width "40page%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Itemize
-présentation du planning (macro-phasage) (10 min)
-\end_layout
-
-\begin_layout Itemize
-rédaction du dossier d'initialisation (2h30min)
-\end_layout
-
-\begin_layout Itemize
-relevé de décision (15 min)
-\end_layout
-
-\begin_layout Itemize
-suivi de projet
-\end_layout
-
-\end_inset
-
-
+-- présentation du planning (macro-phasage) (10 min)
 \end_layout
 
 \end_inset
@@ -150,7 +124,7 @@ suivi de projet
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+--
 \end_layout
 
 \end_inset
@@ -170,33 +144,7 @@ RQ
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-width "40page%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Itemize
-gestion de la documentation (1h30min)
-\end_layout
-
-\begin_layout Itemize
-réflexion et ébauche de la procédure d'élaboration d'un CdC (1h)
-\end_layout
-
-\begin_layout Itemize
-relevé de décision (15 min)
-\end_layout
-
-\end_inset
-
-
+-- rédaction du dossier X
 \end_layout
 
 \end_inset
@@ -205,7 +153,7 @@ relevé de décision (15 min)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+40%
 \end_layout
 
 \end_inset
@@ -225,37 +173,7 @@ GEI
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-width "40page%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Itemize
-définitions de principes du futur système (1h)
-\end_layout
-
-\begin_layout Itemize
-draft des dossiers de faisabilité (1h)
-\end_layout
-
-\begin_layout Itemize
-analyse de l'existant (1h)
-\end_layout
-
-\begin_layout Itemize
-relevé de décision (15 min)
-\end_layout
-
-\end_inset
-
-
+-- relevé de décision
 \end_layout
 
 \end_inset
@@ -264,7 +182,7 @@ relevé de décision (15 min)
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+--
 \end_layout
 
 \end_inset

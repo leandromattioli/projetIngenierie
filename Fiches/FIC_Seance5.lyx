@@ -7,7 +7,7 @@
 
 \end_preamble
 \use_default_options true
-\language french
+\language brazilian
 \inputencoding auto
 \font_roman default
 \font_sans default
@@ -38,7 +38,7 @@
 \tocdepth 3
 \paragraph_separation skip
 \defskip medskip
-\quotes_language french
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle empty
@@ -55,25 +55,27 @@
 \align center
 
 \size large
-\noun on
-Séance 2: 
+Séance 1: 
 \size larger
+\noun on
 Système de monitoring à distance de sites isolés
 \end_layout
 
 \begin_layout Standard
 \noindent
 \align center
-11/01/2011
+07/01/2011
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="3">
+<lyxtabular version="3" rows="12" columns="3">
 <features>
 <column alignment="center" valignment="top" width="0">
-<column alignment="left" valignment="top" width="9cm">
-<column alignment="center" valignment="top" width="2in">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="2in">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -109,21 +111,11 @@ Travail réalisé
 
 \begin_layout Plain Layout
 CdP
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Préparation de la revue: Hors séance
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -132,7 +124,7 @@ Préparation de la revue: Hors séance
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -152,20 +144,20 @@ Préparation de la revue: Hors séance
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--- préparation de la fiche d'argumentation commerciale (2h30min)
+-- finalisation du dossier d'initialisation complet (1h30min)
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-70%
+40%
 \end_layout
 
 \end_inset
@@ -181,7 +173,36 @@ Préparation de la revue: Hors séance
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-- rédaction du draft PMP (1h30min)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+50%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -190,7 +211,7 @@ Préparation de la revue: Hors séance
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -210,7 +231,7 @@ Préparation de la revue: Hors séance
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -219,7 +240,7 @@ Préparation de la revue: Hors séance
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -239,32 +260,20 @@ RQ
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--- finalisation du dossier 
-\begin_inset Quotes fld
-\end_inset
-
-
-\noun on
-Gestion de la Documentation
-\noun default
-
-\begin_inset Quotes frd
-\end_inset
-
- (2h)
+-- finalisation du dossier synthèse
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-100%
+60%
 \end_layout
 
 \end_inset
@@ -280,23 +289,11 @@ Gestion de la Documentation
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--- rédaction du document 
-\begin_inset Quotes fld
-\end_inset
-
-
-\noun on
-Best Practices pour la rédaction d'une procédure
-\noun default
-
-\begin_inset Quotes frd
-\end_inset
-
- (1h30min)
+-- rédaction du PAQL
 \end_layout
 
 \end_inset
@@ -305,7 +302,7 @@ Best Practices pour la rédaction d'une procédure
 \begin_inset Text
 
 \begin_layout Plain Layout
-100%
+40%
 \end_layout
 
 \end_inset
@@ -321,7 +318,7 @@ Best Practices pour la rédaction d'une procédure
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -330,7 +327,7 @@ Best Practices pour la rédaction d'une procédure
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -350,20 +347,20 @@ GEI
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--- mise en forme du dossier de faisabilité (1h)
+-- rédaction du dossier de communication
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-70%
+80%
 \end_layout
 
 \end_inset
@@ -379,11 +376,11 @@ GEI
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
--- première specifications de besoins (2h30)
+-- rédaction des cahier de charges
 \end_layout
 
 \end_inset
@@ -392,7 +389,7 @@ GEI
 \begin_inset Text
 
 \begin_layout Plain Layout
-60%
+50%
 \end_layout
 
 \end_inset
@@ -408,7 +405,7 @@ GEI
 
 \end_inset
 </cell>
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
