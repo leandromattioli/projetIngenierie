@@ -1152,6 +1152,20 @@ Une fois qu'une maintenance est demandée le superviseur pourra suivre en
  et l'état de chaque station problèmatique.
 \end_layout
 
+\begin_layout Subsection
+Station isolé
+\end_layout
+
+\begin_layout Standard
+Chaque système embarqué aurra un RTOS (
+\shape italic
+Real-Time Operating System
+\shape default
+) installé qui permettrera de faire la communication avec les capteurs de
+ la station et d'envoyer les données au site central grâce au système de
+ communication GSM.
+\end_layout
+
 \begin_layout Section
 Architecture Matériel
 \end_layout
