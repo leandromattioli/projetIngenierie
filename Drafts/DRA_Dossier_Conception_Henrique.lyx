@@ -578,7 +578,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+24.01.2011
 \end_layout
 
 \end_inset
@@ -587,7 +587,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Henrique
 \end_layout
 
 \end_inset
@@ -596,7 +596,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.1
 \end_layout
 
 \end_inset
@@ -605,7 +605,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Organisation général du système
 \end_layout
 
 \end_inset
@@ -1059,11 +1059,26 @@ Les postes mobiles peuvent communiquer avec le site central grâce au GPRS
 \end_layout
 
 \begin_layout Subsection
+Maintenance des stations isolées
+\end_layout
+
+\begin_layout Standard
+En tenant compte du fait que le canal de communication entre le site central
+ et les stations est bidirectionel, les superviseurs peuvent envoyer des
+ commandes aux stations.
+ Ces commandes permettront aux superviseurs de réaliser la maintenance du
+ système et la configuration de chaque station.
+ Ils peuvent, par exemple, redémarrer le système, ou changer les paramètres
+ de configuration comme la fréquence de lecture, les niveaux de seuil des
+ reservoirs, etc.
+\end_layout
+
+\begin_layout Subsection
 Profils d'utilisateurs
 \end_layout
 
 \begin_layout Standard
-Nous avons deux types d'utilisateurs:
+Nous avons deux types d'utilisateur:
 \end_layout
 
 \begin_layout Itemize
@@ -1128,6 +1143,45 @@ Architecture Matériel
 
 \begin_layout Section
 Modèles des données
+\end_layout
+
+\begin_layout Subsection
+Diagramme de classes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename dossierConception/modeleDonnees.png
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramme de classes du système
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
