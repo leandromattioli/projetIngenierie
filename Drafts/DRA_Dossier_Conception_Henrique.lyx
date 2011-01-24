@@ -616,7 +616,7 @@ Organisation général du système
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+24.01.2011
 \end_layout
 
 \end_inset
@@ -625,7 +625,7 @@ Organisation général du système
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Henrique
 \end_layout
 
 \end_inset
@@ -634,7 +634,7 @@ Organisation général du système
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.2
 \end_layout
 
 \end_inset
@@ -643,7 +643,7 @@ Organisation général du système
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Architecture applicative
 \end_layout
 
 \end_inset
@@ -1112,12 +1112,18 @@ Architecture Applicative
 Site central
 \end_layout
 
+\begin_layout Standard
+Le site central aura un logiciel qui permet au superviseur d'avoir une vue
+ général sur le système.
+ Ce logiciel est découpé en deux sous-systèmes.
+\end_layout
+
 \begin_layout Subsubsection
-Système de monitoring des stations
+Sous-système de monitoring des stations
 \end_layout
 
 \begin_layout Standard
-C'est le logiciel responsable pour permettre au superviseur de surveiller
+C'est le sous-système responsable pour permettre au superviseur de surveiller
  les stations isolées.
  
 \end_layout
@@ -1134,7 +1140,16 @@ r et son mot de passe.
 \end_layout
 
 \begin_layout Subsubsection
-Système de communication avec les conducteurs
+Sous-système de maintenance
+\end_layout
+
+\begin_layout Standard
+Une fois qu'une maintenance est demandée le superviseur pourra suivre en
+ temps réel l'avancement de chaque maintenance requise.
+ Ce sous-système permettrera au superviseur de communiquer directement avec
+ le conducteur qui a été choisi pour réaliser une maintenance dans une station.
+ Il permettrera aussi au superviseur de savoir la position de chaque conducteur
+ et l'état de chaque station problèmatique.
 \end_layout
 
 \begin_layout Section
