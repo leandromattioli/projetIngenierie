@@ -994,12 +994,68 @@ Organisation des sites isolés
 Communication site central - sites isolés
 \end_layout
 
+\begin_layout Standard
+Le serveur central communiquera avec le système embarqué grâce au système
+ satellite.
+ Un abonnement au Ko nous permettra d'envoyer et de recevoir des données
+ quel que soit la posisition du système embarqué sur le globe.
+ En effet, le gros problème rencontré avec le GSM et le filiaire est le
+ manque de couverture du territoire, or nous allons envoyer nos systèmes
+ embarqués dans des endroits reculés.
+\end_layout
+
+\begin_layout Standard
+La communication pourra se faire dans les deux sens.
+ C'est-à-dire que le capteur pourra envoyer les données et le serveur central
+ pourra envoyer des requêtes lui permettant de reconfigurer à distance les
+ capteurs.
+\end_layout
+
 \begin_layout Subsection
 Communication site central - agences
 \end_layout
 
+\begin_layout Standard
+La communication du site central avec l'agence se fera grâce à internet
+ par le protocole HTTP et s'il y a besoin d'une connection securisée, la
+ communication peut être faite par le protocole HTTPS.
+ Le site central envoie une rêquete de maintenance à l'agence avec des informati
+ons sur la station en question, de même la priorité de la requête.
+\end_layout
+
 \begin_layout Subsection
 Communication système embarqué - capteurs
+\end_layout
+
+\begin_layout Standard
+Chaque capteur sera relié au système embarqué par une connection filiaire
+ que nous installerons dès la création du site.
+ Cette liaison comprendra une fibre permettant de transférer les données
+ et un câble permettant l'alimentation électrique.
+ Le capteur enverra périodiquement les données au système embarqué (période
+ définie en fonction de la criticité de l'application).
+ Le capteur enverra les données sans se préoccuper de la présence ou non
+ du système embarqué.
+ C'est ce dernier qui détectera une coupure s'il y en a une et qui en informera
+ le serveur central.
+ 
+\end_layout
+
+\begin_layout Subsection
+Communication serveur central - postes mobiles
+\end_layout
+
+\begin_layout Standard
+Les postes mobiles peuvent communiquer avec le site central grâce au GPRS
+ (General Packet Radio Service).
+ Ce service nous permet de faire une combinaison avec le service GSM et
+ comme ça, on peut trouver la position grâce à la triangulation.
+ Le conducteur peut aussi accéder aux informations de la station en question.
+ Le service GPRS permet au superviseur de communiquer avec le conducteur
+ du camion par radio au cas où il y a un problème plus urgent à traiter.
+ Le protocole utilisé pour réaliser cette communication entre le site central
+ et les postes mobiles sera le protocole IP (Internet Protocol).
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -1035,6 +1091,35 @@ Le conducteur: celui fait la maintenance des sites isolés.
 
 \begin_layout Section
 Architecture Applicative
+\end_layout
+
+\begin_layout Subsection
+Site central
+\end_layout
+
+\begin_layout Subsubsection
+Système de monitoring des stations
+\end_layout
+
+\begin_layout Standard
+C'est le logiciel responsable pour permettre au superviseur de surveiller
+ les stations isolées.
+ 
+\end_layout
+
+\begin_layout Standard
+Pour avoir accés à ce logiciel, le superviseur devra saisir son nom d'utilisateu
+r et son mot de passe.
+ Ce logiciel pourra afficher la situation général de chaque station comme
+ aussi afficher des détails de chaque station si demandé par le superviseur.
+ Il pourra aussi faire une requête de maintenance d'une station souhaitée.
+ Au cas où quelque station aie un problème, une alerte sera affichée sur
+ l'écran en spécifiant le type de problème (seuils des reservatoir atteints,
+ souci de production d'énergie, etc).
+\end_layout
+
+\begin_layout Subsubsection
+Système de communication avec les conducteurs
 \end_layout
 
 \begin_layout Section
