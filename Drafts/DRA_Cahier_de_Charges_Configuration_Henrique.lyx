@@ -132,7 +132,7 @@ Maitrise d'Oeuvre:
 
 Maitrise d'Ouvrage:
 \series default
- H4312
+ COPEVUE
 \end_layout
 
 \begin_layout Standard
@@ -903,7 +903,7 @@ Documents applicables
 \end_layout
 
 \begin_layout Standard
-– Le Dossier de Gestion de la Documentation ; 
+– Le Dossier de Gestion de la Documentation
 \end_layout
 
 \begin_layout Subsubsection
@@ -911,11 +911,11 @@ Documents de référence
 \end_layout
 
 \begin_layout Standard
-– Plan-type d’un dossier de faisabilité 
+– Plan-type d’un dossier de faisabilité
 \end_layout
 
 \begin_layout Standard
-– Appel d’offre de la COPEVUE;
+– Appel d’offre de la COPEVUE
 \end_layout
 
 \begin_layout Subsection
@@ -930,9 +930,21 @@ Présentation du problème
 But 
 \end_layout
 
+\begin_layout Standard
+Comme le canal de communication entre les site centrals et les stations
+ est bidirectionel, le système sera capable de réaliser la configuration
+ et maintenance des station à distance.
+ 
+\end_layout
+
 \begin_layout Subsection
 Formulation des besoins (généraux), exploitation et ergonomie, expérience
- 
+\end_layout
+
+\begin_layout Standard
+Le superviseur pourra, par exemple, changer les paramètres de configuration
+ (seuils des reservatoirs, fréquence de lecture), redémarrer le système
+ de chaque station et vérifier l'état des panneaux solaires et batteries.
 \end_layout
 
 \begin_layout Subsection
