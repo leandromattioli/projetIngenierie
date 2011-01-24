@@ -977,10 +977,6 @@ Architecture général du système
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1003,11 +999,15 @@ Communication site central - agences
 \end_layout
 
 \begin_layout Subsection
+Communication système embarqué - capteurs
+\end_layout
+
+\begin_layout Subsection
 Profils d'utilisateurs
 \end_layout
 
 \begin_layout Standard
-Nous avons trois types d'utilisateurs:
+Nous avons deux types d'utilisateurs:
 \end_layout
 
 \begin_layout Itemize
@@ -1018,7 +1018,7 @@ Le superviseur: celui a tout les droits sur le serveur central.
  l'état du système (niveaux des batteries, conditions des panneaux solaires,
  communication entre le système embarqué et les capteurs) et faire la maintenanc
 e à distance de chaque site isolé, c'est-à-dire qu'il peut lire et changer
- des paramètres de configuration de chaque système isolé.
+ les paramètres de configuration de chaque système isolé.
 \end_layout
 
 \begin_layout Itemize
