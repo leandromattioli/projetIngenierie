@@ -951,19 +951,6 @@ Schéma général du système
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Je ne sais pas pourquoi, mais LyX affiche ce schéma sur la place mauvaise.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1254,8 +1241,39 @@ Volumétrie des données
 Système embarqué - capteurs
 \end_layout
 
+\begin_layout Standard
+En tenant compte qu'une station qui aura cinq capteurs, que chaque lecture
+ aura la taille d'un entier plus un identifiant du capteur (entier) et qu'il
+ y aura une lecture à chaque vingt minutes, nous arrivons au résultat suivant:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $5*8\,\frac{octets}{lecture}*3\,\frac{lecture}{heure}*24\,\frac{heures}{jour}=2880\,\frac{octets}{jour}\approx3\,\frac{Ko}{jour}$
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Système embarqué - site central
+\end_layout
+
+\begin_layout Standard
+En tenant compte que chaque site central sera lié à 20 stations, qu'il y
+ aura une lecture à chaque 20 minute et chaque lecture aurra le niveau du
+ réservatoir et un identifiant de la station, nous arrivons au résultat
+ suivant:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Formula $20*8\,\frac{octets}{lecture}*3\,\frac{lectures}{heure}*24\,\frac{heures}{jour}=11520\,\frac{octets}{jour}\approx12\frac{Ko}{jour}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
