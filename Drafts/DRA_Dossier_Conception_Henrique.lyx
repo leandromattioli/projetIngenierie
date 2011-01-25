@@ -1250,6 +1250,14 @@ Diagramme de classes du système
 Volumétrie des données
 \end_layout
 
+\begin_layout Subsubsection
+Système embarqué - capteurs
+\end_layout
+
+\begin_layout Subsubsection
+Système embarqué - site central
+\end_layout
+
 \begin_layout Section
 Gestion des problèmes, annomalies et sécurité
 \end_layout
@@ -1275,6 +1283,23 @@ S'il y a quelque problème avec la source d'énergie, le système embarqué
  une rêquete de maintenance.
  Les détails du problème seront aussi affichés sur l'écran du système de
  surveillance.
+\end_layout
+
+\begin_layout Subsection
+Problèmes de communication entre le site isolé - serveur central
+\end_layout
+
+\begin_layout Standard
+Quand on a un problème avec la communication entre le site isolé et le serveur
+ central, le système embarqué a une petite mémoire pour stocker les données
+ qui ne sont pas envoyés au serveur.
+\end_layout
+
+\begin_layout Standard
+Le serveur central fait une vérification du canal de communication avec
+ les sités isolés à chaque trente minutes.
+ S'il détecte qu'il y a un problème, il affichera sur l'écran les détails
+ du problème pour que le superviseur puisse faire une rêquete de maintenance.
 \end_layout
 
 \begin_layout Section
