@@ -692,7 +692,7 @@ Début du Modèle des Données
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+25.01.2011
 \end_layout
 
 \end_inset
@@ -701,7 +701,7 @@ Début du Modèle des Données
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Henrique
 \end_layout
 
 \end_inset
@@ -710,7 +710,7 @@ Début du Modèle des Données
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.4
 \end_layout
 
 \end_inset
@@ -719,7 +719,7 @@ Début du Modèle des Données
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Début de gestion des problèmes
 \end_layout
 
 \end_inset
@@ -935,7 +935,11 @@ Manuel du chef de projet;
 \end_layout
 
 \begin_layout Itemize
-Ébauche de la conception et de l'architecture du système.
+Ébauche de la conception et de l'architecture du système
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -944,6 +948,19 @@ Organisation générale du système
 
 \begin_layout Subsection
 Schéma général du système
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Je ne sais pas pourquoi, mais LyX affiche ce schéma sur la place mauvaise.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1229,8 +1246,35 @@ Diagramme de classes du système
 
 \end_layout
 
+\begin_layout Subsection
+Volumétrie des données
+\end_layout
+
 \begin_layout Section
 Gestion des problèmes, annomalies et sécurité
+\end_layout
+
+\begin_layout Subsection
+Niveau de seuil atteint
+\end_layout
+
+\begin_layout Standard
+Si quelque réservatoir a son niveau de seuil atteint, un message sera automatiqu
+ement envoyée au site central et sera affiche sur l'écran du logiciel de
+ surveillance (avec des informations aditionelles du problème) pour que
+ le superviseur puisse prendre des mésures adéquates de maintenance.
+\end_layout
+
+\begin_layout Subsection
+Coupure du fournissement d'énergie
+\end_layout
+
+\begin_layout Standard
+S'il y a quelque problème avec la source d'énergie, le système embarqué
+ envoyera un message au système central pour que le superviseur puisse faire
+ une rêquete de maintenance.
+ Les détails du problème seront aussi affichés sur l'écran du système de
+ surveillance.
 \end_layout
 
 \begin_layout Section
