@@ -899,7 +899,7 @@ Présentation du document
 
 \begin_layout Standard
 Le dossier de conception a comme but de définir l'organisation technique
- de l'architecture du système, expliquer comment le système marchera au
+ de l'architecture du système et expliquer comment le système marchera au
  niveau matériel et logiciel.
  Ce document a comme but aussi de définir des règles de fonctionnement du
  nouveau système (alarmes, seuils et maintenance), les conditions d'implentation
@@ -935,7 +935,7 @@ Manuel du chef de projet;
 \end_layout
 
 \begin_layout Itemize
-Ébauche de la conception du système.
+Ébauche de la conception et de l'architecture du système.
 \end_layout
 
 \begin_layout Section
@@ -958,7 +958,7 @@ status open
 \begin_inset Graphics
 	filename /home/henrique/projetIngenierie/Perso_GEI/specification_technique_besoins/imagesSchemaGlobal/EbaucheArchiFinale.png
 	lyxscale 40
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -986,8 +986,24 @@ Architecture général du système
 Organisation du serveur central
 \end_layout
 
+\begin_layout Standard
+Le serveur central sera composé d'un ordinateur qui aura le système de surveilla
+nce installé et sera lié à un autre ordinateur qui contiendra une base de
+ données installée pour stocker les lectures des capteurs de chaque site
+ isolé.
+\end_layout
+
 \begin_layout Subsection
 Organisation des sites isolés
+\end_layout
+
+\begin_layout Standard
+Chaque site isolé sera équipé d'un système embarqué lié à plusieurs capteurs
+ et un système de communication GPRS.
+ Tout les équipament des sites isolés seront alimentés par l'énergie stockée
+ dans les batteries.
+ Le recharge des batteries sera fait par le paneau solaire présent dans
+ chaque site isolé.
 \end_layout
 
 \begin_layout Subsection
