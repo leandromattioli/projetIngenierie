@@ -681,7 +681,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-Début du Modèle des Données
+Modèle des Données
 \end_layout
 
 \end_inset
@@ -719,7 +719,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-Début de gestion des problèmes
+Gestion des problèmes
 \end_layout
 
 \end_inset
@@ -1262,8 +1262,8 @@ Système embarqué - site central
 
 \begin_layout Standard
 En tenant compte que chaque site central sera lié à 20 stations, qu'il y
- aura une lecture à chaque 20 minute et chaque lecture aurra le niveau du
- réservatoir et un identifiant de la station, nous arrivons au résultat
+ aura une lecture à chaque vingt minute et chaque lecture aurra le niveau
+ du réservatoir et un identifiant de la station, nous arrivons au résultat
  suivant:
 \end_layout
 
@@ -1277,7 +1277,7 @@ En tenant compte que chaque site central sera lié à 20 stations, qu'il y
 \end_layout
 
 \begin_layout Section
-Gestion des problèmes, annomalies et sécurité
+Gestion des problèmes et annomalies
 \end_layout
 
 \begin_layout Subsection
@@ -1311,6 +1311,8 @@ Problèmes de communication entre le site isolé - serveur central
 Quand on a un problème avec la communication entre le site isolé et le serveur
  central, le système embarqué a une petite mémoire pour stocker les données
  qui ne sont pas envoyés au serveur.
+ Comme est décrit dans la section de volumétrie des données, on n'auront
+ pas besoin d'avoir une mémoire très grande pour stocker ces données.
 \end_layout
 
 \begin_layout Standard
