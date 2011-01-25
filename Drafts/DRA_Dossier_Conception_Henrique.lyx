@@ -1187,6 +1187,10 @@ Real-Time Operating System
 \end_layout
 
 \begin_layout Section
+Architecture Matérielle
+\end_layout
+
+\begin_layout Section
 Modèles des données
 \end_layout
 
@@ -1249,7 +1253,7 @@ En tenant compte qu'une station qui aura cinq capteurs, que chaque lecture
 \begin_inset Formula $5*8\,\frac{octets}{lecture}*3\,\frac{lecture}{heure}*24\,\frac{heures}{jour}=2880\,\frac{octets}{jour}\approx3\,\frac{Ko}{jour}$
 \end_inset
 
-
+, par chaque station isolée
 \end_layout
 
 \begin_layout Subsubsection
@@ -1267,6 +1271,52 @@ En tenant compte que chaque site central sera lié à 20 stations, qu'il y
 \noindent
 \align center
 \begin_inset Formula $20*8\,\frac{octets}{lecture}*3\,\frac{lectures}{heure}*24\,\frac{heures}{jour}=11520\,\frac{octets}{jour}\approx12\frac{Ko}{jour}$
+\end_inset
+
+, par chaque site central
+\end_layout
+
+\begin_layout Subsection
+Flux de données
+\end_layout
+
+\begin_layout Subsubsection
+Flux des données général - Site central
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename dossierConception/fluxDonneesSiteCentral.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Flux des données général - Site Central
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -1313,7 +1363,7 @@ Quand on a un problème avec la communication entre le site isolé et le serveur
 
 \begin_layout Standard
 Le serveur central fait une vérification du canal de communication avec
- les sités isolés à chaque trente minutes.
+ les sités isolés à chaque dix minutes.
  S'il détecte qu'il y a un problème, il affichera sur l'écran les détails
  du problème pour que le superviseur puisse faire une rêquete de maintenance.
 \end_layout
