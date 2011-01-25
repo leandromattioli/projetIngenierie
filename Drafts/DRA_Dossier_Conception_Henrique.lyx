@@ -1295,6 +1295,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename dossierConception/fluxDonneesSiteCentral.png
+	scale 60
 
 \end_inset
 
@@ -1306,6 +1307,49 @@ status open
 
 \begin_layout Plain Layout
 Flux des données général - Site Central
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Flux des données détaillé du site isolé
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename dossierConception/fluxDonneesSiteIsole.png
+	scale 42
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+FLux de données - Site Isolé
 \end_layout
 
 \end_inset
