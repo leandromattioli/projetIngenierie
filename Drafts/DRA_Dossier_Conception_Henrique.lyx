@@ -730,7 +730,7 @@ Gestion des problèmes
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+25.01.2011
 \end_layout
 
 \end_inset
@@ -739,7 +739,7 @@ Gestion des problèmes
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Henrique
 \end_layout
 
 \end_inset
@@ -748,7 +748,7 @@ Gestion des problèmes
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.5
 \end_layout
 
 \end_inset
@@ -757,7 +757,7 @@ Gestion des problèmes
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Architecture Matérielle
 \end_layout
 
 \end_inset
@@ -1190,6 +1190,22 @@ Real-Time Operating System
 Architecture Matérielle
 \end_layout
 
+\begin_layout Subsection
+Site Central
+\end_layout
+
+\begin_layout Standard
+Le site central sera composé de deux ordinateurs: un pour le logiciel de
+ surveillance des stations et l'autre pour la base de données.
+ Les deux ordinateurs seront équipés de cartes réseaux pour qu'ils puissient
+ communiquer entre eux et pour que l'ordinateur de surveillance puisse recevoir
+ des informations des sites isolés.
+\end_layout
+
+\begin_layout Subsection
+Site isolé
+\end_layout
+
 \begin_layout Section
 Modèles des données
 \end_layout
@@ -1323,6 +1339,13 @@ Flux des données général - Site Central
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Flux des données détaillé du site isolé
 \end_layout
@@ -1408,8 +1431,8 @@ Quand on a un problème avec la communication entre le site isolé et le serveur
 \begin_layout Standard
 Le serveur central fait une vérification du canal de communication avec
  les sités isolés à chaque dix minutes.
- S'il détecte qu'il y a un problème, il affichera sur l'écran les détails
- du problème pour que le superviseur puisse faire une rêquete de maintenance.
+ S'il détecte un problème, il affichera sur l'écran les détails du problème
+ pour que le superviseur puisse faire une rêquete de maintenance.
 \end_layout
 
 \begin_layout Section
