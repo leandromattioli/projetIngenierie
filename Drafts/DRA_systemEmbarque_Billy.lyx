@@ -73,7 +73,7 @@ Il existe de nombreux processeurs embarqués existant sur le marché.
 Le tableau suivant nous donne un aperçu sur certains d'entre eux avec leurs
  caractéristiques principales.
  Il essaie de ne pas privilégier un constructeur à un autre et fait apparaitre
- une variété de processeurs embarqués de caractéristiques variées.
+ des processeurs embarqués de caractéristiques variées.
 \end_layout
 
 \begin_layout Standard
@@ -482,9 +482,13 @@ Notre système peut avoir différentes architecture pour relier le processeur
 \end_layout
 
 \begin_layout Itemize
-SoC : System on Chip : architecture visant à mettre tous les composants
- sur une simple puce.
- Il est possible de créer sa propre puce à partir de zéro ou d'utiliser
+ASIC : Application-Specific Integrated Circuit : circuit intégré (micro-électron
+ique) spécialisé.
+ En général, il regroupe un grand nombre de fonctionnalités uniques et/ou
+ sur mesure.
+ L'intérêt de l'intégration est de réduire les coûts de production et d'augmente
+r la fiabilité.
+ Il y a deux manières de faire ce type de circuit intégré
 \end_layout
 
 \begin_layout Itemize
@@ -493,6 +497,10 @@ FPGA : Field Programmable Gate Array : Les réseaux logiques programmables
  librement assemblables.
  L'intérêt est qu'une même puce peut être utilisée dans de nombreux systèmes
  électroniques différents.
+\end_layout
+
+\begin_layout Itemize
+Carte déjà faites.
 \end_layout
 
 \begin_layout Subsection
