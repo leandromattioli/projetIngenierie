@@ -96,7 +96,7 @@ height_special "totalheight"
 status open
 
 \begin_layout Title
-Dossier de Conception
+Cahier de Charge - Configuration Remote
 \begin_inset Newline newline
 \end_inset
 
@@ -578,7 +578,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-24.01.2011
+21.01.2011
 \end_layout
 
 \end_inset
@@ -605,7 +605,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-Organisation général du système
+Structure du document
 \end_layout
 
 \end_inset
@@ -616,7 +616,7 @@ Organisation général du système
 \begin_inset Text
 
 \begin_layout Plain Layout
-24.01.2011
+
 \end_layout
 
 \end_inset
@@ -625,7 +625,7 @@ Organisation général du système
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
 \end_layout
 
 \end_inset
@@ -634,7 +634,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.2
+
 \end_layout
 
 \end_inset
@@ -643,7 +643,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-Architecture applicative
+
 \end_layout
 
 \end_inset
@@ -654,7 +654,7 @@ Architecture applicative
 \begin_inset Text
 
 \begin_layout Plain Layout
-24.01.2011
+
 \end_layout
 
 \end_inset
@@ -663,7 +663,7 @@ Architecture applicative
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
 \end_layout
 
 \end_inset
@@ -672,7 +672,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.3
+
 \end_layout
 
 \end_inset
@@ -681,7 +681,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-Modèle des Données
+
 \end_layout
 
 \end_inset
@@ -692,7 +692,7 @@ Modèle des Données
 \begin_inset Text
 
 \begin_layout Plain Layout
-25.01.2011
+
 \end_layout
 
 \end_inset
@@ -701,7 +701,7 @@ Modèle des Données
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
 \end_layout
 
 \end_inset
@@ -710,7 +710,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.4
+
 \end_layout
 
 \end_inset
@@ -719,7 +719,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-Gestion des problèmes
+
 \end_layout
 
 \end_inset
@@ -730,7 +730,7 @@ Gestion des problèmes
 \begin_inset Text
 
 \begin_layout Plain Layout
-25.01.2011
+
 \end_layout
 
 \end_inset
@@ -739,7 +739,7 @@ Gestion des problèmes
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
 \end_layout
 
 \end_inset
@@ -748,7 +748,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.5
+
 \end_layout
 
 \end_inset
@@ -757,7 +757,7 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
-Architecture Matérielle
+
 \end_layout
 
 \end_inset
@@ -858,585 +858,198 @@ Introduction
 \end_layout
 
 \begin_layout Subsection
-Rappel du problème
+Présentation du projet 
 \end_layout
 
 \begin_layout Subsubsection
-Le contexte
+Contexte 
 \end_layout
 
 \begin_layout Standard
 Le COPEVUE souhaite étudier un système de monitoring à distance de sites
- isolés, situés dans de nombreuses régions de l'UE, pour mieux contrôler
- ses besoins d'autonomie (en terme d'énergie, de déchets, etc).
+ isolés, situés dans de nombreuses régions de l’UE, pour mieux contrôler
+ ses besoins d’autonomie (en terme d’énergie, de déchets, etc).
  Comme exemples de ces sites, on peut citer de nombreux lieux de travail
- (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
+ (pour l’abattage de bois, à l’installation de réseaux, de stations de pompage,
  etc).
- Ce système doit permettre à COPEVUE faire un suivi pour pouvoir intervenir
+ Ce système doit permettre à COPEVUE de faire un suivi pour pouvoir intervenir
  en cas de problèmes.
-\end_layout
-
-\begin_layout Subsubsection
-Les objectifs
-\end_layout
-
-\begin_layout Standard
-Le travail demandé consiste en une proposition d'une solution pour la mesure
- et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
- système.
  
 \end_layout
 
-\begin_layout Standard
-Le but de ce travail consiste à faire une conception detaillée, bien comme
- la spécification technique de besoins et une proposition d'architecture
- générique.
-\end_layout
-
-\begin_layout Subsection
-Présentation du document
-\end_layout
-
-\begin_layout Standard
-Le dossier de conception a comme but de définir l'organisation technique
- de l'architecture du système et expliquer comment le système marchera au
- niveau matériel et logiciel.
- Ce document a comme but aussi de définir des règles de fonctionnement du
- nouveau système (alarmes, seuils et maintenance), les conditions d'implentation
- et conditions de maintenance.
-\end_layout
-
-\begin_layout Subsection
-Documents applicables / Documents de référence
-\end_layout
-
 \begin_layout Subsubsection
-Documents applicables
-\end_layout
-
-\begin_layout Itemize
-le Dossier de Gestion de la Documentation;
-\end_layout
-
-\begin_layout Itemize
-le Procédure de rédaction d'un dossier d'initialisation.
-\end_layout
-
-\begin_layout Subsubsection
-Documents de référence
-\end_layout
-
-\begin_layout Itemize
-l'appel d'offre de COPEVUE;
-\end_layout
-
-\begin_layout Itemize
-Manuel du chef de projet;
-\end_layout
-
-\begin_layout Itemize
-Ébauche de la conception et de l'architecture du système
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Organisation générale du système
-\end_layout
-
-\begin_layout Subsection
-Schéma général du système
+Objectifs 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename /home/henrique/projetIngenierie/Perso_GEI/specification_technique_besoins/imagesSchemaGlobal/EbaucheArchiFinale.png
-	lyxscale 40
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Architecture général du système
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Organisation du serveur central
-\end_layout
-
-\begin_layout Standard
-Le serveur central sera composé d'un ordinateur qui aura le système de surveilla
-nce installé et sera lié à un autre ordinateur qui contiendra une base de
- données installée pour stocker les lectures des capteurs de chaque site
- isolé.
-\end_layout
-
-\begin_layout Subsection
-Organisation des sites isolés
-\end_layout
-
-\begin_layout Standard
-Chaque site isolé sera équipé d'un système embarqué lié à plusieurs capteurs
- et un système de communication GPRS.
- Tout les équipament des sites isolés seront alimentés par l'énergie stockée
- dans les batteries.
- Le recharge des batteries sera fait par le paneau solaire présent dans
- chaque site isolé.
-\end_layout
-
-\begin_layout Subsection
-Communication site central - sites isolés
-\end_layout
-
-\begin_layout Standard
-Le serveur central communiquera avec le système embarqué grâce au système
- satellite.
- Un abonnement au Ko nous permettra d'envoyer et de recevoir des données
- quel que soit la posisition du système embarqué sur le globe.
- En effet, le gros problème rencontré avec le GSM et le filiaire est le
- manque de couverture du territoire, or nous allons envoyer nos systèmes
- embarqués dans des endroits reculés.
-\end_layout
-
-\begin_layout Standard
-La communication pourra se faire dans les deux sens.
- C'est-à-dire que le capteur pourra envoyer les données et le serveur central
- pourra envoyer des requêtes lui permettant de reconfigurer à distance les
- capteurs.
-\end_layout
-
-\begin_layout Subsection
-Communication site central - agences
-\end_layout
-
-\begin_layout Standard
-La communication du site central avec l'agence se fera grâce à internet
- par le protocole HTTP et s'il y a besoin d'une connection securisée, la
- communication peut être faite par le protocole HTTPS.
- Le site central envoie une rêquete de maintenance à l'agence avec des informati
-ons sur la station en question, de même la priorité de la requête.
-\end_layout
-
-\begin_layout Subsection
-Communication système embarqué - capteurs
-\end_layout
-
-\begin_layout Standard
-Chaque capteur sera relié au système embarqué par une connection filiaire
- que nous installerons dès la création du site.
- Cette liaison comprendra une fibre permettant de transférer les données
- et un câble permettant l'alimentation électrique.
- Le capteur enverra périodiquement les données au système embarqué (période
- définie en fonction de la criticité de l'application).
- Le capteur enverra les données sans se préoccuper de la présence ou non
- du système embarqué.
- C'est ce dernier qui détectera une coupure s'il y en a une et qui en informera
- le serveur central.
+Le travail demandé consiste en une proposition d’une solution pour la mesure
+ et le monitoring des sites isolés, c’est-à-dire étudier et concevoir ce
+ système en réponse à un appel d’offre.
+ Le but de ce travail consiste à faire une étude de faisabilité, la spécificatio
+n technique de besoins et une proposition d’architecture générique.
  
 \end_layout
 
 \begin_layout Subsection
-Communication serveur central - postes mobiles
+Présentation du document 
+\end_layout
+
+\begin_layout Subsection
+Documents applicables / Documents de référence 
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables 
 \end_layout
 
 \begin_layout Standard
-Les postes mobiles peuvent communiquer avec le site central grâce au GPRS
- (General Packet Radio Service).
- Ce service nous permet de faire une combinaison avec le service GSM et
- comme ça, on peut trouver la position grâce à la triangulation.
- Le conducteur peut aussi accéder aux informations de la station en question.
- Le service GPRS permet au superviseur de communiquer avec le conducteur
- du camion par radio au cas où il y a un problème plus urgent à traiter.
- Le protocole utilisé pour réaliser cette communication entre le site central
- et les postes mobiles sera le protocole IP (Internet Protocol).
+– Le Dossier de Gestion de la Documentation
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence 
+\end_layout
+
+\begin_layout Standard
+– Plan-type d’un dossier de faisabilité
+\end_layout
+
+\begin_layout Standard
+– Appel d’offre de la COPEVUE
+\end_layout
+
+\begin_layout Subsection
+Terminologie et Abréviations 
+\end_layout
+
+\begin_layout Section
+Présentation du problème
+\end_layout
+
+\begin_layout Subsection
+But 
+\end_layout
+
+\begin_layout Standard
+Comme le canal de communication entre les site centrals et les stations
+ est bidirectionel, le système sera capable de réaliser la configuration
+ et maintenance des station à distance.
  
 \end_layout
 
 \begin_layout Subsection
-Maintenance des stations isolées
+Formulation des besoins (généraux), exploitation et ergonomie, expérience
 \end_layout
 
 \begin_layout Standard
-En tenant compte du fait que le canal de communication entre le site central
- et les stations est bidirectionel, les superviseurs peuvent envoyer des
- commandes aux stations.
- Ces commandes permettront aux superviseurs de réaliser la maintenance du
- système et la configuration de chaque station.
- Ils peuvent, par exemple, redémarrer le système, ou changer les paramètres
- de configuration comme la fréquence de lecture, les niveaux de seuil des
- reservoirs, etc.
+Le superviseur pourra, par exemple, changer les paramètres de configuration
+ (seuils des reservatoirs, fréquence de lecture), redémarrer le système
+ de chaque station et vérifier l'état des panneaux solaires et batteries.
 \end_layout
 
 \begin_layout Subsection
-Profils d'utilisateurs
+Portée, développement, mise en œuvre, organisation de la maintenance 
 \end_layout
 
-\begin_layout Standard
-Nous avons deux types d'utilisateur:
-\end_layout
-
-\begin_layout Itemize
-Le superviseur: celui a tout les droits sur le serveur central.
- Il peut faire une requête à une agence pour demander maintenance d'une
- des stations concernantes à son site central.
- Il peut aussi faire des lectures manuelles d'un des sites isolés, vérfier
- l'état du système (niveaux des batteries, conditions des panneaux solaires,
- communication entre le système embarqué et les capteurs) et faire la maintenanc
-e à distance de chaque site isolé, c'est-à-dire qu'il peut lire et changer
- les paramètres de configuration de chaque système isolé.
-\end_layout
-
-\begin_layout Itemize
-Le conducteur: celui fait la maintenance des sites isolés.
- Il a accés à les demandes de maintenance et ses informations additionelles,
- comme le problème du site et sa localisation.
- Le conducteur peut accéder à ces informations depuis son terminal PDA.
- Il a aussi communication directe avec le superviseur responsable par le
- site et son agence.
- Quand il fini l'entretien, il informe le système que le problème a été
- résolu.
- 
+\begin_layout Subsection
+Limites
 \end_layout
 
 \begin_layout Section
-Architecture Applicative
+Exigences fonctionnelles
 \end_layout
 
 \begin_layout Subsection
-Site central
-\end_layout
-
-\begin_layout Standard
-Le site central aura un logiciel qui permet au superviseur d'avoir une vue
- général sur le système.
- Ce logiciel est découpé en deux sous-systèmes.
-\end_layout
-
-\begin_layout Subsubsection
-Sous-système de monitoring des stations
-\end_layout
-
-\begin_layout Standard
-C'est le sous-système responsable pour permettre au superviseur de surveiller
- les stations isolées.
- 
-\end_layout
-
-\begin_layout Standard
-Pour avoir accés à ce logiciel, le superviseur devra saisir son nom d'utilisateu
-r et son mot de passe.
- Ce logiciel pourra afficher la situation général de chaque station comme
- aussi afficher des détails de chaque station si demandé par le superviseur.
- Il pourra aussi faire une requête de maintenance d'une station souhaitée.
- Au cas où quelque station aie un problème, une alerte sera affichée sur
- l'écran en spécifiant le type de problème (seuils des reservatoir atteints,
- souci de production d'énergie, etc).
-\end_layout
-
-\begin_layout Subsubsection
-Sous-système de maintenance
-\end_layout
-
-\begin_layout Standard
-Une fois qu'une maintenance est demandée le superviseur pourra suivre en
- temps réel l'avancement de chaque maintenance requise.
- Ce sous-système permettrera au superviseur de communiquer directement avec
- le conducteur qui a été choisi pour réaliser une maintenance dans une station.
- Il permettrera aussi au superviseur de savoir la position de chaque conducteur
- et l'état de chaque station problèmatique.
+Fonctions de base, performances et aptitudes 
 \end_layout
 
 \begin_layout Subsection
-Station isolé
+Contraintes d'utilisation 
 \end_layout
 
-\begin_layout Standard
-Chaque système embarqué aurra un RTOS (
-\shape italic
-Real-Time Operating System
-\shape default
-) installé qui permettrera de faire la communication avec les capteurs de
- la station et d'envoyer les données au site central grâce au système de
- communication GSM.
+\begin_layout Subsection
+Critères d'appréciation de la réalisation effective de la fonction 
+\end_layout
+
+\begin_layout Subsection
+Flexibilité dans la façon de mettre en œuvre la fonction concernée et variation
+ de coûts associée en fonction de cette flexibilité
 \end_layout
 
 \begin_layout Section
-Architecture Matérielle
+Contraintes imposées, faisabilité technologique et éventuellement moyens
 \end_layout
 
 \begin_layout Subsection
-Site Central
-\end_layout
-
-\begin_layout Standard
-Le site central sera composé de deux ordinateurs: un pour le logiciel de
- surveillance des stations et l'autre pour la base de données.
- Les deux ordinateurs seront équipés de cartes réseaux pour qu'ils puissient
- communiquer entre eux et pour que l'ordinateur de surveillance puisse recevoir
- des informations des sites isolés.
+Sûreté, planning, organisation, communication 
 \end_layout
 
 \begin_layout Subsection
-Site isolé
+Complexité 
+\end_layout
+
+\begin_layout Subsection
+Compétences, moyens et règles 
+\end_layout
+
+\begin_layout Subsection
+Normes de documentation
 \end_layout
 
 \begin_layout Section
-Modèles des données
+Configuration cible
 \end_layout
 
 \begin_layout Subsection
-Diagramme de classes
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename dossierConception/modeleDonnees.png
-	scale 60
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Diagramme de classes du système
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Matériel et logiciels 
 \end_layout
 
 \begin_layout Subsection
-Volumétrie des données
-\end_layout
-
-\begin_layout Subsubsection
-Système embarqué - capteurs
-\end_layout
-
-\begin_layout Standard
-En tenant compte qu'une station qui aura cinq capteurs, que chaque lecture
- aura la taille d'un entier plus un identifiant du capteur (entier) et qu'il
- y aura une lecture à chaque vingt minutes, nous arrivons au résultat suivant:
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $5*8\,\frac{octets}{lecture}*3\,\frac{lecture}{heure}*24\,\frac{heures}{jour}=2880\,\frac{octets}{jour}\approx3\,\frac{Ko}{jour}$
-\end_inset
-
-, par chaque station isolée
-\end_layout
-
-\begin_layout Subsubsection
-Système embarqué - site central
-\end_layout
-
-\begin_layout Standard
-En tenant compte que chaque site central sera lié à 20 stations, qu'il y
- aura une lecture à chaque vingt minute et chaque lecture aurra le niveau
- du réservatoir et un identifiant de la station, nous arrivons au résultat
- suivant:
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Formula $20*8\,\frac{octets}{lecture}*3\,\frac{lectures}{heure}*24\,\frac{heures}{jour}=11520\,\frac{octets}{jour}\approx12\frac{Ko}{jour}$
-\end_inset
-
-, par chaque site central
+Stabilité de la configuration si nécessaire 
 \end_layout
 
 \begin_layout Subsection
-Flux de données
-\end_layout
-
-\begin_layout Subsubsection
-Flux des données général - Site central
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename dossierConception/fluxDonneesSiteCentral.png
-	scale 60
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Flux des données général - Site Central
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsubsection
-Flux des données détaillé du site isolé
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Graphics
-	filename dossierConception/fluxDonneesSiteIsole.png
-	scale 42
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-FLux de données - Site Isolé
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
+Description des API avec reste du système 
 \end_layout
 
 \begin_layout Section
-Gestion des problèmes et annomalies
+Guide de résponse au Cahier des charges
 \end_layout
 
 \begin_layout Subsection
-Niveau de seuil atteint
-\end_layout
-
-\begin_layout Standard
-Si quelque réservatoir a son niveau de seuil atteint, un message sera automatiqu
-ement envoyée au site central et sera affiche sur l'écran du logiciel de
- surveillance (avec des informations aditionelles du problème) pour que
- le superviseur puisse prendre des mésures adéquates de maintenance.
-\end_layout
-
-\begin_layout Subsection
-Coupure du fournissement d'énergie
-\end_layout
-
-\begin_layout Standard
-S'il y a quelque problème avec la source d'énergie, le système embarqué
- envoyera un message au système central pour que le superviseur puisse faire
- une rêquete de maintenance.
- Les détails du problème seront aussi affichés sur l'écran du système de
- surveillance.
-\end_layout
-
-\begin_layout Subsection
-Problèmes de communication entre le site isolé - serveur central
-\end_layout
-
-\begin_layout Standard
-Quand on a un problème avec la communication entre le site isolé et le serveur
- central, le système embarqué a une petite mémoire pour stocker les données
- qui ne sont pas envoyés au serveur.
- Comme est décrit dans la section de volumétrie des données, on n'auront
- pas besoin d'avoir une mémoire très grande pour stocker ces données.
-\end_layout
-
-\begin_layout Standard
-Le serveur central fait une vérification du canal de communication avec
- les sités isolés à chaque dix minutes.
- S'il détecte un problème, il affichera sur l'écran les détails du problème
- pour que le superviseur puisse faire une rêquete de maintenance.
+Grille d'évaluation
 \end_layout
 
 \begin_layout Section
-Conclusion
+Annexes
+\end_layout
+
+\begin_layout Subsection
+Observations de l'existant 
+\end_layout
+
+\begin_layout Subsection
+Propositions d'orientation 
+\end_layout
+
+\begin_layout Subsection
+Image(s) d’écran(s) principaux du logiciel 
+\end_layout
+
+\begin_layout Subsection
+Résultat de l’analyse de la valeur 
+\end_layout
+
+\begin_layout Subsection
+Description des API avec reste du système 
+\end_layout
+
+\begin_layout Subsection
+Choix d'une solution et justifications 
+\end_layout
+
+\begin_layout Subsection
+Appréciation de la solution retenue
 \end_layout
 
 \end_body
