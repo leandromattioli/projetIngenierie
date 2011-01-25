@@ -1347,25 +1347,75 @@ lors du dépassement des délais ou découverte de nouvelles tâches: le plannin
  
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
 \begin_layout Section
 Gestion des risques
 \end_layout
 
 \begin_layout Subsection
-Risques concernant l'application du projet
+Risques Organisationnels
+\end_layout
+
+\begin_layout Standard
+Du à la quantité de livrables attendus, un suivi plus rigoureux est mise
+ en place, avec l'accompagnement de chaque membre de l'équipe.
+ En plus, du au faible niveau d'experience de l'équipe dans ce domaine,
+ une marge de sécurité est adoptée.
 \end_layout
 
 \begin_layout Subsection
-Risques propres au projet
+Risques Techniques
+\end_layout
+
+\begin_layout Standard
+En considerant les contraintes de généricité et fiabilité imposées dans
+ ce projet, nous choisissons des differents versions du système, adaptés
+ à chaque environment.
+ Cependant, le client est consulté pour la définition et validation de quelques
+ restrictions de projet.
+\end_layout
+
+\begin_layout Subsection
+Risques Financiers
+\end_layout
+
+\begin_layout Standard
+Avant avoir une conception détaillée, une estimation de coût doit être effectuée.
+ Ce risque sera attenué après l'étude de faisabilité.
+\end_layout
+
+\begin_layout Subsection
+Risques Humains
+\end_layout
+
+\begin_layout Standard
+Dans la situation dont un membre de l'équipe n'est pas disponible pour réaliser
+ une tâche, le CdP doit fournir un ensemble alternative d'affectations de
+ tâches.
+\end_layout
+
+\begin_layout Standard
+En plus, si l'équipe constate que le projet est trop grand pour bien concevoir
+ et réaliser, une politique de sous-traitance doit être mise en place
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+ce qui portera un ajout du coût du projet
 \end_layout
 
 \end_inset
 
+.
+\end_layout
 
+\begin_layout Subsection
+Risques Juridiques
+\end_layout
+
+\begin_layout Standard
+La permission juridique pour la mise en place des systèmes electronics et
+ communication par sattelite dans les sites isolés est de entière responsabilité
+ du client.
 \end_layout
 
 \begin_layout Section
