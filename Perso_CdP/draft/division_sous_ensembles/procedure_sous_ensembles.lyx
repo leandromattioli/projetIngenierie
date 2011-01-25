@@ -132,7 +132,7 @@ Maitrise d'Oeuvre:
 
 Maitrise d'Ouvrage:
 \series default
- H4312
+ COPEVUE
 \end_layout
 
 \begin_layout Standard
@@ -180,15 +180,6 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Nom de référence du document
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -207,16 +198,7 @@ Version
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Version du document
-\end_layout
-
-\end_inset
-
- 1.0
+1.1
 \end_layout
 
 \end_inset
@@ -274,7 +256,7 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/01/2011
+19/01/2011
 \end_layout
 
 \end_inset
@@ -374,7 +356,7 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/01/2011
+19/01/2011
 \end_layout
 
 \end_inset
@@ -587,7 +569,7 @@ Création de la procedure
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+19/01/2011
 \end_layout
 
 \end_inset
@@ -596,7 +578,7 @@ Création de la procedure
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Leandro RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -605,7 +587,7 @@ Création de la procedure
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.1
 \end_layout
 
 \end_inset
@@ -614,7 +596,7 @@ Création de la procedure
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Ajout des sous-iterations.
 \end_layout
 
 \end_inset
@@ -1038,12 +1020,6 @@ Détails du logigramme
 \end_layout
 
 \begin_layout Subsubsection
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:revision_besoins"
-
-\end_inset
-
 Révision des besoins
 \end_layout
 
@@ -1077,13 +1053,7 @@ Une notation formel specifique doit être définie.
 \end_layout
 
 \begin_layout Subsubsection
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:definition_criteres"
-
-\end_inset
-
-La définition des critères et division
+La divison en sous-projets
 \end_layout
 
 \begin_layout Standard
@@ -1106,42 +1076,41 @@ Revision des Besoins
 \end_layout
 
 \begin_layout Subsubsection
-La évaluation de la granularité
+Validation de sous-projets
 \end_layout
 
 \begin_layout Standard
-Après la première division, s'il y a des sous-ensembles encore complexes
- pour gérer/réaliser il faut les diviser en sous-composants en s'appuyant
- sur les mêmes processus décrits dans les sections 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sub:revision_besoins"
-
-\end_inset
-
- et 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "sub:definition_criteres"
-
-\end_inset
-
- de ce document.
+En considerant le niveau d'indépendance entre les sous-projets et l'interfaçage
+ entre eux, la division effectué doit être validé.
 \end_layout
 
 \begin_layout Subsubsection
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:outils_méthodes"
+Raffinement des besoins du projet
+\end_layout
 
-\end_inset
+\begin_layout Standard
+Dans cette étape, les besoins de chaque projet sont raffinés pour éclairer
+ ses associations et hierarchie.
+ 
+\end_layout
 
+\begin_layout Subsubsection
+Choix des sous-ensembles
+\end_layout
+
+\begin_layout Standard
+Avec une approche comme cela de la division en sous-projets (établir critères
+ de division et classer les besoins), les sous-ensembles sont définis.
+ 
+\end_layout
+
+\begin_layout Subsubsection
 Outils/méthodes/techniques/règles/normes
 \end_layout
 
 \begin_layout Standard
 Il existe divers méthodes pour aider la décomposition: USDP et Agile pour
- les sous-ensemble d'un projet logiciel, MERISE pour une approche systèmique,
+ les sous-ensembles d'un projet logiciel, MERISE pour une approche systèmique,
  SADT pour une approche fonctionnelle.
 \end_layout
 
@@ -1150,6 +1119,35 @@ Prenant en compte le fait qu'un système a des sous-ensembles logiciels,
  c'est possible d'avoir plusieurs méthodes dans un même projet (USDP pour
  le sous-ensemble Logiciel-A, Agile pour le sous-ensemble Logiciel-B, SART
  pour une sous-ensemble temps réel, etc.).
+\end_layout
+
+\begin_layout Subsubsection
+Validation de sous-ensembles (évaluation de la granularité)
+\end_layout
+
+\begin_layout Standard
+Après la division, s'il y a des sous-ensembles encore complexes pour gérer/réali
+ser il faut les diviser en sous-composants en s'appuyant sur les mêmes processus
+ décrits dans les sections précédents.
+\end_layout
+
+\begin_layout Subsubsection
+Rédaction du Dossier de Division en Sous-Ensembles
+\end_layout
+
+\begin_layout Standard
+Cette étape consiste de prendre la dernière division validé et la formaliser
+ dans un Dossier qui devra décrire de façon détaillée chaque sous-ensemble
+\end_layout
+
+\begin_layout Subsubsection
+Validation finale
+\end_layout
+
+\begin_layout Standard
+Le processus de division en sous-ensemble consiste d'une processus itératif,
+ c-est-à-dire susceptible de modifications.
+ Cependant, une consistance minimale est souhaitée.
 \end_layout
 
 \begin_layout Section
