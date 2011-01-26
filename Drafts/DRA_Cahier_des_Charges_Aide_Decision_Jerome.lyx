@@ -96,13 +96,13 @@ height_special "totalheight"
 status open
 
 \begin_layout Title
-Cahier de Charge - Configuration Remote
+Cahier de Charge - Aide à la décision
 \begin_inset Newline newline
 \end_inset
 
 
 \size larger
-Système de monitoring à distance de sites isolés
+Gestion de la logistique
 \end_layout
 
 \end_inset
@@ -478,7 +478,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Historique do document
+Historique du document
 \end_layout
 
 \begin_layout Standard
@@ -549,7 +549,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+Jerome
 \end_layout
 
 \end_inset
@@ -587,7 +587,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+Jerome
 \end_layout
 
 \end_inset
@@ -927,32 +927,115 @@ Présentation du problème
 \end_layout
 
 \begin_layout Subsection
-But 
+Contexte, objectifs, utilisateurs concernés
 \end_layout
 
 \begin_layout Standard
-Comme le canal de communication entre les site centrals et les stations
- est bidirectionel, le système sera capable de réaliser la configuration
- et maintenance des station à distance.
+Dans le cas ou le niveau de la cuve devient critique (trop plein ou trop
+ vide selon le cas), la COPEVUE demande à une société tierce d'envoyer une
+ équipe vider (ou remplir) la cuve.
+ Actuellement, cette opération n'est pas bien coordonnée puisque chaque
+ camion ne se rend que sur un seul site à la fois.
+ Il faudrait donc organiser ces oppérations afin de desservir plusieurs
+ sites en une seule fois.
  
 \end_layout
 
-\begin_layout Subsection
-Formulation des besoins (généraux), exploitation et ergonomie, expérience
+\begin_layout Standard
+Une fois sur place, l'agent doit pouvoir informé le serveur central que
+ son travail sur le site est terminé ou en cas de problème, signaler celui-ci
+ à la COPEVUE.
 \end_layout
 
 \begin_layout Standard
-Le superviseur pourra, par exemple, changer les paramètres de configuration
- (seuils des reservatoirs, fréquence de lecture), redémarrer le système
- de chaque station et vérifier l'état des panneaux solaires et batteries.
+Le but de ce projet est de réaliser l'application permettant de gérer la
+ demande d'envois d'un camion vers les sites, le calcul de l'itinéraire
+ à suivre ainsi que l'application du système embarqué permettant d'informer
+ le serveur de la fin de l'intervention ou de signaler un problème.
+\end_layout
+
+\begin_layout Standard
+L'application coté serveur central sera utilisé par le personnel de la COPEVUE.
+ L'application coté système embarqué sera utilisé par les conducteurs de
+ camions.
 \end_layout
 
 \begin_layout Subsection
-Portée, développement, mise en œuvre, organisation de la maintenance 
+Formulation des besoins
+\end_layout
+
+\begin_layout Standard
+L'application coté serveur devra répondre aux besoins suivants :
+\end_layout
+
+\begin_layout Itemize
+mettre évidence les sites à visiter : le logiciel devra déterminer quels
+ sont les sites dans lesquels le camion devra se rendre.
+\end_layout
+
+\begin_layout Itemize
+détecter l'action à effectuer : le logiciel devra définir l'action à effectuer
+ dans chaque site (remplissage, vidage).
+\end_layout
+
+\begin_layout Itemize
+établir un plan de visite des sites : le logiciel devra générer un plan
+ de route parfaitement optimisé afin de minimiser le coût de visites de
+ tous les sites.
+\end_layout
+
+\begin_layout Itemize
+être fiable : le trajet proposé par le logiciel devra être suffisament fiable
+ pour ne pas proposer un plan de route absurde ou trop complexe.
+\end_layout
+
+\begin_layout Itemize
+être autonome : le logiciel devra fonctionner avec une intervention humaine
+ minimale (simple contrôle de validation)
+\end_layout
+
+\begin_layout Standard
+L'application embarqué devra répondre aux besoins suivants :
+\end_layout
+
+\begin_layout Itemize
+permettre au conducteur de camion de communiquer le résultat de son travail
+ au serveur central
+\end_layout
+
+\begin_layout Itemize
+permettre au conducteur du camion de signaler un problème au serveur central
+\end_layout
+
+\begin_layout Itemize
+offrir une interface ergonomique et simple d'utilisation
 \end_layout
 
 \begin_layout Subsection
-Limites
+Mise en oeuvre
+\end_layout
+
+\begin_layout Standard
+Le logiciel sur le serveur central sera intégré à l'application chargé de
+ récupérer les données envoyées par les différents sites.
+ L'application embarqué sera intégrée au système embarqué chargé de la gestion
+ du réseau de capteur.
+\end_layout
+
+\begin_layout Standard
+Il sera développé de manière à être le plus générique possible.
+ Celui-ci devra être réutilisable quelque soit le terrain.
+ Les agences chargé de la desserte des sites par la COPEVUE utilise actuellement
+ des camions.
+ Cependant, il pourrait être amené à utiliser d'autres moyens de transport
+ (bateau, ...).
+ De ce fait, le logiciel devra être adaptable pour ce type de transport.
+\end_layout
+
+\begin_layout Standard
+Le logiciel devra subir une batterie de test prouvant qu'il ne risque pas
+ de générer des plans de routes absurdes voir dangereux pour les conducteurs.
+ Une prise en compte des conditions climatiques est envisageable.
 \end_layout
 
 \begin_layout Section
@@ -963,17 +1046,168 @@ Exigences fonctionnelles
 Fonctions de base, performances et aptitudes 
 \end_layout
 
+\begin_layout Subsubsection
+Application présente sur le serveur central
+\end_layout
+
+\begin_layout Subsubsection*
+Lancement d'une planification
+\end_layout
+
+\begin_layout Standard
+Lorsqu'une cuve a atteind son niveau critique, il y a deux scénarios possible
+ :
+\end_layout
+
+\begin_layout Itemize
+Le niveau des autres cuves du site est suffisant pour se permettre de ne
+ pas organiser un déplacement immédiat vers cette cuve.
+ Dans ce cas, aucune planification de parcours n'est lancé.
+ Le site est, tout de même, mis dans la liste des sites à visiter au cours
+ du prochain trajet.
+ 
+\end_layout
+
+\begin_layout Itemize
+Les autres cuves ne suffisent pas à remplacer la cuve en état critique.
+ Une plannification est lancée immédiatement.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Etablissement du plan de visite des sites
+\end_layout
+
+\begin_layout Standard
+A partir de la liste des sites sélectionnés dans l'étapes précédentes et
+ des actions à effectuer, le logiciel devra établir un plan de visite des
+ sites.
+ Les aptitudes du module chargé d'établir le plan de route sont les suivantes
+ :
+\end_layout
+
+\begin_layout Itemize
+Etablir un parcours le plus court possible : Un calcul du plus court chemin
+ parfaitement optimisé est nécessaire afin de ne pas perdre de temps et
+ d'éviter au conducteur de camion de retourner à l'agence pour se ravitailler
+ en matières à acheminer jusqu'au cuve.
+\end_layout
+
+\begin_layout Itemize
+Visiter un maximum de site en un seul trajet : Si une cuve est proche de
+ son niveau critique et qu'elle se trouve à proximité d'une cuve ayant atteind
+ son niveau critique, il peut être interressant de passer par ce site.
+ Ceci évitera de demander une nouvelle intervention peu de temps après.
+ Il faut donc proposer un trajet passant par un maximum de cuve même si
+ leur niveau critique n'est pas encore atteind.
+\end_layout
+
+\begin_layout Itemize
+Optimiser l'ordre de visite des sites : Si une cuve doit être vidée d'une
+ matière et qu'une autre doit être remplie de cette même matière, il faudra
+ dabord passer par celle qui doit être vidée.
+ L'ordre de visite des sites doit donc être défini au mieux afin d'éviter
+ des gaspillages.
+\end_layout
+
+\begin_layout Itemize
+Tenir compte des conditions climatiques : Le nord de la Norvège étant fréquemmen
+t soumis à de forte chute de neige ainsi qu'à des tempêtes (vent, brouillard,
+ ...), le trajet proposé devra éviter au conducteur d'être confronté à de telles
+ conditions climatiques afin de garantir sa sécurité.
+\end_layout
+
+\begin_layout Itemize
+Etre autonome : La seule intervention humaine autorisée sera un contrôle
+ du trajet généré sauf en cas de situation d'urgence.
+ Si un trajet est invalidé par le superviseur, celui-ci aura la possibilité
+ de corriger le parcours en enlevant des sites ou en forçant l'ordre de
+ passage.
+ Si un site nécessite une intervention immédiate, le superviseur peut effectuer
+ une demande d'intervention d'urgence.
+ Une planification est lancée avec pour contrainte que le site en question
+ devra être visité en premier
+\end_layout
+
+\begin_layout Subsubsection*
+Signalement d'une fin d'intervention ou d'un problème sur un site
+\end_layout
+
+\begin_layout Standard
+A la fin de son intervention, le conducteur du camion devra pouvoir envoyer
+ un message au serveur central indiquant le résultat de son passage.
+ Le message sera immédiatement transmis au serveur central.
+ Le système embarqué devra donc disposer d'un écran lcd ainsi que d'un clavier
+ et être facilement accessible.
+\end_layout
+
+\begin_layout Standard
+En cas de problème ou de dysfonctionnement constaté sur le site, le conducteur
+ pourra le signaler au serveur central.
+ Ce signalement se fera par un message entièrement tapé au clavier.
+ Le message sera immédiatement transmis au serveur central.
+ Dans le cas d'un défaut sur une cuve, celle-ci sera immédiatement mise
+ hors service.
+\end_layout
+
 \begin_layout Subsection
 Contraintes d'utilisation 
+\end_layout
+
+\begin_layout Standard
+Comme expliqué précédemment, une validation par le superviseur est nécessaire.
+ 
+\end_layout
+
+\begin_layout Standard
+Après la planification et la validation par le superviseur d'un trajet,
+ celui-ci est envoyé à l'agence en charge de l'envoi de camion sur les sites.
+ Pour des raisons techniques, l'agence peut tarder à déclencher l'intervention.
+ Elle peut également modifier le trajet, voire l'annuler si elle juge qu'il
+ n'est pas réalisable.
+ La COPEVUE n'a donc aucune garantit du respect des parcours planifier par
+ l'application.
+ 
+\end_layout
+
+\begin_layout Standard
+Les conducteurs des camions de l'agence devront être formé à utiliser le
+ système de communication avec le serveur central.
+ De ce fait, le nombre de conducteur à même d'effectuer les interventions
+ requises par la COPEVUE peut être limité par l'agence.
 \end_layout
 
 \begin_layout Subsection
 Critères d'appréciation de la réalisation effective de la fonction 
 \end_layout
 
+\begin_layout Standard
+La plannification sera considérée comme valide si elle propose un trajet
+ réaliste et sans danger pour le conducteur.
+ Le superviseur aura donc la possibilité de connaître les conditions climatiques
+ sur l'ensemble du trajet ainsi que l'état des routes.
+\end_layout
+
+\begin_layout Standard
+Lorsque le conducteur signal que son intervention est terminé ou qu'il y
+ a une erreur, le message doit être envoyé au serveur central.
+\end_layout
+
 \begin_layout Subsection
 Flexibilité dans la façon de mettre en œuvre la fonction concernée et variation
  de coûts associée en fonction de cette flexibilité
+\end_layout
+
+\begin_layout Standard
+Cette application pourrait être allégée.
+ Son couts ne serait pas beaucoup modifié.
+ En effet, le système pourrait ne pas tenir compte des conditions climatiques
+ pour établir le parcours.
+ Ce serait alors à l'agence de gérer ce problème ou au superviseur de demander
+ un nouveau calcul en écartant certains sites de la liste à visiter.
+ Cependant, de nombreux parcours seraient à revoir.
+ Le gain économique pour le dévelloppement de la solution serait vite effacer
+ par le temps de vérification et de replanification.
 \end_layout
 
 \begin_layout Section
@@ -1013,7 +1247,7 @@ Description des API avec reste du système
 \end_layout
 
 \begin_layout Section
-Guide de résponse au Cahier des charges
+Guide de réponse au Cahier des charges
 \end_layout
 
 \begin_layout Subsection
