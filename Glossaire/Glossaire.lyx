@@ -363,6 +363,28 @@ tout le dossier de réponse à l'appel d'offre
 \begin_layout Standard
 
 \series bold
+RTOS
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Définition
+\shape default
+ : Système d'exploitation temps réel
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Domaine d'application : 
+\shape default
+tout le dossier de réponse à l'appel d'offre
+\end_layout
+
+\begin_layout Standard
+
+\series bold
 Serveur central
 \end_layout
 
