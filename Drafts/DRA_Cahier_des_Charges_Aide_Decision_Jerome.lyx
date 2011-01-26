@@ -96,13 +96,13 @@ height_special "totalheight"
 status open
 
 \begin_layout Title
-Cahier de Charge - Configuration Remote
+Cahier de Charge - Aide à la décision
 \begin_inset Newline newline
 \end_inset
 
 
 \size larger
-Système de monitoring à distance de sites isolés
+Gestion de la logistique
 \end_layout
 
 \end_inset
@@ -478,7 +478,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Historique do document
+Historique du document
 \end_layout
 
 \begin_layout Standard
@@ -549,7 +549,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+Jerome
 \end_layout
 
 \end_inset
@@ -587,7 +587,7 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+Jerome
 \end_layout
 
 \end_inset
@@ -927,32 +927,66 @@ Présentation du problème
 \end_layout
 
 \begin_layout Subsection
-But 
+Contexte, objectifs, utilisateurs concernés
 \end_layout
 
 \begin_layout Standard
-Comme le canal de communication entre les site centrals et les stations
- est bidirectionel, le système sera capable de réaliser la configuration
- et maintenance des station à distance.
+Dans le cas ou le niveau de la cuve devient critique (trop plein ou trop
+ vide selon le cas), la COPEVUE demande à une société tierce d'envoyer une
+ équipe vider (ou remplir) la cuve.
+ Actuellement, cette opération n'est pas bien coordonnée puisque chaque
+ camion ne se rend que sur un seul site à la fois.
+ Il faudrait donc organiser ces oppérations afin de desservir plusieurs
+ sites en une seule fois.
  
 \end_layout
 
-\begin_layout Subsection
-Formulation des besoins (généraux), exploitation et ergonomie, expérience
+\begin_layout Standard
+Une fois sur place, l'agent doit pouvoir informé le serveur central que
+ son travail sur le site est terminé ou en cas de problème, signaler celui-ci
+ à la COPEVUE.
 \end_layout
 
 \begin_layout Standard
-Le superviseur pourra, par exemple, changer les paramètres de configuration
- (seuils des reservatoirs, fréquence de lecture), redémarrer le système
- de chaque station et vérifier l'état des panneaux solaires et batteries.
+Le but de ce projet est de réaliser l'application permettant de gérer la
+ demande d'envois d'un camion vers les sites, le calcul de l'itinéraire
+ à suivre ainsi que l'application du système embarqué permettant d'informer
+ le serveur de la fin de l'intervention ou de signaler un problème.
+\end_layout
+
+\begin_layout Standard
+L'application coté serveur central sera utilisé par le personnel de la COPEVUE.
+ L'application coté système embarqué sera utilisé par les conducteurs de
+ camions.
 \end_layout
 
 \begin_layout Subsection
-Portée, développement, mise en œuvre, organisation de la maintenance 
+Formulation des besoins
 \end_layout
 
-\begin_layout Subsection
-Limites
+\begin_layout Standard
+L'application coté serveur à développer est un programme devant répondre
+ aux besoins suivants :
+\end_layout
+
+\begin_layout Itemize
+mettre évidence les sites à visiter : le logiciel devra déterminer quels
+ sont les sites dans lesquels le camion devra se rendre
+\end_layout
+
+\begin_layout Itemize
+détecter l'action à effectuer : le logiciel devra définir l'action à effectuer
+ dans chaque site (remplissage, vidage)
+\end_layout
+
+\begin_layout Itemize
+établir un plan de visite des sites : le logiciel devra générer un plan
+ de route parfaitement optimisé afin de minimiser le coût de visites de
+ tous les sites
+\end_layout
+
+\begin_layout Itemize
+
 \end_layout
 
 \begin_layout Section
