@@ -965,28 +965,77 @@ Formulation des besoins
 \end_layout
 
 \begin_layout Standard
-L'application coté serveur à développer est un programme devant répondre
- aux besoins suivants :
+L'application coté serveur devra répondre aux besoins suivants :
 \end_layout
 
 \begin_layout Itemize
 mettre évidence les sites à visiter : le logiciel devra déterminer quels
- sont les sites dans lesquels le camion devra se rendre
+ sont les sites dans lesquels le camion devra se rendre.
 \end_layout
 
 \begin_layout Itemize
 détecter l'action à effectuer : le logiciel devra définir l'action à effectuer
- dans chaque site (remplissage, vidage)
+ dans chaque site (remplissage, vidage).
 \end_layout
 
 \begin_layout Itemize
 établir un plan de visite des sites : le logiciel devra générer un plan
  de route parfaitement optimisé afin de minimiser le coût de visites de
- tous les sites
+ tous les sites.
 \end_layout
 
 \begin_layout Itemize
+être fiable : le trajet proposé par le logiciel devra être suffisament fiable
+ pour ne pas proposer un plan de route absurde ou trop complexe.
+\end_layout
 
+\begin_layout Itemize
+être autonome : le logiciel devra fonctionner avec une intervention humaine
+ minimale (simple contrôle de validation)
+\end_layout
+
+\begin_layout Standard
+L'application embarqué devra répondre aux besoins suivants :
+\end_layout
+
+\begin_layout Itemize
+permettre au conducteur de camion de communiquer le résultat de son travail
+ au serveur central
+\end_layout
+
+\begin_layout Itemize
+permettre au conducteur du camion de signaler un problème au serveur central
+\end_layout
+
+\begin_layout Itemize
+offrir une interface ergonomique et simple d'utilisation
+\end_layout
+
+\begin_layout Subsection
+Mise en oeuvre
+\end_layout
+
+\begin_layout Standard
+Le logiciel sur le serveur central sera intégré à l'application chargé de
+ récupérer les données envoyées par les différents sites.
+ L'application embarqué sera intégrée au système embarqué chargé de la gestion
+ du réseau de capteur.
+\end_layout
+
+\begin_layout Standard
+Il sera développé de manière à être le plus générique possible.
+ Celui-ci devra être réutilisable quelque soit le terrain.
+ Les agences chargé de la desserte des sites par la COPEVUE utilise actuellement
+ des camions.
+ Cependant, il pourrait être amené à utiliser d'autres moyens de transport
+ (bateau, ...).
+ De ce fait, le logiciel devra être adaptable pour ce type de transport.
+\end_layout
+
+\begin_layout Standard
+Le logiciel devra subir une batterie de test prouvant qu'il ne risque pas
+ de générer des plans de routes absurdes voir dangereux pour les conducteurs.
+ Une prise en compte des conditions climatiques est envisageable.
 \end_layout
 
 \begin_layout Section
@@ -995,6 +1044,78 @@ Exigences fonctionnelles
 
 \begin_layout Subsection
 Fonctions de base, performances et aptitudes 
+\end_layout
+
+\begin_layout Subsubsection
+Application présente sur le serveur central
+\end_layout
+
+\begin_layout Subsubsection*
+Mise en évidence des sites à visiter et détection des actions à effectuer
+\end_layout
+
+\begin_layout Standard
+Lorsqu'une cuve a atteind son niveau critique, il y a deux scénarios possible
+ :
+\end_layout
+
+\begin_layout Itemize
+Le niveau des autres cuves du site est suffisant pour se permettre de ne
+ pas organiser un déplacement immédiat vers cette cuve.
+ 
+\end_layout
+
+\begin_layout Itemize
+soit 
+\end_layout
+
+\begin_layout Subsubsection*
+Etablissement du plan de visite des sites
+\end_layout
+
+\begin_layout Standard
+A partir de la liste des sites sélectionnés dans l'étapes précédentes et
+ des actions à effectuer, le logiciel devra établir un plan de visite des
+ sites.
+ Les aptitudes du module chargé d'établir le plan de route sont les suivantes
+ :
+\end_layout
+
+\begin_layout Itemize
+Etablir un parcours le plus court possible : Un calcul du plus court chemin
+ parfaitement optimisé est nécessaire afin de ne pas perdre de temps et
+ d'éviter au conducteur de camion de retourner à l'agence pour se ravitailler
+ en matières à acheminer jusqu'au cuve.
+\end_layout
+
+\begin_layout Itemize
+Visiter un maximum de site en un seul trajet : Si une cuve est proche de
+ son niveau critique et qu'elle se trouve à proximité d'une cuve ayant atteind
+ son niveau critique, il peut être interressant de passer par ce site.
+ Ceci évitera de demander une nouvelle intervention peu de temps après.
+ Il faut donc proposer un trajet passant par un maximum de cuve même si
+ leur niveau critique n'est pas encore atteind.
+\end_layout
+
+\begin_layout Itemize
+Optimiser l'ordre de visite des sites : Si une cuve doit être vidée d'une
+ matière et qu'une autre doit être remplie de cette même matière, il faudra
+ dabord passer par celle qui doit être vidée.
+ L'ordre de visite des sites doit donc être défini au mieux afin d'éviter
+ des gaspillages.
+\end_layout
+
+\begin_layout Itemize
+Tenir compte des conditions climatiques : Le nord de la Norvège étant fréquemmen
+t soumis à de forte chute de neige ainsi qu'à des tempêtes (vent, brouillard,
+ ...), le trajet proposé devra éviter au conducteur d'être confronté à de telles
+ conditions climatiques afin de garantir sa sécurité.
+\end_layout
+
+\begin_layout Itemize
+Etre autonome : La seule intervention humaine autorisée sera un contrôle
+ du trajet généré sauf situation urgente.
+ Si un site nécessite une intervention immédiate
 \end_layout
 
 \begin_layout Subsection
