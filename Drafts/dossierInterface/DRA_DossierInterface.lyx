@@ -625,7 +625,7 @@ Continuation
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+26.01.2011
 \end_layout
 
 \end_inset
@@ -634,7 +634,7 @@ Continuation
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Monica Golumbeanu
 \end_layout
 
 \end_inset
@@ -643,7 +643,7 @@ Continuation
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.2
 \end_layout
 
 \end_inset
@@ -652,7 +652,7 @@ Continuation
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Finition
 \end_layout
 
 \end_inset
@@ -943,9 +943,11 @@ L'application est divisée en trois blocs principaux:
 \end_layout
 
 \begin_layout Itemize
-Le serveur central - la partie qui gère la commande distante des sites isolés
- ainsi que les demandes auprès la societé qui possède les camions pour les
- interventions sur place.
+Le serveur central - la partie qui gère l'administration de l'ensemble du
+ site central(securité, profils, comptes utilisateurs), la commande distante
+ des sites isolés (configuration de la fréquence de l'envoi des capteurs,
+ paramètres du système embarqué) ainsi que les demandes auprès la societé
+ qui possède les camions pour les interventions sur place.
  Ce bloc contient aussi les postes mobiles qui peuvent effectuer des commandes
  à distance.
 \end_layout
@@ -1131,6 +1133,13 @@ La communication sur un site isolé implique toutes les opérations réalisés
  par le site embarqué au niveau des différents dispositifs sur site.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Format des données manipulées
 \end_layout
@@ -1186,8 +1195,20 @@ Structures des données manipulées entre les blocs de l'application
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Flux des requêtes et des données entre applications
+\end_layout
+
+\begin_layout Standard
+Le flux des requêtes et des données entre les applications des différents
+ blocs peut être modélisé par le schéma suivant:
 \end_layout
 
 \begin_layout Standard
@@ -1229,16 +1250,155 @@ Flux des données et requêtes entre les différentes applications
 Deduction des API de chaque application
 \end_layout
 
+\begin_layout Standard
+Pour chaque bloc on a deduit les principales fonctions fournies par l'API.
+\end_layout
+
 \begin_layout Subsection
 Bloc Serveur Central
+\end_layout
+
+\begin_layout Standard
+FONCTION creerCompteUtilisateur(ID idUtilisateur, MDP motDePasse) - permet
+ de créer un compte pour un utilisateur à partir d'un identifiant et un
+ mot de passe.
+ La fonction retourne des codes pour montrer que l'opération a été éffectuée
+ avec succès ou a été un échec.
+\end_layout
+
+\begin_layout Standard
+FONCTION modifierAccess(ID idUtilisateur, MDP ancienMDP, MDP nouveauMDP)
+ - permet de changer le mot de passe pour un utilisateur.
+ La fonction retourne des codes pour montrer que l'opération a été éffectuée
+ avec succès ou a été un échec.
+\end_layout
+
+\begin_layout Standard
+FONCTION creerDemandeLogistique(ID idEntreprise, ID idSite) - permet de
+ créer une demande d'intervention d'une société de logistique pour un site
+ isolé.
+ La demande va contenir plusieurs informations comme par exemple la nature
+ de l'intervention, la date quand l'intervention doit être éfectuée, la
+ raison de l'intervention, etc.
+ La fonction retourne des codes pour montrer que l'opération a été éffectuée
+ avec succès ou a été un échec.
+\end_layout
+
+\begin_layout Standard
+FONCTION envoyerDemandeLogistique(ID idEntreprise, ID idDemande) - permet
+ d'envoyer une demande d'intervention à une société chargée de la logistique.
+ La fonction retourne des codes pour montrer que l'opération a été éffectuée
+ avec succès ou a été un échec.
+\end_layout
+
+\begin_layout Standard
+FONCTION setFreqCapteur(ID idSite, ID idCapteur, Double frequence) - permet
+ d'établir la fréquence avec laquelle le système embarqué effectue le relève
+ des valeurs d'un capteur.
+ La fonction retourne des codes pour montrer que l'opération a été éffectuée
+ avec succès ou a été un échec.
+\end_layout
+
+\begin_layout Standard
+FONCTION setFreqTransmission(ID idSite, ID idCapteur, Double frequence)
+ - permet d'établir la fréquence avec laquelle le système embarqué va communiqué
+ les valeurs relevées depuis les dissérents capteurs.
+ La fonction retourne des codes pour montrer que l'opération a été éffectuée
+ avec succès ou a été un échec.
+\end_layout
+
+\begin_layout Standard
+FONCTION setValParam(ID idMateriel, ID idParam, Double valeur) - permer
+ d'établir la valeur d'un paramètre d'un disfpositif donné.
+ Par dispositif on entend tout équipement du matériel paramétrable.
+ La fonction retourne des codes pour montrer que l'opération a été éffectuée
+ avec succès ou a été un échec.
+\end_layout
+
+\begin_layout Standard
+FONCTION creerConfiguration(String nomConfiguration, ID idSite) - permet
+ de créer une configuration pour un des sites isolés.
+ La fonction retourne des codes pour montrer que l'opération a été éffectuée
+ avec succès ou a été un échec.
+\end_layout
+
+\begin_layout Standard
+FONCTION ouvrirConfiguration(String nomConfiguration, ID idSite) - permet
+ d'ouvrir une configuration existante pour un des sites isolés.
+ La fonction retourne des codes pour montrer que l'opération a été éffectuée
+ avec succès ou a été un échec.
+\end_layout
+
+\begin_layout Standard
+FONCTION arreterSystème(ID idSite) - permet d'arrêter le système existant
+ sur un site isolé.
+ 
 \end_layout
 
 \begin_layout Subsection
 Bloc Logistique
 \end_layout
 
+\begin_layout Standard
+FONCTION definirRoute(Liste listeDemandes) - permet de définir une route
+ à l'aide du système d'aide à la décision afin de pouvoir satisfaire plusieurs
+ commandes.
+ La fonction retourne une liste des routes optimisées qui permettent de
+ réduire les coûts de transport.
+\end_layout
+
+\begin_layout Standard
+FONCTION arreterSousSystème(ID idSite, ID idSystème, ID idSousSystème) -
+ permet d'arrêter un sous système.
+ Par sous système on entend tout dispositif comme des réseaux de capteurs,
+ des vannes, etc.
+\end_layout
+
+\begin_layout Standard
+FONCTION demarrerSousSystème(ID idSite, ID idSystème, ID idSousSystème)
+ - permet de demarrer un sous système.
+ Par sous système on entend tout dispositif comme des réseaux de capteurs,
+ des vannes, etc.
+\end_layout
+
+\begin_layout Standard
+FONCTION getDemande(ID idDemande) - permet de visualiser une demande effectuée
+ par le serveur central.
+ La fonction retourne la demande.
+\end_layout
+
+\begin_layout Standard
+FONCTION sendAlerte(ID idSite, Error erreur, Data info) - permet d'envoyer
+ un signal d'alarme vers le serveur central suite à un dysfonctionnement
+ constaté sur site.
+\end_layout
+
 \begin_layout Subsection
 Bloc Site Isolé
+\end_layout
+
+\begin_layout Standard
+FONCTION sendData(Data donnees) - permet au système embarqué d'envoyer les
+ données prelevées des différents capteurs sur un site vers le serveur central.
+\end_layout
+
+\begin_layout Standard
+FONCTION sendAlerte(Error erreur, Priority priorité, Data info) - permet
+ d'envoyer un signal d'alarme vers le serveur central suite à un dysfonctionneme
+nt.
+ 
+\end_layout
+
+\begin_layout Standard
+FONCTION getValeursCapter(ID idCapteur, Liste parametres) - permet au système
+ embarqué d'obtenir les valeurs pour une liste des paramètres pour un capteur
+ donné.
+ La fonction retourne un nombre réel qui représente cette valeur.
+\end_layout
+
+\begin_layout Standard
+FONCTION sendReleve(ID idReleve) - permet au système embarqué d'envoyer
+ le relève des valeurs des capteurs au serveur central.
 \end_layout
 
 \end_body
