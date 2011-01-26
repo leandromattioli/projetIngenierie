@@ -1249,7 +1249,34 @@ Pour le serveur
 \end_layout
 
 \begin_layout Standard
+Le plus important est le dimmensionnement du serveur par rapport au nombre
+ de sites isolés à surveiller et des éventuelles rêquetes au serveur.
+ Nous avons choisi d'utiliser comme serveur central le Dell PowerEdge T110.
+ Ce serveur est composé de:
+\end_layout
 
+\begin_layout Itemize
+Un Dual-core Intel® Celeron® G1101;
+\end_layout
+
+\begin_layout Itemize
+Un Dual-core Intel® Pentium® G6950;
+\end_layout
+
+\begin_layout Itemize
+Un Dual-core Intel® Core i3 500;
+\end_layout
+
+\begin_layout Itemize
+Un Quad-Core Intel® Xeon® 3400;
+\end_layout
+
+\begin_layout Itemize
+16GB mémoire RAM - 1333Mhz;
+\end_layout
+
+\begin_layout Itemize
+Disque dur de 3.5'' (7200 rpm), capacité: 1To.
 \end_layout
 
 \begin_layout Section
