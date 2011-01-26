@@ -220,7 +220,7 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-vérifié
+validé
 \end_layout
 
 \end_inset
@@ -376,16 +376,7 @@ Responsable
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Nom du responsable
-\end_layout
-
-\end_inset
-
-
+RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -996,15 +987,15 @@ Le non-respect de ce document par les membres de l'equipe devra être discuté
 es.
  En cas de besoin (jugé par le chef de projet et le responsable qualité),
  le présent document pourra être modifié.
- Suite aux modifications, le «
-\begin_inset space \space{}
+ Suite aux modifications, le 
+\begin_inset Quotes fld
 \end_inset
 
 Dossier de gestion de la documentation
-\begin_inset space \space{}
+\begin_inset Quotes frd
 \end_inset
 
-» devra être revalidé par le chef de projet, puis toute l’équipe sera informée
+ devra être revalidé par le chef de projet, puis toute l’équipe sera informée
  par mail de la nouvelle version.
  
 \end_layout
@@ -1651,15 +1642,7 @@ Un en-tête est obligatoire: le nom de la Maitrise d'œuvre: HEPTAWORKS et
  Le texte contenu dans le document est justifié et une vérification orthographiq
 ue est indispensable.
  Les seuls styles utilisés seront Standard, Section, SousSection et SousSousSect
-ion
-\end_layout
-
-\begin_layout Standard
-
-\series bold
-Exemple:
-\series default
- voir Annexe 1
+ion.
 \end_layout
 
 \begin_layout Subsection
@@ -1819,7 +1802,7 @@ Cycle de vie d’un document
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -2357,7 +2340,7 @@ Les documents de type « Annexe » (ou « les annexes ») sont des documents
  doit être validée par le chef de projet.
  Les documents de type « Annexe » se trouvent dans le dossier « Annexes
  ».
- Le nom de fichier doit etre de la forme 
+ Le nom de fichier doit être de la forme 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2376,15 +2359,15 @@ Type « Draft »
 \begin_layout Standard
 Un « Draft » est un document qui doit être considéré comme un brouillon
  et son but est de mettre sur papier des idées, des schémas etc.
- Il se trouve dans le dossier «
-\begin_inset space \space{}
+ Il se trouve dans le dossier 
+\begin_inset Quotes fld
 \end_inset
 
 Drafts
-\begin_inset space \space{}
+\begin_inset Quotes frd
 \end_inset
 
-».
+.
  Le cycle de vie d’un « Draft » n’est pas tracé.
  L’état ou la version sont aussi des éléments sans importance (et donc pas
  pris en compte) pour ce type de document.
@@ -2397,7 +2380,7 @@ Type « Fiche »
 \begin_layout Standard
 Un document de type « Fiche » (ou « fiche ») est un document administratif
  qui sert à réaliser le suivi du projet.
- Plusieurs modèles des fiches existantes peuvent être trouvé dans le fichier
+ Plusieurs modèles des fiches existantes peuvent être trouvés dans le fichier
  dossier «Communication».
  Les documents de type « Fiche » se trouvent dans le dossier « Fiches »,
  Elles ne possèdent ni version, ni état.
@@ -2441,40 +2424,93 @@ Annexes
 \end_layout
 
 \begin_layout Subsection
-Annexe 1: Exemple de page de garde et sommaire
+Annexe 1: Exemple de page de garde
 \end_layout
 
 \begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status collapsed
+
+\begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename img/page_garde.svg
-	lyxscale 20
-	scale 30
+	filename img/page_garde.epsi
+	scale 70
 
 \end_inset
 
 
-\begin_inset space \qquad{}
+\end_layout
+
 \end_inset
 
 
-\begin_inset Graphics
-	filename img/sommaire.svg
-	lyxscale 20
-	scale 30
+\end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
 \begin_layout Subsection
-Annexe 2: Plan-type d’un dossier de faisabilité
+Annexe 2: Exemple de sommaire
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/sommaire.epsi
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Annexe 3: Plan-type d’un dossier de faisabilité
 \end_layout
 
 \begin_layout Enumerate
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Enumerate
@@ -2578,12 +2614,20 @@ Conclusion
 Annexes
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Annexe 3: Plan-type d’un dossier de spécification technique 
+Annexe 4: Plan-type d’un dossier de spécification technique des besoins
+ 
 \end_layout
 
 \begin_layout Enumerate
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Enumerate
@@ -2675,12 +2719,19 @@ Conclusion
 Annexes
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Annexe 4: Plan-type d’un dossier de conception d’un système 
+Annexe 5: Plan-type d’un dossier de conception d’un système 
 \end_layout
 
 \begin_layout Enumerate
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Enumerate
@@ -2771,12 +2822,19 @@ Annexe 3 : Démarrage du système
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Annexe 5: Plan-type d’un dossier de synthèse 
+Annexe 6: Plan-type d’un dossier de synthèse 
 \end_layout
 
 \begin_layout Enumerate
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Enumerate
@@ -2871,12 +2929,19 @@ ROI
 Annexes 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Annexe 6: Plan-type d’un dossier d’interface de communication
+Annexe 7: Plan-type d’un dossier d’interface de communication
 \end_layout
 
 \begin_layout Enumerate
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Enumerate
