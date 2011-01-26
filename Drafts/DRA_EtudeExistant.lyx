@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -948,7 +948,6 @@ La conception actuelle du système doit être considérablement améliorée afin
  Il faut se concentrer surtout sur l'automatisation du système.
  Cela réduirait un nombre important des problèmes de sécurité, entretien
  ainsi que les coûts et la rapidité des processus.
- 
 \end_layout
 
 \end_body

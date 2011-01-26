@@ -1234,21 +1234,22 @@ Détail du matériel
 Ordinateurs
 \end_layout
 
-\begin_layout Standard
-Les ordinateurs utilisés seront simples.
- Ça suffi d'avoir accés à l'Internet et un navigateur installé (Firefox,
- par exemple).
-\end_layout
-
-\begin_layout Subsubsection
-Postes mobiles
+\begin_layout Subsubsection*
+Pour accéder à l'interface Web
 \end_layout
 
 \begin_layout Standard
-Pour les postes mobiles nous utiliserons les Smartphones, qui ont les fonctionna
-lités d'un PDA et un téléphone.
- Ces poster devront disposer aussi d'un navigateur pour qu'ils soient capable
- d'accéder aux interfaces Web du système.
+Pour accéder à l'interface Web, le superviseur aura besoin d'un ordinateur
+ connecté à l'Internet et que aie un navigateur installé (Firefox, Internet
+ Explorer, Safari, etc).
+\end_layout
+
+\begin_layout Paragraph
+Pour le serveur
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Section
