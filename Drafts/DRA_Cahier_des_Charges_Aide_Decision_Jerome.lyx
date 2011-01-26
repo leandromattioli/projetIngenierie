@@ -1051,7 +1051,7 @@ Application présente sur le serveur central
 \end_layout
 
 \begin_layout Subsubsection*
-Mise en évidence des sites à visiter et détection des actions à effectuer
+Lancement d'une planification
 \end_layout
 
 \begin_layout Standard
@@ -1062,11 +1062,16 @@ Lorsqu'une cuve a atteind son niveau critique, il y a deux scénarios possible
 \begin_layout Itemize
 Le niveau des autres cuves du site est suffisant pour se permettre de ne
  pas organiser un déplacement immédiat vers cette cuve.
+ Dans ce cas, aucune planification de parcours n'est lancé.
+ Le site est, tout de même, mis dans la liste des sites à visiter au cours
+ du prochain trajet.
  
 \end_layout
 
 \begin_layout Itemize
-soit 
+Les autres cuves ne suffisent pas à remplacer la cuve en état critique.
+ Une plannification est lancée immédiatement.
+ 
 \end_layout
 
 \begin_layout Subsubsection*
@@ -1114,21 +1119,95 @@ t soumis à de forte chute de neige ainsi qu'à des tempêtes (vent, brouillard,
 
 \begin_layout Itemize
 Etre autonome : La seule intervention humaine autorisée sera un contrôle
- du trajet généré sauf situation urgente.
- Si un site nécessite une intervention immédiate
+ du trajet généré sauf en cas de situation d'urgence.
+ Si un trajet est invalidé par le superviseur, celui-ci aura la possibilité
+ de corriger le parcours en enlevant des sites ou en forçant l'ordre de
+ passage.
+ Si un site nécessite une intervention immédiate, le superviseur peut effectuer
+ une demande d'intervention d'urgence.
+ Une planification est lancée avec pour contrainte que le site en question
+ devra être visité en premier
+\end_layout
+
+\begin_layout Subsubsection*
+Signalement d'une fin d'intervention ou d'un problème sur un site
+\end_layout
+
+\begin_layout Standard
+A la fin de son intervention, le conducteur du camion devra pouvoir envoyer
+ un message au serveur central indiquant le résultat de son passage.
+ Le message sera immédiatement transmis au serveur central.
+ Le système embarqué devra donc disposer d'un écran lcd ainsi que d'un clavier
+ et être facilement accessible.
+\end_layout
+
+\begin_layout Standard
+En cas de problème ou de dysfonctionnement constaté sur le site, le conducteur
+ pourra le signaler au serveur central.
+ Ce signalement se fera par un message entièrement tapé au clavier.
+ Le message sera immédiatement transmis au serveur central.
+ Dans le cas d'un défaut sur une cuve, celle-ci sera immédiatement mise
+ hors service.
 \end_layout
 
 \begin_layout Subsection
 Contraintes d'utilisation 
 \end_layout
 
+\begin_layout Standard
+Comme expliqué précédemment, une validation par le superviseur est nécessaire.
+ 
+\end_layout
+
+\begin_layout Standard
+Après la planification et la validation par le superviseur d'un trajet,
+ celui-ci est envoyé à l'agence en charge de l'envoi de camion sur les sites.
+ Pour des raisons techniques, l'agence peut tarder à déclencher l'intervention.
+ Elle peut également modifier le trajet, voire l'annuler si elle juge qu'il
+ n'est pas réalisable.
+ La COPEVUE n'a donc aucune garantit du respect des parcours planifier par
+ l'application.
+ 
+\end_layout
+
+\begin_layout Standard
+Les conducteurs des camions de l'agence devront être formé à utiliser le
+ système de communication avec le serveur central.
+ De ce fait, le nombre de conducteur à même d'effectuer les interventions
+ requises par la COPEVUE peut être limité par l'agence.
+\end_layout
+
 \begin_layout Subsection
 Critères d'appréciation de la réalisation effective de la fonction 
+\end_layout
+
+\begin_layout Standard
+La plannification sera considérée comme valide si elle propose un trajet
+ réaliste et sans danger pour le conducteur.
+ Le superviseur aura donc la possibilité de connaître les conditions climatiques
+ sur l'ensemble du trajet ainsi que l'état des routes.
+\end_layout
+
+\begin_layout Standard
+Lorsque le conducteur signal que son intervention est terminé ou qu'il y
+ a une erreur, le message doit être envoyé au serveur central.
 \end_layout
 
 \begin_layout Subsection
 Flexibilité dans la façon de mettre en œuvre la fonction concernée et variation
  de coûts associée en fonction de cette flexibilité
+\end_layout
+
+\begin_layout Standard
+Cette application pourrait être allégée.
+ Son couts ne serait pas beaucoup modifié.
+ En effet, le système pourrait ne pas tenir compte des conditions climatiques
+ pour établir le parcours.
+ Ce serait alors à l'agence de gérer ce problème ou au superviseur de demander
+ un nouveau calcul en écartant certains sites de la liste à visiter.
+ Cependant, de nombreux parcours seraient à revoir.
+ Le gain économique pour le dévelloppement de la solution serait vite effacer
+ par le temps de vérification et de replanification.
 \end_layout
 
 \begin_layout Section
@@ -1168,7 +1247,7 @@ Description des API avec reste du système
 \end_layout
 
 \begin_layout Section
-Guide de résponse au Cahier des charges
+Guide de réponse au Cahier des charges
 \end_layout
 
 \begin_layout Subsection
