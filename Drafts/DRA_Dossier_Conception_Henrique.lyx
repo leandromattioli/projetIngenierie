@@ -1135,23 +1135,23 @@ Site central
 \begin_layout Standard
 Le site central aura un logiciel qui permet au superviseur d'avoir une vue
  général sur le système.
+ Le superviseur peut accéder au système à travers d'une interface web en
+ utilisant son nom d'utilisateur et son mot de passe.
  Ce logiciel est découpé en deux sous-systèmes.
 \end_layout
 
 \begin_layout Subsubsection
-Sous-système de monitoring des stations
+Module de monitoring des stations
 \end_layout
 
 \begin_layout Standard
-C'est le sous-système responsable pour permettre au superviseur de surveiller
+C'est le module responsable pour permettre au superviseur de surveiller
  les stations isolées.
  
 \end_layout
 
 \begin_layout Standard
-Pour avoir accés à ce logiciel, le superviseur devra saisir son nom d'utilisateu
-r et son mot de passe.
- Ce logiciel pourra afficher la situation général de chaque station comme
+Ce logiciel pourra afficher la situation général de chaque station comme
  aussi afficher des détails de chaque station si demandé par le superviseur.
  Il pourra aussi faire une requête de maintenance d'une station souhaitée.
  Au cas où quelque station aie un problème, une alerte sera affichée sur
@@ -1159,17 +1159,44 @@ r et son mot de passe.
  souci de production d'énergie, etc).
 \end_layout
 
+\begin_layout Standard
+Ce module permet au superviseur de changer des paramètres de configuration
+ de chaque station.
+ Le logiciel fait la validation de ces paramètres et affiche une confirmation
+ au superviseur si la configuration a réussi.
+ Par contre, s'il y a un erreur, le logiciel affiche une alerte au superviseur
+ et demande encore une fois les paramètres.
+\end_layout
+
 \begin_layout Subsubsection
-Sous-système de maintenance
+Module de maintenance
 \end_layout
 
 \begin_layout Standard
-Une fois qu'une maintenance est demandée le superviseur pourra suivre en
+Ce module permet au superviseur de faire une rêquete de maintenance via
+ Web.
+ Une fois qu'une maintenance est demandée le superviseur pourra suivre en
  temps réel l'avancement de chaque maintenance requise.
  Ce sous-système permettrera au superviseur de communiquer directement avec
  le conducteur qui a été choisi pour réaliser une maintenance dans une station.
  Il permettrera aussi au superviseur de savoir la position de chaque conducteur
  et l'état de chaque station problèmatique.
+\end_layout
+
+\begin_layout Subsubsection
+Module de gestion des données
+\end_layout
+
+\begin_layout Standard
+Ce module permet au système de stocker tout les données acquis par le système
+ central.
+ Grâce à ce module, le superviseur peut vérifier l'historique de chaque
+ réservatoir et chaque station et aussi faire un audit.
+\end_layout
+
+\begin_layout Standard
+Il y a une interface que permet au superviseur de sélectioner la date, le
+ réservatoir ou le station pour afficher ses données.
 \end_layout
 
 \begin_layout Subsection
@@ -1183,7 +1210,34 @@ Real-Time Operating System
 \shape default
 ) installé qui permettrera de faire la communication avec les capteurs de
  la station et d'envoyer les données au site central grâce au système de
- communication GSM.
+ communication GSM et on partage ces foncionnalités en deux modules: module
+ de acquisition des données et module de communication.
+\end_layout
+
+\begin_layout Subsubsection
+Module d'acquisition de données
+\end_layout
+
+\begin_layout Standard
+Avec une fréquence configurée, le système embarqué fait une lectures des
+ capteurs et les traite pour savoir quel est le niveau du réservatoir et
+ vérfier les seuils critiques.
+\end_layout
+
+\begin_layout Subsubsection
+Module de communication
+\end_layout
+
+\begin_layout Standard
+Avec une fréquence configurée par le superviseur, le système envoie les
+ données acquis pour les envoyer au serveur central.
+ Au cas où le système embarqué détecte qu'un des seuils critiques du réservatoir
+ a été atteint, il envoyera immédiatement l'alerte au serveur central.
+\end_layout
+
+\begin_layout Standard
+Le module de communication est aussi responsable d'envoyer l'état de la
+ nouvelle configuration rêquete par le superviseur.
 \end_layout
 
 \begin_layout Section
@@ -1433,10 +1487,6 @@ Le serveur central fait une vérification du canal de communication avec
  les sités isolés à chaque dix minutes.
  S'il détecte un problème, il affichera sur l'écran les détails du problème
  pour que le superviseur puisse faire une rêquete de maintenance.
-\end_layout
-
-\begin_layout Section
-Conclusion
 \end_layout
 
 \end_body
