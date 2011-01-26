@@ -1245,19 +1245,28 @@ Architecture Matérielle
 \end_layout
 
 \begin_layout Subsection
-Site Central
+Détail du matériel
+\end_layout
+
+\begin_layout Subsubsection
+Ordinateurs
 \end_layout
 
 \begin_layout Standard
-Le site central sera composé de deux ordinateurs: un pour le logiciel de
- surveillance des stations et l'autre pour la base de données.
- Les deux ordinateurs seront équipés de cartes réseaux pour qu'ils puissient
- communiquer entre eux et pour que l'ordinateur de surveillance puisse recevoir
- des informations des sites isolés.
+Les ordinateurs utilisés seront simples.
+ Ça suffi d'avoir accés à l'Internet et un navigateur installé (Firefox,
+ par exemple).
 \end_layout
 
-\begin_layout Subsection
-Site isolé
+\begin_layout Subsubsection
+Postes mobiles
+\end_layout
+
+\begin_layout Standard
+Pour les postes mobiles nous utiliserons les Smartphones, qui ont les fonctionna
+lités d'un PDA et un téléphone.
+ Ces poster devront disposer aussi d'un navigateur pour qu'ils soient capable
+ d'accéder aux interfaces Web du système.
 \end_layout
 
 \begin_layout Section
