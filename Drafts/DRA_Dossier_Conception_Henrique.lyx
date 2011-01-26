@@ -768,7 +768,7 @@ Architecture Matérielle
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+26.01.2011
 \end_layout
 
 \end_inset
@@ -777,7 +777,7 @@ Architecture Matérielle
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Henrique
 \end_layout
 
 \end_inset
@@ -786,7 +786,7 @@ Architecture Matérielle
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.6
 \end_layout
 
 \end_inset
@@ -795,7 +795,7 @@ Architecture Matérielle
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Finalisation du document
 \end_layout
 
 \end_inset
@@ -1244,7 +1244,7 @@ Pour accéder à l'interface Web, le superviseur aura besoin d'un ordinateur
  Explorer, Safari, etc).
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Subsubsection*
 Pour le serveur
 \end_layout
 
@@ -1412,7 +1412,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename dossierConception/fluxDonneesSiteCentral.png
-	scale 60
+	scale 40
 
 \end_inset
 
@@ -1499,10 +1499,11 @@ Niveau de seuil atteint
 \end_layout
 
 \begin_layout Standard
-Si quelque réservatoir a son niveau de seuil atteint, un message sera automatiqu
-ement envoyée au site central et sera affiche sur l'écran du logiciel de
- surveillance (avec des informations aditionelles du problème) pour que
- le superviseur puisse prendre des mésures adéquates de maintenance.
+Si quelque réservoir a son niveau de seuil atteint, un message sera automatiquem
+ent envoyée au serveur central et sera affiche sur l'écran du logiciel de
+ surveillance sur l'interface du superviseur (avec des informations aditionelles
+ du problème).
+ Une demande de maintenance sera envoyer automatiquement à l'agence.
 \end_layout
 
 \begin_layout Subsection
@@ -1511,8 +1512,8 @@ Coupure du fournissement d'énergie
 
 \begin_layout Standard
 S'il y a quelque problème avec la source d'énergie, le système embarqué
- envoyera un message au système central pour que le superviseur puisse faire
- une rêquete de maintenance.
+ envoyera un message au serveur central et une rêquete de maintenance sera
+ faite automatiquement.
  Les détails du problème seront aussi affichés sur l'écran du système de
  surveillance.
 \end_layout
