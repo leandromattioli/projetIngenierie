@@ -1061,97 +1061,101 @@ La conception actuelle du système doit être considérablement améliorée afin
 \end_layout
 
 \begin_layout Section
-Etude de faisabilité
+Étude de faisabilité
 \end_layout
 
 \begin_layout Subsection
-Synthèse sur Système embarqué
+Synthèse sur les systèmes embarqués
+\end_layout
+
+\begin_layout Standard
+Le système embarqué est le système qui va permettre de faire la liaison
+ entre les capteurs du site surveillé et le serveur central.
+ Il est composé d'un processeur embarqué qui va se trouver sur une carte
+ permettant de le connecter avec les différents périphériques.
+ Ce processeur permettra l'exécution d'un RTOS (Real Time Operating System
+ : Système d'exploitation temps réel) qui permettra le traitement des données
+ en provenance des capteurs et leur transfert vers le périphérique de communicat
+ion avec le serveur central.
+\end_layout
+
+\begin_layout Subsubsection
+Étude des processeurs embarqués existant
 \end_layout
 
 \begin_layout Standard
 Il existe de nombreux processeurs embarqués existant sur le marché.
  Certains beaucoup plus puissants que d'autres, accompagnés de nombreuses
- fonctionnalités, fait pour aller sur des téléphones, des PDA, \SpecialChar \ldots{}
-
+ fonctionnalités, fait pour aller sur des téléphones, des PDA, ...
+ Et d'autres moins puissant mais dotés de fonctionnalités intéressantes
+ comme une gestion de la consommation, ...
 \end_layout
 
 \begin_layout Standard
 Le tableau suivant nous donne un aperçu sur certains d'entre eux avec leurs
  caractéristiques principales.
  Il essaie de ne pas privilégier un constructeur à un autre et fait apparaitre
- une variété de processeurs embarqués de caractéristiques variées.
+ des processeurs embarqués de caractéristiques variées.
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Float table
-wide false
-sideways false
-status open
+\begin_inset VSpace medskip
+\end_inset
 
-\begin_layout Plain Layout
-\noindent
+
+\end_layout
+
+\begin_layout Standard
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="5">
 <features>
-<column alignment="center" valignment="top" width="2.4cm">
+<column alignment="center" valignment="top" width="2.2cm">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="3cm">
 <column alignment="center" valignment="top" width="3cm">
 <column alignment="center" valignment="top" width="5cm">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-Identification
+Identifica- tion
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Bits
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Consommation
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Puissance
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Divers
 \end_layout
 
@@ -1450,28 +1454,8 @@ très faible consommation
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:comparatif-proc"
-
-\end_inset
-
-Tableau comparatif des modèles de processeur embarqué
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
+\begin_layout Standard
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -1484,6 +1468,13 @@ s.
  y a des grandes différences.
  Les constructeurs insistent tous sur la faible consommation mais peu donnent
  des chiffres.
+ Les prix ne sont pas indiqués dans ce tableau car ils ne varient pas énormément
+ (entre 1$ et 10$).
+ Cette variation serait importante dans le cas d'une production à grande
+ echelle mais nous n'en produiront qu'un par site à surveiller et ils n'y
+ en aura pas des milliers.
+ Ce sera donc un chiffre négligeable comparé au reste du système (système
+ de communication, capteur, ...).
 \end_layout
 
 \begin_layout Standard
@@ -1492,30 +1483,310 @@ La caractéristique importante dans notre cas est l'autonomie.
  important car ce processeur servira uniquement à transférer les données
  au serveur qui disposera de la puissance de calcul nécessaire pour les
  traiter.
- Le prix n'est pas non plus un facteur très important car les prix varient
- assez peu selon le modèle.
 \end_layout
 
 \begin_layout Standard
 L'autonomie est donc le facteur clé du choix de notre processeur.
  L'autonomie au niveau de la consommation (très basse consommation, mode
- standby), mais aussi l'autonomie en cas d'erreur.
+ standby), mais aussi l'autonmie en cas d'erreur.
  Si le processeur a un fonctionnement dans lequel on peut avoir confiance
  et une reprise sur erreur efficace, c'est un plus dans notre cas car nous
  ne pouvons pas toujours envoyer quelqu'un pour relancer l'application.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Au vu de ces critères, notre choix se porte vers le MSP430 qui est un processeur
+ simple mais fonctionnel, parfaitement adapté à nos besoins.
+ Il coute à peu près 1$ l'unité.
+\end_layout
+
+\begin_layout Subsubsection
+Architectures possibles pour le système embarqué
+\end_layout
+
+\begin_layout Standard
+Notre système peut avoir différentes architecture pour relier le processeur
+ embarqué aux differents périphériques (système de communication avec le
+ serveur, interface homme-machine -- LCD, capteurs, ...).
+\end_layout
+
+\begin_layout Itemize
+ASIC : Application-Specific Integrated Circuit : circuit intégré (micro-électron
+ique) spécialisé.
+ Ce procédé permet un grand nombre de fonctionnalités uniques et/ou sur
+ mesure.
+ L'intérêt est de réduire les coûts de production et d'augmenter la fiabilité.
+ Il y a deux manières de faire ce type de circuit intégré, soit on le conçoit
+ en partant de rien.
+ C'est un procédé long et compliqué ou alors on utilise des cellules standard
+ qu'on assemble de la manière que l'on veut de façon à avoir un système
+ optimisé pour notre tâche.
+ C'est un procédé avec un coût de revient important au départ mais très
+ rentable sur le long terme et les performances si on l'a vraiment optimisé.
+\end_layout
+
+\begin_layout Itemize
+FPGA : Field Programmable Gate Array : Les réseaux logiques programmables
+ sont des circuits composés de nombreuses cellules logiques élémentaires
+ librement assemblables.
+ L'intérêt est qu'une même puce peut être utilisée dans de nombreux systèmes
+ électroniques différents.
+ Mais le positionnement n'est pas optimisé pour les tâches auquelles le
+ système sera destiné.
+ Il est donc plus lent mais revient beaucoup moins cher au départ car il
+ n'y pas de temps de conception.
+\end_layout
+
+\begin_layout Itemize
+Carte déjà faites.
+ L'avantage est le gain de temps de conception car on n'a rien à concevoir,
+ mais elles comportent des composants non utiles pour notre application
+ et elles ne sont pas forcément optimisées pour les tâches que nous avons.
+\end_layout
+
+\begin_layout Standard
+N'ayant aucun ingénieur spécialisé dans le design de cartes et dans un souci
+ d'efficacité, de coût et de rapidité de développement, nous utiliserons
+ les cartes déjà faites fournies par les constructeurs avec les processeurs.
+\end_layout
+
+\begin_layout Subsubsection
+RTOS : Systèmes d'exploitation Temps Réel
+\end_layout
+
+\begin_layout Standard
+Il existe de nombreux différents RTOS sur le marché.
+ Certains sont propriétaires et d'autres sous licence libre.
+ Tous ne sont pas compatibles avec n'importe quels processeurs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features>
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="2.4cm">
+<column alignment="center" valignment="top" width="10cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
 
 \begin_layout Plain Layout
-Carte, SO, prix
+RTOS
 \end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Licence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Détails
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RT-Linux
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Open-source
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version de Linux auquel on a ajouté une notion de temps réel dur
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FreeRTOS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Open-source
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+26 architectures de processeurs supportées
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+µC/OS-II
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Propriétaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+supporte de nombreux processeurs, facile d'apprentissage, robuste
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+embos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Propriétaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gestion de la consommation d'énergie, logiciels d'exemple fournis
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+tinyOS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Open-source
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+spécialisé dans les réseaux de capteurs communiquant sans fil
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il reste encore la possibilité de faire son propre RTOS.
+ Nous sommes certains d'avoir un système optimisé pour nos besoins grâce
+ à cela.
+ Cela nous permet aussi de gérer la sécurité et la reprise sur erreur efficaceme
+nt.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nous avons choisi de faire notre propre RTOS car nous avons dans l'équipe
+ des ingénieurs qui ont une formation solide en conception et réalisation
+ de RTOS et nous croyons fermement que cela sera rentable du fait d'un RTOS
+ efficace, fiable et adapté à nos besoins.
 \end_layout
 
 \begin_layout Subsection
