@@ -859,6 +859,10 @@ Ajout de contenu
 \end_inset
 
 
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1115,7 +1119,26 @@ La communication du site central avec l'agence se fera grâce à internet
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+\noindent
+\align center
+\begin_inset Graphics
+	filename /home/billy/programation/github/projetIngenierie/Drafts/dossierConception/fluxDonneesSiteIsole.png
+	lyxscale 20
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename /home/billy/programation/github/projetIngenierie/Drafts/dossierConception/fluxDonneesSiteCentral.png
+	lyxscale 20
+	scale 50
+
 \end_inset
 
 
@@ -1192,10 +1215,107 @@ Thèmes de progrès
 \end_layout
 
 \begin_layout Standard
-Les thèmes de progrès Notre système, puisqu'il profite des nouvelles technologie
- permet d'améliorer grandement la réactivité grâce 
+Les thèmes de progrès sont les même que ceux décrits dans l'étude de faisabilité
+ :
 \end_layout
 
+\begin_layout Itemize
+Efficacité du monitoring
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+notre système, puisqu'il profite des nouvelles technologie permet d'améliorer
+ grandement l'efficacité par un contrôle automatisé des réservoirs.
+ 
+\end_layout
+
+\begin_layout Itemize
+avertissement rapide en cas d'anomalie ou de problème grave sur les sites
+ isolés pour une réactivité accrue
+\end_layout
+
+\begin_layout Itemize
+optimisation de la planification de la maintenance ce qui permet de diminuer
+ les coûts
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Autonomie des stations
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+contrôle automatisé des réservoirs
+\end_layout
+
+\begin_layout Itemize
+élimination du risque d'erreur humaine
+\end_layout
+
+\begin_layout Itemize
+très faible consommation du système
+\end_layout
+
+\begin_layout Itemize
+utilisation de panneaux solaires associés à des batteries dimmensionnés
+ pour assurer une autonomie sans limite.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Maintenabilité
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+possibilité de reconfigurer le système à distance
+\end_layout
+
+\begin_layout Itemize
+système qualité et une gestion de la configuration permettant une évolution
+ facile du système
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Adaptabilité
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+accessible depuis toute sorte de lieu
+\end_layout
+
+\begin_layout Itemize
+application web accessible 24h/24 depuis toute sorte de périphériques
+\end_layout
+
+\begin_layout Itemize
+choix de matériel de qualité utilisable dans des conditions extrèmes
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Sécurité 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+sécurité des données grâce à des sauvegardes sur le serveur central
+\end_layout
+
+\begin_layout Itemize
+applications accessibles uniquement après identification
+\end_layout
+
+\begin_layout Itemize
+diminution du risque de se retrouver dans des situations critiques ou de
+ désastre grâce à une analyse des données et la planification de la maintenance
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 Coûts de la solution 
 \end_layout
@@ -1257,40 +1377,23 @@ Investissement initial : 272000$
 coût par mois : 3450$
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Section
-Annexes
+Retour sur investissement
 \end_layout
 
 \begin_layout Standard
-kjjk
-\end_layout
-
-\begin_layout Standard
-kjkj
-\end_layout
-
-\begin_layout Standard
-jkfkjfddkjf
-\end_layout
-
-\begin_layout Standard
-fdkjdfjkfd
-\end_layout
-
-\begin_layout Standard
-fdjkfdkj
-\end_layout
-
-\begin_layout Standard
-fdkjfdkjfd
-\end_layout
-
-\begin_layout Standard
-
+Notre système peut parraître un peu cher à l'achat mais c'est une solution
+ de qualité qui se propose de satisfaire toutes les exigences du client.
+ La solution a été élaborée dans un souci de minimisation des coûts sans
+ renoncer à la qualité des composants qui seront exposés à des conditions
+ critiques ou à la sécurité.
+ Par ailleurs, l’investissement dans du matériel comme des batteries rechargeabl
+es ou encore des capteurs peut sembler important, mais à long terme, le
+ client est certain que son investissement sera fructueux.
+ En effet, grâce à une planification logicielle permettant une optimisation
+ des ressources, les coûts générés à cause du gaspillage ou d’une maintenance
+ corrective (plus importante que la maintenance préventive) seront réduits
+ au minimum.
 \end_layout
 
 \end_body
