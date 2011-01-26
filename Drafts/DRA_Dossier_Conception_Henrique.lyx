@@ -902,8 +902,8 @@ Le dossier de conception a comme but de définir l'organisation technique
  de l'architecture du système et expliquer comment le système marchera au
  niveau matériel et logiciel.
  Ce document a comme but aussi de définir des règles de fonctionnement du
- nouveau système (alarmes, seuils et maintenance), les conditions d'implentation
- et conditions de maintenance.
+ nouveau système (alarmes, seuils et maintenance), les conditions d'implementati
+on et conditions de maintenance.
 \end_layout
 
 \begin_layout Subsection
@@ -918,20 +918,12 @@ Documents applicables
 le Dossier de Gestion de la Documentation;
 \end_layout
 
-\begin_layout Itemize
-le Procédure de rédaction d'un dossier d'initialisation.
-\end_layout
-
 \begin_layout Subsubsection
 Documents de référence
 \end_layout
 
 \begin_layout Itemize
 l'appel d'offre de COPEVUE;
-\end_layout
-
-\begin_layout Itemize
-Manuel du chef de projet;
 \end_layout
 
 \begin_layout Itemize
@@ -995,6 +987,7 @@ Le serveur central sera composé d'un ordinateur qui aura le système de surveil
 nce installé et sera lié à un autre ordinateur qui contiendra une base de
  données installée pour stocker les lectures des capteurs de chaque site
  isolé.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -1003,8 +996,8 @@ Organisation des sites isolés
 
 \begin_layout Standard
 Chaque site isolé sera équipé d'un système embarqué lié à plusieurs capteurs
- et un système de communication GPRS.
- Tout les équipament des sites isolés seront alimentés par l'énergie stockée
+ et un système de communication satellite.
+ Tout les équipements des sites isolés seront alimentés par l'énergie stockée
  dans les batteries.
  Le recharge des batteries sera fait par le paneau solaire présent dans
  chaque site isolé.
@@ -1026,21 +1019,20 @@ Le serveur central communiquera avec le système embarqué grâce au système
 
 \begin_layout Standard
 La communication pourra se faire dans les deux sens.
- C'est-à-dire que le capteur pourra envoyer les données et le serveur central
- pourra envoyer des requêtes lui permettant de reconfigurer à distance les
- capteurs.
+ C'est-à-dire que le système embarqué pourra envoyer les données et le serveur
+ central pourra envoyer des requêtes lui permettant de reconfigurer à distance
+ les systèmes embarqués.
 \end_layout
 
 \begin_layout Subsection
-Communication site central - agences
+Communication serveur central - agences
 \end_layout
 
 \begin_layout Standard
-La communication du site central avec l'agence se fera grâce à internet
- par le protocole HTTP et s'il y a besoin d'une connection securisée, la
- communication peut être faite par le protocole HTTPS.
- Le site central envoie une rêquete de maintenance à l'agence avec des informati
-ons sur la station en question, de même la priorité de la requête.
+La communication du site central avec l'agence se fera grâce à l'Internet
+ par le protocole HTTPS.
+ Ce protocole nous assure une connection sécurisée entre le serveur central
+ et l'agence en question.
 \end_layout
 
 \begin_layout Subsection
@@ -1048,8 +1040,8 @@ Communication système embarqué - capteurs
 \end_layout
 
 \begin_layout Standard
-Chaque capteur sera relié au système embarqué par une connection filiaire
- que nous installerons dès la création du site.
+Chaque capteur sera relié au système embarqué par une connection de fibre-optiqu
+e que nous installerons dès la création du site.
  Cette liaison comprendra une fibre permettant de transférer les données
  et un câble permettant l'alimentation électrique.
  Le capteur enverra périodiquement les données au système embarqué (période
@@ -1062,35 +1054,25 @@ Chaque capteur sera relié au système embarqué par une connection filiaire
 \end_layout
 
 \begin_layout Subsection
-Communication serveur central - postes mobiles
-\end_layout
-
-\begin_layout Standard
-Les postes mobiles peuvent communiquer avec le site central grâce au GPRS
- (General Packet Radio Service).
- Ce service nous permet de faire une combinaison avec le service GSM et
- comme ça, on peut trouver la position grâce à la triangulation.
- Le conducteur peut aussi accéder aux informations de la station en question.
- Le service GPRS permet au superviseur de communiquer avec le conducteur
- du camion par radio au cas où il y a un problème plus urgent à traiter.
- Le protocole utilisé pour réaliser cette communication entre le site central
- et les postes mobiles sera le protocole IP (Internet Protocol).
- 
-\end_layout
-
-\begin_layout Subsection
 Maintenance des stations isolées
 \end_layout
 
 \begin_layout Standard
-En tenant compte du fait que le canal de communication entre le site central
- et les stations est bidirectionel, les superviseurs peuvent envoyer des
- commandes aux stations.
+En tenant compte du fait que le canal de communication entre le serveur
+ central et les stations est bidirectionel, les superviseurs peuvent envoyer
+ des commandes aux stations.
  Ces commandes permettront aux superviseurs de réaliser la maintenance du
  système et la configuration de chaque station.
  Ils peuvent, par exemple, redémarrer le système, ou changer les paramètres
  de configuration comme la fréquence de lecture, les niveaux de seuil des
  reservoirs, etc.
+\end_layout
+
+\begin_layout Standard
+Il faut dire aussi que il n'y a pas de communication directe entre le superviseu
+r et le système embarqué.
+ Tout les types de messages entre le superviseur et les sites isolés passent
+ par le serveur central.
 \end_layout
 
 \begin_layout Subsection
@@ -1104,24 +1086,25 @@ Nous avons deux types d'utilisateur:
 \begin_layout Itemize
 Le superviseur: celui a tout les droits sur le serveur central.
  Il peut faire une requête à une agence pour demander maintenance d'une
- des stations concernantes à son site central.
+ des stations concernantes à son serveur central.
  Il peut aussi faire des lectures manuelles d'un des sites isolés, vérfier
  l'état du système (niveaux des batteries, conditions des panneaux solaires,
  communication entre le système embarqué et les capteurs) et faire la maintenanc
 e à distance de chaque site isolé, c'est-à-dire qu'il peut lire et changer
  les paramètres de configuration de chaque système isolé.
+ Le superviseur ne peut pas envoyer des commandes directement aux sites
+ isolés.
+ Tout les opérations du système passent par le serveur central.
 \end_layout
 
 \begin_layout Itemize
 Le conducteur: celui fait la maintenance des sites isolés.
- Il a accés à les demandes de maintenance et ses informations additionelles,
- comme le problème du site et sa localisation.
- Le conducteur peut accéder à ces informations depuis son terminal PDA.
- Il a aussi communication directe avec le superviseur responsable par le
- site et son agence.
- Quand il fini l'entretien, il informe le système que le problème a été
- résolu.
- 
+ On doit considérer qu'il y a des endroits où il n'y a pas de réseau de
+ communication pour qu'il puisse emporter un système de contrôle.
+ Quand il y a des maintenance à réaliser, le conducteur va reçoir un itineraire
+ des maintenance du jour.
+ Si le conducteur détecter qualque annomalie, il peut envoyer un message
+ prioritaire au superviseur à travers du serveur central.
 \end_layout
 
 \begin_layout Section
@@ -1129,47 +1112,73 @@ Architecture Applicative
 \end_layout
 
 \begin_layout Subsection
-Site central
+Serveur central
 \end_layout
 
 \begin_layout Standard
-Le site central aura un logiciel qui permet au superviseur d'avoir une vue
- général sur le système.
- Ce logiciel est découpé en deux sous-systèmes.
+Le système du serveur central est composé basiquement de deux modules: le
+ module de monitoring des sites isolés et le module de maintenance.
+ Ce système fournit une interface au superviseur pour accéder au système
+ de surveillance des sites isolés.
+ Pour accéder à cette interface, le superviseur devra saisir son nom d'utilisate
+ur et son mot de passe.
 \end_layout
 
 \begin_layout Subsubsection
-Sous-système de monitoring des stations
+Module de monitoring des stations
 \end_layout
 
 \begin_layout Standard
-C'est le sous-système responsable pour permettre au superviseur de surveiller
- les stations isolées.
+C'est le module responsable pour permettre au superviseur de surveiller
+ les sites isolées.
  
 \end_layout
 
 \begin_layout Standard
-Pour avoir accés à ce logiciel, le superviseur devra saisir son nom d'utilisateu
-r et son mot de passe.
- Ce logiciel pourra afficher la situation général de chaque station comme
- aussi afficher des détails de chaque station si demandé par le superviseur.
+Ce module sera responsable d'afficher la situation général de chaque station
+ comme aussi de montrer les détails de chaque station quand le superviseur
+ le demande.
  Il pourra aussi faire une requête de maintenance d'une station souhaitée.
  Au cas où quelque station aie un problème, une alerte sera affichée sur
  l'écran en spécifiant le type de problème (seuils des reservatoir atteints,
  souci de production d'énergie, etc).
-\end_layout
-
-\begin_layout Subsubsection
-Sous-système de maintenance
+ L'utilisateur peut afficher toutes les alertes actuelles des sites isolés.
 \end_layout
 
 \begin_layout Standard
-Une fois qu'une maintenance est demandée le superviseur pourra suivre en
+Ce module permet au superviseur de changer des paramètres de configuration
+ de chaque station.
+ Le logiciel fait la validation de ces paramètres et affiche une confirmation
+ au superviseur si la configuration a réussi.
+ Par contre, s'il y a un erreur, le logiciel affiche une alerte au superviseur
+ et demande encore une fois les paramètres.
+\end_layout
+
+\begin_layout Subsubsection
+Module de maintenance
+\end_layout
+
+\begin_layout Standard
+Ce module permet au superviseur de faire une rêquete de maintenance via
+ Web à travers du serveur central.
+ Une fois qu'une maintenance est demandée le superviseur pourra suivre en
  temps réel l'avancement de chaque maintenance requise.
- Ce sous-système permettrera au superviseur de communiquer directement avec
- le conducteur qui a été choisi pour réaliser une maintenance dans une station.
- Il permettrera aussi au superviseur de savoir la position de chaque conducteur
- et l'état de chaque station problèmatique.
+\end_layout
+
+\begin_layout Subsubsection
+Module de gestion des données
+\end_layout
+
+\begin_layout Standard
+Ce module permet au système de stocker tout les données acquis par le serveur
+ central.
+ Grâce à ce module, le superviseur peut vérifier l'historique de chaque
+ réservoir et chaque site isolé et aussi faire un audit.
+\end_layout
+
+\begin_layout Standard
+Il y a une interface que permet au superviseur de sélectioner la date, le
+ réservatoir ou le station pour afficher ses données.
 \end_layout
 
 \begin_layout Subsection
@@ -1183,7 +1192,34 @@ Real-Time Operating System
 \shape default
 ) installé qui permettrera de faire la communication avec les capteurs de
  la station et d'envoyer les données au site central grâce au système de
- communication GSM.
+ communication GSM et on partage ces foncionnalités en deux modules: module
+ de acquisition des données et module de communication.
+\end_layout
+
+\begin_layout Subsubsection
+Module d'acquisition de données
+\end_layout
+
+\begin_layout Standard
+Avec une fréquence configurée, le système embarqué fait une lectures des
+ capteurs et les traite pour savoir quel est le niveau du réservatoir et
+ vérfier les seuils critiques.
+\end_layout
+
+\begin_layout Subsubsection
+Module de communication
+\end_layout
+
+\begin_layout Standard
+Avec une fréquence configurée par le superviseur, le système envoie les
+ données acquis pour les envoyer au serveur central.
+ Au cas où le système embarqué détecte qu'un des seuils critiques du réservatoir
+ a été atteint, il envoyera immédiatement l'alerte au serveur central.
+\end_layout
+
+\begin_layout Standard
+Le module de communication est aussi responsable d'envoyer l'état de la
+ nouvelle configuration rêquete par le superviseur.
 \end_layout
 
 \begin_layout Section
@@ -1191,19 +1227,56 @@ Architecture Matérielle
 \end_layout
 
 \begin_layout Subsection
-Site Central
+Détail du matériel
+\end_layout
+
+\begin_layout Subsubsection
+Ordinateurs
+\end_layout
+
+\begin_layout Subsubsection*
+Pour accéder à l'interface Web
 \end_layout
 
 \begin_layout Standard
-Le site central sera composé de deux ordinateurs: un pour le logiciel de
- surveillance des stations et l'autre pour la base de données.
- Les deux ordinateurs seront équipés de cartes réseaux pour qu'ils puissient
- communiquer entre eux et pour que l'ordinateur de surveillance puisse recevoir
- des informations des sites isolés.
+Pour accéder à l'interface Web, le superviseur aura besoin d'un ordinateur
+ connecté à l'Internet et que aie un navigateur installé (Firefox, Internet
+ Explorer, Safari, etc).
 \end_layout
 
-\begin_layout Subsection
-Site isolé
+\begin_layout Paragraph
+Pour le serveur
+\end_layout
+
+\begin_layout Standard
+Le plus important est le dimmensionnement du serveur par rapport au nombre
+ de sites isolés à surveiller et des éventuelles rêquetes au serveur.
+ Nous avons choisi d'utiliser comme serveur central le Dell PowerEdge T110.
+ Ce serveur est composé de:
+\end_layout
+
+\begin_layout Itemize
+Un Dual-core Intel® Celeron® G1101;
+\end_layout
+
+\begin_layout Itemize
+Un Dual-core Intel® Pentium® G6950;
+\end_layout
+
+\begin_layout Itemize
+Un Dual-core Intel® Core i3 500;
+\end_layout
+
+\begin_layout Itemize
+Un Quad-Core Intel® Xeon® 3400;
+\end_layout
+
+\begin_layout Itemize
+16GB mémoire RAM - 1333Mhz;
+\end_layout
+
+\begin_layout Itemize
+Disque dur de 3.5'' (7200 rpm), capacité: 1To.
 \end_layout
 
 \begin_layout Section
@@ -1433,10 +1506,6 @@ Le serveur central fait une vérification du canal de communication avec
  les sités isolés à chaque dix minutes.
  S'il détecte un problème, il affichera sur l'écran les détails du problème
  pour que le superviseur puisse faire une rêquete de maintenance.
-\end_layout
-
-\begin_layout Section
-Conclusion
 \end_layout
 
 \end_body

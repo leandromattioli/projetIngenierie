@@ -123,7 +123,7 @@ Maitrise d'Oeuvre:
 
 Maitrise d'Ouvrage:
 \series default
- GSTP
+ COPEVUE
 \end_layout
 
 \begin_layout Standard
@@ -250,26 +250,6 @@ Domaine d'application
 \begin_layout Standard
 
 \series bold
-Term en ordre alphabétique
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Définition : 
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Domaine d'application
-\emph default
- : 
-\end_layout
-
-\begin_layout Standard
-
-\series bold
 Agence
 \end_layout
 
@@ -350,6 +330,30 @@ GSM
 Définition
 \shape default
  : norme numérique de seconde génération pour la téléphonie mobile.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Domaine d'application : 
+\shape default
+tout le dossier de réponse à l'appel d'offre
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+RTOS
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Définition
+\shape default
+ : Système d'exploitation temps réel.
+ Système d'exploitation situé dans le système embarqué et permettant le
+ traitement des données manipulées.
 \end_layout
 
 \begin_layout Standard

@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -90,6 +90,17 @@ Verifier image.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align right
+
+\series bold
+\shape slanted
+\size giant
+\color blue
+Draft
 \end_layout
 
 \begin_layout Standard
@@ -1155,14 +1166,17 @@ MESURE DE LA QUALITE (PROPRIETES ET METRIQUES)
 <lyxtabular version="3" rows="4" columns="4">
 <features>
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="6cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Paramètre
 \end_layout
 
@@ -1172,6 +1186,9 @@ Paramètre
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Engagements qualité
 \end_layout
 
@@ -1181,6 +1198,9 @@ Engagements qualité
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Critères
 \end_layout
 
@@ -1190,6 +1210,9 @@ Critères
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Métrique(s)
 \end_layout
 
@@ -1201,6 +1224,9 @@ Métrique(s)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Fiabilité
 \end_layout
 
@@ -1210,6 +1236,9 @@ Fiabilité
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Garantir la fiabilité du système
 \end_layout
 
@@ -1219,6 +1248,9 @@ Garantir la fiabilité du système
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Disponibilité; Robustesse; Sécurité
 \end_layout
 
@@ -1228,6 +1260,9 @@ Disponibilité; Robustesse; Sécurité
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Indisponibilité du système, relative à une anomalie, inférieure à 8 heures
  cumulées par trimestre; Aucune anomalie bloquante recensée dans les versions
  diffusées auprès des utilisateurs
@@ -1241,6 +1276,9 @@ Indisponibilité du système, relative à une anomalie, inférieure à 8 heures
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Maintenabilité
 \end_layout
 
@@ -1250,6 +1288,9 @@ Maintenabilité
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Assurer la maintenabilité et la réversibilité du système
 \end_layout
 
@@ -1259,6 +1300,9 @@ Assurer la maintenabilité et la réversibilité du système
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Lisibilité, exhaustivité et cohérence de la documentation technique associée
  à chaque version
 \end_layout
@@ -1269,6 +1313,9 @@ Lisibilité, exhaustivité et cohérence de la documentation technique associée
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 A chaque version , l’ensemble de la documentation technique est conforme,
  exhaustive et cohérente avec la version de référence du système, avec un
  taux maximum de 5% par rapport à une liste de contrôle à définir lors de
@@ -1279,16 +1326,19 @@ A chaque version , l’ensemble de la documentation technique est conforme,
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 à remplir
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1297,7 +1347,7 @@ A chaque version , l’ensemble de la documentation technique est conforme,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1306,7 +1356,7 @@ A chaque version , l’ensemble de la documentation technique est conforme,
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1334,16 +1384,21 @@ ues et des plans types.
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
 <features>
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="6cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Documentation
 \end_layout
 
@@ -1353,6 +1408,9 @@ Documentation
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Fonction
 \end_layout
 
@@ -1364,6 +1422,9 @@ Fonction
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Plan d'Assurance Qualité
 \end_layout
 
@@ -1373,6 +1434,9 @@ Plan d'Assurance Qualité
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Le PAQ définit les spécificités du projet et adapte les principes généraux
  du système qualité.
  Il fait référence autant que possible aux procédures ou guides méthodologiques
@@ -1387,6 +1451,9 @@ Le PAQ définit les spécificités du projet et adapte les principes généraux
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Procédures
 \end_layout
 
@@ -1396,6 +1463,9 @@ Procédures
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Les procédures décrivent dans le détail et par thème le fonctionnement du
  système qualité et les méthodes en vigueur.
 \end_layout
@@ -1408,6 +1478,9 @@ Les procédures décrivent dans le détail et par thème le fonctionnement du
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Plans types
 \end_layout
 
@@ -1417,6 +1490,9 @@ Plans types
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\shape slanted
+\size small
 Les plans types sont des modèles de documents, prêts à être utilisés par
  les acteurs d'un projet.
 \end_layout
@@ -1695,8 +1771,12 @@ PRESENTATION DES ACTIVITES COUVERTES PAR LE PROJET
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Graphics
-	filename activite.emf
+	filename activite.png
+	lyxscale 10
+	scale 20
 
 \end_inset
 
