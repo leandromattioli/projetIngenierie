@@ -946,6 +946,11 @@ les TD n°4 et 5 du cyclc R.Aubry et 4IF
 Étude de faisabilité de ce même dossier
 \end_layout
 
+\begin_layout Itemize
+Analyse d'un moniteur temps réel sur microprocesseur 16 bits (rapport de
+ PFE)
+\end_layout
+
 \begin_layout Section
 Présentation du problème
 \end_layout
@@ -970,11 +975,29 @@ Le système d'exploitation doit être fiable, efficace, optimisé pour notre
 \end_layout
 
 \begin_layout Subsection
-Portée, développement, mise en œuvre, organisation de la maintenance 
+Portée, développement, mise en œuvre, organisation de la maintenance
+\end_layout
+
+\begin_layout Standard
+Le RTOS sera développé par nos soins.
+ Il y aura un temps nécessaire à son développement au départ mais ensuite
+ il sera entièrement réutilisable sans besoin de le modifié à nouveau.
+\end_layout
+
+\begin_layout Standard
+La maintenance de notre RTOS ne sera pas très compliqué.
+ Il sera testé de la manière la plus exhaustive possible au départ, puis
+ par la suite, après sa mise en service dans les différents sites isolé,
+ s'il y a des problèmes qui surviennent, une personne ayant participé au
+ développement du RTOS sera mobilisée pour résoudre le problème.
 \end_layout
 
 \begin_layout Subsection
 Limites
+\end_layout
+
+\begin_layout Standard
+Notre RTOS sera limité par les performances du processeur, ...
 \end_layout
 
 \begin_layout Section
