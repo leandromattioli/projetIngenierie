@@ -1005,7 +1005,38 @@ Exigences fonctionnelles
 \end_layout
 
 \begin_layout Subsection
-Fonctions de base, performances et aptitudes 
+Fonctions de base, performances et aptitudes
+\end_layout
+
+\begin_layout Itemize
+GESTION DE CAPTEURS : le processeur doit être capable de gérer les données
+ envoyées par des capteurs.
+\end_layout
+
+\begin_layout Itemize
+GESTION DE RÉSEAU : le processeur doit pouvoir s'interfacer avec des composant
+ réseau pour pouvoir envoyer les données à un serveur central.
+\end_layout
+
+\begin_layout Itemize
+PRÉ-TRAITEMENT : le processeur doit disposer d'une puissance suffisante
+ pour faire un pré-traitement des données des capteurs.
+ Par exemple, il doit pouvoir déterminer si des informations sont prioritaires
+ car très importantes ou si au contraire elles n'exigent pas une grande
+ vitesse de réaction.
+\end_layout
+
+\begin_layout Itemize
+CONFIGURATION À DISTANCE : le processeur doit être facilement configurable
+ à distance.
+ L'accès aux différents sites étant coûteux, tout l'administration doit
+ être faite à distance et il doit être possible de configurer le processeur
+ à distance.
+\end_layout
+
+\begin_layout Itemize
+FAIBLE CONSOMMATION D'ÉNERGIE : le processeur ne doit pas trop consommer
+ d'énergie car le système doit être autonome en énergie.
 \end_layout
 
 \begin_layout Subsection

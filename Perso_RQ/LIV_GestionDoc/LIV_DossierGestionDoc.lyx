@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -80,20 +80,12 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../../Modeles/img/logo_visimax.png
+	scale 70
 
-\begin_layout Plain Layout
-Verifier image.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace 1in
 \end_inset
 
 
@@ -128,20 +120,13 @@ Système de monitoring à distance de sites isolés
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 1in
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \noindent
 \align center
 
 \series bold
 Maitrise d'Oeuvre:
 \series default
- H4312
+ HEPTAWORKS
 \series bold
 
 \begin_inset Newline newline
@@ -197,16 +182,7 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Nom de référence du document
-\end_layout
-
-\end_inset
-
-
+VISIMAX_RQ01GD
 \end_layout
 
 \end_inset
@@ -224,16 +200,7 @@ Version
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Version du document
-\end_layout
-
-\end_inset
-
- 1.3
+1.4
 \end_layout
 
 \end_inset
@@ -253,7 +220,7 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+validé
 \end_layout
 
 \end_inset
@@ -262,7 +229,7 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-☐ Validé
+☒ Validé
 \end_layout
 
 \end_inset
@@ -291,7 +258,7 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/01/2011
+23/01/2011
 \end_layout
 
 \end_inset
@@ -391,7 +358,7 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
-11/01/2011
+23/01/2011
 \end_layout
 
 \end_inset
@@ -409,16 +376,7 @@ Responsable
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Nom du responsable
-\end_layout
-
-\end_inset
-
-
+RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -432,7 +390,19 @@ Nom du responsable
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 0.5in
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align right
+\begin_inset Graphics
+	filename ../../Modeles/img/logo_heptaworks.png
+	scale 30
+
 \end_inset
 
 
@@ -504,16 +474,16 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="4">
 <features>
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="3.75cm">
+<column alignment="center" valignment="top" width="1.75cm">
 <column alignment="center" valignment="top" width="7cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -522,6 +492,7 @@ Historique de document
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Date
 \end_layout
 
@@ -533,6 +504,7 @@ Date
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Auteur
 \end_layout
 
@@ -544,6 +516,7 @@ Auteur
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Version
 \end_layout
 
@@ -555,6 +528,7 @@ Version
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Sujet de la modification
 \end_layout
 
@@ -566,6 +540,8 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 6/01/2011
 \end_layout
 
@@ -575,7 +551,9 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-Stefana GARTU
+
+\size small
+GARTU
 \end_layout
 
 \end_inset
@@ -584,6 +562,8 @@ Stefana GARTU
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.0
 \end_layout
 
@@ -593,6 +573,8 @@ Stefana GARTU
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Creation du document (sommaire)
 \end_layout
 
@@ -604,6 +586,8 @@ Creation du document (sommaire)
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 7/01/2011
 \end_layout
 
@@ -613,7 +597,9 @@ Creation du document (sommaire)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Stefana GARTU
+
+\size small
+GARTU
 \end_layout
 
 \end_inset
@@ -622,6 +608,8 @@ Stefana GARTU
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.1
 \end_layout
 
@@ -631,6 +619,8 @@ Stefana GARTU
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Completer les chapitres
 \end_layout
 
@@ -642,6 +632,8 @@ Completer les chapitres
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 10/01/2011
 \end_layout
 
@@ -651,7 +643,9 @@ Completer les chapitres
 \begin_inset Text
 
 \begin_layout Plain Layout
-Leandro RESENDE MATTIOLI
+
+\size small
+RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -660,6 +654,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.2
 \end_layout
 
@@ -669,6 +665,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Vérification 1.
 \end_layout
 
@@ -680,6 +678,8 @@ Vérification 1.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 20/01/2011
 \end_layout
 
@@ -689,7 +689,9 @@ Vérification 1.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Pitiot Billy
+
+\size small
+PITIOT
 \end_layout
 
 \end_inset
@@ -698,6 +700,8 @@ Pitiot Billy
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.3
 \end_layout
 
@@ -707,6 +711,8 @@ Pitiot Billy
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Correction orthographique
 \end_layout
 
@@ -719,6 +725,8 @@ Correction orthographique
 
 \begin_layout Plain Layout
 
+\size small
+23/01/2011
 \end_layout
 
 \end_inset
@@ -728,6 +736,8 @@ Correction orthographique
 
 \begin_layout Plain Layout
 
+\size small
+RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -737,6 +747,8 @@ Correction orthographique
 
 \begin_layout Plain Layout
 
+\size small
+1.4
 \end_layout
 
 \end_inset
@@ -746,6 +758,8 @@ Correction orthographique
 
 \begin_layout Plain Layout
 
+\size small
+Validation
 \end_layout
 
 \end_inset
@@ -924,8 +938,12 @@ Présentation du document
 \end_layout
 
 \begin_layout Standard
-Ce document (« Dossier de gestion de la documentation ») présente les différente
-s règles applicables à la production de documents dans le cadre de ce projet.
+Ce document (« 
+\noun on
+Dossier de gestion de la documentation
+\noun default
+ ») présente les différentes règles applicables à la production de documents
+ dans le cadre de ce projet.
  Le but de ce document est de fournir une base pour assurer la cohérence
  des différents documents de l’étude « Système de monitoring à distance
  des sites isolés ».
@@ -969,15 +987,15 @@ Le non-respect de ce document par les membres de l'equipe devra être discuté
 es.
  En cas de besoin (jugé par le chef de projet et le responsable qualité),
  le présent document pourra être modifié.
- Suite aux modifications, le «
-\begin_inset space \space{}
+ Suite aux modifications, le 
+\begin_inset Quotes fld
 \end_inset
 
 Dossier de gestion de la documentation
-\begin_inset space \space{}
+\begin_inset Quotes frd
 \end_inset
 
-» devra être revalidé par le chef de projet, puis toute l’équipe sera informée
+ devra être revalidé par le chef de projet, puis toute l’équipe sera informée
  par mail de la nouvelle version.
  
 \end_layout
@@ -1042,8 +1060,12 @@ Equipe
 \end_layout
 
 \begin_layout Standard
-l’hexanôme 4312, la maîtrise d’œuvre dans le cadre de l’appel d’offre «
- Système de monotoring à distance de sites isolés ».
+l'équipe 
+\noun on
+HeptaWorks
+\noun default
+ (hexanôme 4312), la maîtrise d’œuvre dans le cadre de l’appel d’offre «
+ Système de monitoring à distance de sites isolés ».
 \end_layout
 
 \begin_layout Paragraph
@@ -1061,7 +1083,7 @@ Responsable(s)
 \end_layout
 
 \begin_layout Standard
-Le « Responsable » ou « les Responsables » d’un livrable ou d’une annexe
+le « Responsable » ou « les Responsables » d’un livrable ou d’une annexe
  sont la/ou les personnes chargées de la rédaction du document.
 \end_layout
 
@@ -1422,7 +1444,16 @@ Titre du document
 \end_layout
 
 \begin_layout Itemize
-Sous-titre ou courte description - objet du document pour décrire brièvement
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pas respecté.
+\end_layout
+
+\end_inset
+
+ Sous-titre ou courte description - objet du document pour décrire brièvement
  le document (quelques lignes au maximum).
  
 \end_layout
@@ -1432,7 +1463,7 @@ Auteurs (nom, prénom)
 \end_layout
 
 \begin_layout Itemize
-Maitrise d'œuvre: H4312 
+Maitrise d'œuvre: HEPTAWORKS
 \end_layout
 
 \begin_layout Itemize
@@ -1445,7 +1476,7 @@ Maitrise d'Ouvrage: COPEVUE (dans ce cas là)
 
 \begin_deeper
 \begin_layout Itemize
-Référence du document.
+Référence du document (ex.: VISIMAX_RQ01GD, VISIMAX_CDP01DI).
  
 \end_layout
 
@@ -1455,7 +1486,7 @@ Numéro de version (partie entière) pour les évolutions majeures et indice
 \end_layout
 
 \begin_layout Itemize
-Degré d’avancement du document: travail, terminé,vérifié.
+Degré d’avancement du document: travail, terminé, vérifié.
  Un document en perpétuelle modification (ex: glossaire) ne comporte pas
  ce champ.
  
@@ -1604,18 +1635,14 @@ Pour chaque page
 \end_layout
 
 \begin_layout Standard
-Un en-tête est obligatoire: le nom de la Maitrise d'œuvre: H4312 et le titre
- du document.
+Un en-tête est obligatoire: le nom de la Maitrise d'œuvre: HEPTAWORKS et
+ le titre du document.
  Un pied-de-page: le nombre de page sur le nombre total de pages (ex: p.
  3/15).
  Le texte contenu dans le document est justifié et une vérification orthographiq
 ue est indispensable.
  Les seuls styles utilisés seront Standard, Section, SousSection et SousSousSect
-ion
-\end_layout
-
-\begin_layout Standard
-Exemple: voir Annexe 1
+ion.
 \end_layout
 
 \begin_layout Subsection
@@ -1768,6 +1795,49 @@ le document est approuvé par les personnes habilitées et prend valeur de
 Cycle de vie d’un document
 \end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/cycle_vie.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Organnigramme du cycle de vie d'un document
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Production du document
 \end_layout
@@ -1783,13 +1853,21 @@ Création
 \end_layout
 
 \begin_layout Itemize
-Modification : Chaque personne modifie sa partie comme décrit dans la « procédur
-e de modification d'un document ».
+
+\emph on
+Modification
+\emph default
+ : Chaque personne modifie sa partie comme décrit dans la « procédure de
+ modification d'un document ».
 \end_layout
 
 \begin_layout Itemize
-Terminaison : Lorsque toutes les parties sont marquées comme étant finie,
- on rentre dans la phase de validation
+
+\emph on
+Terminaison
+\emph default
+ : Lorsque toutes les parties sont marquées comme étant finie, on rentre
+ dans la phase de validation
 \end_layout
 
 \begin_layout Subsubsection
@@ -2008,20 +2086,27 @@ Description
 \end_layout
 
 \begin_layout Standard
-Le «
-\begin_inset space \space{}
+Le 
+\begin_inset Quotes fld
 \end_inset
 
 Glossaire
-\begin_inset space \space{}
+\begin_inset Quotes frd
 \end_inset
 
-» est un livrable contenant la définition des termes spécifiques à ce projet
+ est un livrable contenant la définition des termes spécifiques à ce projet
  ou à la solution fournie par l’hexanôme 4312.
  Il contient aussi l’explication des différentes abréviations utilisées
  dans les différents livrables et Annexes rendus.
- Le « Glossaire » est commun à tous les livrables et Annexes rendus par
- notre équipe.
+ Le 
+\begin_inset Quotes fld
+\end_inset
+
+Glossaire
+\begin_inset Quotes frd
+\end_inset
+
+ est commun à tous les livrables et Annexes rendus par notre équipe.
  Il contient la liste des mots par ordre alphabétique.
  S’il s’agit d'abréviations on va considérer le mot abrévié pour déterminer
  l’ordre alphabétique et non sa version complète.
@@ -2034,19 +2119,19 @@ Exemple de définition du glossaire
 
 \begin_layout Standard
 Dans le glossaire, le mot à définir doit être écrit avec le style 
-\begin_inset Quotes eld
+\begin_inset Quotes fld
 \end_inset
 
 Paragraphe
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
-et la définition avec le style 
-\begin_inset Quotes eld
+ et la définition avec le style 
+\begin_inset Quotes fld
 \end_inset
 
 Standard
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -2063,11 +2148,19 @@ Exemple:
 \series bold
 Aide-mémoire
 \series default
- ou "
+ ou 
 \series bold
+
+\begin_inset Quotes fld
+\end_inset
+
 Mémo
 \series default
-" (Aide-mémoire)
+
+\begin_inset Quotes frd
+\end_inset
+
+ (Aide-mémoire)
 \end_layout
 
 \begin_layout Standard
@@ -2247,7 +2340,7 @@ Les documents de type « Annexe » (ou « les annexes ») sont des documents
  doit être validée par le chef de projet.
  Les documents de type « Annexe » se trouvent dans le dossier « Annexes
  ».
- Le nom de fichier doit etre de la forme 
+ Le nom de fichier doit être de la forme 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2266,15 +2359,15 @@ Type « Draft »
 \begin_layout Standard
 Un « Draft » est un document qui doit être considéré comme un brouillon
  et son but est de mettre sur papier des idées, des schémas etc.
- Il se trouve dans le dossier «
-\begin_inset space \space{}
+ Il se trouve dans le dossier 
+\begin_inset Quotes fld
 \end_inset
 
 Drafts
-\begin_inset space \space{}
+\begin_inset Quotes frd
 \end_inset
 
-».
+.
  Le cycle de vie d’un « Draft » n’est pas tracé.
  L’état ou la version sont aussi des éléments sans importance (et donc pas
  pris en compte) pour ce type de document.
@@ -2287,7 +2380,7 @@ Type « Fiche »
 \begin_layout Standard
 Un document de type « Fiche » (ou « fiche ») est un document administratif
  qui sert à réaliser le suivi du projet.
- Plusieurs modèles des fiches existantes peuvent être trouvé dans le fichier
+ Plusieurs modèles des fiches existantes peuvent être trouvés dans le fichier
  dossier «Communication».
  Les documents de type « Fiche » se trouvent dans le dossier « Fiches »,
  Elles ne possèdent ni version, ni état.
@@ -2331,40 +2424,93 @@ Annexes
 \end_layout
 
 \begin_layout Subsection
-Annexe 1: Exemple de page de garde et sommaire
+Annexe 1: Exemple de page de garde
 \end_layout
 
 \begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status collapsed
+
+\begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Graphics
-	filename img/page_garde.svg
-	lyxscale 20
-	scale 30
+	filename img/page_garde.epsi
+	scale 70
 
 \end_inset
 
 
-\begin_inset space \qquad{}
+\end_layout
+
 \end_inset
 
 
-\begin_inset Graphics
-	filename img/sommaire.svg
-	lyxscale 20
-	scale 30
+\end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
 \begin_layout Subsection
-Annexe 2: Plan-type d’un dossier de faisabilité
+Annexe 2: Exemple de sommaire
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Boxed
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/sommaire.epsi
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Annexe 3: Plan-type d’un dossier de faisabilité
 \end_layout
 
 \begin_layout Enumerate
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Enumerate
@@ -2455,8 +2601,8 @@ Synthèse sur systèmes de localisation
 \end_layout
 
 \begin_layout Enumerate
-…….
- 
+\SpecialChar \ldots{}
+
 \end_layout
 
 \end_deeper
@@ -2468,12 +2614,20 @@ Conclusion
 Annexes
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Annexe 3: Plan-type d’un dossier de spécification technique 
+Annexe 4: Plan-type d’un dossier de spécification technique des besoins
+ 
 \end_layout
 
 \begin_layout Enumerate
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Enumerate
@@ -2536,7 +2690,8 @@ Faux axes de progrès éventuels
 \end_layout
 
 \begin_layout Enumerate
-…….
+\SpecialChar \ldots{}
+
 \end_layout
 
 \end_deeper
@@ -2564,12 +2719,19 @@ Conclusion
 Annexes
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Annexe 4: Plan-type d’un dossier de conception d’un système 
+Annexe 5: Plan-type d’un dossier de conception d’un système 
 \end_layout
 
 \begin_layout Enumerate
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Enumerate
@@ -2660,12 +2822,19 @@ Annexe 3 : Démarrage du système
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Annexe 5: Plan-type d’un dossier de synthèse 
+Annexe 6: Plan-type d’un dossier de synthèse 
 \end_layout
 
 \begin_layout Enumerate
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Enumerate
@@ -2760,12 +2929,19 @@ ROI
 Annexes 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Annexe 6: Plan-type d’un dossier d’interface de communication
+Annexe 7: Plan-type d’un dossier d’interface de communication
 \end_layout
 
 \begin_layout Enumerate
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Enumerate

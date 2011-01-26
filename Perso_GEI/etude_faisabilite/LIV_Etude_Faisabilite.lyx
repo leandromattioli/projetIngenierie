@@ -45,9 +45,9 @@
 \bottommargin 2cm
 \secnumdepth 3
 \tocdepth 3
-\paragraph_separation skip
+\paragraph_separation indent
 \defskip medskip
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -132,7 +132,7 @@ Maitrise d'Oeuvre:
 
 Maitrise d'Ouvrage:
 \series default
- GSTP
+ COPEVUE
 \end_layout
 
 \begin_layout Standard
@@ -146,8 +146,23 @@ Auteurs:
 \begin_inset Newline newline
 \end_inset
 
-BELHADJ AISSA Soraya, DE POTTER Jérôme, GOLUMBEANU Monica, NOGUEIRA Henrique,
- PITIOT Billy
+Soraya BELHADJ AISSA
+\begin_inset Newline newline
+\end_inset
+
+Jérôme DE POTTER
+\begin_inset Newline newline
+\end_inset
+
+Monica GOLUMBEANU
+\begin_inset Newline newline
+\end_inset
+
+Henrique NOGUEIRA
+\begin_inset Newline newline
+\end_inset
+
+Billy PITIOT
 \end_layout
 
 \begin_layout Standard
@@ -164,9 +179,9 @@ BELHADJ AISSA Soraya, DE POTTER Jérôme, GOLUMBEANU Monica, NOGUEIRA Henrique,
 <lyxtabular version="3" rows="3" columns="4">
 <features>
 <column alignment="center" valignment="top" width="5cm">
-<column alignment="center" valignment="top" width="7cm">
-<column alignment="center" valignment="top" width="2cm">
-<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="3cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -181,16 +196,7 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Nom de référence du document
-\end_layout
-
-\end_inset
-
-
+<ENTP>_GEI001EF
 \end_layout
 
 \end_inset
@@ -237,12 +243,12 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-☐ Terminé
+travail
 \end_layout
 
 \end_inset
 </cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -275,25 +281,25 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-07/01/2011
+10/01/2011
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+☐ Validé après modif.
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+☐ Revalidé
 \end_layout
 
 \end_inset
@@ -559,7 +565,9 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-H4312
+\noindent
+\align center
+Jérôme
 \end_layout
 
 \end_inset
@@ -577,7 +585,7 @@ H4312
 \begin_inset Text
 
 \begin_layout Plain Layout
-Création / Regroupement
+Création / Regroupement 1
 \end_layout
 
 \end_inset
@@ -588,7 +596,7 @@ Création / Regroupement
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+14/01/2011
 \end_layout
 
 \end_inset
@@ -597,7 +605,9 @@ Création / Regroupement
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+\noindent
+\align center
+Soraya
 \end_layout
 
 \end_inset
@@ -606,7 +616,7 @@ Création / Regroupement
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.1
 \end_layout
 
 \end_inset
@@ -615,7 +625,7 @@ Création / Regroupement
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Regroupement 2
 \end_layout
 
 \end_inset
@@ -876,10 +886,6 @@ Contexte
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Le COPEVUE souhaite étudier un système de monitoring à distance de sites
  isolés, situés dans de nombreuses régions de l'UE, pour mieux contrôler
  ses besoins d'autonomie (en terme d'énergie, de déchets, etc).
@@ -895,10 +901,6 @@ Objectifs
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Le travail demandé consiste en une proposition d'une solution pour la mesure
  et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
  système en réponse à un appel d'offre.
@@ -915,18 +917,14 @@ Présentation du document
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Ce dossier présente dans une première partie l'étude du système existant.
  La seconde partie est une étude de faisabilité.
- Cette étude porte sur l'identification des systèmes ou éléments existant
- concernant : les processeurs pour systèmes embarqués, la gestion de l'énergie
- (production et stockage de l'énergie) sur les sites à surveiller, les capteurs
- de détection de niveau dans une cuve et le système de communication (géolocalis
-ation, communication avec le site, communication entre les capteurs et le
- système embarqué).
+ Cette étude porte sur l'identification des systèmes ou éléments existants
+ concernant : les processeurs et cartes pour systèmes embarqués, la gestion
+ de l'énergie (production et stockage de l'énergie) sur les sites à surveiller,
+ les capteurs de détection de niveau dans une cuve et le système de communicatio
+n (géolocalisation, communication avec le site, communication entre les
+ capteurs et le système embarqué).
 \end_layout
 
 \begin_layout Subsection
@@ -957,6 +955,18 @@ Appel d'offre de la COPEVUE
 Terminologie et Abréviations
 \end_layout
 
+\begin_layout Standard
+Voir le document 
+\begin_inset Quotes fld
+\end_inset
+
+Glossaire
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
 Analyse de l'existant
 \end_layout
@@ -966,10 +976,6 @@ Analyse
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Le système actuel de monitoring à distance est mis en place pour la surveillance
  de plusieurs sites de stockage.
  Ces sites contiennent des récipients (réservoirs) qui peuvent contenir
@@ -978,10 +984,6 @@ Le système actuel de monitoring à distance est mis en place pour la surveillan
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 La surveillance des différents sites est réalisée par un agent.
  Ce processus n'est pas automatisé.
  Ainsi, à intervalles de temps régulier, des personnes doivent se déplacer
@@ -993,15 +995,11 @@ La surveillance des différents sites est réalisée par un agent.
  pour effectuer ce travail.
  A la fin de la visite, un rapport est rédigé pour chaque site.
  En fonction de ces rapports l'agent détermine les sites qui ont besoin
- d'assistance et avertit la société chargée de la gestion du réservoir.
+ d'assistance et avertit la société chargée de la gestion des réservoirs.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Une vérification de l'état de chaque capteur et de toute appareil présent
  sur chaque site est aussi nécessaire.
  Elle est effectuée deux fois par an par une équipe de 5 personnes.
@@ -1009,17 +1007,13 @@ Une vérification de l'état de chaque capteur et de toute appareil présent
  sur place.
  A la fin de chaque phase de vérification, un rapport est également rédigé
  par chaque équipe.
- Ce rapport sera ,par la suite, consulté par le propriétaire.
+ Ce rapport sera, par la suite, consulté par le propriétaire.
  Si une intervention plus compliquée est nécessaire, un rapport spécifique
  est rédigé et envoyé au système central dans les plus bref délais.
  
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Cette méthode est très couteuse, peu autonome et problématique du point
  de vue de la sécurité.
  En effet, le manque d'automatisation dans le processus, impliquant une
@@ -1034,10 +1028,6 @@ Cette méthode est très couteuse, peu autonome et problématique du point
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 La société chargée de s'occuper du réservoir (nettoyage/vidage/remplissage)
  envoie un camion sur site.
  Cette société s'occupant de plusieurs sites en même temps et les déplacements
@@ -1048,10 +1038,6 @@ ge/nettoyage et ainsi planifier les déplacements des camions afin d'optimiser
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Aucun protocole à suivre en cas de problème/incident n'est mis en place.
  Cette absence met en danger le site ainsi que l'environnement.
  De plus, le manque de communication directe entraine un handicap dans la
@@ -1063,10 +1049,6 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 La conception actuelle du système doit être considérablement améliorée afin
  d'assurer le bon fonctionnement et de répondre aux besoins des clients.
  Les méthodes sont très lentes (par exemple pour savoir si un récipient
@@ -1079,104 +1061,101 @@ La conception actuelle du système doit être considérablement améliorée afin
 \end_layout
 
 \begin_layout Section
-Etude de faisabilité
+Étude de faisabilité
 \end_layout
 
 \begin_layout Subsection
-Synthèse sur Système embarqué
+Synthèse sur les systèmes embarqués
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
+Le système embarqué est le système qui va permettre de faire la liaison
+ entre les capteurs du site surveillé et le serveur central.
+ Il est composé d'un processeur embarqué qui va se trouver sur une carte
+ permettant de le connecter avec les différents périphériques.
+ Ce processeur permettra l'exécution d'un RTOS (Real Time Operating System
+ : Système d'exploitation temps réel) qui permettra le traitement des données
+ en provenance des capteurs et leur transfert vers le périphérique de communicat
+ion avec le serveur central.
+\end_layout
 
+\begin_layout Subsubsection
+Étude des processeurs embarqués existant
+\end_layout
+
+\begin_layout Standard
 Il existe de nombreux processeurs embarqués existant sur le marché.
  Certains beaucoup plus puissants que d'autres, accompagnés de nombreuses
  fonctionnalités, fait pour aller sur des téléphones, des PDA, ...
+ Et d'autres moins puissant mais dotés de fonctionnalités intéressantes
+ comme une gestion de la consommation, ...
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Le tableau suivant nous donne un aperçu sur certains d'entre eux avec leurs
  caractéristiques principales.
  Il essaie de ne pas privilégier un constructeur à un autre et fait apparaitre
- une variété de processeurs embarqués de caractéristiques variées.
+ des processeurs embarqués de caractéristiques variées.
 \end_layout
 
 \begin_layout Standard
-\noindent
-\align center
-\begin_inset Float table
-wide false
-sideways false
-status open
+\begin_inset VSpace medskip
+\end_inset
 
-\begin_layout Plain Layout
-\noindent
+
+\end_layout
+
+\begin_layout Standard
 \align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="5">
 <features>
-<column alignment="center" valignment="top" width="2.4cm">
+<column alignment="center" valignment="top" width="2.2cm">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="3cm">
 <column alignment="center" valignment="top" width="3cm">
 <column alignment="center" valignment="top" width="5cm">
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
-Identification
+Identifica- tion
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Bits
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Consommation
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Puissance
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\series bold
 Divers
 \end_layout
 
@@ -1475,88 +1454,350 @@ très faible consommation
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:comparatif-proc"
-
-\end_inset
-
-Tableau comparatif des modèles de processeur embarqué
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
+\begin_layout Standard
+\begin_inset VSpace medskip
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Ce tableau nous montre que les processeurs embarqués peuvent être très différent
 s.
  En effet, entre les processeurs 8 bits et les 32 bits, 20MHz ou 1GHz, il
  y a des grandes différences.
  Les constructeurs insistent tous sur la faible consommation mais peu donnent
  des chiffres.
+ Les prix ne sont pas indiqués dans ce tableau car ils ne varient pas énormément
+ (entre 1$ et 10$).
+ Cette variation serait importante dans le cas d'une production à grande
+ echelle mais nous n'en produiront qu'un par site à surveiller et ils n'y
+ en aura pas des milliers.
+ Ce sera donc un chiffre négligeable comparé au reste du système (système
+ de communication, capteur, ...).
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 La caractéristique importante dans notre cas est l'autonomie.
  En effet, nous n'aurons à priori pas besoin d'une puissance de calcul très
  important car ce processeur servira uniquement à transférer les données
  au serveur qui disposera de la puissance de calcul nécessaire pour les
  traiter.
- Le prix n'est pas non plus un facteur très important car les prix varient
- assez peu selon le modèle.
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 L'autonomie est donc le facteur clé du choix de notre processeur.
  L'autonomie au niveau de la consommation (très basse consommation, mode
- standby), mais aussi l'autonomie en cas d'erreur.
+ standby), mais aussi l'autonmie en cas d'erreur.
  Si le processeur a un fonctionnement dans lequel on peut avoir confiance
  et une reprise sur erreur efficace, c'est un plus dans notre cas car nous
  ne pouvons pas toujours envoyer quelqu'un pour relancer l'application.
 \end_layout
 
-\begin_layout Subsection
-Synthèse sur gestion de l'énergie
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Au vu de ces critères, notre choix se porte vers le MSP430 qui est un processeur
+ simple mais fonctionnel, parfaitement adapté à nos besoins.
+ Il coute à peu près 1$ l'unité.
 \end_layout
 
 \begin_layout Subsubsection
+Architectures possibles pour le système embarqué
+\end_layout
 
-\lang english
+\begin_layout Standard
+Notre système peut avoir différentes architecture pour relier le processeur
+ embarqué aux differents périphériques (système de communication avec le
+ serveur, interface homme-machine -- LCD, capteurs, ...).
+\end_layout
+
+\begin_layout Itemize
+ASIC : Application-Specific Integrated Circuit : circuit intégré (micro-électron
+ique) spécialisé.
+ Ce procédé permet un grand nombre de fonctionnalités uniques et/ou sur
+ mesure.
+ L'intérêt est de réduire les coûts de production et d'augmenter la fiabilité.
+ Il y a deux manières de faire ce type de circuit intégré, soit on le conçoit
+ en partant de rien.
+ C'est un procédé long et compliqué ou alors on utilise des cellules standard
+ qu'on assemble de la manière que l'on veut de façon à avoir un système
+ optimisé pour notre tâche.
+ C'est un procédé avec un coût de revient important au départ mais très
+ rentable sur le long terme et les performances si on l'a vraiment optimisé.
+\end_layout
+
+\begin_layout Itemize
+FPGA : Field Programmable Gate Array : Les réseaux logiques programmables
+ sont des circuits composés de nombreuses cellules logiques élémentaires
+ librement assemblables.
+ L'intérêt est qu'une même puce peut être utilisée dans de nombreux systèmes
+ électroniques différents.
+ Mais le positionnement n'est pas optimisé pour les tâches auquelles le
+ système sera destiné.
+ Il est donc plus lent mais revient beaucoup moins cher au départ car il
+ n'y pas de temps de conception.
+\end_layout
+
+\begin_layout Itemize
+Carte déjà faites.
+ L'avantage est le gain de temps de conception car on n'a rien à concevoir,
+ mais elles comportent des composants non utiles pour notre application
+ et elles ne sont pas forcément optimisées pour les tâches que nous avons.
+\end_layout
+
+\begin_layout Standard
+N'ayant aucun ingénieur spécialisé dans le design de cartes et dans un souci
+ d'efficacité, de coût et de rapidité de développement, nous utiliserons
+ les cartes déjà faites fournies par les constructeurs avec les processeurs.
+\end_layout
+
+\begin_layout Subsubsection
+RTOS : Systèmes d'exploitation Temps Réel
+\end_layout
+
+\begin_layout Standard
+Il existe de nombreux différents RTOS sur le marché.
+ Certains sont propriétaires et d'autres sous licence libre.
+ Tous ne sont pas compatibles avec n'importe quels processeurs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features>
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="2.4cm">
+<column alignment="center" valignment="top" width="10cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RTOS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Licence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Détails
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RT-Linux
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Open-source
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version de Linux auquel on a ajouté une notion de temps réel dur
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+FreeRTOS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Open-source
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+26 architectures de processeurs supportées
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+µC/OS-II
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Propriétaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+supporte de nombreux processeurs, facile d'apprentissage, robuste
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+embos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Propriétaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+gestion de la consommation d'énergie, logiciels d'exemple fournis
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+tinyOS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Open-source
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+spécialisé dans les réseaux de capteurs communiquant sans fil
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il reste encore la possibilité de faire son propre RTOS.
+ Nous sommes certains d'avoir un système optimisé pour nos besoins grâce
+ à cela.
+ Cela nous permet aussi de gérer la sécurité et la reprise sur erreur efficaceme
+nt.
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nous avons choisi de faire notre propre RTOS car nous avons dans l'équipe
+ des ingénieurs qui ont une formation solide en conception et réalisation
+ de RTOS et nous croyons fermement que cela sera rentable du fait d'un RTOS
+ efficace, fiable et adapté à nos besoins.
+\end_layout
+
+\begin_layout Subsection
+Synthèse sur Gestion de l'Énergie
+\end_layout
+
+\begin_layout Subsubsection
 Analyse énergetique du système
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Etant donné que le système doit être autonome et qu'il peut se trouver dans
  n'importe quel type d'environnement, nous devons trouver des moyens d'energie
  qui soient indépendants de la localisation du système.
@@ -1571,10 +1812,6 @@ Stockage de l'énergie
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Si on a le moindre problème avec l'alimentation en énergie dans la station,
  on aura des batteries qui pourront maintenir la station en activité jusqu'à
  l'arrivée d'un agent d'entretien pour résoudre le problème.
@@ -1589,8 +1826,6 @@ p.
 \end_layout
 
 \begin_layout Subsubsection
-
-\lang english
 Batteries
 \end_layout
 
@@ -1620,7 +1855,6 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-\lang english
 Modèle
 \end_layout
 
@@ -1632,7 +1866,6 @@ Modèle
 \begin_layout Plain Layout
 
 \series bold
-\lang english
 Spécifications
 \end_layout
 
@@ -1644,7 +1877,6 @@ Spécifications
 \begin_layout Plain Layout
 
 \series bold
-\lang english
 Prix
 \end_layout
 
@@ -1656,9 +1888,8 @@ Prix
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\lang english
-Sealed Lead Acid Battery
+1.
+ Sealed Lead Acid Battery
 \end_layout
 
 \end_inset
@@ -1667,8 +1898,6 @@ Sealed Lead Acid Battery
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\lang english
 6 Volt, 1.3 Ah
 \end_layout
 
@@ -1678,8 +1907,6 @@ Sealed Lead Acid Battery
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\lang english
 6.95 €
 \end_layout
 
@@ -1691,9 +1918,8 @@ Sealed Lead Acid Battery
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\lang english
-Sealed Lead Acid Battery
+2.
+ Sealed Lead Acid Battery
 \end_layout
 
 \end_inset
@@ -1702,8 +1928,6 @@ Sealed Lead Acid Battery
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\lang english
 6 Volt, 1.2 Ah
 \end_layout
 
@@ -1713,8 +1937,6 @@ Sealed Lead Acid Battery
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\lang english
 7.80 €
 \end_layout
 
@@ -1726,9 +1948,8 @@ Sealed Lead Acid Battery
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\lang english
-Sealed Lead Acid Battery 
+3.
+ Sealed Lead Acid Battery 
 \end_layout
 
 \end_inset
@@ -1737,8 +1958,6 @@ Sealed Lead Acid Battery
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\lang english
 6 Volt, 6.5 Ah
 \end_layout
 
@@ -1748,8 +1967,6 @@ Sealed Lead Acid Battery
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\lang english
 14.95 €
 \end_layout
 
@@ -1769,8 +1986,6 @@ Sealed Lead Acid Battery
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\lang english
 Tableau Comparatif des modèles de batteries
 \end_layout
 
@@ -1785,45 +2000,22 @@ Tableau Comparatif des modèles de batteries
 \end_layout
 
 \begin_layout Subsubsection
-
-\lang english
 Production d'énergie
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Le rechargement des batteries se fera en utilisant l'énergie solaire.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
+\align center
 \begin_inset Float table
 wide false
 sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
+status collapsed
 
 \begin_layout Plain Layout
 \align center
-
-\lang english
 \begin_inset Tabular
 <lyxtabular version="3" rows="10" columns="4">
 <features>
@@ -1839,7 +2031,6 @@ begin{center}
 
 \series bold
 \size small
-\lang english
 Modèle
 \end_layout
 
@@ -1852,7 +2043,6 @@ Modèle
 
 \series bold
 \size small
-\lang english
 Perfomance
 \end_layout
 
@@ -1865,7 +2055,6 @@ Perfomance
 
 \series bold
 \size small
-\lang english
 Electrical Characteristics
 \end_layout
 
@@ -1878,7 +2067,6 @@ Electrical Characteristics
 
 \series bold
 \size small
-\lang english
 Prix
 \end_layout
 
@@ -1901,7 +2089,6 @@ Prix
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Rated Power (Pmax): 4.5 watts
 \end_layout
 
@@ -1913,7 +2100,6 @@ Rated Power (Pmax): 4.5 watts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Maximum Power: 4.5 Watts
 \end_layout
 
@@ -1925,7 +2111,6 @@ Maximum Power: 4.5 Watts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 53.00 
 \size default
 €
@@ -1941,7 +2126,6 @@ Maximum Power: 4.5 Watts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 BP SX-305M, 5 watt
 \end_layout
 
@@ -1953,7 +2137,6 @@ BP SX-305M, 5 watt
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Power tolerance: ±10%
 \end_layout
 
@@ -1965,7 +2148,6 @@ Power tolerance: ±10%
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Voltage at Pmax: 16.5V
 \end_layout
 
@@ -1997,7 +2179,6 @@ Voltage at Pmax: 16.5V
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Nominal Voltage: 12 volts 
 \end_layout
 
@@ -2009,7 +2190,6 @@ Nominal Voltage: 12 volts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Current at Pmax: 0.27A
 \end_layout
 
@@ -2041,7 +2221,6 @@ Current at Pmax: 0.27A
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Rated Power (Pmax): 4.5 watts
 \end_layout
 
@@ -2053,7 +2232,6 @@ Rated Power (Pmax): 4.5 watts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Peak Power (Pmax): 5 Watts
 \end_layout
 
@@ -2065,7 +2243,6 @@ Peak Power (Pmax): 5 Watts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 39.80 
 \size default
 €
@@ -2081,7 +2258,6 @@ Peak Power (Pmax): 5 Watts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 CDT Solar, CDT-5, 5 Watt
 \end_layout
 
@@ -2093,7 +2269,6 @@ CDT Solar, CDT-5, 5 Watt
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Power tolerance: ±10%
 \end_layout
 
@@ -2105,7 +2280,6 @@ Power tolerance: ±10%
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Max.
  Power Voltage: 17.5 Volts
 \end_layout
@@ -2138,7 +2312,6 @@ Max.
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Nominal Voltage: 12 volts 
 \end_layout
 
@@ -2150,7 +2323,6 @@ Nominal Voltage: 12 volts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Max.
  Power Current: 0.29 A
 \end_layout
@@ -2183,7 +2355,6 @@ Max.
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Rated Power (Pmax): 4.5 watts
 \end_layout
 
@@ -2195,7 +2366,6 @@ Rated Power (Pmax): 4.5 watts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Peak Power (Pmax): 5 Watts
 \end_layout
 
@@ -2207,7 +2377,6 @@ Peak Power (Pmax): 5 Watts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 39.80 
 \size default
 €
@@ -2223,7 +2392,6 @@ Peak Power (Pmax): 5 Watts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 CDT Solar, CDT-5
 \end_layout
 
@@ -2235,7 +2403,6 @@ CDT Solar, CDT-5
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Power tolerance: ±10%
 \end_layout
 
@@ -2247,7 +2414,6 @@ Power tolerance: ±10%
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Max.
  Power Voltage: 15.5 Volts
 \end_layout
@@ -2280,7 +2446,6 @@ Max.
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Nominal Voltage: 12 volts 
 \end_layout
 
@@ -2292,7 +2457,6 @@ Nominal Voltage: 12 volts
 \begin_layout Plain Layout
 
 \size small
-\lang english
 Max.
  Power Current: 0.29 A
 \end_layout
@@ -2317,31 +2481,9 @@ Max.
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{center}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "tab:tableau_comparatif_panneau"
@@ -2362,15 +2504,9 @@ Tableau comparatif des modèles de panneaux solaires
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
-
-\lang english
 Le tableau 
 \begin_inset CommandInset ref
-LatexCommand eqref
+LatexCommand ref
 reference "tab:tableau_comparatif_panneau"
 
 \end_inset
@@ -2379,14 +2515,6 @@ reference "tab:tableau_comparatif_panneau"
  de 5 watts maximum.
  D'après les spécifications du microcontroleur et des capteurs, on ne devrait
  pas avoir besoin de plus de puissance.
- 
-\begin_inset CommandInset ref
-LatexCommand eqref
-reference "tab:comparatif-proc"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -2747,10 +2875,6 @@ Géolocalisation du site
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Le site doit être géolocalisé au moment de son installation.
  Il existe plusieurs systèmes de géolocalisation :
 \end_layout
@@ -3016,23 +3140,17 @@ Communication avec le site
 \end_layout
 
 \begin_layout Standard
-\begin_inset space \hspace{}
-\length 1cm
-\end_inset
-
 Il s'agit d'établir une communication permanente avec le site afin de récupérer
  les relevés des capteurs ainsi que de relancer et reconfigurer le système
  en cas de besoin.
 \end_layout
 
-\begin_layout Standard
-
-\series bold
-Réseau sans fil
-\end_layout
-
 \begin_layout Description
-Réseau satellitaire : Réseau de communication par satellite 
+Réseau
+\begin_inset space ~
+\end_inset
+
+satellitaire : Réseau de communication par satellite 
 \end_layout
 
 \begin_deeper
@@ -3051,7 +3169,11 @@ Société proposant ce service : Globalstar, Iridium
 
 \end_deeper
 \begin_layout Description
-Réseau GSM/GPRS : Réseau de téléphonie mobile classique.
+Réseau
+\begin_inset space ~
+\end_inset
+
+GSM/GPRS : Réseau de téléphonie mobile classique.
  Le GSM est utilisé pour les communications de type "voie" et le GPRS pour
  les communications de type "donnée" 
 \end_layout
@@ -3068,15 +3190,13 @@ Inconvénient : Zone de couverture limitée, communication impossible avec
 \end_layout
 
 \end_deeper
-\begin_layout Standard
-
-\series bold
-Réseau filaire
-\end_layout
-
 \begin_layout Description
-Réseau filaire : Réseau de communication par fibre optique soit directement
- avec le central soit en se racordant au réseau internet mondial 
+Réseau
+\begin_inset space ~
+\end_inset
+
+filaire : Réseau de communication par fibre optique soit directement avec
+ le central soit en se racordant au réseau internet mondial 
 \end_layout
 
 \begin_deeper
