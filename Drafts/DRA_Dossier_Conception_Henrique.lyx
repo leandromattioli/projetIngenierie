@@ -1279,6 +1279,34 @@ Un Quad-Core Intel® Xeon® 3400;
 Disque dur de 3.5'' (7200 rpm), capacité: 1To.
 \end_layout
 
+\begin_layout Subsubsection
+Système embarqué
+\end_layout
+
+\begin_layout Standard
+Notre système embarqué est composé de la carte mère avec les chaines de
+ communication: satellite, capteurs et une petite interface.
+ Il est alimenté par les batteries du site isolé.
+ Le lien entre la carte mère et les capteurs est fait par les fibres optiques
+ pour que la distance entre le système embarqué et les capteurs ne soit
+ pas une contrainte.
+\end_layout
+
+\begin_layout Subsubsection
+Capteurs
+\end_layout
+
+\begin_layout Standard
+Les capteurs envoient les données au système embarqué à une fréquence pré-établi
+e.
+ Même s'il y a un problème avec la communication entre les capteurs et le
+ système embarqué, les capteurs vont envoyer les lectures.
+ Ils sont alimentés par les batteries du site isolé.
+ Alors, pour chaque capteur nous aurons deux fils: un sera pour la fibre
+ optique qui sert pour envoyer les données et un autre fil pour l'alimentation
+ életrique.
+\end_layout
+
 \begin_layout Section
 Modèles des données
 \end_layout
