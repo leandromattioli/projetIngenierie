@@ -1,0 +1,1706 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Title
+Cahier de Charge - Aide à la décision
+\begin_inset Newline newline
+\end_inset
+
+
+\size larger
+Gestion de la logistique
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Maitrise d'Oeuvre:
+\series default
+ H4312
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Maitrise d'Ouvrage:
+\series default
+ COPEVUE
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Auteurs:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Henrique NOGUEIRA
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features>
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="3cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Référence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Nom de référence du document
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Version du document
+\end_layout
+
+\end_inset
+
+ 1.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avancement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Validé
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dernière mise à jour
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Validé après modif.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Revalidé
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features>
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none" width="4cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Visa
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Henrique Nogueira
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Historique du document
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features>
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="7cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Auteur
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sujet de la modification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.01.2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jerome
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Création et début de rédaction
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21.01.2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Jerome
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Structure du document
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Présentation du projet 
+\end_layout
+
+\begin_layout Subsubsection
+Contexte 
+\end_layout
+
+\begin_layout Standard
+Le COPEVUE souhaite étudier un système de monitoring à distance de sites
+ isolés, situés dans de nombreuses régions de l’UE, pour mieux contrôler
+ ses besoins d’autonomie (en terme d’énergie, de déchets, etc).
+ Comme exemples de ces sites, on peut citer de nombreux lieux de travail
+ (pour l’abattage de bois, à l’installation de réseaux, de stations de pompage,
+ etc).
+ Ce système doit permettre à COPEVUE de faire un suivi pour pouvoir intervenir
+ en cas de problèmes.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Objectifs 
+\end_layout
+
+\begin_layout Standard
+Le travail demandé consiste en une proposition d’une solution pour la mesure
+ et le monitoring des sites isolés, c’est-à-dire étudier et concevoir ce
+ système en réponse à un appel d’offre.
+ Le but de ce travail consiste à faire une étude de faisabilité, la spécificatio
+n technique de besoins et une proposition d’architecture générique.
+ 
+\end_layout
+
+\begin_layout Subsection
+Présentation du document 
+\end_layout
+
+\begin_layout Standard
+Le Cahier des Charges de l'aide à la décision réunit toutes les exigences,
+ les contraintes, la faisabilité technologique et la configuration cible
+ prises en compte dans la réalisation d'une application de planification
+ de la maintenance des cuves.
+ Ce Cahier des Charges présente à la fois le système de planification installé
+ sur le serveur central et l'application du système embarqué permettant
+ au conducteur de communiquer avec le serveur central.
+\end_layout
+
+\begin_layout Subsection
+Documents applicables / Documents de référence 
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables 
+\end_layout
+
+\begin_layout Itemize
+Le Dossier de Gestion de la Documentation
+\end_layout
+
+\begin_layout Itemize
+La Best Practice pour la rédaction d'un cahier des charges
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence 
+\end_layout
+
+\begin_layout Itemize
+Etude de faisabilité
+\end_layout
+
+\begin_layout Section
+Présentation du problème
+\end_layout
+
+\begin_layout Subsection
+But 
+\end_layout
+
+\begin_layout Standard
+Dans le cas ou le niveau de la cuve devient critique (trop plein ou trop
+ vide selon le cas), la COPEVUE demande à une société tierce d'envoyer une
+ équipe vider (ou remplir) la cuve.
+ Actuellement, cette opération n'est pas bien coordonnée puisque chaque
+ camion ne se rend que sur un seul site à la fois.
+ Il faudrait donc organiser ces oppérations afin de desservir plusieurs
+ sites en une seule fois.
+ 
+\end_layout
+
+\begin_layout Standard
+Une fois sur place, l'agent doit pouvoir informé le serveur central que
+ son travail sur le site est terminé ou en cas de problème, signaler celui-ci
+ à la COPEVUE.
+\end_layout
+
+\begin_layout Standard
+Le but de ce projet est de réaliser l'application permettant de gérer la
+ demande d'envois d'un camion vers les sites, le calcul de l'itinéraire
+ à suivre ainsi que l'application du système embarqué permettant d'informer
+ le serveur de la fin de l'intervention ou de signaler un problème.
+\end_layout
+
+\begin_layout Standard
+L'application coté serveur central sera utilisé par le personnel de la COPEVUE.
+ L'application coté système embarqué sera utilisé par les conducteurs de
+ camions.
+\end_layout
+
+\begin_layout Subsection
+Formulation des besoins (généraux), exploitation et ergonomie, expérience
+\end_layout
+
+\begin_layout Standard
+L'application coté serveur devra répondre aux besoins suivants :
+\end_layout
+
+\begin_layout Itemize
+mettre évidence les sites à visiter : le logiciel devra déterminer quels
+ sont les sites dans lesquels le camion devra se rendre.
+\end_layout
+
+\begin_layout Itemize
+détecter l'action à effectuer : le logiciel devra définir l'action à effectuer
+ dans chaque site (remplissage, vidage).
+\end_layout
+
+\begin_layout Itemize
+établir un plan de visite des sites : le logiciel devra générer un plan
+ de route parfaitement optimisé afin de minimiser le coût de visites de
+ tous les sites.
+\end_layout
+
+\begin_layout Itemize
+être fiable : le trajet proposé par le logiciel devra être suffisament fiable
+ pour ne pas proposer un plan de route absurde ou trop complexe.
+\end_layout
+
+\begin_layout Itemize
+être autonome : le logiciel devra fonctionner avec une intervention humaine
+ minimale (simple contrôle de validation)
+\end_layout
+
+\begin_layout Standard
+L'application embarqué devra répondre aux besoins suivants :
+\end_layout
+
+\begin_layout Itemize
+permettre au conducteur de camion de communiquer le résultat de son travail
+ au serveur central
+\end_layout
+
+\begin_layout Itemize
+permettre au conducteur du camion de signaler un problème au serveur central
+\end_layout
+
+\begin_layout Itemize
+offrir une interface ergonomique et simple d'utilisation
+\end_layout
+
+\begin_layout Subsection
+Portée, développement, mise en œuvre, organisation de la maintenance 
+\end_layout
+
+\begin_layout Standard
+Le logiciel sur le serveur central sera intégré à l'application chargé de
+ récupérer les données envoyées par les différents sites.
+ L'application embarqué sera intégrée au système embarqué chargé de la gestion
+ du réseau de capteur.
+\end_layout
+
+\begin_layout Standard
+Il sera développé de manière à être le plus générique possible.
+ Celui-ci devra être réutilisable quelque soit le terrain.
+ Les agences chargé de la desserte des sites par la COPEVUE utilise actuellement
+ des camions.
+ Cependant, il pourrait être amené à utiliser d'autres moyens de transport
+ (bateau, ...).
+ De ce fait, le logiciel devra être adaptable pour ce type de transport.
+\end_layout
+
+\begin_layout Standard
+Le logiciel devra subir une batterie de test prouvant qu'il ne risque pas
+ de générer des plans de routes absurdes voir dangereux pour les conducteurs.
+ Une prise en compte des conditions climatiques est envisageable.
+\end_layout
+
+\begin_layout Section
+Exigences fonctionnelles
+\end_layout
+
+\begin_layout Subsection
+Fonctions de base, performances et aptitudes 
+\end_layout
+
+\begin_layout Subsubsection
+Application présente sur le serveur central
+\end_layout
+
+\begin_layout Subsubsection*
+Lancement d'une planification
+\end_layout
+
+\begin_layout Standard
+Lorsqu'une cuve a atteind son niveau critique, il y a deux scénarios possible
+ :
+\end_layout
+
+\begin_layout Itemize
+Le niveau des autres cuves du site est suffisant pour se permettre de ne
+ pas organiser un déplacement immédiat vers cette cuve.
+ Dans ce cas, aucune planification de parcours n'est lancé.
+ Le site est, tout de même, mis dans la liste des sites à visiter au cours
+ du prochain trajet.
+ 
+\end_layout
+
+\begin_layout Itemize
+Les autres cuves ne suffisent pas à remplacer la cuve en état critique.
+ Une plannification est lancée immédiatement.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+Etablissement du plan de visite des sites
+\end_layout
+
+\begin_layout Standard
+A partir de la liste des sites sélectionnés dans l'étapes précédentes et
+ des actions à effectuer, le logiciel devra établir un plan de visite des
+ sites.
+ Si tous les sites de la liste ne peuvent être visités en une seule fois,
+ un second trajet sera généré.
+ Les aptitudes du module chargé d'établir le plan de route sont les suivantes
+ :
+\end_layout
+
+\begin_layout Itemize
+Etablir un parcours le plus court possible : Un calcul du plus court chemin
+ parfaitement optimisé est nécessaire afin de ne pas perdre de temps et
+ d'éviter au conducteur de camion de retourner à l'agence pour se ravitailler
+ en matières à acheminer jusqu'au cuve.
+\end_layout
+
+\begin_layout Itemize
+Visiter un maximum de site en un seul trajet : Si une cuve est proche de
+ son niveau critique et qu'elle se trouve à proximité d'une cuve ayant atteind
+ son niveau critique, il peut être interressant de passer par ce site.
+ Ceci évitera de demander une nouvelle intervention peu de temps après.
+ Il faut donc proposer un trajet passant par un maximum de cuve même si
+ leur niveau critique n'est pas encore atteind.
+\end_layout
+
+\begin_layout Itemize
+Optimiser l'ordre de visite des sites : Si une cuve doit être vidée d'une
+ matière et qu'une autre doit être remplie de cette même matière, il faudra
+ dabord passer par celle qui doit être vidée.
+ L'ordre de visite des sites doit donc être défini au mieux afin d'éviter
+ des gaspillages.
+\end_layout
+
+\begin_layout Itemize
+Tenir compte des conditions climatiques : Le nord de la Norvège étant fréquemmen
+t soumis à de forte chute de neige ainsi qu'à des tempêtes (vent, brouillard,
+ ...), le trajet proposé devra éviter au conducteur d'être confronté à de telles
+ conditions climatiques afin de garantir sa sécurité.
+\end_layout
+
+\begin_layout Itemize
+Etre autonome : La seule intervention humaine autorisée sera un contrôle
+ du trajet généré sauf en cas de situation d'urgence.
+ Si un trajet est invalidé par le superviseur, celui-ci aura la possibilité
+ de corriger le parcours en enlevant des sites ou en forçant l'ordre de
+ passage.
+ Si un site nécessite une intervention immédiate, le superviseur peut effectuer
+ une demande d'intervention d'urgence.
+ Une planification est lancée avec pour contrainte que le site en question
+ devra être visité en premier
+\end_layout
+
+\begin_layout Subsubsection*
+Signalement d'une fin d'intervention ou d'un problème sur un site
+\end_layout
+
+\begin_layout Standard
+A la fin de son intervention, le conducteur du camion devra pouvoir envoyer
+ un message au serveur central indiquant le résultat de son passage.
+ Le message sera immédiatement transmis au serveur central.
+ Le système embarqué devra donc disposer d'un écran lcd ainsi que d'un clavier
+ et être facilement accessible.
+\end_layout
+
+\begin_layout Standard
+En cas de problème ou de dysfonctionnement constaté sur le site, le conducteur
+ pourra le signaler au serveur central.
+ Ce signalement se fera par un message entièrement tapé au clavier.
+ Le message sera immédiatement transmis au serveur central.
+ Dans le cas d'un défaut sur une cuve, celle-ci sera immédiatement mise
+ hors service.
+\end_layout
+
+\begin_layout Subsection
+Contraintes d'utilisation 
+\end_layout
+
+\begin_layout Standard
+Comme expliqué précédemment, une validation par le superviseur est nécessaire.
+ 
+\end_layout
+
+\begin_layout Standard
+Après la planification et la validation par le superviseur d'un trajet,
+ celui-ci est envoyé à l'agence en charge de l'envoi de camion sur les sites.
+ Pour des raisons techniques, l'agence peut tarder à déclencher l'intervention.
+ Elle peut également modifier le trajet, voire l'annuler si elle juge qu'il
+ n'est pas réalisable.
+ La COPEVUE n'a donc aucune garantit du respect des parcours planifier par
+ l'application.
+ 
+\end_layout
+
+\begin_layout Standard
+Les conducteurs des camions de l'agence devront être formé à utiliser le
+ système de communication avec le serveur central.
+ De ce fait, le nombre de conducteur à même d'effectuer les interventions
+ requises par la COPEVUE peut être limité par l'agence.
+\end_layout
+
+\begin_layout Subsection
+Critères d'appréciation de la réalisation effective de la fonction 
+\end_layout
+
+\begin_layout Standard
+La planification sera considérée comme valide si elle propose un trajet
+ réaliste et sans danger pour le conducteur.
+ Le superviseur aura donc la possibilité de connaître les conditions climatiques
+ sur l'ensemble du trajet ainsi que l'état des routes.
+\end_layout
+
+\begin_layout Standard
+Lorsque le conducteur signal que son intervention est terminé ou qu'il y
+ a une erreur, le message doit être envoyé au serveur central.
+\end_layout
+
+\begin_layout Subsection
+Flexibilité dans la façon de mettre en œuvre la fonction concernée et variation
+ de coûts associée en fonction de cette flexibilité
+\end_layout
+
+\begin_layout Standard
+Cette application pourrait être allégée.
+ Son couts ne serait pas beaucoup modifié.
+ En effet, le système pourrait ne pas tenir compte des conditions climatiques
+ pour établir le parcours.
+ Ce serait alors à l'agence de gérer ce problème ou au superviseur de demander
+ un nouveau calcul en écartant certains sites de la liste à visiter.
+ Cependant, de nombreux parcours seraient à revoir.
+ Le gain économique pour le dévelloppement de la solution serait vite effacer
+ par le temps de vérification et de replanification.
+\end_layout
+
+\begin_layout Section
+Contraintes imposées, faisabilité technologique et éventuellement moyens
+\end_layout
+
+\begin_layout Subsection
+Sûreté, planning, organisation, communication 
+\end_layout
+
+\begin_layout Standard
+Afin d'obtenir une planification optimale et sans erreur, le système ne
+ devra pas intégrer des sites dont le passage n'est pas nécessaire ou peu
+ utile.
+ En effet, bien que si un site dont les cuves n'ont pas encore atteind le
+ seuil critique puisse être visité par proximité avec un site dont le passage
+ est obligatoire, il ne faudra pas surcharger les parcours.
+ Si un grand nombre de site doivent être visités, il ne faudra pas rajouter
+ d'autres sites.
+\end_layout
+
+\begin_layout Standard
+La validation du trajets par le superviseur est obligatoire afin d'éviter
+ des demandes d'intervention absurde.
+ Cependant, une très grande fiabilité du système de calcul permettra de
+ simplifier cette vérification.
+\end_layout
+
+\begin_layout Standard
+La communication d'un site avec le système central doit être la meilleure
+ possible.
+ Dans le cas où un conducteur de camion remarque un dysfonctionnement, il
+ est plus que nécessaire que le message soit transmis immédiatement au serveur
+ central afin que le problème puisse être traité et réglé rapidemment.
+\end_layout
+
+\begin_layout Subsection
+Complexité 
+\end_layout
+
+\begin_layout Standard
+Bien que le programme de calcul des itinéraires prendra en compte un très
+ grand nombre de paramètres, il ne devra pas être trop complexe afin de
+ garantir sa fiabilité et sa capacité à proposer des trajets alternatifs
+ en cas d'invalidation par le superviseur.
+ 
+\end_layout
+
+\begin_layout Standard
+Pour l'application embarquée, le système de communication avec le serveur
+ central devra être très simple d'utilisation.
+\end_layout
+
+\begin_layout Section
+Configuration cible
+\end_layout
+
+\begin_layout Subsection
+Matériel et logiciels
+\end_layout
+
+\begin_layout Standard
+Coté serveur central, aucun matériel suplémentaire n'est nécessaire.
+ Cependant, un accès internet est à prévoir pour tenir compte des conditions
+ cliamtiques.
+\end_layout
+
+\begin_layout Standard
+Les systèmes embarqués seront équipés d'écran LCD et de clavier.
+ 
+\end_layout
+
+\begin_layout Standard
+Que ce soit du coté serveur ou du coté système embarqué, l'application utilisé
+ par le service logistique sera intégré au programme de gestion de la communicat
+ion et d'analyse des valeurs relevées par les capteurs.
+\end_layout
+
+\begin_layout Subsection
+Stabilité de la configuration si nécessaire 
+\end_layout
+
+\begin_layout Standard
+Une fois le système installé et configuré, aucune reconfiguration n'est
+ nécessaire.
+ Les seuils de capteurs pouront être modifiés par le superviseur.
+ L'application les prendra immédiatemment en compte pour détecter les sites
+ à visiter et lancer une planification.
+\end_layout
+
+\begin_layout Subsection
+Description des API avec reste du système 
+\end_layout
+
+\begin_layout Subsubsection
+API coté serveur
+\end_layout
+
+\begin_layout Standard
+Du coté serveur, l'API possédera les fonctions suivantes :
+\end_layout
+
+\begin_layout Description
+generer_parcours : 
+\end_layout
+
+\begin_layout Itemize
+Paramètre : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Meteo [Booléen] : Permet de choisir ou nom de tenir compte de la météo.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Description : Génère un parcours à partir de la liste des sites dont une
+ ou plusieurs cuves ont atteind leur niveau critique.
+ En fonction du paramètre 
+\begin_inset Quotes eld
+\end_inset
+
+meteo
+\begin_inset Quotes erd
+\end_inset
+
+, le calcul tient compte de la météo ou non.
+\end_layout
+
+\begin_layout Description
+ajouter_site :
+\end_layout
+
+\begin_layout Itemize
+Paramètre :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+nouveauSite [Site] : Nouveau site à ajouter à la liste des sites à visiter.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Description : Ajoute un site à la liste des sites à visiter lors du prochain
+ trajet.
+\end_layout
+
+\begin_layout Description
+retirer_site :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ancienSite [Site] : Site à retirer de la liste des sites à visiter.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Description : Retire un site de la liste des sites à visiter lors du prochain
+ trajet.
+\end_layout
+
+\begin_layout Description
+definir_priorite :
+\end_layout
+
+\begin_layout Itemize
+Paramètre :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+site [Site] : Site dont on souhaite modifier la priorité.
+\end_layout
+
+\begin_layout Itemize
+priorite [Entier] : Priorite du site dans la liste des sites à visiter.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Description : Par défaut, tous les sites ont la même priorité.
+ Cependant, si le superviseur souhaite forcer le passage par certains sites
+ en particulier lors du prochain trajet, il peut modifier leur priorite.
+ Le plan de route générer prendra en compte cette priorité et ces sites
+ seront visités en premier.
+\end_layout
+
+\begin_layout Description
+recuperer_liste_site :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : Aucun
+\end_layout
+
+\begin_layout Itemize
+Description : Retourne la liste des sites devant être visités.
+\end_layout
+
+\begin_layout Description
+recuperer_liste_parcours :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : Aucun
+\end_layout
+
+\begin_layout Itemize
+Description : Retourne la liste de tous les parcours.
+\end_layout
+
+\begin_layout Description
+recuperer_parcours :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+id [Entier] : Identifiant du parcours à récupérer.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Description : Retourne un parcours en fonction de son identifiant.
+\end_layout
+
+\begin_layout Description
+envoyer_parcours :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : Aucun
+\end_layout
+
+\begin_layout Itemize
+Description : Envoie à l'agence le parcours généré
+\end_layout
+
+\begin_layout Standard
+Du coté système embarqué, l'API possédera les fonctions suivantes :
+\end_layout
+
+\begin_layout Description
+afficher_menu_intervention :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : Aucun
+\end_layout
+
+\begin_layout Itemize
+Description : Affiche le menu auquel aura accès le conducteur du camion.
+ Celui-ci lui proposera d'envoyer le résultat de son intervention ou de
+ signaler un dysfonctionnement.
+\end_layout
+
+\begin_layout Description
+afficher_ecran_resultat :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : Aucun
+\end_layout
+
+\begin_layout Itemize
+Description : Affiche une interface permettant au conducteur de saisir son
+ résultat (numero de cuve + type de l'action effectuée).
+\end_layout
+
+\begin_layout Description
+afficher_ecran_erreur :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : Aucun
+\end_layout
+
+\begin_layout Itemize
+Description : Affiche une interface permettant au conducteur de saisir un
+ message décrivant le dysfonctionnement observé.
+\end_layout
+
+\begin_layout Description
+saisir_resultat :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+numeroCuve [Entier] : Numero de la cuve sur laquelle il y a eu une intervention.
+\end_layout
+
+\begin_layout Itemize
+action [TYPE_ACTION] : Nature de l'action effectuée (vidage, remplissage,
+ ...).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Description : Récupère les informations de fin d'intervention saisies par
+ le conducteur.
+ 
+\end_layout
+
+\begin_layout Description
+saisir_erreur :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+message [Chaine de caractère] : Message expliquant le dysfonctionnement
+ observé.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Description : Récupère le message saisi par le conducteur.
+\end_layout
+
+\begin_layout Section
+Guide de réponse au Cahier des charges
+\end_layout
+
+\begin_layout Subsection
+Grille d'évaluation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critère
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Importance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fiabilité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Robustesse
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Evolutivité / Maintenabilité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Compléxité maitrisée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Grille d'évaluation de réponse au cahier des charges
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
