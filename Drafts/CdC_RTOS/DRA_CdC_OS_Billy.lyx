@@ -1116,7 +1116,46 @@ Afin d'assurer une utilisation correcte du système, un document décrivant
  Ce document servira pour réaliser l'interface entre toute autre application
  et le système embarqué afin de pouvoir créer les paquets avec les commandes
  qui seront envoyés au système embarqué.
- 
+ Un RTOS doit être considéré comme une couche intermédiaire entre une applicatio
+n est les différentes ressources.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename rtos.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Positionnement du RTOS
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1192,16 +1231,108 @@ Contraintes imposées, faisabilité technologique et moyens
 Sûreté, planning, organisation, communication 
 \end_layout
 
-\begin_layout Subsection
-Complexité 
+\begin_layout Standard
+Les systèmes embarqués possèdent des contraintes particulières : 
+\end_layout
+
+\begin_layout Standard
+» L’encombrement : transport, taille réduite 
+\end_layout
+
+\begin_layout Standard
+» La consommation : transport, énergie limitée (batteries, piles).
+ 
+\end_layout
+
+\begin_layout Standard
+» Le temps : applications contraintes en temps 
+\end_layout
+
+\begin_layout Standard
+» La sécurité : situations critiques 
+\end_layout
+
+\begin_layout Standard
+On est obligés de tenir compte de toutes ces contraintes et de bien planifier
+ et organiser le developpement.
+ Il y aura trois personnes qui vont developper le RTOS.
+ Le travail sera organisé dans trois modules: Gestion des prelevés des données
+ et envoi vers le serveur central, Gestion des commandes de configuration,
+ Gestion des alertes.
+ Le developpement de ces tros modules sera fait en parallèle.
+ 
+\end_layout
+
+\begin_layout Standard
+Une interface de communication devra être définie entre les applications
+ du serveur central et le RTOS présent sur les systèmes embarqués.
 \end_layout
 
 \begin_layout Subsection
-Compétences, moyens et règles 
+Complexité, compétences, moyens, règles et normes
 \end_layout
 
-\begin_layout Subsection
-Normes de documentation
+\begin_layout Standard
+Vu que nous voulons un RTOS minimal, qui ne soit pas trop lourd et long
+ à mettre en oeuvre, cela va réduire la complexité.
+\end_layout
+
+\begin_layout Standard
+Les trois ingénieurs qui mettront en place le RTOS ont des compétences avancées
+ en systèmes d'exploitation temps réel et l'embarqué ainsi que des aptitudes
+ en developpement dans le langage C et Assambleur.
+ Dans le processus de developpement la méthode USDP sera employé.
+\end_layout
+
+\begin_layout Standard
+Avant de toute spécification et réalisation, un guide de stil ainsi qu'une
+ entière procedure de qualité nécessitera être mis en place afin d'assurer
+ la cohérence des documents et du code.
+ Les structures des différents documents, les bonnes practices de réalisation
+ des spécifications, de la conception et du code seront établis.
+ Tous ces règles devront être rigoreusement respectées par tous les membres
+ de l'équipe.
+ Une quatrième personne sera chargée de monitoriser le reste de l'équipe
+ et de vérifier que tous les régles sont respectées.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename usdp.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+La méthode de developpement USDP
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1226,6 +1357,188 @@ Guide de résponse au Cahier des charges
 
 \begin_layout Subsection
 Grille d'évaluation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critère
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Importance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fiabilité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+++++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Efficacité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Simplicité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+++++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Optimal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Maintenabilité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Sécurité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+++++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Grille d'évaluation de réponse au cahier des charges
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
