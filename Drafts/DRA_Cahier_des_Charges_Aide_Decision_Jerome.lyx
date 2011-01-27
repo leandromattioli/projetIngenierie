@@ -927,7 +927,7 @@ Présentation du problème
 \end_layout
 
 \begin_layout Subsection
-Contexte, objectifs, utilisateurs concernés
+But 
 \end_layout
 
 \begin_layout Standard
@@ -961,7 +961,7 @@ L'application coté serveur central sera utilisé par le personnel de la COPEVUE
 \end_layout
 
 \begin_layout Subsection
-Formulation des besoins
+Formulation des besoins (généraux), exploitation et ergonomie, expérience
 \end_layout
 
 \begin_layout Standard
@@ -1012,7 +1012,7 @@ offrir une interface ergonomique et simple d'utilisation
 \end_layout
 
 \begin_layout Subsection
-Mise en oeuvre
+Portée, développement, mise en œuvre, organisation de la maintenance 
 \end_layout
 
 \begin_layout Standard
@@ -1182,7 +1182,7 @@ Critères d'appréciation de la réalisation effective de la fonction
 \end_layout
 
 \begin_layout Standard
-La plannification sera considérée comme valide si elle propose un trajet
+La planification sera considérée comme valide si elle propose un trajet
  réaliste et sans danger pour le conducteur.
  Le superviseur aura donc la possibilité de connaître les conditions climatiques
  sur l'ensemble du trajet ainsi que l'état des routes.
@@ -1218,8 +1218,47 @@ Contraintes imposées, faisabilité technologique et éventuellement moyens
 Sûreté, planning, organisation, communication 
 \end_layout
 
+\begin_layout Standard
+Afin d'obtenir une planification optimale et sans erreur, le système ne
+ devra pas intégrer des sites dont le passage n'est pas nécessaire ou peu
+ utile.
+ En effet, bien que si un site dont les cuves n'ont pas encore atteind le
+ seuil critique puisse être visité par proximité avec un site dont le passage
+ est obligatoire, il ne faudra pas surcharger les parcours.
+ Si un grand nombre de site doivent être visités, il ne faudra pas rajouter
+ d'autres sites.
+\end_layout
+
+\begin_layout Standard
+La validation du trajets par le superviseur est obligatoire afin d'éviter
+ des demandes d'intervention absurde.
+ Cependant, une très grande fiabilité du système de calcul permettra de
+ simplifier cette vérification.
+\end_layout
+
+\begin_layout Standard
+La communication d'un site avec le système central doit être la meilleure
+ possible.
+ Dans le cas où un conducteur de camion remarque un dysfonctionnement, il
+ est plus que nécessaire que le message soit transmis immédiatement au serveur
+ central afin que le problème puisse être traité et réglé rapidemment.
+\end_layout
+
 \begin_layout Subsection
 Complexité 
+\end_layout
+
+\begin_layout Standard
+Bien que le programme de calcul des itinéraires prendra en compte un très
+ grand nombre de paramètres, il ne devra pas être trop complexe afin de
+ garantir sa fiabilité et sa capacité à proposer des trajets alternatifs
+ en cas d'invalidation par le superviseur.
+ 
+\end_layout
+
+\begin_layout Standard
+Pour l'application embarquée, le système de communication avec le serveur
+ central devra être très simple d'utilisation.
 \end_layout
 
 \begin_layout Subsection
@@ -1235,15 +1274,44 @@ Configuration cible
 \end_layout
 
 \begin_layout Subsection
-Matériel et logiciels 
+Matériel et logiciels
+\end_layout
+
+\begin_layout Standard
+Coté serveur central, aucun matériel suplémentaire n'est nécessaire.
+ Cependant, un accès internet est à prévoir pour tenir compte des conditions
+ cliamtiques.
+\end_layout
+
+\begin_layout Standard
+Les systèmes embarqués seront équipés d'écran LCD et de clavier.
+ 
+\end_layout
+
+\begin_layout Standard
+Que ce soit du coté serveur ou du coté système embarqué, l'application utilisé
+ par le service logistique sera intégré au programme de gestion de la communicat
+ion et d'analyse des valeurs relevées par les capteurs.
 \end_layout
 
 \begin_layout Subsection
 Stabilité de la configuration si nécessaire 
 \end_layout
 
+\begin_layout Standard
+Une fois le système installé et configuré, aucune reconfiguration n'est
+ nécessaire.
+ Les seuils de capteurs pouront être modifiés par le superviseur.
+ L'application les prendra immédiatemment en compte pour détecter les sites
+ à visiter et lancer une planification.
+\end_layout
+
 \begin_layout Subsection
 Description des API avec reste du système 
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Section
@@ -1252,6 +1320,148 @@ Guide de réponse au Cahier des charges
 
 \begin_layout Subsection
 Grille d'évaluation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critère
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Importance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fiabilité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Robustesse
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Evolutivité / Maintenabilité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Compléxité maitrisée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Grille d'évaluation de réponse au cahier des charges
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
