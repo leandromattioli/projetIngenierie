@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -631,7 +631,7 @@ Avancement du cahier des charges
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+27/01/2011
 \end_layout
 
 \end_inset
@@ -640,7 +640,7 @@ Avancement du cahier des charges
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+PITIOT Billy
 \end_layout
 
 \end_inset
@@ -649,7 +649,7 @@ Avancement du cahier des charges
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.2
 \end_layout
 
 \end_inset
@@ -658,7 +658,7 @@ Avancement du cahier des charges
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Fin du cahier des Charges
 \end_layout
 
 \end_inset
@@ -1350,26 +1350,118 @@ Configuration cible
 \end_layout
 
 \begin_layout Subsection
-Matériel et logiciels 
+Matériel et logiciels
+\end_layout
+
+\begin_layout Standard
+Le matériel utilisé sera celui choisi dans le relevé de décision édité lors
+ de la première partie de cette étude.
+ Il consiste en un processeur embarqué MSP430 associé à la carte mère vendue
+ avec ce processeur.
+ Des capteurs seront reliés aux entrées/sorties de la carte et des périphériques
+ communiquerons avec le système par les ports disponibles.
+\end_layout
+
+\begin_layout Standard
+Il n'y aura pas de logiciel disponibles pour les utilisateurs.
+ Le RTOS sera un système complètement autonome qui ne sera pas accessible
+ directement.
+ Les utilisateurs y accéderont au travers d'applications qui ne sont pas
+ décrites dans ce cahier des charges.
+ Pour plus d'informations sur les logiciels, aller voir le cahier des charges
+ IHM.
 \end_layout
 
 \begin_layout Subsection
 Stabilité de la configuration si nécessaire 
 \end_layout
 
-\begin_layout Subsection
-Description des API avec reste du système 
+\begin_layout Standard
+Notre RTOS doit être très stable.
+ Il doit être capable de gérer les cas inattendus, un flot d'information
+ important, de très longues périodes, ...
+ Pour cela, il devra être testé en profondeur avant la mise à disposition
+ aux clients.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Newpage pagebreak
+De même, il devra supporter différentes configurations et gérer les commandes
+ de reconfiguration en provenance du serveur.
+\end_layout
+
+\begin_layout Standard
+En cas de problème (perte de connexion, perte d'alimentation, ...), il doit
+ être capable de recevoir les commandes de reset (sur place ou à distance
+ si possible) et de continuer son travail comme s'il n'y avait eu aucun
+ problème.
+\end_layout
+
+\begin_layout Subsection
+Description des API avec le reste du système 
+\end_layout
+
+\begin_layout Standard
+Notre RTOS devra avoir au minimum les fonctions décrites ci-dessous.
+ Elles seront accesibles par les applications produites par ailleurs.
+\end_layout
+
+\begin_layout Itemize
+Lire_périphérique : permet de demander au RTOS de lire sur un périphérique
+ tel que le capteur et de retourner la donnée correspondante
+\end_layout
+
+\begin_layout Itemize
+Écrire_périphérique : permet de demander au RTOS d'écrire sur un périphérique
+ tel que l'écran LCD ou le système de communication satellitaire
+\end_layout
+
+\begin_layout Itemize
+Configurer : permet de reconfigurer le système pour changer des valeurs
+ de seuils, redémarrer, ...
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename /home/billy/programation/github/projetIngenierie/Drafts/API.png
+	lyxscale 30
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Schéma de description de l'API
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
 \begin_layout Section
-Guide de résponse au Cahier des charges
+Guide de réponse au Cahier des charges
 \end_layout
 
 \begin_layout Subsection
@@ -1560,6 +1652,16 @@ Grille d'évaluation de réponse au cahier des charges
 
 \begin_layout Section
 Conclusion
+\end_layout
+
+\begin_layout Standard
+La conception d'un RTOS est quelque chose de complexe qui nécessite beaucoup
+ de rigueur et de connaissances.
+ Mais nous allons faire un RTOS très minimaliste qui ne nécessite pas de
+ gestion de mémoire et de système de fichier, qui ne fera que traiter les
+ commandes et les données des capteurs.
+ Le point important est l'autonomie, le système embarqué doit être capable
+ de continuer son travail indéfiniment sans l'intervention de personne.
 \end_layout
 
 \end_body

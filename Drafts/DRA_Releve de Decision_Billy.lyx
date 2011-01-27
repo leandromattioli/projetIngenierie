@@ -144,7 +144,7 @@ Auteurs:
 \begin_inset Newline newline
 \end_inset
 
-PITIOT
+PITIOT Billy
 \end_layout
 
 \begin_layout Standard
@@ -178,7 +178,7 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-VISIMAX_<P>001
+VISIMAX_RD001
 \end_layout
 
 \end_inset
@@ -550,7 +550,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+27/01/2011
 \end_layout
 
 \end_inset
@@ -559,7 +559,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+PITIOT Billy
 \end_layout
 
 \end_inset
@@ -568,7 +568,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1.0
 \end_layout
 
 \end_inset
@@ -577,7 +577,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Création et fin
 \end_layout
 
 \end_inset
@@ -990,6 +990,10 @@ liaison filiaire pour les capteurs : c'est le type de liaison le moins cher
 RTOS : conception et réalisation d'un RTOS dédié qui nous permettra de satisfair
 e les besoins en sécurité, fiabilité et qui ne comportera pas toutes les
  fonctionnalités (inutiles dans notre cas) que comportent les autres RTOS.
+ En fait, nous n'avons besoin que d'un RTOS minimal qui ne nécessite pas
+ de système de fichier ou de gestion de mémoire, il ne fera que traiter
+ les commandes des applications et les données des capteurs avec un ordonnanceur
+ simple.
 \end_layout
 
 \begin_layout Subsection
