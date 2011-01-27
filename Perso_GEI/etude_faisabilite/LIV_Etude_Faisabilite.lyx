@@ -1776,17 +1776,9 @@ Il reste encore la possibilité de faire son propre RTOS.
  à cela.
  Cela nous permet aussi de gérer la sécurité et la reprise sur erreur efficaceme
 nt.
-\begin_inset VSpace smallskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Nous avons choisi de faire notre propre RTOS car nous avons dans l'équipe
- des ingénieurs qui ont une formation solide en conception et réalisation
- de RTOS et nous croyons fermement que cela sera rentable du fait d'un RTOS
- efficace, fiable et adapté à nos besoins.
+ Un RTOS minimal serait suffisant, ne comportant qu'un ordonnanceur associé
+ à une gestion intelligente des entrées/sorties et des pilotes pour les
+ différents périphériques.
 \end_layout
 
 \begin_layout Subsection
