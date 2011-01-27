@@ -1110,6 +1110,10 @@ CONFIGURATION À DISTANCE : le processeur doit être facilement configurable
 \begin_layout Itemize
 FAIBLE CONSOMMATION D'ÉNERGIE : le processeur ne doit pas trop consommer
  d'énergie car le système doit être autonome en énergie.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1355,6 +1359,13 @@ Stabilité de la configuration si nécessaire
 
 \begin_layout Subsection
 Description des API avec reste du système 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
