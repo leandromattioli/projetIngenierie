@@ -1,0 +1,2195 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\usepackage{setspace}
+\end_preamble
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename /home/leandro/projetIngenierie/Modeles/img/logo_visimax.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Title
+Plan de Management de Projet
+\begin_inset Newline newline
+\end_inset
+
+
+\size larger
+Système de monitoring à distance de sites isolés
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Maitrise d'Oeuvre:
+\series default
+ HEPTAWORKS
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Maitrise d'Ouvrage:
+\series default
+ COPEVUE
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Auteurs:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Leandro RESENDE MATTIOLI
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features>
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="3cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Référence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+VISIMAX_CDP03PMP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avancement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+validé
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☒ Validé
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dernière mise à jour
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Validé après modif.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Revalidé
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features>
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none" width="4cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Visa
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RESENDE MATTIOLI
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align right
+\begin_inset Graphics
+	filename /home/leandro/projetIngenierie/Modeles/img/logo_heptaworks.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Historique do document
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features>
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="7cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Auteur
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sujet de la modification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+21/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Leandro RESENDE MATTIOLI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Création du document.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+23/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Leandro RESENDE MATTIOLI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Organisation du Projet ajoutée.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Leandro RESENDE MATTIOLI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Moyens ajoutées
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Rappel du problème
+\end_layout
+
+\begin_layout Subsubsection
+Le contexte
+\end_layout
+
+\begin_layout Standard
+Le COPEVUE souhaite étudier un système de monitoring à distance de sites
+ isolés, situés dans de nombreuses régions de l'UE, pour mieux contrôler
+ ses besoins d'autonomie (en terme d'énergie, de déchets, etc).
+ Comme exemples de ces sites, on peut citer de nombreux lieux de travail
+ (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
+ etc).
+ Ce système doit permettre à COPEVUE faire un suivi pour pouvoir intervenir
+ en cas de problèmes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Les objectifs
+\end_layout
+
+\begin_layout Standard
+Le travail demandé consiste en une proposition d'une solution pour la mesure
+ et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
+ système.
+ 
+\end_layout
+
+\begin_layout Standard
+Le but de ce travail consiste à faire un étude de faisabilité, bien comme
+ la spécification technique de besoins et une proposition d'architecture
+ générique.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Présentation du document
+\end_layout
+
+\begin_layout Standard
+Le PMP est rédigé par le chef de projet de la MOA et sert comme un guide
+ indispensable de gestion de projet pour la réalisation du projet VISIMAX
+ sur l'année entière.
+ Il consiste d'une approche de décompositon de projet en sous-projets, organisat
+ion des équipes de travail, estimation de ses coûts, prévision des moyens
+ necessaires, la définition des méthodes de suivi de projet et, évidemment,
+ le planning previsionnel complet du projet.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il est consulté fréquemment par le CdP pour qu'il puisse bien savoir l'état
+ d'avancement du projet.
+ Le client aussi peut le consulter eventuellement, de façon qu'il sache
+ les mécanismes adoptées par le projet.
+\end_layout
+
+\begin_layout Subsection
+Documents applicables / Documents de référence
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables
+\end_layout
+
+\begin_layout Itemize
+le Dossier de Gestion de la Documentation;
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence
+\end_layout
+
+\begin_layout Itemize
+l'appel d'offre de COPEVUE;
+\end_layout
+
+\begin_layout Itemize
+Manuel du chef de projet;
+\end_layout
+
+\begin_layout Itemize
+Le document 
+\begin_inset Quotes fld
+\end_inset
+
+Quelques outils et Documentation pour le Chef de Projet pour la Deuxième
+ Partie
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Le document « Documents complémentaires concernant l’estimation de charges »
+\end_layout
+
+\begin_layout Subsection
+Terminologie et Abréviations
+\end_layout
+
+\begin_layout Paragraph
+PMP
+\end_layout
+
+\begin_layout Standard
+Plan de Management de Projet
+\end_layout
+
+\begin_layout Paragraph
+CdP
+\end_layout
+
+\begin_layout Standard
+Chef de Projet
+\end_layout
+
+\begin_layout Paragraph
+CdC
+\end_layout
+
+\begin_layout Standard
+Cahier de Charges
+\end_layout
+
+\begin_layout Paragraph
+MOA
+\end_layout
+
+\begin_layout Standard
+Maîtrise d'ouvrage
+\end_layout
+
+\begin_layout Paragraph
+MOE
+\end_layout
+
+\begin_layout Standard
+Maîtrise d'oeuvre
+\end_layout
+
+\begin_layout Paragraph
+RQ
+\end_layout
+
+\begin_layout Standard
+Responsable Qualité
+\end_layout
+
+\begin_layout Section
+Presentation du Projet
+\end_layout
+
+\begin_layout Subsection
+Liste des références contractuelles
+\end_layout
+
+\begin_layout Itemize
+Conformité à la norme ISO 9001
+\end_layout
+
+\begin_layout Paragraph
+NOTE DE VERSION
+\end_layout
+
+\begin_layout Standard
+Pour une version complète du PMP, les items montrés ci-dessous sont situés
+ dans des autres documents, de façon que dans le PMP seulement les références
+ de ses documents.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Le client aura un compte en ligne sur le site de l'entreprise, à partir
+ duquel il peut télécharger un rapport de l'état d'avancement du projet.
+\end_layout
+
+\begin_layout Itemize
+Les délais pas prevus vont déclencher une diminution du prix total du projet
+ selon un critère defini ultérieurement et basé sur la gravité du délai.
+\end_layout
+
+\begin_layout Itemize
+L'intervention du client pour valider/opiner sur les décisions du projet
+ est obligatoire et sera fait à partir de 12 revues externes distribuées
+ sur l'année.
+\end_layout
+
+\begin_layout Itemize
+Les modifications considerables vont occasionner des changements de prix
+ et délais en s'appuyant sur des méthodes pré-établies par l'entreprise.
+\end_layout
+
+\begin_layout Subsection
+Enjeux économiques
+\end_layout
+
+\begin_layout Standard
+En automatisant le monitoring de ses sites, COPEVUE souhaite réduire ses
+ coûts de surveillance.
+ Le système sera opérationnel dans un an et pourra être utilisé pour une
+ durée estimée de 75 ans.
+ En effet, les coûts associés au transport vont diminuer, car on aura une
+ meilleure planification (visite de plusieurs sites en un seule parcour).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Mettre tableau des couts.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Partage des responsabilités entre le maître d'oeuvre et le maître d'ouvrage
+\end_layout
+
+\begin_layout Standard
+La MOA est, premièrement, l'interface avec le Comité de Pilotage, en ayant
+ comme but l'assurance de la cohérence entre la solution proposée et les
+ besoins du client.
+ La MOA c'est l'équipe qui va exprimer les besoins du client sous la forme
+ des cahiers des charges formels et proposer une division de sous-projets
+ au niveau système.
+ En s'appuyant sur les cahiers de charges, la MOE va développer des solutions
+ techniques avec sa propre equipe ou sous-traiter ses composants.
+ Du à la taille du projet et à l'experience technique de l'entreprise, on
+ aura un Chef de Projet avec les 2 responsabilités: Chef MOA et Chef MOE.
+\end_layout
+
+\begin_layout Subsection
+Procedúres d'intégration des évolutions du PMP
+\end_layout
+
+\begin_layout Standard
+Les modifications majeures vont déclencher des avenants au contrat avec
+ le client, qui devront être negotiés avec les 2 parties (HEPTAWORKS et
+ COPEVUE).
+\end_layout
+
+\begin_layout Paragraph
+NOTE DE VERSION
+\end_layout
+
+\begin_layout Standard
+À détailler avec le client
+\end_layout
+
+\begin_layout Section
+Organisation du Projet et Structure Decisionnelle
+\end_layout
+
+\begin_layout Standard
+La figure TANANA présente la démarche organisation adoptée.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Schema Organisation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:organisation_projet"
+
+\end_inset
+
+Organisation du projet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'équipe concerné par le projet est décrite ci-dessous:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Comité de pilotage:
+\series default
+ constituée par des experts de COPEVUE, le comité de pilotage a de contact
+ direct avec la MOA et valide la solution proposé par rapport aux besoins.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Maîtrise d'ouvrage: 
+\series default
+la maîtrise d'ouvrage s'occupe de l'élaboration des besoins des utilisateurs,
+ la réalisation des études préalables, la rédaction des cahier des charges,
+ l'allocation des budgets, la définition des plannings, le suivi des prototypage
+s, l'accompagnement do changement, etc.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Maîtrise d'oeuvre:
+\series default
+ la maîtrise d'oeuvre 
+\begin_inset Quotes fld
+\end_inset
+
+propose des solutions techniques permettant l'obtention d'un résultat conforme
+ aux besoins exprimés dans le cahier des charges, en termes de coût, de
+ délai, de performance et de qualité
+\begin_inset Quotes frd
+\end_inset
+
+.
+ En plus, elle doit également définir les applications informatiques à réaliser
+ en interne, ainsi que les applications à sous-traiter.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+Comité technique et intégration: 
+\series default
+l'équipe technique s'occupe du suivi des sous-projets, la gestion de sous-traita
+nce et l'affectation des équipes internes pour les sous-projets.
+ C'est l'interface entre l'équipe projets, la MOA et l'équipe qualité.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Equipes projets: 
+\series default
+cette équipe est responsable pour la réalisation d'un sous-projet logiciel
+ ou matériel, c'est-a-dire le développement d'une solution technique qui
+ satisfaire un Cahier des Charges logiciel ou matériel pour un sous-projet
+ assez simple.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Equipe qualité: 
+\series default
+cette équipe assure le bon déroulement du projet d'un point de vue qualité,
+ en definissant des méthodes et règles à être respecté pour tout l'équipe
+ du projet.
+\end_layout
+
+\begin_layout Section
+Démarche de Developpement du Système
+\end_layout
+
+\begin_layout Subsection
+Cycle de vie du système
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Schema Cycle V
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le projet niveau système utilisera un cycle V
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+, présenté dans la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cycle_vie"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ À la fin de la première iteration, un prototype sera mise en place pour
+ la validation du client.
+ Ce prototype consistera de la configuration et démarrage d'un système de
+ monitoring d'un site avec système embarqué lié à 4 capteurs de niveau,
+ situés dans un rayon de 30 m du site isolé.
+ Après la validation du client, surtout pour ce qui concerne les commandes
+ disponibles et l'affichage de données obtenus du site, la déuxieme partie
+ du projet est démarré, pour bien assurer des situations plus génériques
+ et pour vérifier les conditions d'intégration (tests de le mecanisme d'aide
+ à la décision implementé).
+ En plus, une phase d'implantation et formation doit être conçu.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cycle_vie"
+
+\end_inset
+
+Cycle de vie du système
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Décomposition Logicielle, Matérielle, Temporelle et Choix des sous-projets
+\end_layout
+
+\begin_layout Standard
+La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:division_sous_ensembles"
+
+\end_inset
+
+ présente notre choix des sous-projets et ses sous-ensembles.
+ Les boîtes arrondies représentent les sous-projets et les boîtes carrées
+ représentent les sous-ensembles de chaque sous-projet.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/decomposition_systeme_pmp.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:division_sous_ensembles"
+
+\end_inset
+
+Décomposition en sous-projets et sous-ensembles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Décomposition fonctionnelle
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+A faire.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Organisation Fonctionnelle du Projet
+\end_layout
+
+\begin_layout Standard
+drrdrsd
+\end_layout
+
+\begin_layout Subsubsection
+Structure Hiérarchisée des produits Livrables
+\end_layout
+
+\begin_layout Standard
+rsdrsd
+\end_layout
+
+\begin_layout Subsubsection
+Structure Hiérarchique des Activités
+\end_layout
+
+\begin_layout Standard
+rsdsrd
+\end_layout
+
+\begin_layout Subsubsection
+Organigramme des Tâches du Projet
+\end_layout
+
+\begin_layout Standard
+PUTA MERDA!
+\end_layout
+
+\begin_layout Section
+Supports Methodologiques et Moyens à Mettre en Oeuvre
+\end_layout
+
+\begin_layout Subsection
+Moyens matériels
+\end_layout
+
+\begin_layout Standard
+Les moyens materiels utilisées par le projet seront:
+\end_layout
+
+\begin_layout Itemize
+15 stations de développement (ordinateur, accès internet).
+\end_layout
+
+\begin_layout Itemize
+2 imprimantes et 1 scanner.
+\end_layout
+
+\begin_layout Itemize
+réseaux internet et télephone.
+\end_layout
+
+\begin_layout Itemize
+forfait réseaux satelite.
+\end_layout
+
+\begin_layout Subsection
+Moyens logiciels
+\end_layout
+
+\begin_layout Itemize
+outils bureautique: (LyX et/ou OpenOffice).
+\end_layout
+
+\begin_layout Itemize
+systèmes de contrôle de version (Git ou Subversion).
+\end_layout
+
+\begin_layout Itemize
+simulateur des cartes electronics (LabCenter Electronics - Proteus VSM).
+\end_layout
+
+\begin_layout Itemize
+environment de développement integré adapté à systèmes embarqués (WindRiver
+ Workbench).
+\end_layout
+
+\begin_layout Itemize
+environment de développement integré adapté au développement de systèmes
+ Web (Aptana Studio, Eclipse avec support pour J2EE).
+\end_layout
+
+\begin_layout Itemize
+système de base de données (Oracle Database, MySQL, PostgreSQL).
+\end_layout
+
+\begin_layout Subsection
+Moyens humains
+\end_layout
+
+\begin_layout Standard
+Pour la prévision des charges du projet nous utilisons une version simplifié
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+c'est-a-dire plus adaptable au état de DRAFT actuel de ce document
+\end_layout
+
+\end_inset
+
+ de la méthode MCP de Gedin.
+\end_layout
+
+\begin_layout Subsubsection
+Étape 1: Calcul du coefficiente de complexité logique X
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critère
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+grossièrement estimé
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Évaluation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nombre de fichiers permanents
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Architecture et complexité des fichiers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Relations avec autres applications
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Perspectives d'évolutions prévues
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ampleur de l'automatisation prévue
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Connaissance des traitements
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Aide au calcul du coefficiente de complexité logique X
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Étape 2: Calcul du coefficient de difficulté pratique Y
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critère
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+grossièrement estimé
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Évaluation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Type des traitements
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Architecture et complexité des fichiers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+D
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Relations avec autres applications
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Perspectives d'évolutions prévues
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ampleur de l'automatisation prévue
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Connaissance des traitements
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Aide au calcul du coefficiente de complexité logique X
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Estimation des couts
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Les contraintes
+\end_layout
+
+\begin_layout Standard
+Du à l'interdépendance des composants du système, il existe des contraintes
+ liées à la planification.
+ Par exemple, le composant 
+\begin_inset Quotes fld
+\end_inset
+
+Integration Système Embarqué + Services Web
+\begin_inset Quotes frd
+\end_inset
+
+ dépend du sous-ensemble 
+\begin_inset Quotes fld
+\end_inset
+
+Configuration Distante
+\begin_inset Quotes frd
+\end_inset
+
+ et de quelques Services Web.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Subsection
+Contraintes liés à l'organisation
+\end_layout
+
+\begin_layout Subsection
+Contraintes liées à la planification
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Gestion de Configuration au niveau Système
+\end_layout
+
+\begin_layout Standard
+(non traitée dans cette ébauche)
+\end_layout
+
+\begin_layout Section
+Facteurs de Risque
+\end_layout
+
+\begin_layout Subsection
+Risques Organisationnels
+\end_layout
+
+\begin_layout Standard
+Un suivi rigoureux est mise en place pour chaque sous-projet, avec l'accompagnem
+ent de chaque membre de l'équipe.
+ En plus, du au faible niveau d'experience de l'équipe dans ce domaine,
+ une marge de sécurité est adoptée.
+ Dans le cas d'une mauvaise prévision / surcharge, une politique de sous-traitan
+ce est mise en place, sans compromettre les prix établis avec le client.
+\end_layout
+
+\begin_layout Subsection
+Risques Techniques
+\end_layout
+
+\begin_layout Standard
+En considerant les contraintes de généricité et fiabilité imposées dans
+ ce projet, nous choisissons des differents versions du système, adaptés
+ à chaque environment.
+ Cependant, le client est consulté pour la définition et validation de quelques
+ restrictions de projet.
+\end_layout
+
+\begin_layout Subsection
+Risques Financiers
+\end_layout
+
+\begin_layout Standard
+Les estimations des coûts seront raffinés pendant le déroulement du projet,
+ ce qui permettra une bonne des prix dans les phases de conception.
+ Cependant, les cas de sous-estimation et surestimation sont prevus et acceptabl
+es pour les composants logiciels, sauf dans la situation d'une difference
+ superieur à 15% de la valeur estimée au debut.
+ Dans ce cas, une réunion de décision est fait avec le client.
+\end_layout
+
+\begin_layout Subsection
+Risques Humains
+\end_layout
+
+\begin_layout Standard
+Dans la situation dont un membre de l'équipe n'est pas disponible pour réaliser
+ une tâche, le CdP doit fournir un ensemble alternative d'affectations de
+ tâches.
+\end_layout
+
+\begin_layout Standard
+En plus, si l'équipe constate que le projet est trop grand pour bien concevoir
+ et réaliser, une politique de sous-traitance doit être mise en place
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+ce qui portera un ajout du coût du projet
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Risques Juridiques
+\end_layout
+
+\begin_layout Standard
+La permission juridique pour la mise en place des systèmes electronics et
+ communication par sattelite dans les sites isolés est de entière responsabilité
+ du client.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Organisation et Documents de Suivi
+\end_layout
+
+\begin_layout Standard
+Quelques simples mécanismes de suivi sont utilisés lors de la réalisation
+ du projet, à savoir:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Journal de bord hebdomanaire --
+\series default
+ à être rédigé par tout les membres de l'équipe, en précisant le travail
+ attendu et le travail réel réalisé.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Revue internes mensuels --
+\series default
+ 12 revues internes sont prévues, pour assurer la cohérence de comprehension
+ du problème et des choix effectuées.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Revues externes --
+\series default
+ 12 revues externes sont prévues, en ayant les documents suivants.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+avant une revue externe :
+\emph default
+ une fiche de révue est crée pour bien définir les objectifs de la réunion
+ et distribuer les sujets dans le temps;
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+après une révue externe :
+\emph default
+ la fiche de revue a aussi une zone pour noter tous les commentaires du
+ client, en prennant en considération les points forts et faibles.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Dans cette ébauche, les modèles des fiches ne sont pas présentées.
+\end_layout
+
+\begin_layout Section
+Bilan de Projet Système
+\end_layout
+
+\begin_layout Paragraph
+NOTE DE VERSION
+\end_layout
+
+\begin_layout Standard
+Pas traité dans cette ébauche
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+Ce document present des activités essentielles à la gestion de projet pendant
+ tout sa realisation, et doit être consulté souvent.
+ Cependant, il faut bien savoir qu'il est susceptible à des modifications
+ (qui sont même souhaitables pour améliorer la précision des prévisions).
+ 
+\end_layout
+
+\end_body
+\end_document

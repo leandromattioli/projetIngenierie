@@ -1444,21 +1444,6 @@ Titre du document
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Pas respecté.
-\end_layout
-
-\end_inset
-
- Sous-titre ou courte description - objet du document pour décrire brièvement
- le document (quelques lignes au maximum).
- 
-\end_layout
-
-\begin_layout Itemize
 Auteurs (nom, prénom) 
 \end_layout
 
