@@ -1,0 +1,1553 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\options titlepage
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Title
+Cahier des charges pour le système d'exploitation
+\begin_inset Newline newline
+\end_inset
+
+
+\size larger
+Système de monitoring à distance de sites isolés
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Maitrise d'Oeuvre:
+\series default
+ H4312
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Maitrise d'Ouvrage:
+\series default
+ COPEVUE
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Auteurs:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+BELHADJ AISSA Soraya
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features>
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="4cm">
+<column alignment="left" valignment="top" width="3cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Référence
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Nom de référence du document
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Version du document
+\end_layout
+
+\end_inset
+
+ 1.0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avancement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Validé
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dernière mise à jour
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Validé après modif.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+☐ Revalidé
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features>
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none" width="4cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Visa
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+27/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Nom du responsable
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5in
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lyxline
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Historique du document
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features>
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="7cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Auteur
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Version
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sujet de la modification
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+24/01/2011
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Soraya Belhadj Aissa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Création
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Subsection
+Rappel du problème
+\end_layout
+
+\begin_layout Subsubsection
+Le contexte
+\end_layout
+
+\begin_layout Standard
+Le COPEVUE souhaite étudier un système de monitoring à distance de sites
+ isolés, situés dans de nombreuses régions de l'UE, pour mieux contrôler
+ ses besoins d'autonomie (en terme d'énergie, de déchets, etc).
+ Comme exemples de ces sites, on peut citer de nombreux lieux de travail
+ (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
+ etc).
+ Ce système doit permettre à COPEVUE faire un suivi pour pouvoir intervenir
+ en cas de problèmes.
+\end_layout
+
+\begin_layout Subsubsection
+Les objectifs
+\end_layout
+
+\begin_layout Standard
+Le travail demandé consiste en une proposition d'une solution pour la mesure
+ et le monitoring des sites isolés, c'est-à-dire étudier et concevoir ce
+ système.
+ 
+\end_layout
+
+\begin_layout Standard
+Le but de ce travail consiste à faire un étude de faisabilité, bien comme
+ la spécification technique de besoins et une proposition d'architecture
+ générique.
+\end_layout
+
+\begin_layout Subsection
+Présentation du document
+\end_layout
+
+\begin_layout Standard
+Le Dossier d'Initialisation a comme but de définir l'organisation du travail
+ en équipes, la liste des livrables attendus (et suggerés par le CdP), les
+ méthodes pour le suivi du projet et la description de la Gestion de Risques
+ de projet.
+ Ce document aura 2 parties, dont la première traitera de la première phase
+ du travail qui consiste en l'étude de faisabilité, la spécification technique
+ des besoins et une ébauche d'architecture.
+ La deuxième partie comprendra la conception et une proposition de division
+ en sous-ensembles.
+\end_layout
+
+\begin_layout Subsection
+Documents applicables / Documents de référence
+\end_layout
+
+\begin_layout Subsubsection
+Documents applicables
+\end_layout
+
+\begin_layout Itemize
+le Dossier de Gestion de la Documentation;
+\end_layout
+
+\begin_layout Itemize
+le Procédure de rédaction d'un dossier d'initialisation;
+\end_layout
+
+\begin_layout Itemize
+le Dossier de Conception 
+\end_layout
+
+\begin_layout Itemize
+la Spécification Technique des Besoins 
+\end_layout
+
+\begin_layout Itemize
+les Best Practice pour la rédaction du Cahier Des Charges
+\end_layout
+
+\begin_layout Subsubsection
+Documents de référence
+\end_layout
+
+\begin_layout Itemize
+l'appel d'offre de COPEVUE;
+\end_layout
+
+\begin_layout Itemize
+Manuel du chef de projet.
+\end_layout
+
+\begin_layout Section
+Présentation du problème 
+\end_layout
+
+\begin_layout Subsection
+But 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Le site central doit être capable de detecter le niveau des récipients afin
+ de prévenir le trop plein de déchets ou le seuil critique de fuel dans
+ d'autres cas.
+ Nous avons choisi d'informatiser le processus de vérification, de configuration
+ et de planification de maintenance afin de réduire les déplacement longs,
+ couteux et facilement évitable avec une application informatique qui communique
+ avec un serveur sur le site centrale.
+\end_layout
+
+\begin_layout Subsection
+Formulation des besoins (généraux), exploitation et ergonomie, expérience
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Il doit aussi etre capable de diagnostiquer au mieux tout problème ou anomalie
+ avant de signaler à l'agence afin qu'elle envoie un agent effectuer la
+ maintenance ou l'approvisionnement sur le site à distance.
+ Une application informatique est nécessaire pour effectuer la maintenance
+ et la configuration.
+ Les sites distants doivent pouvoir être configurés et maintenus à distance
+ pour éviter les déplacement inutiles de techniciens.
+ Elle doit permettre d'envoyer des requetes de lecture des données en provenance
+ des capteurs et de les receptionner par la suite.
+ Elle permettra également d’envoyer des commandes de configuration des capteurs
+ et de consulter les informations sur l’état du site distant.
+ Elle sera ainsi capable de faire la traçabilité des opérations de maintenance
+ et le suivi du niveau des cuves.
+ Cette application s’exécute via le serveur web du site central.
+ L’interface homme machine de l’application devra être adaptée aux utilisateurs
+ qu'on déterminera dans cette étude.
+ Une deuxiéme application raccordée au systéme embarqué est necessaire pour
+ effectuer la maintenance sur site.
+ Elle présnetera quelques fonctionnalités communes à l'application raccordée
+ au serveur central qui sont le signalement d'un probleme visible ou le
+ pointage et enregistrement d'avis d'intervention.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+En ce qui concerne l'application reliée au serveur, afin de répondre à la
+ contrainte de portabilité, on pourrais envisager une application web de
+ type Rich Internet Application (RIA), qui a aucune besoin d'installation
+ et les mises à jour ainsi que leur distribution sont instantanées.
+ Elle offre aussi offre une bonne maniabilité et une ergonomie.
+ Ce qui permettrait à l'utilisateur ayant les droits d'accés à l'application
+ reliée au serveur d'acceder à l'application web via son smartphone en cas
+ d'urgence.
+\end_layout
+
+\begin_layout Subsection
+Portée, développement, mise en œuvre, organisation de la maintenance
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+La mise en œuvre du systéme informatique peut etre décomposée en trois grandes
+ sous étapes : 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+La première phase consiste à concevoir, developper et tester le noyau et
+ l'IHM de l'application.
+ Le développement de cette application sera décomposé essentiellement de
+ deux modules principaux : la communication avec les applications sur le
+ système embarqué et le developpement de l'IHM.
+ Mise à part ces deux modules, le noyau de l'application ne contient pas
+ des traitements laborieux.
+ L’interface homme machine de chacune de ces applications devra donc être
+ décrite de manière très précise au sein du dossier de conception.
+ La phase de tests est une phase non négligeable surtout qu'il s'agit d'une
+ application critique.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+La deuxième phase consiste à l'installation des serveur, leur deploiment
+ dans le site central et .
+ On procede par la suite aux tests de tout les processus d’acquisition et
+ de traitement des données reçues, ainsi que des processus de maintenance
+ et de configuration.
+ Cette phase servira aussi de tests matériels et technologies.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Durant la derniére phase, l'apprentissage de l'utilisation de l'application
+ et la formation des utilisateurs de l'application aux technologies qui
+ vont être à leur disposition.
+\end_layout
+
+\begin_layout Subsection
+Limites
+\end_layout
+
+\begin_layout Standard
+Les limites de notre application sont d'une part technologique : L'acces
+ à une application web est d'une part ergonmique, portable et présente plusieurs
+ autres avantages mais d'autres part la quantité et la qualité du tranfert
+ est trés limité par la vitesse de transfert et les technologies employés.
+ La fiabilité et l'intégrité des données sont quant à elles limités par
+ la fiabilité des capteurs, celle du systéme embraqué et du systéme de communica
+tion.
+ Les performances de l'application sont aussi d'autre part limités par les
+ capacités intellectuelles de ses utilisateurs.
+\end_layout
+
+\begin_layout Section
+Exigences fonctionnelles 
+\end_layout
+
+\begin_layout Subsection
+Fonctions de base, performances et aptitudes 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+En se basant sur l'appel d'offre fourni par la société COPEVUE et suite
+ aux interviews et revue réalisés avec le client, nous avons pu lors de
+ l'etude de faisabilité, l'etude des besoins et le dossier de conception,
+ nous avons pu dégager les fonctions de base de l'application : 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Redémarrer le système embarqué à la site distance 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Mettre à jour le journal de bord afin de sauvegarder la traçabilité dans
+ la base de données depuis la derniére mise à jour
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Consulter des données sur le serveur de base des données 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Optimiser la planification de maintenance préventive et corrective sur site
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Consulter la traçabilité des opérations effectuées sur le système de configurati
+on par l'opérateur que ce soit de l'application web ou sur le systéme embarqué.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Changer la période d'acquisition des données 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Configurer les capteurs en modifiant les seuils d'alarmes 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Sauvegarder/Charger une configuration 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Configurer la gestion de données Maintenance 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Notificatier les problèmes ou anomalies declenchés automatiquement ou par
+ opérateur sur site 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Planification des maintenances préventive 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Planification automatique et périodique ( Changement de batteries, vérification
+ de fonctionnement ) 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Consulter la traçabilité des opérations de maintenance à travers l'application
+ ou sur site 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Définition du niveau de criticité d'une alerte 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Planification automatique ou manuelle le maintenance selon le lieu de site
+ et la disponibilité des techniciens 
+\end_layout
+
+\begin_layout Subsection
+Contraintes d'utilisation 
+\end_layout
+
+\begin_layout Standard
+Les informations manipulées par notre application ne sont pas trés importante
+ et leur acquisition ne constitue pas un danger sauf dans le cas h
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Même si les informations accessibles depuis l’application ne sont pas des
+ plus importantes, elles ne doivent pas être accessibles pas n’importe qui.
+ L’application devra donc posséder un système d’authentification avec login
+ et mot de passe.
+ Cela permettra d’adapter automatiquement l’application en fonction du rôle
+ de l’utilisateur.
+ 
+\end_layout
+
+\begin_layout Subsection
+Critères d'appréciation de la réalisation effective de la fonction
+\end_layout
+
+\begin_layout Subsubsection
+Fiabilité 
+\end_layout
+
+\begin_layout Standard
+Un redémarrage manuel n'est pas envisageable dans l’application serveur
+ car le serveur est censé fonctionner en permanence.
+ Toutes les données doivent être traitées et stockées sans perte.
+ De plus, les informations échangées avec les applications utilisateur ne
+ doit pas être perdues ou erronées.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Robustesse 
+\end_layout
+
+\begin_layout Standard
+L’application serveur doit toujours revenir dans un état stable, même en
+ cas de redémarrage forcé pour cause d'évènements extérieurs (EMP, ou source
+ d'énergie défaillante).
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Sécurité 
+\end_layout
+
+\begin_layout Standard
+L’application serveur doit se montrer un haut niveau de sécurité : Les comptes
+ utilisateurs et les droits associés doivent être gérés de manière centralisée.
+ Les communications nécessitent une authentification donnant lieu à une
+ session, certaines communications peuvent être cryptées.
+ Une protection au moyen de pare-feux est envisageable.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Efficacité 
+\end_layout
+
+\begin_layout Standard
+L’application doit pourvoir traiter rapidement un grand nombre de requêtes
+ simultanées pouvant nécessiter de nombreuses interactions avec la base
+ de données.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Généricité 
+\end_layout
+
+\begin_layout Standard
+La problématique rencontrée (surveillance de systèmes à distance) sera de
+ plus en plus utilisée dans le futur, cependant les principales fonctionnalités
+ d’une application gérant un système de surveillance se résument toujours
+ en interactions avec une base de données, traitement des requêtes utilisateurs
+ et échanger des données avec des systèmes externes.
+ L’application serveur doit rester assez générique, c’est-à-dire être capable
+ de s’adapter aux nombreuses situations dans le contexte du système de surveilla
+nce.
+ Pour cela une architecture modulaire est nécessaire et les composants logiciels
+ doivent être les plus possibles.
+ Des progiciels standards pourront être mis en oeuvre et des composants
+ génériques et réutilisables pourront être développés.
+\end_layout
+
+\begin_layout Subsection
+Flexibilité dans la façon de mettre en œuvre la fonction concernée et variation
+ de coûts associée en fonction de cette flexibilité 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+La généricité étant l'une des principales exigences du système, il convient
+ de concevoir la couche de gestion de maintenance et configuration de sort
+ à pouvoir modifier facilement les services proposés en cas de changement
+ de capteur ou type de mesures.
+ Ainsi qu'elle dois proposer une interface de base, qui masque l'implémentation
+ aux autres modules du système.
+
+\series default
+ 
+\end_layout
+
+\begin_layout Section
+Contraintes imposées, faisabilité technologique et éventuellement moyens
+ 
+\end_layout
+
+\begin_layout Subsection
+Compétences, moyens et règles 
+\end_layout
+
+\begin_layout Subsubsection
+Etude et interviews des utilisateurs
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Dans cette partie, il s'agit de déterminer les types d'utilisateurs pouvant
+ utiliser les applications nécessaire.
+ Pour répondre au mieux aux besoins de l'utilisateur potentiel des applications,
+ il est nécessaire de connaître son profil.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+La méthode utilisée pour définir notre utilisateur type est celle de l'interview.
+ Nous avons interrogé différentes personnes qui ont potentiellement un rapport
+ avec les application que nous réaliserons par la suite pour la suivi et
+ la supervision des sites où il y a des cuves mais également dans le client
+ expert chargé d'évaluer le projet.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Le but de cet interview est de définir : 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+la classe d'âge et le sexe 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+leur niveau de technicité en informatique 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+leur niveau d'expertise en supervision de sites isolés 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+leur aptitude à accepter les nouvelles technologies de l'utilisateur des
+ applications qui seront developpées.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+L'ensemble des réponses, données par les personnes interviewées, a permis
+ d'obtenir les résultats suivants.
+ 
+\end_layout
+
+\begin_layout Standard
+l'âge et le sexe :
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+95% d'hommes et 5% de femmes 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+25% des personnes intérogées avaient moins de 40 ans, 55% avaient entre
+ 40 et 55 ans et 20% avaient plus de 55 ans.
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Equipement informatique utilisé: 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+75% n'ont jamais utilisé de PDA mais 60% de cette population ont déjà utilisé
+ ou possédent un smartphone dont l'utilisation ressemble à un smartphone
+ 
+\end_layout
+
+\begin_layout Itemize
+15% ont déjà utilisé des PDA mais dans des applications industrielles trés
+ restreintes
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+10% sont trés à l'aise avec l'informatique
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Le niveau d'expertise dans les sites isolés 
+\end_layout
+
+\begin_layout Itemize
+90% des gens qui font partie de COPEVUE n'ont pas d'expérience dans la supérvisi
+on des sites isolés
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+100% la totalité des gens employés (conducteurs de camions) par la sociéte
+ de maintenance sont expert en supérvision et maintenancedes sites isolés
+\end_layout
+
+\begin_layout Standard
+La capacité d'un individu à accepter les nouvelles technologies est difficilemen
+t déterminable à travers une simple interview.
+ Nous avons décidé donc de fixer ce critére en fonction de l'age et du sexe
+ et suivant des idées reçues pas si fausses que ça qui consiste à dire qu'un
+ homme est plus habile avec les nouvelles technologies qu'une femme et plus
+ on est vieux moins on accepte les nouvelles technologies.
+ D'aprés ces critéres et les nombres obtenues, on dégage:
+\end_layout
+
+\begin_layout Itemize
+45% des employés accepteraient les nouveautés technologiques dans leur entrepris
+e avec joie.
+\end_layout
+
+\begin_layout Itemize
+30% des employés accepteraient les nouveautés technologiques aprés des réunions
+ d'information et des formations sur leur utilisation.
+\end_layout
+
+\begin_layout Itemize
+25% n'acceptront pas la solution technologique et seront affectés à d'autres
+ taches
+\end_layout
+
+\begin_layout Subsubsection
+Description des profils utilisateurs
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+L'ensemble de ces statistiques nous permettent d'identifier les personnes
+ présentes dans l'entreprise qui pourraient prendre les postes de superviseurs,
+ d'agents et de conducteurs de camions et de définir leurs profils:
+\end_layout
+
+\begin_layout Itemize
+Le profil superviseur : expert adminstrateur serveur ou site web, doit aussi
+ être formé à la supervision de site.
+ Selon les moyens, ce profil peut être divisé en deux profils un informaticien
+ et un expert supervision de site afin de mener à bien les deux taches.
+\end_layout
+
+\begin_layout Itemize
+Le profil agent : agent ne présente pas des capacités particuliéres en informati
+que ni en supervision, il a juste besoin d'une formation à l'utilisation
+ du logiciel et sur la supervision de site.
+ Il peut surveiller, controller mais ne peut pas prendre la décision tout
+ seul d'affectuer des taches de maintenance ou de reconfiguration.
+\end_layout
+
+\begin_layout Itemize
+Le profil conducteur de camions : expert en supervision de site, doit quand
+ même recevoir une formation sur l'utilisation du RTOS deployé sur les sites.
+\end_layout
+
+\begin_layout Subsection
+Normes de documentation 
+\end_layout
+
+\begin_layout Section
+Configuration cible 
+\end_layout
+
+\begin_layout Subsection
+configuration matérielle et logicielle
+\end_layout
+
+\begin_layout Standard
+Comme nous l’avons déjà mentionné dans le dossier de conception, le module
+ « site central » se compose de deux serveurs : 
+\end_layout
+
+\begin_layout Itemize
+Un serveur d'applications 
+\end_layout
+
+\begin_layout Itemize
+Un serveur de base de données 
+\end_layout
+
+\begin_layout Standard
+Pour les deux serveurs, nous proposons l'acquisition de deux modèles Dell
+ qui assurent des performances de niveau professionnel et fournissent des
+ options de redondance de données et d'administration exhaustives pour le
+ SGBD et une capacité de calcul et de prise en compte à temps des traitement
+ à effectuer dans une tour à un socket facile à acquérir, déployer et gérer.
+ Les configurations pour le serveur de données et le serveur d'applications
+ seront cependant différentes.
+\end_layout
+
+\begin_layout Section
+Guide de réponse au cahier des charges 
+\end_layout
+
+\begin_layout Subsection
+Grille d'évaluation 
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\end_body
+\end_document
