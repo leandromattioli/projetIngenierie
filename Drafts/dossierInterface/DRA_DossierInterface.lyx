@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -1399,6 +1399,11 @@ FONCTION getValeursCapter(ID idCapteur, Liste parametres) - permet au système
 \begin_layout Standard
 FONCTION sendReleve(ID idReleve) - permet au système embarqué d'envoyer
  le relève des valeurs des capteurs au serveur central.
+\end_layout
+
+\begin_layout Standard
+FONCTION configure(Liste parametre, Liste valeurs) - permet à un superviseur
+ de (re)configurer le système embarqué.
 \end_layout
 
 \end_body
