@@ -999,8 +999,33 @@ Choix applicatifs
 \begin_layout Standard
 Notre système comprendra deux applications permettant à des opérateurs de
  dialoguer avec lui.
- La première application et la plus évoluée sera une application web, ce
- qui permettra 
+\end_layout
+
+\begin_layout Standard
+La première application et la plus évoluée sera une application web, ce
+ qui permettra une très grande adaptabilité car le superviseur pourra y
+ accéder de n'importe quel type de périphérique.
+ Grâce à cette application, il pourra gérer entièrement le système, avoir
+ accès à l'état de tous les sites, planifier la maintenance à effectuer,
+ reconfigurer les sites, ...
+\end_layout
+
+\begin_layout Standard
+La seconde utilisera l'écran LCD du système embarqué et permettra la communicati
+on avec le serveur central et la configuration du système.
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+L'architecture de notre système et l'utilisation de ces différents composants
+ sera détaillé dans le dossier de conception.
+ Ils correspondent à ce que nous pensons être le plus adapté dans le cas
+ de cette étude mais ne correspondent pas à la seule possibilité.
+ Si le client conteste ces choix, ils pourront être réévalués de façon à
+ correspondre plus exactement aux besoins du client.
 \end_layout
 
 \end_body
