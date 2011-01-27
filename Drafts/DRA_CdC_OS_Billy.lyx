@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -939,7 +939,7 @@ Documents de référence
 \end_layout
 
 \begin_layout Itemize
-les TD n°4 et 5 du cyclc R.Aubry et 4IF
+les TD n°4 et 5 du cycle R.Aubry et 4IF
 \end_layout
 
 \begin_layout Itemize
@@ -981,13 +981,13 @@ Portée, développement, mise en œuvre, organisation de la maintenance
 \begin_layout Standard
 Le RTOS sera développé par nos soins.
  Il y aura un temps nécessaire à son développement au départ mais ensuite
- il sera entièrement réutilisable sans besoin de le modifié à nouveau.
+ il sera entièrement réutilisable sans besoin de le modifier à nouveau.
 \end_layout
 
 \begin_layout Standard
-La maintenance de notre RTOS ne sera pas très compliqué.
+La maintenance de notre RTOS ne sera pas très compliquée.
  Il sera testé de la manière la plus exhaustive possible au départ, puis
- par la suite, après sa mise en service dans les différents sites isolé,
+ par la suite, après sa mise en service dans les différents sites isolés,
  s'il y a des problèmes qui surviennent, une personne ayant participé au
  développement du RTOS sera mobilisée pour résoudre le problème.
 \end_layout
@@ -997,7 +997,16 @@ Limites
 \end_layout
 
 \begin_layout Standard
-Notre RTOS sera limité par les performances du processeur, ...
+Notre RTOS sera principalement limité par les performances du processeur.
+ Un RTOS facilite la création d'un système temps réel, mais ne garantit
+ pas que le résultat final respecte les contraintes temps réel, ce qui exige
+ le développement correct du logiciel.
+ Il n'a pas nécessairement pour but d'être performant et rapide, mais fournit
+ des services et des primitives qui, si elles sont utilisées correctement,
+ peuvent garantir les délais souhaités.
+ Un RTOS utilise des ordonnanceurs spécialisées afin de fournir aux développeurs
+ des systèmes temps réel les outils et les primitives nécessaires pour produire
+ un comportement temps réel souhaité dans le système final.
 \end_layout
 
 \begin_layout Section
@@ -1014,7 +1023,7 @@ GESTION DE CAPTEURS : le processeur doit être capable de gérer les données
 \end_layout
 
 \begin_layout Itemize
-GESTION DE RÉSEAU : le processeur doit pouvoir s'interfacer avec des composant
+GESTION DE RÉSEAU : le processeur doit pouvoir s'interfacer avec des composants
  réseau pour pouvoir envoyer les données à un serveur central.
 \end_layout
 
@@ -1022,7 +1031,7 @@ GESTION DE RÉSEAU : le processeur doit pouvoir s'interfacer avec des composant
 PRÉ-TRAITEMENT : le processeur doit disposer d'une puissance suffisante
  pour faire un pré-traitement des données des capteurs.
  Par exemple, il doit pouvoir déterminer si des informations sont prioritaires
- car très importantes ou si au contraire elles n'exigent pas une grande
+ car très importantes ou si, au contraire, elles n'exigent pas une grande
  vitesse de réaction.
 \end_layout
 
@@ -1043,17 +1052,21 @@ FAIBLE CONSOMMATION D'ÉNERGIE : le processeur ne doit pas trop consommer
 Contraintes d'utilisation 
 \end_layout
 
+\begin_layout Standard
+
+\end_layout
+
 \begin_layout Subsection
 Critères d'appréciation de la réalisation effective de la fonction 
 \end_layout
 
 \begin_layout Subsection
 Flexibilité dans la façon de mettre en œuvre la fonction concernée et variation
- de coûts associée en fonction de cette flexibilité
+ de coûts associés en fonction de cette flexibilité
 \end_layout
 
 \begin_layout Section
-Contraintes imposées, faisabilité technologique et éventuellement moyens
+Contraintes imposées, faisabilité technologique et moyens
 \end_layout
 
 \begin_layout Subsection
