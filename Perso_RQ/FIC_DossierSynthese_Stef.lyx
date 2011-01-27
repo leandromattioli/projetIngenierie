@@ -1321,47 +1321,47 @@ Coûts de la solution
 \end_layout
 
 \begin_layout Itemize
-serveur Dell PowerEdge T110 : 2*900$
+serveur Dell PowerEdge T110 : 2*900€
 \end_layout
 
 \begin_layout Itemize
 processeur embarqué MSP430 et la carte mère associée + écran lcd : environ
- 300$/site isolé
+ 300€/site isolé
 \end_layout
 
 \begin_layout Itemize
-système de communication par satellite : 200$/site isolé + 1 pour le site
+système de communication par satellite : 200€/site isolé + 1 pour le site
  central
 \end_layout
 
 \begin_layout Itemize
-liaison filiaire pour les capteurs : 100$/site isolé
+liaison filiaire pour les capteurs : 100€/site isolé
 \end_layout
 
 \begin_layout Itemize
-conception SI et développement RTOS et application web : 10000$
+conception SI et développement RTOS et application web : 10000€
 \end_layout
 
 \begin_layout Itemize
-capteurs SauerDanFos : 400$/site isolé
+capteurs SauerDanFos : 400€/site isolé
 \end_layout
 
 \begin_layout Itemize
-abonnement satellite au ko : 150$/mois
+abonnement satellite au ko : 150€/mois
 \end_layout
 
 \begin_layout Itemize
-agences de maintenance : environ 500$/mois (très dépendant du type de maintenanc
+agences de maintenance : environ 500€/mois (très dépendant du type de maintenanc
 e à effectuer : fréquence des trajets)
 \end_layout
 
 \begin_layout Itemize
-salaire du superviseur : 2000$/mois
+salaire du superviseur : 2000€/mois
 \end_layout
 
 \begin_layout Itemize
 Frais de location, électricité, abonnement internet, ...
- : 800$/mois
+ : 800€/mois
 \end_layout
 
 \begin_layout Standard
@@ -1370,11 +1370,11 @@ Pour un système comportant 100 sites contenant chacun 5 capteurs, nous obtenons
 \end_layout
 
 \begin_layout Itemize
-Investissement initial : 272000$
+Investissement initial : 272000€
 \end_layout
 
 \begin_layout Itemize
-coût par mois : 3450$
+coût par mois : 3450€
 \end_layout
 
 \begin_layout Section
