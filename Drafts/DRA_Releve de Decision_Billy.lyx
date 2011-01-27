@@ -19,7 +19,7 @@
 \font_tt_scale 100
 
 \graphics default
-\float_placement H
+\float_placement h
 \paperfontsize 12
 \spacing single
 \use_hyperref true
@@ -76,7 +76,12 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 1in
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../Modeles/img/logo_visimax.png
+	scale 70
+
 \end_inset
 
 
@@ -96,7 +101,7 @@ height_special "totalheight"
 status open
 
 \begin_layout Title
-Dossier de synthèse
+Relevé de Décision
 \begin_inset Newline newline
 \end_inset
 
@@ -111,20 +116,13 @@ Système de monitoring à distance de sites isolés
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 1in
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \noindent
 \align center
 
 \series bold
 Maitrise d'Oeuvre:
 \series default
- H4312
+ HEPTAWORKS
 \series bold
 
 \begin_inset Newline newline
@@ -146,13 +144,7 @@ Auteurs:
 \begin_inset Newline newline
 \end_inset
 
-Stefana Gartu
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-Billy Pitiot
+PITIOT
 \end_layout
 
 \begin_layout Standard
@@ -186,16 +178,7 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Nom de référence du document
-\end_layout
-
-\end_inset
-
-
+VISIMAX_<P>001
 \end_layout
 
 \end_inset
@@ -222,7 +205,7 @@ Version du document
 
 \end_inset
 
- 1.2
+ 1.0
 \end_layout
 
 \end_inset
@@ -421,7 +404,19 @@ Nom du responsable
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 0.5in
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align right
+\begin_inset Graphics
+	filename ../Modeles/img/logo_heptaworks.png
+	scale 30
+
 \end_inset
 
 
@@ -493,7 +488,7 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Section
-Historique de document
+Historique du document
 \end_layout
 
 \begin_layout Standard
@@ -555,7 +550,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-14/01/2011
+
 \end_layout
 
 \end_inset
@@ -564,7 +559,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-Stefana Gartu & Billy Pitiot
+
 \end_layout
 
 \end_inset
@@ -573,7 +568,7 @@ Stefana Gartu & Billy Pitiot
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.0
+
 \end_layout
 
 \end_inset
@@ -582,7 +577,7 @@ Stefana Gartu & Billy Pitiot
 \begin_inset Text
 
 \begin_layout Plain Layout
-Création
+
 \end_layout
 
 \end_inset
@@ -593,7 +588,7 @@ Création
 \begin_inset Text
 
 \begin_layout Plain Layout
-21/01/2011
+
 \end_layout
 
 \end_inset
@@ -602,7 +597,7 @@ Création
 \begin_inset Text
 
 \begin_layout Plain Layout
-Stefana Gartu & Billy Pitiot
+
 \end_layout
 
 \end_inset
@@ -611,7 +606,7 @@ Stefana Gartu & Billy Pitiot
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.1
+
 \end_layout
 
 \end_inset
@@ -620,7 +615,7 @@ Stefana Gartu & Billy Pitiot
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ajout de contenu
+
 \end_layout
 
 \end_inset
@@ -631,7 +626,7 @@ Ajout de contenu
 \begin_inset Text
 
 \begin_layout Plain Layout
-26/01/2011
+
 \end_layout
 
 \end_inset
@@ -640,7 +635,7 @@ Ajout de contenu
 \begin_inset Text
 
 \begin_layout Plain Layout
-Stefana Gartu & Billy Pitiot
+
 \end_layout
 
 \end_inset
@@ -649,7 +644,7 @@ Stefana Gartu & Billy Pitiot
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.2
+
 \end_layout
 
 \end_inset
@@ -658,7 +653,7 @@ Stefana Gartu & Billy Pitiot
 \begin_inset Text
 
 \begin_layout Plain Layout
-Ajout de contenu et fin
+
 \end_layout
 
 \end_inset
@@ -859,6 +854,9 @@ Ajout de contenu et fin
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Newpage pagebreak
 \end_inset
 
@@ -870,11 +868,11 @@ Introduction
 \end_layout
 
 \begin_layout Subsection
-Présentation du projet
+Rappel du problème
 \end_layout
 
 \begin_layout Subsubsection
-Contexte
+Le contexte
 \end_layout
 
 \begin_layout Standard
@@ -884,12 +882,12 @@ Le COPEVUE souhaite étudier un système de monitoring à distance de sites
  Comme exemples de ces sites, on peut citer de nombreux lieux de travail
  (pour l'abattage de bois, à l'installation de réseaux, de stations de pompage,
  etc).
- Ce système doit permettre à COPEVUE de faire un suivi pour pouvoir intervenir
+ Ce système doit permettre à COPEVUE faire un suivi pour pouvoir intervenir
  en cas de problèmes.
 \end_layout
 
 \begin_layout Subsubsection
-Objectifs
+Les objectifs
 \end_layout
 
 \begin_layout Standard
@@ -900,8 +898,8 @@ Le travail demandé consiste en une proposition d'une solution pour la mesure
 \end_layout
 
 \begin_layout Standard
-Le but de ce travail consiste à faire un étude de faisabilité, de même que
- la spécification technique des besoins et une proposition d'architecture
+Le but de ce travail consiste à faire un étude de faisabilité, bien comme
+ la spécification technique de besoins et une proposition d'architecture
  générique.
 \end_layout
 
@@ -910,17 +908,15 @@ Présentation du document
 \end_layout
 
 \begin_layout Standard
-Ce document présente une synthèse des différents choix que nous avons effectué
- pour fournir une solution de qualité.
- Dans le but d'améliorer le système actuel, nous avons élaboré une solution
- que nous avons découpé en plusieurs sous-systèmes.
- Le résultat de notre analyse est un système très différent de l'actuel,
- innovateur sur le plan technologique et organisationnel ayant un impact
- significatif sur les utilisateurs.
+Ce document reprend les décisions que nous avons effectué au sein de l'équipe
+ pour la mise en place de notre système.
+ Ces choix ont été effectués en partant de la base fournie dans le dossier
+ de faisabilité en prenant en compte les besoins décrit dans le dossier
+ de spécification technique des besoins.
 \end_layout
 
 \begin_layout Subsection
-Document applicables/Documents de référence
+Documents applicables / Documents de référence
 \end_layout
 
 \begin_layout Subsubsection
@@ -928,14 +924,7 @@ Documents applicables
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Quotes eld
-\end_inset
-
-Document de gestion de la documentation
-\begin_inset Quotes erd
-\end_inset
-
-
+le Dossier de Gestion de la Documentation;
 \end_layout
 
 \begin_layout Subsubsection
@@ -943,457 +932,75 @@ Documents de référence
 \end_layout
 
 \begin_layout Itemize
-Quelques outils et Documentation pour le Responsable Documentation/Méthodes/Qual
-ité
+l'appel d'offre de COPEVUE;
 \end_layout
 
 \begin_layout Itemize
-Étude de faisabilité
+Étude préliminaire
 \end_layout
 
 \begin_layout Itemize
-Expression des besoins du nouveau système
-\end_layout
-
-\begin_layout Itemize
-Conception du nouveau système
-\end_layout
-
-\begin_layout Subsection
-Terminologie et Abréviations
+Dossier de spécification technique des besoins
 \end_layout
 
 \begin_layout Standard
-Voir le glossaire pour la terminologie et les abréviations.
-\end_layout
-
-\begin_layout Section
-Critique de l'existant
-\end_layout
-
-\begin_layout Standard
-Le système actuel de monitoring à distance est mis en place pour la surveillance
- de plusieurs sites de stockage.
- C'est un système très couteux en temps et en ressource.
- En effet, une personne doit être dépéchée sur place régulièrement, aucun
- de ces sites n'est autonome.
- De plus, la surveillance ou la maintenance défectueuse et le manque de
- communication directe avec les stations peut entrainer des risques écolgiques
- et environnementaux.
-\end_layout
-
-\begin_layout Standard
-Il n'est pas possible de prévoir à quel moment il est nécessaire de faire
- la maintenance du site donc il est difficile de planifier des trajets pour
- les camions.
-\end_layout
-
-\begin_layout Standard
-Enfin, il y a un problème de sécurité : les sites peuvent ne pas être surveillés
- assez fréquemment et en cas de problème, on s'en rend compte trop tard.
- La vidéo-surveillance ou tout contact direct avec les sites sont absents.
- Il n'y a aucun moyen de vérifier si les déplacements sur site ont été effectués
-, si les rapports contiennent les vraies valeurs, si les récipients sont
- dans un bon état pendant l'absence des personnes qui les vérifient et surtout
- si les capteurs renvoient les bonnes valeurs.
- Aucun protocole à suivre en cas de problème/incident n'a été mis en place.
-\end_layout
-
-\begin_layout Section
-Axes de progrès
-\end_layout
-
-\begin_layout Standard
-Il y a de nombreux axes à améliorer.
- C'est pour cette raison que le projet a été créé.
- Voici une synthése des axes que nous nous proposons d'améliorer.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Monitoring des stations
-\series default
- : l'amélioration la plus importante que nous apportons est bien entendu
- le monitoring.
- Il ne sera plus nécessaire de se déplacer sur place pour connaître l'état
- du site.
- Il sera connu en temps réel grâce à notre système.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Autonomie des stations
-\series default
- : les stations seront entièrement autonomes.
- Elles produiront et stockeront leur propre énergie.
- En cas de coupure de liaison avec le serveur central, elles enregistreront
- les données en attendant que la liaison soit rétablie par un opérateur.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Maintenance
-\series default
- : les sites recevront les ordres directement du serveur central.
- Il sera donc possible de les reconfigurer en temps réel sans intervention
- physique.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Adaptabilité
-\series default
- : le système acceptera un nombre et un type de capteur variable dans un
- nombre de station illimité.
- Il sera facilement configurable en fonction des besoins du site.
-\end_layout
-
-\begin_layout Itemize
-
-\series bold
-Sécurité
-\series default
- : le système est capable de gérer les problèmes.
- En cas de batterie faible ou de problème détecté, il transmet l'information
- au serveur.
- En cas de coupure de liaison, il garde en mémoire une trace de l'état du
- système.
-\end_layout
-
-\begin_layout Section
-Présentation de la solution proposée
-\end_layout
-
-\begin_layout Subsection
-Fonctionnement général
-\end_layout
-
-\begin_layout Standard
-Le système est composé de trois parties :
-\end_layout
-
-\begin_layout Itemize
-Un serveur central : il sera composé d'un ordinateur qui aura le système
- de surveillance installé et sera lié à un autre ordinateur (pour des raisons
- de sécurité) qui contiendra une base de données installée pour stocker
- les lectures des capteurs de chaque site isolé.
- Ce serveur sera administré par des superviseurs par le biais d'une interface
- web accessible depuis n'importe quel navigateur.
-\end_layout
-
-\begin_layout Itemize
-Les sites isolés : chacun d'entre eux sera équipé d'un système embarqué
- lié (en filiaire) à plusieurs capteurs et un système de communication par
- satellite avec le serveur central.
- Tous les équipements des sites isolés seront alimentés par l'énergie stockée
- dans les batteries qui seront rechargées par des panneaux solaires (pour
- des raisons d'autonomie).
-\end_layout
-
-\begin_layout Itemize
-L'agence : c'est une compagnie extérieure qui s'occupe de la maintenance
- des sites isolés sur demande du serveur central.
-\end_layout
-
-\begin_layout Standard
-Ces trois parties communiquent ensemble au moyen de différents outils.
- Le serveur central communiquera avec le système embarqué grâce au système
- satellite.
- Pour des raisons de généricité, nous avons choisi ce système qui nous permettra
- d'envoyer et de recevoir des données quel que soit la position du système
- embarqué sur le globe.
- Le système embarqué pourra envoyer les données et le serveur central pourra
- envoyer des requêtes lui permettant de reconfigurer à distance.
-\end_layout
-
-\begin_layout Standard
-La communication du site central avec l'agence se fera grâce à internet
- par le protocole HTTPS car il y a besoin d'une connection securisée.
- Pour optimiser les trajets et donc les coûts, le site central planifiera
- la maintenance des différents site et enverra la demande à l'agence.
- 
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Graphics
-	filename /home/billy/programation/github/projetIngenierie/Drafts/dossierConception/fluxDonneesSiteIsole.png
-	lyxscale 20
-	scale 50
-
+\begin_inset Newpage pagebreak
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Graphics
-	filename /home/billy/programation/github/projetIngenierie/Drafts/dossierConception/fluxDonneesSiteCentral.png
-	lyxscale 20
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Architecture matérielle
-\end_layout
-
-\begin_layout Standard
-D'après l'étude de faisabilité, nous avons trouvé plusieurs solutions possibles.
- Pour pouvoir évaluer le coût et la pertinence par la suite nous allons
- en présenter une.
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Graphics
-	filename /home/billy/programation/github/projetIngenierie/Perso_GEI/specification_technique_besoins/imagesSchemaGlobal/EbaucheArchiFinale.png
-	lyxscale 30
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Architecture applicative
-\end_layout
-
-\begin_layout Itemize
-Site central
-\end_layout
-
-\begin_layout Standard
-Le site central aura un logiciel qui permet au superviseur d'avoir une vue
- général sur le système.
- Ce logiciel sera accessible via une interface web, il permettra de gérer
- les données en provenance des capteurs, de les configurer à distance et
- de planifier la maintenance des sites.
- Cette interface sera donc accessible par les superviseurs où qu'ils se
- trouvent et avec n'importe quel périphérique.
- Cela permet une très forte généricité, portabilité et réactivité pour notre
- système.
- Pour des besoins de sécurité, l'utilisateur devra s'authentifier pour avoir
- accès aux droits d'administration.
-\end_layout
-
-\begin_layout Itemize
-Station isolé
-\end_layout
-
-\begin_layout Standard
-Chaque système embarqué aurra un RTOS (
-\shape italic
-Real-Time Operating System
-\shape default
-) développé par nos soins.
- Il sera de plus pourvu d'un écran LCD permettant à un opérateur de configurer
- le système et de communiquer avec le serveur pour donner l'état du système
- et d'autres informations jugées pertinentes.
- De la même façon que pour le site central, une authentification sera nécessaire
- pour pouvoir utiliser l'interface.
-\end_layout
-
 \begin_layout Section
-Apports de la solution proposée
+Description des choix
 \end_layout
 
 \begin_layout Subsection
-Thèmes de progrès 
-\end_layout
-
-\begin_layout Standard
-Les thèmes de progrès sont les même que ceux décrits dans l'étude de faisabilité
- :
+Choix architecturels
 \end_layout
 
 \begin_layout Itemize
-Efficacité du monitoring
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-notre système, puisqu'il profite des nouvelles technologie permet d'améliorer
- grandement l'efficacité par un contrôle automatisé des réservoirs.
- 
+serveur Dell PowerEdge T110 : un serveur qui nous permet d'assurer la sécurité
+ et l'automatisation des traitements.
+ Prix : 900€
 \end_layout
 
 \begin_layout Itemize
-avertissement rapide en cas d'anomalie ou de problème grave sur les sites
- isolés pour une réactivité accrue
+processeur embarqué MSP430 et la carte mère associée + écran lcd : un processeur
+ pe puissant mais largement assez pour les besoins que nous en avons, avec
+ une gestion intelligente de la consommation électrique pour une meilleure
+ autonomie.
+ Prix : environ 300€
 \end_layout
 
 \begin_layout Itemize
-optimisation de la planification de la maintenance ce qui permet de diminuer
- les coûts
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Autonomie des stations
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-contrôle automatisé des réservoirs
+système de communication par satellite : système cher mais efficace et accessibl
+e quelque siot la région de la planète.
+ Prix : 200€ la stations d'emmission/reception + un forfait au ko établi
+ sur devis.
 \end_layout
 
 \begin_layout Itemize
-élimination du risque d'erreur humaine
+liaison filiaire pour les capteurs : c'est le type de liaison le moins cher
+ et le plus performant en cas d'obstacle/longue distances.
+ C'est aussi ce qui consomme le moins d'énergie et donc nous permet une
+ meilleure autonomie.
 \end_layout
 
 \begin_layout Itemize
-très faible consommation du système
+RTOS : conception et réalisation d'un RTOS dédié qui nous permettra de satisfair
+e les besoins en sécurité, fiabilité et qui ne comportera pas toutes les
+ fonctionnalités (inutiles dans notre cas) que comportent les autres RTOS.
 \end_layout
 
-\begin_layout Itemize
-utilisation de panneaux solaires associés à des batteries dimmensionnés
- pour assurer une autonomie sans limite.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Maintenabilité
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-possibilité de reconfigurer le système à distance
-\end_layout
-
-\begin_layout Itemize
-système qualité et une gestion de la configuration permettant une évolution
- facile du système
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Adaptabilité
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-accessible depuis toute sorte de lieu
-\end_layout
-
-\begin_layout Itemize
-application web accessible 24h/24 depuis toute sorte de périphériques
-\end_layout
-
-\begin_layout Itemize
-choix de matériel de qualité utilisable dans des conditions extrèmes
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Sécurité 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-sécurité des données grâce à des sauvegardes sur le serveur central
-\end_layout
-
-\begin_layout Itemize
-applications accessibles uniquement après identification
-\end_layout
-
-\begin_layout Itemize
-diminution du risque de se retrouver dans des situations critiques ou de
- désastre grâce à une analyse des données et la planification de la maintenance
-\end_layout
-
-\end_deeper
 \begin_layout Subsection
-Coûts de la solution 
-\end_layout
-
-\begin_layout Itemize
-serveur Dell PowerEdge T110 : 2*900€
-\end_layout
-
-\begin_layout Itemize
-processeur embarqué MSP430 et la carte mère associée + écran lcd : environ
- 300€/site isolé
-\end_layout
-
-\begin_layout Itemize
-système de communication par satellite : 200€/site isolé + 1 pour le site
- central
-\end_layout
-
-\begin_layout Itemize
-liaison filiaire pour les capteurs : 100€/site isolé
-\end_layout
-
-\begin_layout Itemize
-conception SI et développement RTOS et application web : 10000€
-\end_layout
-
-\begin_layout Itemize
-capteurs SauerDanFos : 400€/site isolé
-\end_layout
-
-\begin_layout Itemize
-abonnement satellite au ko : 150€/mois
-\end_layout
-
-\begin_layout Itemize
-agences de maintenance : environ 500€/mois (très dépendant du type de maintenanc
-e à effectuer : fréquence des trajets)
-\end_layout
-
-\begin_layout Itemize
-salaire du superviseur : 2000€/mois
-\end_layout
-
-\begin_layout Itemize
-Frais de location, électricité, abonnement internet, ...
- : 800€/mois
+Choix applicatifs
 \end_layout
 
 \begin_layout Standard
-Pour un système comportant 100 sites contenant chacun 5 capteurs, nous obtenons
- le résultat : 
-\end_layout
-
-\begin_layout Itemize
-Investissement initial : 272000€
-\end_layout
-
-\begin_layout Itemize
-coût par mois : 3450€
-\end_layout
-
-\begin_layout Section
-Retour sur investissement
-\end_layout
-
-\begin_layout Standard
-Notre système peut parraître un peu cher à l'achat mais c'est une solution
- de qualité qui se propose de satisfaire toutes les exigences du client.
- La solution a été élaborée dans un souci de minimisation des coûts sans
- renoncer à la qualité des composants qui seront exposés à des conditions
- critiques ou à la sécurité.
- Par ailleurs, l’investissement dans du matériel comme des batteries rechargeabl
-es ou encore des capteurs peut sembler important, mais à long terme, le
- client est certain que son investissement sera fructueux.
- En effet, grâce à une planification logicielle permettant une optimisation
- des ressources, les coûts générés à cause du gaspillage ou d’une maintenance
- corrective (plus importante que la maintenance préventive) seront réduits
- au minimum.
+Notre système comprendra deux applications permettant à des opérateurs de
+ dialoguer avec lui.
+ La première application et la plus évoluée sera une application web, ce
+ qui permettra 
 \end_layout
 
 \end_body
