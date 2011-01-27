@@ -180,15 +180,6 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Nom de référence du document
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -207,16 +198,7 @@ Version
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Version du document
-\end_layout
-
-\end_inset
-
- 1.0
+1.0
 \end_layout
 
 \end_inset
@@ -274,7 +256,7 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-21/01/2011
+27/01/2011
 \end_layout
 
 \end_inset
@@ -374,7 +356,7 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
-21/01/2011
+27/01/2011
 \end_layout
 
 \end_inset
@@ -902,20 +884,24 @@ Documents applicables / Documents de référence
 Documents applicables 
 \end_layout
 
-\begin_layout Standard
-– Le Dossier de Gestion de la Documentation
+\begin_layout Itemize
+Le Dossier de Gestion de la Documentation
 \end_layout
 
 \begin_layout Subsubsection
 Documents de référence 
 \end_layout
 
-\begin_layout Standard
-– Plan-type d’un dossier de faisabilité
+\begin_layout Itemize
+Plan-type d’un Cahier des Charges
 \end_layout
 
-\begin_layout Standard
-– Appel d’offre de la COPEVUE
+\begin_layout Itemize
+Appel d’offre de la COPEVUE
+\end_layout
+
+\begin_layout Itemize
+Dossier de Conception Detaillée
 \end_layout
 
 \begin_layout Subsection
@@ -931,10 +917,14 @@ But
 \end_layout
 
 \begin_layout Standard
-Comme le canal de communication entre les site centrals et les stations
- est bidirectionel, le système sera capable de réaliser la configuration
- et maintenance des station à distance.
- 
+Dans le cas où on veut configurer un nouveau site isolé ou on veut changer
+ des paramètres de configuration d'un site isolé, on peut profiter du canal
+ satellitaire parce qu'il est bidirectionel.
+ C'est-à-dire, le système embarqué peut envoyer les lectures des capteurs
+ au serveur central et le serveur central peut aussi envoyer des commandes
+ au système embarqué.
+ Ce type d'opération permet au superviseur de mantenir le bon fonctionnement
+ de chaque site isolé depuis son interface Web et les adapter à ses besoins.
 \end_layout
 
 \begin_layout Subsection
@@ -942,13 +932,82 @@ Formulation des besoins (généraux), exploitation et ergonomie, expérience
 \end_layout
 
 \begin_layout Standard
-Le superviseur pourra, par exemple, changer les paramètres de configuration
- (seuils des reservatoirs, fréquence de lecture), redémarrer le système
- de chaque station et vérifier l'état des panneaux solaires et batteries.
+L'application coté serveur sera capable de répondre aux besoins suivants:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Envoyer une commande au système embarqué:
+\series default
+ le superviseur sera capable d'envoyer des commandes à un système embarqué
+ especifique.
+ Cette commande sera capable de dire au système de se rédemarrer, changer
+ un paramètre de configuration/alerte ou de arrêter/démarrer les lectures
+ d'un réservoir;
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Demander une lecture manuelle du niveau d'un réservoir:
+\series default
+ au cas où le superviseur veut réaliser une lecture sur le niveau d'un réservoir
+, il pourra envoyer une rêquete de lecture au système embarqué en spécifiant
+ le réservoir dont il veut savoir le niveau.
+\end_layout
+
+\begin_layout Standard
+L'application coté système embarqué sera capable de répondre aux besoins
+ suivants:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Recevoir une commande du serveur central:
+\series default
+ le système embarqué sera capable de recevoir une commande du serveur central.
+ Cette commande peut être pour changer un seuil d'alerte d'un réservoir,
+ rédemarrer le système d'exploitation ou pour changer la fréquence de lecture
+ du niveau d'un réservoir.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Envoyer un message au serveur central:
+\series default
+ le système embarque fera des lectures des niveaux des réservoirs et les
+ enverra ces lectures au serveur central.
+ Quand il y a une maintenance, le conducteur pourra aussi envoyer un message
+ au superviseur à travers du serveur central.
+ Le système embarqué aurra une petite interface pour que le conducteur puisse
+ saisir ces commandes.
+\end_layout
+
+\begin_layout Standard
+La communication entre le serveur central et le système embarqué doit être
+ 
+\series bold
+fiable
+\series default
+ pour qu'il n'y ait pas des pertes d'information ou un problème plus grave,
+ comme un débordement d'un réservoir ou l'épuisement de l'énergie que alimente
+ le site isolé.
+\end_layout
+
+\begin_layout Standard
+Le canal de communication doit être aussi 
+\series bold
+rapide
+\series default
+ au cas où il y ait un problème sur un site isolé pour que la maintenance
+ soit requise le plus vite possible.
 \end_layout
 
 \begin_layout Subsection
-Portée, développement, mise en œuvre, organisation de la maintenance 
+Portée, développement, mise en œuvre, organisation de la maintenance
 \end_layout
 
 \begin_layout Subsection
@@ -960,11 +1019,72 @@ Exigences fonctionnelles
 \end_layout
 
 \begin_layout Subsection
-Fonctions de base, performances et aptitudes 
+Fonctions de base, performances et aptitudes
+\end_layout
+
+\begin_layout Standard
+L'application coté serveur central devra répondre aux besoins suivants:
+\end_layout
+
+\begin_layout Itemize
+Changer le niveau de seuil maximal d'un réservoir;
+\end_layout
+
+\begin_layout Itemize
+Changer le niveau de seuil minimum d'un réservoir;
+\end_layout
+
+\begin_layout Itemize
+Rédemarrer le système embarqué d'une station;
+\end_layout
+
+\begin_layout Itemize
+Demander une lecture du niveau d'un réservoir au système embarqué;
+\end_layout
+
+\begin_layout Itemize
+Arrêter les lectures d'un reservoir;
+\end_layout
+
+\begin_layout Itemize
+Configurer la fréquence de lecture pour un réservoir.
+\end_layout
+
+\begin_layout Standard
+L'application coté système embarqué devra répondre aux besoins suivants:
+\end_layout
+
+\begin_layout Itemize
+Recevoir une commande du serveur central;
+\end_layout
+
+\begin_layout Itemize
+Changer le niveau de alerte pour un réservoir;
+\end_layout
+
+\begin_layout Itemize
+Rédemarrer le système embarque;
+\end_layout
+
+\begin_layout Itemize
+Demander une lecture aux capteurs;
+\end_layout
+
+\begin_layout Itemize
+Arrêter les lectures d'un réservoir;
+\end_layout
+
+\begin_layout Itemize
+Changer la fréquence de lecture d'un réservoir;
+\end_layout
+
+\begin_layout Itemize
+Envoyer des messages saisies par le conducteur sur l'interface du système
+ embarqué.
 \end_layout
 
 \begin_layout Subsection
-Contraintes d'utilisation 
+Contraintes d'utilisation
 \end_layout
 
 \begin_layout Subsection
