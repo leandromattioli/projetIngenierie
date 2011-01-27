@@ -1,0 +1,203 @@
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\date{}
+\end_preamble
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family sfdefault
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\float_placement h
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{empty}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box ovalbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Title
+Bilan personnel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+Auteur:
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Monica GOLUMBEANU
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+GEI - H4312
+\end_layout
+
+\begin_layout Standard
+Le projet d'ingenierie a été différent des autres projets réalisés cette
+ année d'un part en ce qui concerne l'ampleur et d'autre part du point de
+ vue du travail demandé.
+ C'est le premier projet où il est demandé de réponde à un appel d'offre
+ et de bien argumenter toutes les choix et opérations effectuées.
+ Un nombre considérable de livrables est également demandé.
+ Ce projet s'approche le plus des projets du monde réel, son sujet étant
+ intéressant.
+\end_layout
+
+\begin_layout Standard
+Le bilan est satisfaisant.
+ Il y a beaucoup de connaissances acquises pendant le déroulement de ce
+ projet ainsi que des habitudes induites par la démarche qualité.
+ Neanmois, il y a certains éléments négatifs sur lesquels je vais revenir.
+\end_layout
+
+\begin_layout Standard
+Le fait que j'ai apprecié le plus a été le soutien des enseignants qui ont
+ été toujours disponibles de nous aider en nous expliquant d'une manière
+ très précise ce qu'on doit faire.
+ Les séances préparatoires ont eu un rôle important dans la compréhension
+ du sujet et dans la familiarisation avec le style de travail.
+ Dès la prémière séance je me suis rendue compte qu'il s'aggisait d'un projet
+ bien différent des autres.
+\end_layout
+
+\begin_layout Standard
+Comme j'avais précisé avant, le sujet de ce projet a été particulièrement
+ intéressant.
+ En effet, il ne s'aggisait plus de réaliser une solution qui devait 
+\begin_inset Quotes eld
+\end_inset
+
+plaire
+\begin_inset Quotes erd
+\end_inset
+
+ aux enseignants mais une solution optimale et attractive pour le client.
+ J'ai beaucoup apprecié la liberté des choix, de l'imagination, la originalité
+ dans la réalisation de la solution.
+ Les recherches effectuées pour trouver l'equipement nécessaire ont apporté
+ beaucoup de connaissances et ont 
+\begin_inset Quotes eld
+\end_inset
+
+ouvert les yeux
+\begin_inset Quotes erd
+\end_inset
+
+ sur les technologies actuelles.
+\end_layout
+
+\begin_layout Standard
+Du point de vue de la qualité, ce projet est le seul oú une demarche entière
+ très poussée est appliquée et cela s'est averée extrêmement intéressant.
+ J'aurais aimé que les conseils reçus par les résponsables qualité pendant
+ les réunions avec les enseignants auraient été partagés aussi au reste
+ de l'équipe.
+ En tant que GEI on ne connaît pas vraiment le contenu de tous les dossiers
+ redigés par le responsable qualité et ainsi on n'arrive pas à apprecier
+ entièrement son travail.
+\end_layout
+
+\begin_layout Standard
+Concernant la charge de travail tout c'est bien passé pendant les premieres
+ trois séances.
+ J'ai réussi toujours à finir les tâches attribués pendant la séance et
+ j'ai beaucoup apprecié ça.
+ Pourtant, vers la fin, on s'est retrouvés avec beaucoup de travail et j'ai
+ du passer du temps hors séance pour aider les autres à finir.
+ Je ne sais pas si cette désequilibre de la charge de travail était prévu,
+ en tout cas on a réussi à gérér cette situation.
+\end_layout
+
+\begin_layout Standard
+Pour conclure, ce projet a été très enrichissant, original et bien structuré.
+ Maintenant on a une idée de la procédure de travail nécessaire pour un
+ tel projet ce qui va nous permettre de mieux nous organiser dans le futur.
+\end_layout
+
+\end_body
+\end_document
