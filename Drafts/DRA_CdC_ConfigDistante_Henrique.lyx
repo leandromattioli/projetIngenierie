@@ -1006,6 +1006,15 @@ rapide
  soit requise le plus vite possible.
 \end_layout
 
+\begin_layout Standard
+Le canal de communication doit être aussi 
+\series bold
+sécurisé
+\series default
+ pour qu'il n'y ait pas des problèmes avec la confidentialité des informations
+ qui circulent sur le canal.
+\end_layout
+
 \begin_layout Subsection
 Portée, développement, mise en œuvre, organisation de la maintenance
 \end_layout
@@ -1055,10 +1064,6 @@ L'application coté système embarqué devra répondre aux besoins suivants:
 \end_layout
 
 \begin_layout Itemize
-Recevoir une commande du serveur central;
-\end_layout
-
-\begin_layout Itemize
 Changer le niveau de alerte pour un réservoir;
 \end_layout
 
@@ -1101,11 +1106,32 @@ Contraintes imposées, faisabilité technologique et éventuellement moyens
 \end_layout
 
 \begin_layout Subsection
-Sûreté, planning, organisation, communication 
+Sûreté, planning, organisation, communication
+\end_layout
+
+\begin_layout Standard
+Pour assurer la communication fiable et sécurisée, nous avons choisi le
+ protocole HTTPS pour transmettre des informations entre le serveur central
+ et les sites isolés.
+ Ce protocole utilise le protocole TCP/IP sur le niveau au-desous et ça
+ peut nous assurer pas seulement que les informations ne seront pas perdues,
+ mais aussi qu'elles arriveront dans la même ordre qu'elles ont été envoyées.
+\end_layout
+
+\begin_layout Standard
+Comme nous allons utiliser le protocole HTTPS, il sera possible d'envoyer
+ des informations dans le deux senses au même temps grâce au protocole TCP/IP.
 \end_layout
 
 \begin_layout Subsection
-Complexité 
+Complexité
+\end_layout
+
+\begin_layout Standard
+Pour que la communication soit faite de la façon la plus vite possible,
+ le système aura des commandes élémentaires qui n'auront pas beaucoup d'informat
+ions à transmettre.
+ Comme ça, nous pouvons assure
 \end_layout
 
 \begin_layout Subsection
@@ -1121,15 +1147,648 @@ Configuration cible
 \end_layout
 
 \begin_layout Subsection
-Matériel et logiciels 
+Matériel et logiciels
+\end_layout
+
+\begin_layout Standard
+Du côte du serveur central, il y aura un module de communication avec les
+ systèmes embarqués par satellite.
+ Ce module contient une interface qui permettra l'échange de données entre
+ le serveur central et les systèmes embarqués, qui contient aussi une interface
+ de communication par satellite.
 \end_layout
 
 \begin_layout Subsection
-Stabilité de la configuration si nécessaire 
+Stabilité de la configuration si nécessaire
+\end_layout
+
+\begin_layout Standard
+Cette section n'est pas traitée dans ce document parce que quand le système
+ de communication est installé, c'est-à-dire qui l'abonnement au service
+ de internet par satellite est fait, il n'y a pas besoin de faire la maintenance
+ dans notre système.
+ Le service de communication est sous-traité.
 \end_layout
 
 \begin_layout Subsection
-Description des API avec reste du système 
+Description des API avec reste du système
+\end_layout
+
+\begin_layout Standard
+Du côté du serveur central:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+modifierSeuilMinimum
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir, 
+\series bold
+Float
+\series default
+ nouveauSeuil): celle est la fonction du serveur central qui communique
+ au système embarqué correspondent au reservoir identifiantReservoir pour
+ modifier son seuil minimum pour qu'il puisse envoyer les alertes correctement.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: modification faite correctement
+\end_layout
+
+\begin_layout Itemize
+VALEUR_NON_AUTORISE: le nouveau seuil n'est pas valide, par example si l'entrée
+ est une valeur negative.
+\end_layout
+
+\begin_layout Itemize
+RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
+\end_layout
+
+\begin_layout Itemize
+ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+modifierSeuilMaximum
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir, 
+\series bold
+Float
+\series default
+ nouveauSeuil): celle est la fonction qu serveur central qui communique
+ au système embarqué correspondent au reservoir identifiantReservoir pour
+ modifier son seuil maximum pour qu'il puisse envoyer les alertes correctement.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: modification faite correctement
+\end_layout
+
+\begin_layout Itemize
+VALEUR_NON_AUTORISE: le nouveau seuil n'est pas valide, par example si l'entrée
+ est une valeur negative.
+\end_layout
+
+\begin_layout Itemize
+RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
+\end_layout
+
+\begin_layout Itemize
+ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+configurerFrenquenceLecture
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir, 
+\series bold
+Float
+\series default
+ nouvelleFrequence): celle est la fonction du serveur central qui communique
+ au système embarqué correspondant au réservoir identifiantReservoir de
+ changer sa fréquence de lecture.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: modification faite correctement
+\end_layout
+
+\begin_layout Itemize
+VALEUR_NON_AUTORISE: la nouvelle fréquence n'est pas valide, par example
+ si l'entrée est une valeur negative.
+\end_layout
+
+\begin_layout Itemize
+RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
+\end_layout
+
+\begin_layout Itemize
+ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+redemarrerSysteme
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantSiteIsole): celle est la fontion du serveur central qui envoie
+ une commande de rédemarrage au système embarqué du sité isolé identifiantSiteIs
+ole.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: le système a été rédemarré correctement.
+\end_layout
+
+\begin_layout Itemize
+FAILURE_REDEMARRAGE: le système ne peut pas être rédemarré.
+\end_layout
+
+\begin_layout Itemize
+ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+arreterLectureReservoir
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir): celle est la fontion du serveur central qui envoie
+ une commande au système embarqué correspondant au réservoir identifiantReservoi
+r d'arrêter les lectures sur le réservoir identifiantReservoir.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: la lecture a été arrêtée.
+\end_layout
+
+\begin_layout Itemize
+DEJA_ARRETE: les lectures sur le réservoir identifiantReservoir sont déjà
+ arrêté.
+\end_layout
+
+\begin_layout Itemize
+ERREUR_ARRET_LECTURE: la lecture n'a pas pu être arrêtée.
+\end_layout
+
+\begin_layout Itemize
+ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+demarerLectureReservoir
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir): celle est la fonction du serveur central qui envoie
+ une commande au système embarqué au système embarqué correspondant au réservoir
+ identifiantReservoir pour qu'il démarre les lectures sur ce réservoir.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: la lecture a été demarrée.
+\end_layout
+
+\begin_layout Itemize
+DEJA_ARRETE: les lectures sur le réservoir identifiantReservoir sont déjà
+ demarrées.
+\end_layout
+
+\begin_layout Itemize
+ERREUR_ARRET_LECTURE: la lecture n'a pas pu être demarré.
+\end_layout
+
+\begin_layout Itemize
+ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Lecture
+\series default
+ 
+\bar under
+faireLecture
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir): celle est la fontion du serveur central qui fait
+ une rêquete manuelle de lecture sur le ŕeservoir identifiantReservoir.
+ Retour: une structure avec le niveau du réservoir et l'identifiant du réservoir.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Do côté du système embarqué:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+modifierSeuilMinimum
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir, 
+\series bold
+Float
+\series default
+ nouveauSeuil): fonction du système embarqué qui modifie le seuil minimum
+ toleré d'un réservoir.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: modification faite correctement
+\end_layout
+
+\begin_layout Itemize
+VALEUR_NON_AUTORISE: le nouveau seuil n'est pas valide, par example si l'entrée
+ est une valeur negative.
+\end_layout
+
+\begin_layout Itemize
+RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+modifierSeuilMaximum
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir, 
+\series bold
+Float
+\series default
+ nouveauSeuil): fonction du système embarqué qui modifie le seuil maximum
+ toleré d'un réservoir.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: modification faite correctement
+\end_layout
+
+\begin_layout Itemize
+VALEUR_NON_AUTORISE: le nouveau seuil n'est pas valide, par example si l'entrée
+ est une valeur negative.
+\end_layout
+
+\begin_layout Itemize
+RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+modifierFrequenceLecture
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir, 
+\series bold
+Float
+\series default
+ nouvelleFrequence): fontion du système embarqué qui change la fréquence
+ de lecture sur le réservoir identifiantReservoir.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: modification faite correctement
+\end_layout
+
+\begin_layout Itemize
+VALEUR_NON_AUTORISE: la nouvelle fréquence n'est pas valide, par example
+ si l'entrée est une valeur negative.
+\end_layout
+
+\begin_layout Itemize
+RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+redemarrerSysteme
+\bar default
+(): fontion qui rédemarre le système d'exploitation du système embarqué.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: le système a été rédemarré correctement.
+\end_layout
+
+\begin_layout Itemize
+FAILURE_REDEMARRAGE: le système ne peut pas être rédemarré.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+arreterLecture
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir): fonction qui arrête les lectures sur le réservoir
+ identifiantReservoir.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: la lecture a été arrêtée.
+\end_layout
+
+\begin_layout Itemize
+DEJA_ARRETE: les lectures sur le réservoir identifiantReservoir sont déjà
+ arrêté.
+\end_layout
+
+\begin_layout Itemize
+ERREUR_ARRET_LECTURE: la lecture n'a pas pu être arrêtée.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+demarrerLecture
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiarReservoir): fonction qui demarre les lectures sur le réservoir
+ identifiantReservoir.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: la lecture a été demarrée.
+\end_layout
+
+\begin_layout Itemize
+DEJA_ARRETE: les lectures sur le réservoir identifiantReservoir sont déjà
+ demarrées.
+\end_layout
+
+\begin_layout Itemize
+ERREUR_ARRET_LECTURE: la lecture n'a pas pu être demarré.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+STATUS
+\series default
+ 
+\bar under
+envoyerMessage
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiatSiteIsole, 
+\series bold
+String
+\series default
+ message): fontion qui permet d'envoyer un message au serveur central pour
+ que le superviseur puisse le lire.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SUCESS: le message a été envoyé correctement.
+\end_layout
+
+\begin_layout Itemize
+ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Lecture
+\series default
+ 
+\bar under
+faireLecture
+\bar default
+(
+\series bold
+Entier
+\series default
+ identifiantReservoir): fontion qui sera apellée quand le superviseur veut
+ faire une lecture manuelle sur un réservoir.
+ Retour: une structure qui contient le niveau du réservoir identifiatReservoir
+ et le propre identifiat.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1138,6 +1797,148 @@ Guide de résponse au Cahier des charges
 
 \begin_layout Subsection
 Grille d'évaluation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Critère
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Importance
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fiabilité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Robustesse
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Evolutivité / Maintenabilité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
++++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Compéxite maitrisée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Grille d'évaluation de réponse au Cahier des Changes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
