@@ -836,18 +836,26 @@ Structure du document
 \end_layout
 
 \begin_layout Section
+\paragraph_spacing onehalf
+\noindent
 Introduction
 \end_layout
 
 \begin_layout Subsection
+\paragraph_spacing onehalf
+\noindent
 Présentation du projet 
 \end_layout
 
 \begin_layout Subsubsection
+\paragraph_spacing onehalf
+\noindent
 Contexte 
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 Le COPEVUE souhaite étudier un système de monitoring à distance de sites
  isolés, situés dans de nombreuses régions de l’UE, pour mieux contrôler
  ses besoins d’autonomie (en terme d’énergie, de déchets, etc).
@@ -860,10 +868,14 @@ Le COPEVUE souhaite étudier un système de monitoring à distance de sites
 \end_layout
 
 \begin_layout Subsubsection
+\paragraph_spacing onehalf
+\noindent
 Objectifs 
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 Le travail demandé consiste en une proposition d’une solution pour la mesure
  et le monitoring des sites isolés, c’est-à-dire étudier et concevoir ce
  système en réponse à un appel d’offre.
@@ -873,39 +885,55 @@ n technique de besoins et une proposition d’architecture générique.
 \end_layout
 
 \begin_layout Subsection
+\paragraph_spacing onehalf
+\noindent
 Présentation du document 
 \end_layout
 
 \begin_layout Subsection
+\paragraph_spacing onehalf
+\noindent
 Documents applicables / Documents de référence 
 \end_layout
 
 \begin_layout Subsubsection
+\paragraph_spacing onehalf
+\noindent
 Documents applicables 
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Le Dossier de Gestion de la Documentation
 \end_layout
 
 \begin_layout Subsubsection
+\paragraph_spacing onehalf
+\noindent
 Documents de référence 
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Plan-type d’un Cahier des Charges
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Appel d’offre de la COPEVUE
 \end_layout
 
 \begin_layout Itemize
-Dossier de Conception Detaillée
-\end_layout
+\paragraph_spacing onehalf
+\noindent
+Dossier de Conception Detaillé.
+\begin_inset Newpage pagebreak
+\end_inset
 
-\begin_layout Subsection
-Terminologie et Abréviations 
+
 \end_layout
 
 \begin_layout Section
@@ -917,6 +945,8 @@ But
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 Dans le cas où on veut configurer un nouveau site isolé ou on veut changer
  des paramètres de configuration d'un site isolé, on peut profiter du canal
  satellitaire parce qu'il est bidirectionel.
@@ -932,10 +962,23 @@ Formulation des besoins (généraux), exploitation et ergonomie, expérience
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 L'application coté serveur sera capable de répondre aux besoins suivants:
 \end_layout
 
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 Envoyer une commande au système embarqué:
@@ -945,9 +988,15 @@ Envoyer une commande au système embarqué:
  Cette commande sera capable de dire au système de se rédemarrer, changer
  un paramètre de configuration/alerte ou de arrêter/démarrer les lectures
  d'un réservoir;
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 Demander une lecture manuelle du niveau d'un réservoir:
@@ -955,14 +1004,50 @@ Demander une lecture manuelle du niveau d'un réservoir:
  au cas où le superviseur veut réaliser une lecture sur le niveau d'un réservoir
 , il pourra envoyer une rêquete de lecture au système embarqué en spécifiant
  le réservoir dont il veut savoir le niveau.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+
+\series bold
+Mise à jour du système d'exploitation du système embarqué
+\series default
+: le serveur central pourra mettre à jour le logiciel de chaque sité isolé.
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 L'application coté système embarqué sera capable de répondre aux besoins
  suivants:
 \end_layout
 
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 Recevoir une commande du serveur central:
@@ -971,9 +1056,15 @@ Recevoir une commande du serveur central:
  Cette commande peut être pour changer un seuil d'alerte d'un réservoir,
  rédemarrer le système d'exploitation ou pour changer la fréquence de lecture
  du niveau d'un réservoir.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 Envoyer un message au serveur central:
@@ -984,9 +1075,35 @@ Envoyer un message au serveur central:
  au superviseur à travers du serveur central.
  Le système embarqué aurra une petite interface pour que le conducteur puisse
  saisir ces commandes.
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+
+\series bold
+Installer des mises à jour
+\series default
+: quand le système embarqué reçoie une mise à jour, il va l'installer automatiqu
+ement.
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 La communication entre le serveur central et le système embarqué doit être
  
 \series bold
@@ -998,6 +1115,8 @@ fiable
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 Le canal de communication doit être aussi 
 \series bold
 rapide
@@ -1007,6 +1126,8 @@ rapide
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 Le canal de communication doit être aussi 
 \series bold
 sécurisé
@@ -1019,8 +1140,17 @@ sécurisé
 Portée, développement, mise en œuvre, organisation de la maintenance
 \end_layout
 
-\begin_layout Subsection
-Limites
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Pendant la période de fonctionnement du système, les logiciels qui sont
+ éxecutés sur le système embarqué ou sur le serveur central peuvent être
+ mis à jour.
+ Pour le faire, il y aura une demande automatique de maintenance.
+ C'est-à-dire que pour faire une mise à jour général du système, il suffit
+ de mettre à jour un seul site isolé.
+ Comme ça, le système va déclancher des demandes automatique de mis-à-jour
+ pour tout les sites isolés.
 \end_layout
 
 \begin_layout Section
@@ -1032,73 +1162,133 @@ Fonctions de base, performances et aptitudes
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 L'application coté serveur central devra répondre aux besoins suivants:
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Changer le niveau de seuil maximal d'un réservoir;
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Changer le niveau de seuil minimum d'un réservoir;
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Rédemarrer le système embarqué d'une station;
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Demander une lecture du niveau d'un réservoir au système embarqué;
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Arrêter les lectures d'un reservoir;
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Configurer la fréquence de lecture pour un réservoir.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 L'application coté système embarqué devra répondre aux besoins suivants:
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Changer le niveau de alerte pour un réservoir;
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Rédemarrer le système embarque;
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Demander une lecture aux capteurs;
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Arrêter les lectures d'un réservoir;
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Changer la fréquence de lecture d'un réservoir;
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 Envoyer des messages saisies par le conducteur sur l'interface du système
  embarqué.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Contraintes d'utilisation
 \end_layout
 
-\begin_layout Subsection
-Critères d'appréciation de la réalisation effective de la fonction 
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Pour qu'il y ait une transmitssion d'un message, il faut que les formats
+ des messages soient cohérent entre le serveur central et le système embarqué.
+ À chaque arrivé d'un message, soit sur le serveur central, soit sur le
+ système embarqué, il y aura une vérification du format du message.
+ Si le format n'est pas d'accord, le superviseur recevra une alerte d'erreur
+ de communication.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsection
-Flexibilité dans la façon de mettre en œuvre la fonction concernée et variation
- de coûts associée en fonction de cette flexibilité
+\begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
+Le système fera aussi une vérfication de la version du logiciel qui a créé
+ le message.
+ Si la version du système d'exploitation sur le système embarqué est plus
+ ancienne que la version du serveur, le serveur central fera une demande
+ de maintenance pour mettre à jour le logiciel du site isolé.
 \end_layout
 
 \begin_layout Section
@@ -1110,15 +1300,23 @@ Sûreté, planning, organisation, communication
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 Pour assurer la communication fiable et sécurisée, nous avons choisi le
  protocole HTTPS pour transmettre des informations entre le serveur central
  et les sites isolés.
  Ce protocole utilise le protocole TCP/IP sur le niveau au-desous et ça
  peut nous assurer pas seulement que les informations ne seront pas perdues,
  mais aussi qu'elles arriveront dans la même ordre qu'elles ont été envoyées.
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 Comme nous allons utiliser le protocole HTTPS, il sera possible d'envoyer
  des informations dans le deux senses au même temps grâce au protocole TCP/IP.
 \end_layout
@@ -1128,18 +1326,12 @@ Complexité
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 Pour que la communication soit faite de la façon la plus vite possible,
  le système aura des commandes élémentaires qui n'auront pas beaucoup d'informat
 ions à transmettre.
- Comme ça, nous pouvons assure
-\end_layout
-
-\begin_layout Subsection
-Compétences, moyens et règles 
-\end_layout
-
-\begin_layout Subsection
-Normes de documentation
+ 
 \end_layout
 
 \begin_layout Section
@@ -1151,6 +1343,8 @@ Matériel et logiciels
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 Du côte du serveur central, il y aura un module de communication avec les
  systèmes embarqués par satellite.
  Ce module contient une interface qui permettra l'échange de données entre
@@ -1163,6 +1357,8 @@ Stabilité de la configuration si nécessaire
 \end_layout
 
 \begin_layout Standard
+\paragraph_spacing onehalf
+\noindent
 Cette section n'est pas traitée dans ce document parce que quand le système
  de communication est installé, c'est-à-dire qui l'abonnement au service
  de internet par satellite est fait, il n'y a pas besoin de faire la maintenance
@@ -1174,11 +1370,17 @@ Cette section n'est pas traitée dans ce document parce que quand le système
 Description des API avec reste du système
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsubsection
 Du côté du serveur central:
+\begin_inset VSpace medskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1203,19 +1405,27 @@ Float
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: modification faite correctement
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 VALEUR_NON_AUTORISE: le nouveau seuil n'est pas valide, par example si l'entrée
  est une valeur negative.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
@@ -1228,6 +1438,8 @@ ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1252,19 +1464,27 @@ Float
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: modification faite correctement
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 VALEUR_NON_AUTORISE: le nouveau seuil n'est pas valide, par example si l'entrée
  est une valeur negative.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
@@ -1277,6 +1497,8 @@ ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1301,19 +1523,27 @@ Float
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: modification faite correctement
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 VALEUR_NON_AUTORISE: la nouvelle fréquence n'est pas valide, par example
  si l'entrée est une valeur negative.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
@@ -1326,6 +1556,8 @@ ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1346,14 +1578,20 @@ ole.
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: le système a été rédemarré correctement.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 FAILURE_REDEMARRAGE: le système ne peut pas être rédemarré.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
@@ -1366,6 +1604,8 @@ ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1386,19 +1626,27 @@ r d'arrêter les lectures sur le réservoir identifiantReservoir.
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: la lecture a été arrêtée.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 DEJA_ARRETE: les lectures sur le réservoir identifiantReservoir sont déjà
  arrêté.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERREUR_ARRET_LECTURE: la lecture n'a pas pu être arrêtée.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
@@ -1411,6 +1659,8 @@ ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1431,19 +1681,27 @@ Entier
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: la lecture a été demarrée.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 DEJA_ARRETE: les lectures sur le réservoir identifiantReservoir sont déjà
  demarrées.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERREUR_ARRET_LECTURE: la lecture n'a pas pu être demarré.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
@@ -1456,6 +1714,8 @@ ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 Lecture
@@ -1480,11 +1740,42 @@ Entier
 
 \end_layout
 
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+STATUS mettreAJour(Enter identifiatSiteIsole): celle est la fonction qui
+ permet au système embarqué de faire sa mise à jour automatiquement.
+ Codes de retour:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+SUCCESS: la mise à jour a été faite correctement.
+\end_layout
+
+\begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
+ERREUR_MISE_A_JOUR: la mise à jour n'a pas été faite automatiquement.
+\end_layout
+
+\end_deeper
 \begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
 Do côté du système embarqué:
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1508,15 +1799,21 @@ Float
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: modification faite correctement
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 VALEUR_NON_AUTORISE: le nouveau seuil n'est pas valide, par example si l'entrée
  est une valeur negative.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
 \end_layout
 
@@ -1529,6 +1826,8 @@ RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1552,15 +1851,21 @@ Float
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: modification faite correctement
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 VALEUR_NON_AUTORISE: le nouveau seuil n'est pas valide, par example si l'entrée
  est une valeur negative.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
 \end_layout
 
@@ -1573,6 +1878,8 @@ RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1596,15 +1903,21 @@ Float
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: modification faite correctement
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 VALEUR_NON_AUTORISE: la nouvelle fréquence n'est pas valide, par example
  si l'entrée est une valeur negative.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
 \end_layout
 
@@ -1617,6 +1930,8 @@ RESERVOIR_NON_TROUVE: l'identifiant du réservoir n'a pas pu être trouvé
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1631,10 +1946,14 @@ redemarrerSysteme
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: le système a été rédemarré correctement.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 FAILURE_REDEMARRAGE: le système ne peut pas être rédemarré.
 \end_layout
 
@@ -1647,6 +1966,8 @@ FAILURE_REDEMARRAGE: le système ne peut pas être rédemarré.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1666,15 +1987,21 @@ Entier
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: la lecture a été arrêtée.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 DEJA_ARRETE: les lectures sur le réservoir identifiantReservoir sont déjà
  arrêté.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERREUR_ARRET_LECTURE: la lecture n'a pas pu être arrêtée.
 \end_layout
 
@@ -1687,6 +2014,8 @@ ERREUR_ARRET_LECTURE: la lecture n'a pas pu être arrêtée.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1706,15 +2035,21 @@ Entier
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: la lecture a été demarrée.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 DEJA_ARRETE: les lectures sur le réservoir identifiantReservoir sont déjà
  demarrées.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERREUR_ARRET_LECTURE: la lecture n'a pas pu être demarré.
 \end_layout
 
@@ -1727,6 +2062,8 @@ ERREUR_ARRET_LECTURE: la lecture n'a pas pu être demarré.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 STATUS
@@ -1750,10 +2087,14 @@ String
 
 \begin_deeper
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 SUCESS: le message a été envoyé correctement.
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
@@ -1766,6 +2107,8 @@ ERROR_COMMUNICATION: la commande n'a pas pu être envoyée au système embarqué
 \end_layout
 
 \begin_layout Itemize
+\paragraph_spacing onehalf
+\noindent
 
 \series bold
 Lecture
@@ -1871,7 +2214,7 @@ Robustesse
 \begin_inset Text
 
 \begin_layout Plain Layout
-++
++++
 \end_layout
 
 \end_inset
@@ -1939,38 +2282,6 @@ Grille d'évaluation de réponse au Cahier des Changes
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Annexes
-\end_layout
-
-\begin_layout Subsection
-Observations de l'existant 
-\end_layout
-
-\begin_layout Subsection
-Propositions d'orientation 
-\end_layout
-
-\begin_layout Subsection
-Image(s) d’écran(s) principaux du logiciel 
-\end_layout
-
-\begin_layout Subsection
-Résultat de l’analyse de la valeur 
-\end_layout
-
-\begin_layout Subsection
-Description des API avec reste du système 
-\end_layout
-
-\begin_layout Subsection
-Choix d'une solution et justifications 
-\end_layout
-
-\begin_layout Subsection
-Appréciation de la solution retenue
 \end_layout
 
 \end_body
