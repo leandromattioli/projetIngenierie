@@ -76,7 +76,12 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 1in
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../Modeles/img/logo_visimax.png
+	scale 70
+
 \end_inset
 
 
@@ -111,20 +116,13 @@ Système de monitoring à distance de sites isolés
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 1in
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \noindent
 \align center
 
 \series bold
 Maitrise d'Oeuvre:
 \series default
- H4312
+ HEPTAWORKS
 \series bold
 
 \begin_inset Newline newline
@@ -146,7 +144,7 @@ Auteurs:
 \begin_inset Newline newline
 \end_inset
 
-Henrique NOGUEIRA
+Henrique GASPAR NOGUEIRA
 \end_layout
 
 \begin_layout Standard
@@ -180,16 +178,7 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Nom de référence du document
-\end_layout
-
-\end_inset
-
-
+VISIMAX_GEI03DC
 \end_layout
 
 \end_inset
@@ -207,16 +196,7 @@ Version
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Version du document
-\end_layout
-
-\end_inset
-
- 1.0
+1.6
 \end_layout
 
 \end_inset
@@ -236,7 +216,7 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+validé
 \end_layout
 
 \end_inset
@@ -245,7 +225,7 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-☐ Validé
+☒ Validé
 \end_layout
 
 \end_inset
@@ -274,6 +254,8 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 26/01/2011
 \end_layout
 
@@ -374,6 +356,8 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 26/01/2011
 \end_layout
 
@@ -392,7 +376,7 @@ Responsable
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique Nogueira
+RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -485,9 +469,9 @@ Historique do document
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="4">
 <features>
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="3.75cm">
+<column alignment="center" valignment="top" width="1.75cm">
 <column alignment="center" valignment="top" width="7cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -496,6 +480,7 @@ Historique do document
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Date
 \end_layout
 
@@ -507,6 +492,7 @@ Date
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Auteur
 \end_layout
 
@@ -518,6 +504,7 @@ Auteur
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Version
 \end_layout
 
@@ -529,6 +516,7 @@ Version
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Sujet de la modification
 \end_layout
 
@@ -540,7 +528,9 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-21.01.2011
+
+\size small
+21/01/2011
 \end_layout
 
 \end_inset
@@ -549,7 +539,10 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
+\size small
+H.
+ GASPAR NOGUEIRA
 \end_layout
 
 \end_inset
@@ -558,6 +551,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.0
 \end_layout
 
@@ -567,6 +562,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Création et début de rédaction
 \end_layout
 
@@ -578,7 +575,9 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-24.01.2011
+
+\size small
+24/01/2011
 \end_layout
 
 \end_inset
@@ -587,7 +586,10 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
+\size small
+H.
+ GASPAR NOGUEIRA
 \end_layout
 
 \end_inset
@@ -596,6 +598,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.1
 \end_layout
 
@@ -605,6 +609,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Organisation général du système
 \end_layout
 
@@ -616,7 +622,9 @@ Organisation général du système
 \begin_inset Text
 
 \begin_layout Plain Layout
-24.01.2011
+
+\size small
+24/01/2011
 \end_layout
 
 \end_inset
@@ -625,7 +633,10 @@ Organisation général du système
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
+\size small
+H.
+ GASPAR NOGUEIRA
 \end_layout
 
 \end_inset
@@ -634,6 +645,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.2
 \end_layout
 
@@ -643,6 +656,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Architecture applicative
 \end_layout
 
@@ -654,7 +669,9 @@ Architecture applicative
 \begin_inset Text
 
 \begin_layout Plain Layout
-24.01.2011
+
+\size small
+24/01/2011
 \end_layout
 
 \end_inset
@@ -663,7 +680,10 @@ Architecture applicative
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
+\size small
+H.
+ GASPAR NOGUEIRA
 \end_layout
 
 \end_inset
@@ -672,6 +692,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.3
 \end_layout
 
@@ -681,6 +703,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Modèle des Données
 \end_layout
 
@@ -692,7 +716,9 @@ Modèle des Données
 \begin_inset Text
 
 \begin_layout Plain Layout
-25.01.2011
+
+\size small
+25/01/2011
 \end_layout
 
 \end_inset
@@ -701,7 +727,10 @@ Modèle des Données
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
+\size small
+H.
+ GASPAR NOGUEIRA
 \end_layout
 
 \end_inset
@@ -710,6 +739,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.4
 \end_layout
 
@@ -719,6 +750,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Gestion des problèmes
 \end_layout
 
@@ -730,7 +763,9 @@ Gestion des problèmes
 \begin_inset Text
 
 \begin_layout Plain Layout
-25.01.2011
+
+\size small
+25/01/2011
 \end_layout
 
 \end_inset
@@ -739,7 +774,10 @@ Gestion des problèmes
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
+\size small
+H.
+ GASPAR NOGUEIRA
 \end_layout
 
 \end_inset
@@ -748,6 +786,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.5
 \end_layout
 
@@ -757,6 +797,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Architecture Matérielle
 \end_layout
 
@@ -768,7 +810,9 @@ Architecture Matérielle
 \begin_inset Text
 
 \begin_layout Plain Layout
-26.01.2011
+
+\size small
+26/01/2011
 \end_layout
 
 \end_inset
@@ -777,7 +821,10 @@ Architecture Matérielle
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
+\size small
+H.
+ GASPAR NOGUEIRA
 \end_layout
 
 \end_inset
@@ -786,6 +833,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.6
 \end_layout
 
@@ -795,6 +844,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Finalisation du document
 \end_layout
 

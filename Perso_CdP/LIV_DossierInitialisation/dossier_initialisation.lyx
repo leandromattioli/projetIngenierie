@@ -254,7 +254,9 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/01/2011
+
+\size small
+27/01/2011
 \end_layout
 
 \end_inset
@@ -354,7 +356,9 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
-10/01/2011
+
+\size small
+27/01/2011
 \end_layout
 
 \end_inset
@@ -465,9 +469,9 @@ Historique do document
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="4">
 <features>
-<column alignment="center" valignment="top" width="2cm">
-<column alignment="center" valignment="top" width="5cm">
-<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="3.75cm">
+<column alignment="center" valignment="top" width="1.75cm">
 <column alignment="center" valignment="top" width="7cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -476,6 +480,7 @@ Historique do document
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Date
 \end_layout
 
@@ -487,6 +492,7 @@ Date
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Auteur
 \end_layout
 
@@ -498,6 +504,7 @@ Auteur
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Version
 \end_layout
 
@@ -509,6 +516,7 @@ Version
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Sujet de la modification
 \end_layout
 
@@ -520,16 +528,21 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 07/01/2011
 \end_layout
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Leandro RESENDE MATTIOLI
+
+\size small
+L.
+ RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -538,6 +551,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.0
 \end_layout
 
@@ -547,6 +562,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Création du document
 \end_layout
 
@@ -558,6 +575,8 @@ Création du document
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 11/01/2011
 \end_layout
 
@@ -567,7 +586,10 @@ Création du document
 \begin_inset Text
 
 \begin_layout Plain Layout
-Leandro RESENDE MATTIOLI
+
+\size small
+L.
+ RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -576,6 +598,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.1
 \end_layout
 
@@ -585,6 +609,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Planning prévisionnel de la première phase du projet ajouté.
 \end_layout
 
@@ -596,6 +622,8 @@ Planning prévisionnel de la première phase du projet ajouté.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 18/01/2011
 \end_layout
 
@@ -605,7 +633,10 @@ Planning prévisionnel de la première phase du projet ajouté.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Leandro RESENDE MATTIOLI
+
+\size small
+L.
+ RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -614,6 +645,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.2
 \end_layout
 
@@ -623,6 +656,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Gestion des risques ajoutée.
 \end_layout
 
@@ -634,6 +669,8 @@ Gestion des risques ajoutée.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 19/01/2011
 \end_layout
 
@@ -643,7 +680,10 @@ Gestion des risques ajoutée.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Leandro RESENDE MATTIOLI
+
+\size small
+L.
+ RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -652,6 +692,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.3
 \end_layout
 
@@ -661,6 +703,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Planning prévisionnel mis à jour.
 \end_layout
 
@@ -672,6 +716,8 @@ Planning prévisionnel mis à jour.
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 27/01/2011
 \end_layout
 
@@ -681,7 +727,10 @@ Planning prévisionnel mis à jour.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Leandro RESENDE MATTIOLI
+
+\size small
+L.
+ RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -690,6 +739,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.4
 \end_layout
 
@@ -699,6 +750,8 @@ Leandro RESENDE MATTIOLI
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Validation.
 \end_layout
 
