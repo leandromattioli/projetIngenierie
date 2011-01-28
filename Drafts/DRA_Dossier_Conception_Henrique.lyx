@@ -79,7 +79,7 @@ thispagestyle{empty}
 \noindent
 \align center
 \begin_inset Graphics
-	filename ../Modeles/img/logo_visimax.png
+	filename /home/henrique/projetIngenierie/Modeles/img/logo_visimax.png
 	scale 70
 
 \end_inset
@@ -102,11 +102,11 @@ status open
 
 \begin_layout Title
 Dossier de Conception
+\size larger
+ Détailée
 \begin_inset Newline newline
 \end_inset
 
-
-\size larger
 Système de monitoring à distance de sites isolés
 \end_layout
 
@@ -178,7 +178,7 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-VISIMAX_GEI03DC
+VISIMAX_<P>001
 \end_layout
 
 \end_inset
@@ -216,7 +216,7 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-validé
+
 \end_layout
 
 \end_inset
@@ -225,7 +225,7 @@ validé
 \begin_inset Text
 
 \begin_layout Plain Layout
-☒ Validé
+☐ Validé
 \end_layout
 
 \end_inset
@@ -390,7 +390,19 @@ RESENDE MATTIOLI
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 0.5in
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align right
+\begin_inset Graphics
+	filename /home/henrique/projetIngenierie/Modeles/img/logo_heptaworks.png
+	scale 30
+
 \end_inset
 
 

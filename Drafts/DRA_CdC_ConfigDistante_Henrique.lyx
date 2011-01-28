@@ -76,7 +76,12 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 1in
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../Modeles/img/logo_visimax.png
+	scale 70
+
 \end_inset
 
 
@@ -96,7 +101,7 @@ height_special "totalheight"
 status open
 
 \begin_layout Title
-Cahier de Charge - Configuration Distante
+Cahier des Charger - Configuration Distante
 \begin_inset Newline newline
 \end_inset
 
@@ -111,20 +116,13 @@ Système de monitoring à distance de sites isolés
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 1in
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \noindent
 \align center
 
 \series bold
 Maitrise d'Oeuvre:
 \series default
- H4312
+ HEPTAWORKS
 \series bold
 
 \begin_inset Newline newline
@@ -146,7 +144,7 @@ Auteurs:
 \begin_inset Newline newline
 \end_inset
 
-Henrique NOGUEIRA
+Henrique GASPAR NOGUEIRA
 \end_layout
 
 \begin_layout Standard
@@ -180,7 +178,7 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+VISIMAX_GEI08CCIH
 \end_layout
 
 \end_inset
@@ -198,7 +196,7 @@ Version
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.0
+1.2
 \end_layout
 
 \end_inset
@@ -218,7 +216,7 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+validé
 \end_layout
 
 \end_inset
@@ -227,7 +225,7 @@ Avancement
 \begin_inset Text
 
 \begin_layout Plain Layout
-☐ Validé
+☒ Validé
 \end_layout
 
 \end_inset
@@ -256,7 +254,7 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-27/01/2011
+26/01/2011
 \end_layout
 
 \end_inset
@@ -356,7 +354,7 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
-27/01/2011
+26/01/2011
 \end_layout
 
 \end_inset
@@ -374,7 +372,8 @@ Responsable
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique Nogueira
+L.
+ RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -388,7 +387,19 @@ Henrique Nogueira
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 0.5in
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align right
+\begin_inset Graphics
+	filename ../Modeles/img/logo_heptaworks.png
+	scale 30
+
 \end_inset
 
 
@@ -467,9 +478,9 @@ Historique do document
 \begin_inset Tabular
 <lyxtabular version="3" rows="9" columns="4">
 <features>
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="3cm">
-<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="3.75cm">
+<column alignment="center" valignment="top" width="1.75cm">
 <column alignment="center" valignment="top" width="7cm">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
@@ -478,6 +489,7 @@ Historique do document
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Date
 \end_layout
 
@@ -489,6 +501,7 @@ Date
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Auteur
 \end_layout
 
@@ -500,6 +513,7 @@ Auteur
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Version
 \end_layout
 
@@ -511,6 +525,7 @@ Version
 \begin_layout Plain Layout
 
 \series bold
+\size small
 Sujet de la modification
 \end_layout
 
@@ -522,7 +537,9 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-21.01.2011
+
+\size small
+21/01/2011
 \end_layout
 
 \end_inset
@@ -531,7 +548,10 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
+\size small
+H.
+ GASPAR NOGUEIRA
 \end_layout
 
 \end_inset
@@ -540,6 +560,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.0
 \end_layout
 
@@ -549,6 +571,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Création et début de rédaction
 \end_layout
 
@@ -560,7 +584,9 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-21.01.2011
+
+\size small
+21/01/2011
 \end_layout
 
 \end_inset
@@ -569,7 +595,10 @@ Création et début de rédaction
 \begin_inset Text
 
 \begin_layout Plain Layout
-Henrique
+
+\size small
+H.
+ GASPAR NOGUEIRA
 \end_layout
 
 \end_inset
@@ -578,6 +607,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 1.1
 \end_layout
 
@@ -587,6 +618,8 @@ Henrique
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 Structure du document
 \end_layout
 
@@ -599,6 +632,8 @@ Structure du document
 
 \begin_layout Plain Layout
 
+\size small
+26/01/2011
 \end_layout
 
 \end_inset
@@ -608,6 +643,9 @@ Structure du document
 
 \begin_layout Plain Layout
 
+\size small
+H.
+ GASPAR NOGUEIRA
 \end_layout
 
 \end_inset
@@ -617,6 +655,8 @@ Structure du document
 
 \begin_layout Plain Layout
 
+\size small
+1.2
 \end_layout
 
 \end_inset
@@ -626,6 +666,8 @@ Structure du document
 
 \begin_layout Plain Layout
 
+\size small
+Finalisation du document
 \end_layout
 
 \end_inset
