@@ -1336,6 +1336,13 @@ Décomposition en sous-projets et sous-ensembles
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Décomposition fonctionnelle
 \end_layout
@@ -1381,6 +1388,13 @@ Organisation Fonctionnelle du Projet
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -1440,9 +1454,10 @@ Structure Hiérarchique des Activités
 \noindent
 \align center
 \begin_inset Float figure
+placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \noindent
@@ -1450,6 +1465,7 @@ status collapsed
 \begin_inset Graphics
 	filename img/structHierar.png
 	lyxscale 50
+	scale 80
 
 \end_inset
 
@@ -1521,6 +1537,9 @@ Planning previsionnel
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
 
 \end_layout
 
