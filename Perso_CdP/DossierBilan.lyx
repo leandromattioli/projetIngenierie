@@ -1,0 +1,199 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+
+\end_preamble
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\float_placement h
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 2cm
+\topmargin 2.5cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Bilan de Projet
+\end_layout
+
+\begin_layout Author
+Leandro Resende Mattioli
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+En général, le projet s'est bien déroulé, à part quelques défauts de communicati
+on, de suivi de projet et irrespect de quelques règles imposées par la RQ.
+ 
+\end_layout
+
+\begin_layout Section
+Activités prévues et réalisées
+\end_layout
+
+\begin_layout Itemize
+Vérification de l'avancement du projet par des Fiches de Séances.
+\end_layout
+
+\begin_layout Itemize
+Rédaction de tout les livrables exigés par le client en respectant la démarche
+ qualité défini par le RQ.
+\end_layout
+
+\begin_layout Itemize
+Suivi de projet.
+\end_layout
+
+\begin_layout Itemize
+Proposition de la solution choisi au client.
+\end_layout
+
+\begin_layout Itemize
+Préparation des revues intermediaire et finale.
+\end_layout
+
+\begin_layout Section
+Activités prevues et non-réalisées
+\end_layout
+
+\begin_layout Itemize
+Création d'un modèle pour les Drafts.
+\end_layout
+
+\begin_layout Itemize
+Mise à jour au fur et à mesure du glossaire.
+\end_layout
+
+\begin_layout Section
+Division du travail
+\end_layout
+
+\begin_layout Itemize
+à cause d'activité non prevue dans le planning et de contre-temps dus à
+ des problèmes d'incohérence, quelques GEI ont du travaillé plus que ce
+ qu'ils auraient du.
+\end_layout
+
+\begin_layout Section
+Points forts généraux
+\end_layout
+
+\begin_layout Itemize
+Communication avec le client facile et efficace, même si on n'en as pas
+ bien profiter.
+\end_layout
+
+\begin_layout Itemize
+Le travail pendant la séance était très productif.
+\end_layout
+
+\begin_layout Itemize
+Chaque membre de l'équipe était bien autonome et a su poser des questions
+ au moment opportun.
+\end_layout
+
+\begin_layout Section
+Points faibles généraux
+\end_layout
+
+\begin_layout Itemize
+Pour les décisions, la communication orale se montre efficace, mais pas
+ fiable, car cette approche ne permet pas de formaliser les decisions et
+ nous n'avons pas établi de système de compte rendu de réunion non formelle.
+\end_layout
+
+\begin_layout Itemize
+Le CdP manquait d'autorité, ce qui a occasioné des depassements de délais
+ de la part des GEI.
+\end_layout
+
+\begin_layout Itemize
+Même avec des réunions intermediaires et de validations, des erreurs d'incoheren
+ce ont été détéctées très tard et ont entrainé du travail en plus pour corriger
+ au moment de la validation finale.
+\end_layout
+
+\begin_layout Itemize
+La dépendance dans les nouvelles technologies et notamment d'Internet peut
+ parfois jouer de tours.
+ C'est ce qui nous est arrivé tout au long de ce projet: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+un système de contrôle de versions avec un répertoire sur Internet.
+\end_layout
+
+\begin_layout Itemize
+un groupe de discussion Google sur Internet.
+\end_layout
+
+\begin_layout Itemize
+les prix des appels téléphoniques avec des forfaits trop chers.
+\end_layout
+
+\begin_layout Itemize
+tout ça en considerant le fait qu'on a eu plein de problémes de connexion
+ Internet dans les Résidences;
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

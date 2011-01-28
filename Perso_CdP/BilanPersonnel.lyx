@@ -1,0 +1,124 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+
+\end_preamble
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\float_placement h
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\headheight 0.5cm
+\headsep 0.5cm
+\footskip 0.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip bigskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Bilan Personnel
+\end_layout
+
+\begin_layout Title
+
+\size larger
+Système de monitoring à distance de sites isolés
+\end_layout
+
+\begin_layout Author
+Leandro Resende Mattioli - CdP
+\end_layout
+
+\begin_layout Standard
+Ce projet m'a apporté de nombreuses connaissances en gestion de projet.
+ En effet, l'opportunité d'avoir une vision globale sur un système et de
+ pouvoir gérer une équipe efficace des étudiants de differents cultures
+ m'a plu beaucoup.
+\end_layout
+
+\begin_layout Standard
+J'ai pu découvrir quelques uns de mes points forts et de mes points faibles,
+ associès à:
+\end_layout
+
+\begin_layout Itemize
+avoir la confiance de l'équipe (et surtout constater les variations de cette
+ confiance pendant le déroulement du projet).
+\end_layout
+
+\begin_layout Itemize
+contrôler le 
+\begin_inset Quotes fld
+\end_inset
+
+flou
+\begin_inset Quotes frd
+\end_inset
+
+ de l'équipe.
+\end_layout
+
+\begin_layout Itemize
+pouvoir gérer les temps et les délais.
+\end_layout
+
+\begin_layout Itemize
+prévoir certaines situations, comme l'irrespect des deadlines et une surestimati
+on du temps liés à une tâche.
+\end_layout
+
+\begin_layout Standard
+L'opportunité de connâitre des documents formels (notamment le PMP), utilisés
+ dans des projets réels d'entreprises est singulier et tellement profitable.
+ 
+\end_layout
+
+\begin_layout Standard
+J'ai beaucoup apprecié le caractère professionnel du projet.
+ À savoir, le fait de répondre à un appel d'offre assez réaliste, même si
+ je pense qu'on est assez loin du cas réel de part la durée du projet.
+ Jouer le rôle d'une entreprise fictive est intéressant et formateur.
+ Cependant, bien differentier les rôles d'enseignant et de client est assez
+ difficile.
+\end_layout
+
+\end_body
+\end_document

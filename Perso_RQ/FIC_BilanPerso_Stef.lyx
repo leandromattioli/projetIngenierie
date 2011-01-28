@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -17,14 +17,22 @@
 
 \graphics default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \cite_engine basic
 \use_bibtopic false
 \paperorientation portrait
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\headheight 0.5cm
+\headsep 0.5cm
+\footskip 0.5cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -60,7 +68,7 @@ En tant que RQ, le sujet du projet est passé quasiment inaperçu.
  Certes la relecture et correction des divers livrables ainsi que la préparation
  en amont du travail du GEI et surtout le dossier de synthèse ont permis
  une meilleure implication dans le projet.
- A la différence des autres membres de l’équipe, les principes et mécanismes
+ À la différence des autres membres de l’équipe, les principes et mécanismes
  de réponse à un appel d’offre ont été seulement entraperçus, ceci au profit
  des mécanismes de gestion de la qualité.
 \end_layout
@@ -70,14 +78,14 @@ Ce projet a permis de mettre en œuvre les notions vues en cours sur différents
  points.
  La gestion de la qualité, a été mise en avant dans le cadre du projet,
  chacun devant se plier aux règles imposées pour former une documentation
- homogène et cohérent.
+ homogène et cohérente.
  La recherche de la mise en place d’un processus qualité a été bénéfique
  dans le sens où l’on se rend compte qu’avec un cadre préalablement fixé,
  la documentation, mais aussi la tenue du projet en général, est simplifiée
  et mieux organisée.
  L’approche qualité a obligé les GEI à plus de rigueur dans leur travail,
- et je considère ceci comme un atout pour les futurs projets auxquels on
- contribuera, aussi bien dans la vie scolaire que professionnelle.
+ et je considère ceci comme un atout pour les futurs projets auxquels nous
+ participerons, aussi bien dans la vie scolaire que professionnelle.
 \end_layout
 
 \begin_layout Standard
@@ -91,13 +99,13 @@ La plus grande difficulté pour le projet en ce qui concerne la qualité,
 \end_layout
 
 \begin_layout Standard
-Une autre difficulté aura été la parallélisassions du travail du RQ et celui
+Une autre difficulté aura été la parallélisation du travail du RQ et celui
  du GEI.
  En effet, le travail du RQ comme celui du CdP concerne davantage la gestion
  du projet que sa réalisation.
  Ainsi, il est difficile de préparer au mieux le travail pour le reste de
  l’équipe lorsque la préparation n’a pas été mûrement réfléchie en amont.
- Pour cela, peut-être aurait il fallu démarrer le projet avant le GEI (cf.
+ Pour cela, peut-être aurait-il fallu démarrer le projet avant le GEI (cf.
  la séance 2 où le RQ commence l’ébauche du dossier de synthèse alors que
  les dossiers 1 n’est pas encore finalisé, le dossier 2 est à commencer
  et le dossier 3 encore inexistant).
@@ -114,9 +122,9 @@ Le rôle du RQ a permis à l’équipe d’essayer de suivre au mieux une démar
 \end_layout
 
 \begin_layout Standard
-Personnellement, n’étant très intéressée par les systèmes embarqués et par
- les systèmes de communication je considère que j’ai fait un bon choix d’être
- RQ.
+Personnellement, n’étant pas très intéressée par les systèmes embarqués
+ et par les systèmes de communication je considère que j’ai fait un bon
+ choix d’être RQ.
  Dans l’ensemble, je retire un bilan positif de ce projet, qui m’a appris
  à être plus efficace dans l’accomplissement des tâches, plus diplomate
  avec les gens et plus sensible à la qualité.

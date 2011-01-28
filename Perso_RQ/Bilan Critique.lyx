@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -80,6 +80,18 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename /home/henrique/projetIngenierie/Modeles/img/logo_visimax.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Box ovalbox
 position "t"
 hor_pos "c"
@@ -94,11 +106,11 @@ status open
 
 \begin_layout Title
 Bilan Critique
+\size larger
+
 \begin_inset Newline newline
 \end_inset
 
-
-\size larger
 Système de monitoring à distance de sites isolés
 \end_layout
 
@@ -170,7 +182,7 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+VISIMAX_<P>001
 \end_layout
 
 \end_inset
@@ -188,7 +200,7 @@ Version
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.0
+2.0
 \end_layout
 
 \end_inset
@@ -204,10 +216,12 @@ Avancement
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\lang english
 validé
 \end_layout
 
@@ -246,7 +260,9 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-26/01/2011
+
+\size small
+27/01/2011
 \end_layout
 
 \end_inset
@@ -346,6 +362,8 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 27/01/2011
 \end_layout
 
@@ -379,6 +397,18 @@ RESENDE MATTIOLI
 
 \begin_layout Standard
 \begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align right
+\begin_inset Graphics
+	filename /home/henrique/projetIngenierie/Modeles/img/logo_heptaworks.png
+	scale 30
+
 \end_inset
 
 
@@ -934,18 +964,18 @@ Bilan Critique
 \end_layout
 
 \begin_layout Standard
-En qualité de Responsable Qualité je suis contente de travail faite par
+En qualité de Responsable Qualité je suis contente du travail effectué par
  l’équipe HEPTAWORKS de point de vue de la Qualité.
  
 \end_layout
 
 \begin_layout Standard
 Tenant compte que les documents de références contenant les règles et les
- normes qualité ont été crées en parallèle avec le développement du projet,
- et donc elles n’étaient pas disponibles de le début, elles ont été appliqué
- partialement.
+ normes qualité ont été créés en parallèle avec le développement du projet,
+ et donc qu'ils n’étaient pas disponibles dès le début, ils n'ont été appliqué
+ que partiellement.
  Après, au moment de la vérification, les remarques nécessaires ont été
- faites, les documents ont étaient corrigés et donc les documents livrables
+ faites, les documents ont été corrigés et donc les documents livrables
  respectent maintenant la Politique Qualité de notre équipe et le Plan d’Assuran
 ce Qualité.
  
@@ -959,23 +989,23 @@ Dossier de Gestion de la Documentation et PAQL
 Dans un premier temps un « Dossier de gestion de la documentation » a été
  établi.
  Dans un document très complet de 23 pages l'ensemble des règles concernant
- la gestion de la documentation ont été expliqué en détail.
+ la gestion de la documentation ont été expliquées en détail.
  Le document en soit est très utile, il sert comme repère et il sera utilisé
- pour les suivant projets réalisés en 4IF et peut-être même dans l’environnent
+ pour les suivant projets réalisés en 4IF et peut-être même dans l’environnement
  du travail.
  Le problème dans le contexte de ce projet est que le délai est assez court
  et qu’il y a une charge de travail importante pour les GEI d’où le « Dossier
  de Gestion de la Documentation » était trop lourd et complexe pour inciter
  leur intérêt.
- Le nombre important des pages le rend difficile à lire et à assimiler et
+ Le nombre important de pages le rend difficile à lire et à assimiler et
  le fait qu’il concerne tous les acteurs, fait qu’il rend une partie de
  l'information inutile pour certains membres.
 \end_layout
 
 \begin_layout Standard
-Le PAQL n’a pas de tout été pris en considération pendent notre développement
+Le PAQL n’a pas du tout été pris en considération pendent notre développement
  car il a été crée trop tard et il n’est même pas dans sa version finale
- (on a que un Draft).
+ (nous n'avons qu'un Draft).
 \end_layout
 
 \begin_layout Subsection
@@ -985,37 +1015,36 @@ Les procédures et les modèles
 \begin_layout Standard
 Au contraire du « Dossier de Gestion de la Documentation », les procédures
  ont été beaucoup plus intéressantes pour les GEI car elles sont synthétiques,
- elles contiennent que les informations essentielles et elles ciblent bien
- une certaine problématique.
+ elles ne contiennent que les informations essentielles et elles ciblent
+ bien une certaine problématique.
  Seules les informations concernant une certaine action sont présentées
- de manier claire par un logigramme.
+ de manière claire par un logigramme.
  
 \end_layout
 
 \begin_layout Standard
-Une décision décisive et très utile dans la démarche pour rendre homogène
- et cohérent les livrables a été d'imposer le langage Latex et l'outil LyX
+Un choix décisif et très utile dans la démarche pour rendre homogènes et
+ cohérents les livrables a été d'imposer le langage Latex et l'outil LyX
  avec des modèles prédéfini pour les documents.
  Même sans lire le document de Gestion de la Documentation, mais en utilisant
- less modèle fournis sans aucun autre type de formatage, un document 70%
- homogène et cohérent de point de vue formelle est le résultat.
+ au moins le modèle fourni sans aucun autre type de formatage, un document
+ est à 70% homogène et cohérent du point de vue formel est le résultat.
  
 \end_layout
 
 \begin_layout Subsection
-La procédure de Verification et Validation
+La procédure de Vérification et Validation
 \end_layout
 
 \begin_layout Standard
 Une autre opération importante pour assurer la Qualité formelle des documents
  livrables a été la formalisation de cycle de vie d’un document et surtout
- la procédure de Verification et Validation.
- Tout les livrables ont été relus une premier fois pour faire la correction
- orthographique, après elles ont été verifié de point de vue de la forme
- et au final elles ont été validé par le CdP.
- Ce procédé nous a aide pas seulement pour mettre bien en forme les livrables
- mais aussi pour détecter des éventuelles incohérences.
- 
+ la procédure de Vérification et Validation.
+ Tout les livrables ont été relus une première fois pour faire la correction
+ orthographique, après ils ont été verifiés du point de vue de la forme
+ et au final ils ont été validé par le CdP.
+ Ce procédé nous a aidé non seulement pour mettre bien en forme les livrables
+ mais aussi pour détecter d'éventuelles incohérences.
 \end_layout
 
 \begin_layout Subsection
@@ -1023,8 +1052,8 @@ Gestion des versions-révisions
 \end_layout
 
 \begin_layout Standard
-Due a une bonne choix des outils imposé au développement du projet on n’a
- pas vraiment eu besoin d’occuper de la version-révision des documents.
+Due à un bon choix des outils imposés pour le développement du projet on
+ n’a pas vraiment eu besoin de s'occuper de la version-révision des documents.
  Nous avons utilisé le système de gestion de versions GIT.
  Tous les documents sont donc sauvegardés en ligne sur le site github.com.
  Grâce à cela, on a pu partager facilement les documents et gérer facilement
@@ -1042,42 +1071,41 @@ Il fut assez ardu de motiver les GEI à remplir de manière continue le glossair
  à mesure.
  Ce ne fut pas souvent le cas.
  Du fait du glissement du planning, il fut plus au moins sacrifié et est
- resté au point mort jusque pratiquement à la fin du projet.
+ resté au point mort jusque pratiquement la fin du projet.
 \end_layout
 
 \begin_layout Section
-Evaluation des livrables
+Évaluation des livrables
 \end_layout
 
 \begin_layout Standard
-On a commencé avec des draft pour chaque membre de l’équipe qui n’avaient
+On a commencé avec des drafts pour chaque membre de l’équipe qui n’avaient
  pas besoin d’être formaté et qui ont permis aux GEI de se concentrer sur
  le contenu.
- En suite les drafts ont été mises ensemble dans un fichier Livrable.
+ Ensuite les drafts ont été mis ensemble dans un fichier Livrable.
  Chaque Livrable a été vérifié dans un premier temps du point de vue de
- l’orthographe, après de la forme et à la fin validé par le chef de projet
+ l’orthographe, puis de la forme et à la fin validé par le chef de projet
  (en regardant avec attention la cohérence et l’homogénéité du contenu).
  
 \end_layout
 
 \begin_layout Standard
-• Les corrections de la langue française on occupé une bonne partie de temps
- en tenant compte que dans notre équipe il y a que 2 personne de nationalité
- française.
+• Les corrections de la langue française ont occupé une bonne partie du
+ temps en tenant compte que dans notre équipe il y a que 2 personne de nationali
+té française.
 \end_layout
 
 \begin_layout Standard
-• Les corrections sur la forme ont été plus importantes au début mais au
- fur et à mesure les règles on été assimilées.
+• Les corrections sur la forme ont été plus importantes au début mais de
+ moins en moins au fur et à mesure que les règles on été assimilées.
 \end_layout
 
 \begin_layout Standard
-• La validation des livrables a généré de fois la modification de plusieurs
- fichiers anciennes à cause des incohérences au niveau de la solution proposé.
- Ces problèmes nous ont fait perdre de temps mais aussi on a appris l’importance
- de la communication au sein de l'équipe et on a mis en place des nouveaux
- outils pour améliorer ces difficultés.
- 
+• La validation des livrables a générée plusieurs fois la modification de
+ fichiers anciens à cause d'incohérences au niveau de la solution proposée.
+ Ces problèmes nous ont fait perdre du temps mais nous ont aussi appris
+ l’importance de la communication au sein de l'équipe et nous avons mis
+ en place des nouveaux outils pour améliorer ces difficultés.
 \end_layout
 
 \begin_layout Standard
@@ -1094,19 +1122,18 @@ Conclusion
 \begin_layout Standard
 De manière générale, le seul moyen de s’imposer du RQ est l’argumentation
  verbale ou écrite et la répétition de ses arguments.
- Aucune norme imposée n’a pas été contesté par les GEI ou le Chef de Projet
- seulement que de fois elles ont été ignorées.
+ Aucune norme imposée n’a pas été contesté par les GEI ou le Chef de Projet,
+ seulement des fois elles ont été ignorées.
  Cette situation donne lieu à un exercice vraiment utile et éducatif : on
  est amené à essayer de convaincre des jeunes qu’on ne peut pas contrôler.
- 
 \end_layout
 
 \begin_layout Standard
-On arrive à développer l’aptitude de:
+On arrive à développer l’aptitude de :
 \end_layout
 
 \begin_layout Itemize
-Etre diplômât
+Etre diplômatique
 \end_layout
 
 \begin_layout Itemize
