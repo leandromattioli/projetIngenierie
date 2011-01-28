@@ -30,10 +30,13 @@
 \cite_engine basic
 \use_bibtopic false
 \paperorientation portrait
-\leftmargin 2cm
-\topmargin 2.5cm
-\rightmargin 2cm
-\bottommargin 2cm
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\headheight 0.5cm
+\headsep 0.5cm
+\footskip 0.5cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation skip
@@ -54,8 +57,14 @@
 Bilan Personnel
 \end_layout
 
+\begin_layout Title
+
+\size larger
+Système de monitoring à distance de sites isolés
+\end_layout
+
 \begin_layout Author
-Leandro Resende Mattioli
+Leandro Resende Mattioli - CdP
 \end_layout
 
 \begin_layout Standard

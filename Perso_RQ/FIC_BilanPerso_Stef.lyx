@@ -17,14 +17,22 @@
 
 \graphics default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
-\use_geometry false
+\use_geometry true
 \use_amsmath 1
 \use_esint 1
 \cite_engine basic
 \use_bibtopic false
 \paperorientation portrait
+\leftmargin 3cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\headheight 0.5cm
+\headsep 0.5cm
+\footskip 0.5cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
