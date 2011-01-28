@@ -1122,7 +1122,7 @@ La communication du site central avec l'agence se fera grâce à internet
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/billy/programation/github/projetIngenierie/Drafts/dossierConception/fluxDonneesSiteIsole.png
+	filename fluxDonneesSiteIsole.png
 	lyxscale 20
 	scale 50
 
@@ -1135,7 +1135,7 @@ La communication du site central avec l'agence se fera grâce à internet
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/billy/programation/github/projetIngenierie/Drafts/dossierConception/fluxDonneesSiteCentral.png
+	filename fluxDonneesSiteCentral.png
 	lyxscale 20
 	scale 50
 
@@ -1158,7 +1158,7 @@ D'après l'étude de faisabilité, nous avons trouvé plusieurs solutions possib
 \noindent
 \align center
 \begin_inset Graphics
-	filename /home/billy/programation/github/projetIngenierie/Perso_GEI/specification_technique_besoins/imagesSchemaGlobal/EbaucheArchiFinale.png
+	filename EbaucheArchiFinale.png
 	lyxscale 30
 	scale 40
 
