@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -80,6 +80,18 @@ thispagestyle{empty}
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename /home/henrique/projetIngenierie/Modeles/img/logo_visimax.png
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Box ovalbox
 position "t"
 hor_pos "c"
@@ -94,11 +106,11 @@ status open
 
 \begin_layout Title
 Bilan Critique
+\size larger
+
 \begin_inset Newline newline
 \end_inset
 
-
-\size larger
 Système de monitoring à distance de sites isolés
 \end_layout
 
@@ -170,7 +182,7 @@ Référence
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+VISIMAX_<P>001
 \end_layout
 
 \end_inset
@@ -188,7 +200,7 @@ Version
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.0
+2.0
 \end_layout
 
 \end_inset
@@ -204,10 +216,12 @@ Avancement
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\lang english
 validé
 \end_layout
 
@@ -246,7 +260,9 @@ Dernière mise à jour
 \begin_inset Text
 
 \begin_layout Plain Layout
-26/01/2011
+
+\size small
+27/01/2011
 \end_layout
 
 \end_inset
@@ -346,6 +362,8 @@ Date
 \begin_inset Text
 
 \begin_layout Plain Layout
+
+\size small
 27/01/2011
 \end_layout
 
@@ -379,6 +397,18 @@ RESENDE MATTIOLI
 
 \begin_layout Standard
 \begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align right
+\begin_inset Graphics
+	filename /home/henrique/projetIngenierie/Modeles/img/logo_heptaworks.png
+	scale 30
+
 \end_inset
 
 
