@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -60,435 +60,8 @@
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace 1in
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Box ovalbox
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Title
-Cahier des charges pour le système d'exploitation
-\begin_inset Newline newline
-\end_inset
-
-
-\size larger
-Système de monitoring à distance de sites isolés
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace 1in
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-
-\series bold
-Maitrise d'Oeuvre:
-\series default
- H4312
-\series bold
-
-\begin_inset Newline newline
-\end_inset
-
-Maitrise d'Ouvrage:
-\series default
- COPEVUE
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-
-\series bold
-Auteurs:
-\series default
-
-\begin_inset Newline newline
-\end_inset
-
-BELHADJ AISSA Soraya
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="3" columns="4">
-<features>
-<column alignment="center" valignment="top" width="5cm">
-<column alignment="center" valignment="top" width="4cm">
-<column alignment="left" valignment="top" width="4cm">
-<column alignment="left" valignment="top" width="3cm">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Référence
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Nom de référence du document
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Version
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Version du document
-\end_layout
-
-\end_inset
-
- 1.0
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Avancement
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-☐ Validé
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Dernière mise à jour
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-27/01/2011
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-☐ Validé après modif.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-☐ Revalidé
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\noindent
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="4">
-<features>
-<column alignment="center" valignment="top" width="4cm">
-<column alignment="center" valignment="top" width="4cm">
-<column alignment="center" valignment="top" width="4cm">
-<column alignment="center" valignment="top" width="4cm">
-<row>
-<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none" width="4cm">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Visa
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Date
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-27/01/2011
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Responsable
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Nom du responsable
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace 0.5in
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-thispagestyle{empty}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lyxline
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace vfill
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-
-\lyxline
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset toc
-LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage pagebreak
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
-Historique du document
+Historique do document
 \end_layout
 
 \begin_layout Standard
@@ -550,7 +123,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-24/01/2011
+
 \end_layout
 
 \end_inset
@@ -559,7 +132,7 @@ Sujet de la modification
 \begin_inset Text
 
 \begin_layout Plain Layout
-Soraya Belhadj Aissa
+
 \end_layout
 
 \end_inset
@@ -568,7 +141,7 @@ Soraya Belhadj Aissa
 \begin_inset Text
 
 \begin_layout Plain Layout
-1.0
+
 \end_layout
 
 \end_inset
@@ -577,7 +150,7 @@ Soraya Belhadj Aissa
 \begin_inset Text
 
 \begin_layout Plain Layout
-Création
+
 \end_layout
 
 \end_inset
@@ -1100,13 +673,11 @@ Fonctions de base, performances et aptitudes
 En se basant sur l'appel d'offre fourni par la société COPEVUE et suite
  aux interviews et revue réalisés avec le client, nous avons pu lors de
  l'etude de faisabilité, l'etude des besoins et le dossier de conception,
- nous avons pu dégager les fonctions de base de l'application : 
+ nous avons pu dégager les fonctions de base de l'application.
 \end_layout
 
-\begin_layout Itemize
-
-\series medium
-Redémarrer le système embarqué à la site distance 
+\begin_layout Subsubsection
+Traitement des données
 \end_layout
 
 \begin_layout Itemize
@@ -1140,7 +711,54 @@ on par l'opérateur que ce soit de l'application web ou sur le systéme embarqu�
 \begin_layout Itemize
 
 \series medium
-Changer la période d'acquisition des données 
+Configurer la gestion de données Maintenance
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Consulter la traçabilité des opérations de maintenance à travers l'application
+ ou sur site 
+\end_layout
+
+\begin_layout Subsubsection
+Maintenance
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Redémarrer le système embarqué sur le site distant
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Notifier les problèmes ou anomalies declenchés automatiquement ou par opérateur
+ sur site 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Planifier des maintenances préventive 
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Planifier automatiquement ou manuellement le maintenance selon le lieu de
+ site et la disponibilité des techniciens
+\end_layout
+
+\begin_layout Subsubsection
+Configuration
+\end_layout
+
+\begin_layout Itemize
+
+\series medium
+Changer la période d'acquisition des données
 \end_layout
 
 \begin_layout Itemize
@@ -1158,47 +776,7 @@ Sauvegarder/Charger une configuration
 \begin_layout Itemize
 
 \series medium
-Configurer la gestion de données Maintenance 
-\end_layout
-
-\begin_layout Itemize
-
-\series medium
-Notificatier les problèmes ou anomalies declenchés automatiquement ou par
- opérateur sur site 
-\end_layout
-
-\begin_layout Itemize
-
-\series medium
-Planification des maintenances préventive 
-\end_layout
-
-\begin_layout Itemize
-
-\series medium
-Planification automatique et périodique ( Changement de batteries, vérification
- de fonctionnement ) 
-\end_layout
-
-\begin_layout Itemize
-
-\series medium
-Consulter la traçabilité des opérations de maintenance à travers l'application
- ou sur site 
-\end_layout
-
-\begin_layout Itemize
-
-\series medium
-Définition du niveau de criticité d'une alerte 
-\end_layout
-
-\begin_layout Itemize
-
-\series medium
-Planification automatique ou manuelle le maintenance selon le lieu de site
- et la disponibilité des techniciens 
+Définir le niveau de criticité d'une alerte
 \end_layout
 
 \begin_layout Subsection
@@ -1503,7 +1081,18 @@ Le profil conducteur de camions : expert en supervision de site, doit quand
 \end_layout
 
 \begin_layout Subsection
-Normes de documentation 
+Spécificités non fonctionelles de l'IHM
+\end_layout
+
+\begin_layout Standard
+Cette dissociation des utilisateurs en plusieurs profils implique d'adapter
+ les applications à developper aux profils d'utilisateurs l'utilisant.
+ Le fait que l'application web peut etre utilisée par aussi bien des superviseur
+s experts en informatique que des agents qui ne le sont pas forcement, L'applica
+tion developpée doit être simple d'utilisation.
+ Ajoutée à cela, si on considére qu'un agent de supervision est sencé vérifier
+ les sites réguliérement et passe donc beaucoup de temps sur son poste,
+ Il faut donc que l'application soit ergonome.
 \end_layout
 
 \begin_layout Section
@@ -1537,6 +1126,10 @@ Pour les deux serveurs, nous proposons l'acquisition de deux modèles Dell
  seront cependant différentes.
 \end_layout
 
+\begin_layout Standard
+Figure
+\end_layout
+
 \begin_layout Section
 Guide de réponse au cahier des charges 
 \end_layout
@@ -1545,186 +1138,12 @@ Guide de réponse au cahier des charges
 Grille d'évaluation 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\noindent
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="2">
-<features>
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Critère
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Importance
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Fiabilité
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-++++
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Efficacité
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-++
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Simplicité
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-++++
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Optimal
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-++
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Maintenabilité
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-+++
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Sécurité
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-++++
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Grille d'évaluation de réponse au cahier des charges
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
-Conclusion
+Annexes
+\end_layout
+
+\begin_layout Standard
+Ebauche de la maquette IHM web
 \end_layout
 
 \end_body

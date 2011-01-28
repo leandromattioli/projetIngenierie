@@ -1480,6 +1480,19 @@ Paramètre : Aucun
 Description : Envoie à l'agence le parcours généré
 \end_layout
 
+\begin_layout Description
+valider_parcours :
+\end_layout
+
+\begin_layout Itemize
+Paramètre : Aucun
+\end_layout
+
+\begin_layout Itemize
+Description : Retourne la réponse du superviseur quant à la validation ou
+ invalidation du parcours proposé.
+\end_layout
+
 \begin_layout Standard
 Du coté système embarqué, l'API possédera les fonctions suivantes :
 \end_layout
@@ -1586,7 +1599,7 @@ status open
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="2">
+<lyxtabular version="3" rows="6" columns="2">
 <features>
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
@@ -1671,7 +1684,7 @@ Evolutivité / Maintenabilité
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -1680,11 +1693,31 @@ Compléxité maitrisée
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 +++
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Optimisation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+++++
 \end_layout
 
 \end_inset
@@ -1709,13 +1742,22 @@ Grille d'évaluation de réponse au cahier des charges
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+L'application qui détermine le parcours des camions de maintenance des cuves
+ et une partie très importante du futur système.
+ En effet, du niveau de fiabilité et d'optimisation de cette application
+ dépend le coût de maintenance des sites.
+ Cette application devra donc être réalisé avec un soin tout particulier
+ afin de ne rien négliger.
 \end_layout
 
 \end_body
