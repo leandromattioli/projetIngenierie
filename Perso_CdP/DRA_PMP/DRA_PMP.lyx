@@ -941,6 +941,18 @@ Documents applicables
 le Dossier de Gestion de la Documentation;
 \end_layout
 
+\begin_layout Itemize
+la 
+\begin_inset Quotes fld
+\end_inset
+
+Procédure d'aide à la décomposition d'un système en sous-systèmes
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Documents de référence
 \end_layout
@@ -968,6 +980,14 @@ Quelques outils et Documentation pour le Chef de Projet pour la Deuxième
 
 \begin_layout Itemize
 Le document « Documents complémentaires concernant l’estimation de charges »
+\end_layout
+
+\begin_layout Itemize
+Le document 
+\begin_inset Quotes fld
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1087,11 +1107,76 @@ En automatisant le monitoring de ses sites, COPEVUE souhaite réduire ses
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Float figure
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-Mettre tableau des couts.
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/tabCout1.png
+	lyxscale 40
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Coût de mise en place du système
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/tabCout2.png
+	lyxscale 40
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Coût par mois
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1134,66 +1219,26 @@ NOTE DE VERSION
 À détailler avec le client
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Organisation du Projet et Structure Decisionnelle
 \end_layout
 
 \begin_layout Standard
-La figure TANANA présente la démarche organisation adoptée.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Schema Organisation
-\end_layout
+L'équipe concerné par le projet est présenté dans la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:organisation_projet"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:organisation_projet"
-
-\end_inset
-
-Organisation du projet
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-L'équipe concerné par le projet est décrite ci-dessous:
+ et décrite ci-dessous:
 \end_layout
 
 \begin_layout Itemize
@@ -1264,7 +1309,7 @@ nce et l'affectation des équipes internes pour les sous-projets.
 \begin_layout Itemize
 
 \series bold
-Equipes projets: 
+Équipes projets: 
 \series default
 cette équipe est responsable pour la réalisation d'un sous-projet logiciel
  ou matériel, c'est-a-dire le développement d'une solution technique qui
@@ -1283,11 +1328,52 @@ cette équipe est responsable pour la réalisation d'un sous-projet logiciel
 \begin_layout Itemize
 
 \series bold
-Equipe qualité: 
+Équipe qualité: 
 \series default
 cette équipe assure le bon déroulement du projet d'un point de vue qualité,
  en definissant des méthodes et règles à être respecté pour tout l'équipe
  du projet.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/organisation_projet.png
+	lyxscale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:organisation_projet"
+
+\end_inset
+
+Organisation du projet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1299,33 +1385,10 @@ Cycle de vie du système
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Schema Cycle V
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Le projet niveau système utilisera un cycle V
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-, présenté dans la figure 
+Le projet niveau système utilisera un cycle V, présenté dans la figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:cycle_vie"
-
-\end_inset
-
-
-\end_layout
 
 \end_inset
 
@@ -1344,14 +1407,22 @@ reference "fig:cycle_vie"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/Cycle_V.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -1376,6 +1447,8 @@ Cycle de vie du système
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
 \end_inset
 
 
@@ -1399,6 +1472,8 @@ reference "fig:division_sous_ensembles"
 \end_layout
 
 \begin_layout Standard
+\noindent
+\align center
 \begin_inset Float figure
 placement H
 wide false
@@ -1406,9 +1481,11 @@ sideways false
 status collapsed
 
 \begin_layout Plain Layout
+\noindent
+\align center
 \begin_inset Graphics
 	filename img/decomposition_systeme_pmp.png
-	width 100text%
+	width 90text%
 
 \end_inset
 
@@ -1446,12 +1523,48 @@ Décomposition en sous-projets et sous-ensembles
 Décomposition fonctionnelle
 \end_layout
 
+\begin_layout Subsubsection
+Organisation Fonctionnelle du Projet
+\end_layout
+
 \begin_layout Standard
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-A faire.
+Pegar pronto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Organisation Fonctionnelle du Projet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1460,19 +1573,51 @@ A faire.
 \end_layout
 
 \begin_layout Subsubsection
-Organisation Fonctionnelle du Projet
-\end_layout
-
-\begin_layout Standard
-drrdrsd
-\end_layout
-
-\begin_layout Subsubsection
 Structure Hiérarchisée des produits Livrables
 \end_layout
 
 \begin_layout Standard
-rsdrsd
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Structure Hiérarchisée des produits Livrables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pegar pronto
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1480,7 +1625,50 @@ Structure Hiérarchique des Activités
 \end_layout
 
 \begin_layout Standard
-rsdsrd
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/structHierar.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Structure Hiérarchisée des Activités
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pegar pronto
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
@@ -1488,7 +1676,50 @@ Organigramme des Tâches du Projet
 \end_layout
 
 \begin_layout Standard
-PUTA MERDA!
+\noindent
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename img/planning_long_duree.epsi
+	BoundingBox 0bp 400bp 450bp 785bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Planning previsionnel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Section
@@ -1575,6 +1806,7 @@ c'est-a-dire plus adaptable au état de DRAFT actuel de ce document
 \noindent
 \align center
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status collapsed
@@ -1765,6 +1997,19 @@ Aide au calcul du coefficiente de complexité logique X
 
 \end_layout
 
+\begin_layout Standard
+Alors,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+X=6+12+6+6+3+3=36\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Étape 2: Calcul du coefficient de difficulté pratique Y
 \end_layout
@@ -1773,15 +2018,16 @@ Aide au calcul du coefficiente de complexité logique X
 \noindent
 \align center
 \begin_inset Float table
+placement H
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
 \align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="2">
+<lyxtabular version="3" rows="5" columns="2">
 <features>
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
@@ -1829,7 +2075,7 @@ Type des traitements
 \begin_inset Text
 
 \begin_layout Plain Layout
-C
+B
 \end_layout
 
 \end_inset
@@ -1840,67 +2086,7 @@ C
 \begin_inset Text
 
 \begin_layout Plain Layout
-Architecture et complexité des fichiers
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-D
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Relations avec autres applications
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-C
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Perspectives d'évolutions prévues
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-C
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Ampleur de l'automatisation prévue
+Nombre de services de l'entreprise impliqués dans le projet
 \end_layout
 
 \end_inset
@@ -1916,11 +2102,31 @@ B
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Degré de connaissances des besoins par les utilisateurs
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Connaissance des traitements
+Besoins stables ou non
 \end_layout
 
 \end_inset
@@ -1946,7 +2152,7 @@ B
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Aide au calcul du coefficiente de complexité logique X
+Aide au calcul du coefficiente de difficulté pratique Y
 \end_layout
 
 \end_inset
@@ -1960,12 +2166,265 @@ Aide au calcul du coefficiente de complexité logique X
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+Alors,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+Y=3+3+1+3=10\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Étape 3: Détermination de la catégorie du projet
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+En s'appuyant sur un tableau presenté fourni par « Documents complémentaires
+ concernant l’estimation de charges » (pag 45), on remarque que notre projet
+ a la categorie 7.
+\end_layout
+
+\begin_layout Subsubsection
+Étape 4: Évaluation de la charge brut (ChB) et du délai brut (DeB)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align left
+En s'appuyant sur un tableau presenté fourni par « Documents complémentaires
+ concernant l’estimation de charges » (pag 46):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\mbox{Charge Brute: }ChB=80\mbox{ hommes-mois}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\mbox{Délai Brute: }DeB=17\mbox{ mois}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Étape 5: Calcul du coefficient de nouveauté CN
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Critère
+\begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-Estimation des couts
+grossièrement estimé
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Évaluation
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Introduction d'éventuelles nouvelles techniques
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Utilisation de nouveaux équipements
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nouveau projet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Première automatisation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nouveauté des concepts
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:estimation_degre"
+
+\end_inset
+
+Estimation du degré de nouveauté
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\mbox{Total obtenu sur Tableau \ref{tab:estimation_degre}}=1+1+3+6+1=12\rightarrow CN=1,2\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Étape 6: Calcul de la charge nette (ChN) et du délai net (DeN)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\mbox{Charge Net: }ChN=CN\cdot ChB=1,2\cdot80\mbox{ hommes-mois}\longrightarrow ChN=96\mbox{ hommes-mois}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+\mbox{Délai Net: }CN\cdot DeB=1,2\cdot17\mbox{ mois}\longrightarrow DeN=20,4\mbox{ hommes-mois}\]
 
 \end_inset
 
@@ -1996,23 +2455,6 @@ Configuration Distante
 \end_inset
 
  et de quelques Services Web.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Subsection
-Contraintes liés à l'organisation
-\end_layout
-
-\begin_layout Subsection
-Contraintes liées à la planification
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
