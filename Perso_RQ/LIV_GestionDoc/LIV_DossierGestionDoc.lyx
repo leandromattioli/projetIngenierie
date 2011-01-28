@@ -553,7 +553,8 @@ Sujet de la modification
 \begin_layout Plain Layout
 
 \size small
-GARTU
+S.
+ GARTU
 \end_layout
 
 \end_inset
@@ -599,7 +600,8 @@ Creation du document (sommaire)
 \begin_layout Plain Layout
 
 \size small
-GARTU
+S.
+ GARTU
 \end_layout
 
 \end_inset
@@ -645,7 +647,8 @@ Completer les chapitres
 \begin_layout Plain Layout
 
 \size small
-RESENDE MATTIOLI
+L.
+ RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -691,7 +694,8 @@ Vérification 1.
 \begin_layout Plain Layout
 
 \size small
-PITIOT
+B.
+ PITIOT
 \end_layout
 
 \end_inset
@@ -737,7 +741,8 @@ Correction orthographique
 \begin_layout Plain Layout
 
 \size small
-RESENDE MATTIOLI
+L.
+ RESENDE MATTIOLI
 \end_layout
 
 \end_inset
@@ -1441,21 +1446,6 @@ Page de garde
 
 \begin_layout Itemize
 Titre du document
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Pas respecté.
-\end_layout
-
-\end_inset
-
- Sous-titre ou courte description - objet du document pour décrire brièvement
- le document (quelques lignes au maximum).
- 
 \end_layout
 
 \begin_layout Itemize
